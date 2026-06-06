@@ -1,0 +1,13 @@
+type,value,notes,confidence,post_slug
+sha256,da9bd932ffea3bde1243750c092a6f8c6440d4f6380f71e662f37889a5c92c89,Polyglot ZIP+HTA loader served from prism-vertex[.]com/8761886 (Stage 1 file),high,prism-vertex-clickfix
+md5,c80c4ef6c855151cb26cd0bd08fbc77f,Same polyglot file -- alternate hash for pivoting,high,prism-vertex-clickfix
+url,hxxps://prism-vertex[.]com/8761886,Stage 1 entry point -- ClickFix payload delivery URL,high,prism-vertex-clickfix
+domain,prism-vertex[.]com,Stage 1 C2 -- block apex + subdomains,high,prism-vertex-clickfix
+url,hxxps://6ryuefl.creativecommunityinfo[.]art/Cat-91267b64-989f-49b4-89b4-984e0154d4a2,Stage 5 second-stage payload download URL (operator-controlled; payload not captured),high,prism-vertex-clickfix
+domain,creativecommunityinfo[.]art,Stage 5 C2 -- block apex + subdomains,high,prism-vertex-clickfix
+filename,WidgetsPlatformRuntime-ARM64.msix,Decoy ZIP entry name in polyglot (Stage 1 MSIX camouflage),high,prism-vertex-clickfix
+filename,Images/SplashScreen.scale-200.png,Second decoy ZIP entry name in polyglot,high,prism-vertex-clickfix
+rc4-key,BWJFEesMEqRvjQbm,RC4 key used in Stage 4 PowerShell to protect reflection strings. High-fidelity campaign pivot.,high,prism-vertex-clickfix
+lcg-constants,"mul=18000,add=3141,mod=65536,seed=496",JScript LCG-XOR stream cipher constants (Stage 2 decoder). Fingerprint for this campaign builder.,high,prism-vertex-clickfix
+amsi-patch,0x41414141,Value written over the amsiContext DWORD -- AMSI signature corruption patch value,high,prism-vertex-clickfix
+per-host-id-algo,MD5($env:COMPUTERNAME + $env:USERNAME)[:16],Per-host fingerprint algorithm. Declared in Stage 4 PowerShell; consumed by Stage 5 (not captured).,high,prism-vertex-clickfix
