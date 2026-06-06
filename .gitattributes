@@ -1,0 +1,7 @@
+# Normalize all text files to LF line endings.
+# Detection tools (YARA, sigma-cli) often run on Linux -- consistent LF avoids issues.
+* text=auto eol=lf
+*.yar text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.md text eol=lf

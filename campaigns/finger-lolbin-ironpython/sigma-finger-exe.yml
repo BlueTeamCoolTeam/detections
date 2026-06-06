@@ -1,0 +1,31 @@
+title: Suspicious finger.exe Execution
+id: 7cdca654-cfd1-4589-848e-684671454f80
+status: experimental
+description: >
+    Detects execution of finger.exe. The finger protocol (TCP/79) has no
+    legitimate enterprise use in modern environments. Used by ClickFix campaigns
+    to download batch payloads over TCP/79 by querying the server's "Plan" section.
+references:
+    - https://blueteam.cool/posts/finger-lolbin-ironpython/
+    - https://github.com/blueteamcoolteam/detections/tree/main/campaigns/finger-lolbin-ironpython/
+    - https://lolbas-project.github.io/lolbas/Binaries/Finger/
+author: Luke Wilkinson
+date: 2026-05-24
+modified: 2026-06-06
+tags:
+    - attack.execution
+    - attack.t1218
+    - attack.t1105
+    - attack.defense_evasion
+    - attack.t1059.003
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\finger.exe'
+    condition: selection
+falsepositives:
+    - Security researchers or red teams testing LOLBIN detection coverage
+    - Extremely rare legitimate finger protocol use (essentially never seen in modern enterprise)
+level: high

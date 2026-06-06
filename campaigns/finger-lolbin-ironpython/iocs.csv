@@ -1,0 +1,13 @@
+type,value,notes,confidence,post_slug
+sha256,e3c3ed636a1cc640fbf29a561a43bbbc43a2aad1468ce8f57ee7737e7c226ab3,Stage 1 batch script served in finger Plan section by livnesticity[.]com,high,finger-lolbin-ironpython
+sha256,67f4eb14aca5aa26836ab6dcb8a81ab70c24fafbca98f83eb2afb4e6b5042b9f,Stage 3 IronPython downloader (post zlib + UTF-32 decode),high,finger-lolbin-ironpython
+sha256,62410859cf8b160cd0cb57ec972e8e77ec6d379fa1fd5b69f7d75d54d10ab5e4,Stage 4 Cyrillic-obfuscated shellcode injector,high,finger-lolbin-ironpython
+sha256,b10b14c401bb553a8c49c0a4c8bcb9e3a01c347397e666a5b683394d26ad4df2,Decrypted x86 shellcode (post XOR-decryption),high,finger-lolbin-ironpython
+domain,livnesticity[.]com,Finger server (TCP/79) -- serves the stage 1 batch payload in the finger Plan section. Not confirmed as the ClickFix lure source. Block apex + subdomains.,high,finger-lolbin-ironpython
+domain,noidoret[.]com,C2 server -- stage 4 payload download and shellcode beacon endpoint. Block apex + subdomains.,high,finger-lolbin-ironpython
+uuid,6d6d2d17-d270-59c6-8b75-df011af08e58,Campaign UUID present in stage 2 download URL and shellcode C2 callback path. High-fidelity cross-stage pivot.,high,finger-lolbin-ironpython
+build-marker,#sNMat9,IronPython stage 3 build marker. Present in post-zlib / post-UTF-32 cleartext.,high,finger-lolbin-ironpython
+xor-key,a544aae930c2842d3e129911ca9211035bcb19719437,22-byte shellcode XOR decryption key (hex-encoded). Same key + different shellcode body = same campaign build.,high,finger-lolbin-ironpython
+filepath,%LocalAppData%\IronPython.3.4.2\,IronPython interpreter drop directory created by stage 2 batch script.,high,finger-lolbin-ironpython
+filepath,%LocalAppData%\IronPython.3.4.2.pdf,IronPython release zip downloaded with .pdf extension by a renamed curl.exe copy.,medium-high,finger-lolbin-ironpython
+cmdline-pattern,---Verify ----------------press ENTER---,ClickFix lure string visible in cmd.exe command-line. Consistent with a CAPTCHA-overlay social-engineering lure (originating lure page not captured in available telemetry).,high,finger-lolbin-ironpython

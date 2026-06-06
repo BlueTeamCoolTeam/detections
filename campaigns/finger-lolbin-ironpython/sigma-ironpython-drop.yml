@@ -1,0 +1,35 @@
+title: IronPython Interpreter Dropped in User AppData
+id: 9d69bcfe-a067-44f8-9755-961001168d02
+status: experimental
+description: >
+    Detects creation of the IronPython interpreter directory under user-writable
+    AppData locations. Associated with ClickFix campaigns that download the
+    IronPython runtime as a LOLBIN to execute an in-process shellcode injector.
+    Legitimate IronPython installations go to Program Files, not user AppData.
+references:
+    - https://blueteam.cool/posts/finger-lolbin-ironpython/
+    - https://github.com/blueteamcoolteam/detections/tree/main/campaigns/finger-lolbin-ironpython/
+author: Luke Wilkinson
+date: 2026-05-24
+modified: 2026-06-06
+tags:
+    - attack.execution
+    - attack.t1218
+    - attack.t1036.003
+    - attack.t1036.008
+    - attack.t1105
+    - attack.defense_evasion
+logsource:
+    category: file_event
+    product: windows
+detection:
+    selection:
+        TargetFilename|contains|all:
+            - '\AppData\Local\'
+            - '\IronPython.3.4.2'
+    condition: selection
+falsepositives:
+    - Developers who have installed IronPython manually into a user profile
+      (uncommon; standard installations use Program Files)
+    - Automated testing pipelines running under a user account
+level: medium-high
