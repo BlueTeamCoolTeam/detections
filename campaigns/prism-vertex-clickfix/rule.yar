@@ -34,7 +34,7 @@ rule PrismVertex_Polyglot_HTA_Loader
 
     condition:
         // Polyglot on disk
-        (uint32(0) == 0x04034B50 and $decoy_msix and $decoy_splash and $tfsep_def and ($lcg_seed or $lcg_mul))
+        (uint32(0) == 0x04034B50 and $decoy_msix and $decoy_splash and ($tfsep_def or $arr_signature) and ($lcg_seed or $lcg_mul))
         or
         // Decrypted PowerShell stage if it ever lands
         ($rc4_key and $glob_ps and $de_morgan_xor)
