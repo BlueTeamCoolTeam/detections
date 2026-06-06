@@ -1,0 +1,102 @@
+name: Validate detection artifacts
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install YARA
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y yara
+
+      - name: Validate YARA syntax
+        run: |
+          echo "--- Validating YARA rules ---"
+          FAIL=0
+          while IFS= read -r -d '' f; do
+            echo "  checking $f"
+            if ! yara -w "$f" /dev/null 2>&1; then
+              echo "  FAIL: $f"
+              FAIL=1
+            fi
+          done < <(find campaigns -name "*.yar" -print0)
+          if [ "$FAIL" -eq 1 ]; then exit 1; fi
+          echo "All YARA rules passed syntax check."
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate Sigma YAML
+        run: |
+          python - <<'EOF'
+          import sys, os, yaml, glob
+
+          errors = []
+          required = ["title", "id", "status", "description", "references",
+                      "author", "date", "tags", "logsource", "detection", "falsepositives"]
+
+          for path in glob.glob("campaigns/**/*.yml", recursive=True):
+              try:
+                  with open(path) as f:
+                      doc = yaml.safe_load(f)
+              except yaml.YAMLError as e:
+                  errors.append(f"{path}: YAML parse error: {e}")
+                  continue
+
+              missing = [k for k in required if k not in doc]
+              if missing:
+                  errors.append(f"{path}: missing required fields: {missing}")
+
+              status = doc.get("status", "")
+              if status not in ("stable", "test", "experimental", "deprecated", "unsupported"):
+                  errors.append(f"{path}: invalid status '{status}'")
+
+          if errors:
+              for e in errors:
+                  print(f"FAIL: {e}", file=sys.stderr)
+              sys.exit(1)
+
+          print(f"All Sigma YAML files passed validation.")
+          EOF
+
+      - name: Validate IOC CSV files
+        run: |
+          python - <<'EOF'
+          import sys, csv, glob
+
+          EXPECTED_HEADER = ["type", "value", "notes", "confidence", "post_slug"]
+          errors = []
+
+          for path in glob.glob("campaigns/**/iocs.csv", recursive=True):
+              try:
+                  with open(path, newline="") as f:
+                      reader = csv.reader(f)
+                      header = next(reader, None)
+                      if header != EXPECTED_HEADER:
+                          errors.append(f"{path}: wrong header: {header}")
+                          continue
+                      for i, row in enumerate(reader, start=2):
+                          if len(row) != len(EXPECTED_HEADER):
+                              errors.append(f"{path}:{i}: expected {len(EXPECTED_HEADER)} fields, got {len(row)}: {row}")
+              except Exception as e:
+                  errors.append(f"{path}: {e}")
+
+          if errors:
+              for e in errors:
+                  print(f"FAIL: {e}", file=sys.stderr)
+              sys.exit(1)
+
+          print("All IOC CSV files passed validation.")
+          EOF
