@@ -38,6 +38,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
       - name: Validate Sigma YAML
         run: |
           python - <<'EOF'
