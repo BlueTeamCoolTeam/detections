@@ -1,0 +1,43 @@
+title: PowerShell AMSI Bypass via amsiContext Memory Patch
+id: d7b4c129-e583-4f81-a96d-2e5047819f3c
+status: experimental
+description: >
+    Detects PowerShell Script Block Logging (Event ID 4104) content
+    containing both 'amsiContext' and 'WriteInt32' in the same script
+    body. This combination is the fingerprint of the .NET reflection
+    AMSI bypass used in the prism-vertex-clickfix campaign: it patches
+    the amsiContext DWORD with 0x41414141 to corrupt the HAMSICONTEXT
+    signature and silence subsequent AMSI scans in the same session.
+    Script Block Logging captures this in cleartext before the patch
+    lands, even when the strings are RC4-encrypted in the source file.
+references:
+    - https://blueteam.cool/posts/prism-vertex-clickfix/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/prism-vertex-clickfix/
+    - https://attack.mitre.org/techniques/T1562/001/
+author: Luke Wilkinson
+date: 2026-05-24
+tags:
+    - attack.defense_evasion
+    - attack.t1562.001
+    - attack.t1059.001
+logsource:
+    category: ps_script
+    product: windows
+    definition: >
+        Requires PowerShell Script Block Logging to be enabled.
+        Enable via Group Policy: Computer Configuration -> Administrative
+        Templates -> Windows Components -> Windows PowerShell ->
+        Turn on PowerShell Script Block Logging.
+detection:
+    selection:
+        EventID: 4104
+        ScriptBlockText|contains|all:
+            - 'amsiContext'
+            - 'WriteInt32'
+    condition: selection
+falsepositives:
+    - Security researchers or red teams testing AMSI bypass techniques
+      in a lab environment.
+    - Defensive tooling that tests AMSI health by probing the bypass
+      (extremely rare in production).
+level: high
