@@ -39,6 +39,9 @@ rule PrismVertex_Polyglot_HTA_Loader
         // Decrypted PowerShell stage if it ever lands
         ($rc4_key and $glob_ps and $de_morgan_xor)
         or
+        // Decrypted VBScript stage: IE COM CLSID (hex-encoded) alongside campaign strings
+        ($ie_clsid_hex and ($decoy_msix or $rc4_key or $stage1_apex))
+        or
         // Cleartext C2 strings together
         ($stage1_apex and $stage5_apex)
 }
