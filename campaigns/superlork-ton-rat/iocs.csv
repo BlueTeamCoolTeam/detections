@@ -1,0 +1,13 @@
+type,value,notes,confidence,post_slug
+domain,superlork[.]info,Stage 1 host (download) and WebSocket C2. Block apex.,high,superlork-ton-rat
+url,hxxp://superlork[.]info/,Stage 2 PowerShell download URL,high,superlork-ton-rat
+websocket,wss://superlork[.]info/w,Encrypted RAT command channel (ECDH + AES-256-CBC per session),high,superlork-ton-rat
+ton-contract,0:c66119f0e5635c4380441d7a79baf0c02a0ab7ea6cd78de06507fc5dc2c1a5d9,TON blockchain smart contract -- dead-drop C2 resolver. Strongest long-term pivot; operator-controlled and cannot be taken down.,high,superlork-ton-rat
+sha256,f50ebfff5370025b933ced98def534bdce4e27cbbf15dde3e4b79a85944b554e,kcngo.ps1 -- Stage 1 AES loader,high,superlork-ton-rat
+sha256,da24e09777bacc92e5deafb80c446c23810c450871a295166cd54df541e9bf6d,Ii2LW7rMXWB.js -- Node.js RAT payload,high,superlork-ton-rat
+filepath,%LOCALAPPDATA%\Nodejs\Ii2LW7rMXWB.js,Node.js RAT payload on disk,high,superlork-ton-rat
+filepath,%TEMP%\kcngo.ps1,Stage 1 loader download path,high,superlork-ton-rat
+mutex,Global\0be276c4-7dfb-4d5f-a8e2-fd7c5735c489,Single-instance guard mutex,high,superlork-ton-rat
+registry,HKCU\Software\Microsoft\Windows\CurrentVersion\Run -> node -e "...spawn(...Ii2LW7rMXWB.js...)",Run-key persistence. Exact value varies but always contains node -e spawn pattern.,high,superlork-ton-rat
+aes-key,AIwc5o4UeuzKdS6kc7r4W2FO0701tRZ3BU9l7Bs3H7g=,AES-256-CBC loader key (Base64). High-fidelity campaign pivot.,high,superlork-ton-rat
+aes-iv,PYfVrK8YuZ6ih6lqI+04ag==,AES-256-CBC loader IV (Base64),high,superlork-ton-rat

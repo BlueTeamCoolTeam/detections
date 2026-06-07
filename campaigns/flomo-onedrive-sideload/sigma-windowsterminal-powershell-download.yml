@@ -1,0 +1,40 @@
+title: WindowsTerminal Spawning PowerShell With Download Arguments
+id: c7a2e341-9f84-4b17-8c52-1d6e5a9f2b83
+status: experimental
+description: >
+    Detects Windows Terminal (wt.exe or WindowsTerminal.exe) spawning powershell.exe
+    with arguments indicating a web download. This is the Win+X ClickFix delivery
+    variant used by the flomo-onedrive-sideload campaign: the lure instructed users
+    to open Terminal via Win+X and paste a hidden download cradle. The WindowsTerminal
+    grandparent bypasses common ClickFix detections that key on explorer.exe.
+references:
+    - https://blueteam.cool/posts/flomo-onedrive-sideload/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/flomo-onedrive-sideload/
+author: Luke Wilkinson
+date: 2026-05-30
+tags:
+    - attack.execution
+    - attack.t1059.001
+    - attack.t1204.002
+    - attack.initial_access
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection_parent:
+        ParentImage|endswith:
+            - '\WindowsTerminal.exe'
+            - '\wt.exe'
+    selection_child:
+        Image|endswith: '\powershell.exe'
+        CommandLine|contains:
+            - 'Invoke-WebRequest'
+            - 'iwr '
+            - 'DownloadFile'
+            - 'WebClient'
+            - 'GetRandomFileName'
+    condition: selection_parent and selection_child
+falsepositives:
+    - Developers running download scripts via Windows Terminal in normal workflows.
+      Tune with allowlist of known-good script paths or user accounts.
+level: high

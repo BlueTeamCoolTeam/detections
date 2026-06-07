@@ -1,0 +1,37 @@
+title: Wscript Forced VBScript Execution Against Non-VBS File
+id: b3a1f927-4c82-4e19-a7d6-8c3f50b1e042
+status: experimental
+description: >
+    Detects wscript.exe invoked with /e:vbscript against a file that does
+    not have a .vbs or .vbe extension. This forces VBScript interpretation
+    regardless of filename, allowing script files to be disguised as GUIDs,
+    random strings, or any other extension. Used by the wmail-service-stego-beacon
+    campaign to execute a GUID-named wrapper from System32.
+references:
+    - https://blueteam.cool/posts/wmail-service-stego-beacon/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/wmail-service-stego-beacon/
+    - https://lolbas-project.github.io/lolbas/Binaries/Wscript/
+author: Luke Wilkinson
+date: 2026-05-23
+tags:
+    - attack.execution
+    - attack.t1059.005
+    - attack.defense_evasion
+    - attack.t1216
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\wscript.exe'
+        CommandLine|contains: '/e:vbscript'
+    filter_vbs:
+        CommandLine|contains:
+            - '.vbs'
+            - '.vbe'
+    condition: selection and not filter_vbs
+falsepositives:
+    - Legitimate administration scripts that use /e:vbscript with non-.vbs extensions
+      (rare and should be baselinesed per environment).
+    - Security researchers testing LOLBIN detection coverage.
+level: high

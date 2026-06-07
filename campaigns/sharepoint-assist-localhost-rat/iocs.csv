@@ -1,0 +1,11 @@
+type,value,notes,confidence,post_slug
+sha256,f1767aaebb55347153c56e21adbf3a41e48663d139279ec8e3b1f1be1db63a53,sharepoint-assist.ps1 -- 326 KB obfuscated PowerShell localhost HTTP-RAT,high,sharepoint-assist-localhost-rat
+md5,59978abc44e9aa790767baf54122f455,Same file (sharepoint-assist.ps1),high,sharepoint-assist-localhost-rat
+filepath,C:\ProgramData\sharepoint-assist.ps1,Payload location,high,sharepoint-assist-localhost-rat
+scheduled-task,XblGameCachesTask,Persistence mechanism -- created by the attacker to launch the script at logon/interval,high,sharepoint-assist-localhost-rat
+mutex,Global\explorer_wide_thumbcache,Single-instance guard mutex. Named to blend with Windows thumbnail-cache internals.,high,sharepoint-assist-localhost-rat
+listener,127.0.0.1:58172,TCP LISTEN socket owned by powershell.exe -- the local C2 endpoint,high,sharepoint-assist-localhost-rat
+http-route,/run,HttpListener route -- accepts JSON {command} body; executes arbitrary PowerShell in a runspace,high,sharepoint-assist-localhost-rat
+http-route,/window,HttpListener route -- accepts JSON {dll/pattern/patch/process/window}; generic memory patcher + HVNC window hider,high,sharepoint-assist-localhost-rat
+dynamic-assembly,DynWin32_1,In-memory Win32 API assembly built via Reflection.Emit -- visible in 4104 logs,high,sharepoint-assist-localhost-rat
+inline-class,W32API,Add-Type C# class with FindPattern method -- signature scanner for the memory patcher,high,sharepoint-assist-localhost-rat

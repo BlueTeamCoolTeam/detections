@@ -1,0 +1,44 @@
+title: PowerShell Script Containing HttpListener on Localhost
+id: f2a7d483-9b16-4c27-b3e8-1d5f8c3a7e52
+status: experimental
+description: >
+    Detects PowerShell Script Block Logging (Event ID 4104) content containing
+    both 'HttpListener' and 'RunspaceFactory' or 'VirtualProtectEx'. This
+    combination uniquely fingerprints the sharepoint-assist-localhost-rat implant:
+    a fileless HTTP C2 server listening on 127.0.0.1:58172 that exposes /run
+    (arbitrary PowerShell execution) and /window (generic memory patcher with
+    HVNC-style window hiding). PowerShell legitimately owning an HttpListener
+    is extremely unusual on a workstation. The localhost-only binding means no
+    external C2 is visible in the sample -- detect on the listener behaviour.
+references:
+    - https://blueteam.cool/posts/sharepoint-assist-localhost-rat/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/sharepoint-assist-localhost-rat/
+    - https://attack.mitre.org/techniques/T1071/001/
+author: Luke Wilkinson
+date: 2026-06-06
+tags:
+    - attack.command_and_control
+    - attack.t1071.001
+    - attack.t1562.001
+    - attack.t1059.001
+logsource:
+    category: ps_script
+    product: windows
+    definition: >
+        Requires PowerShell Script Block Logging (Event ID 4104).
+detection:
+    selection_listener:
+        EventID: 4104
+        ScriptBlockText|contains: 'HttpListener'
+    selection_sink:
+        ScriptBlockText|contains:
+            - 'RunspaceFactory'
+            - 'VirtualProtectEx'
+            - 'explorer_wide_thumbcache'
+            - '127.0.0.1:58172'
+    condition: selection_listener and selection_sink
+falsepositives:
+    - Custom administrative tooling that uses PowerShell HttpListener for internal
+      REST APIs (extremely rare on standard workstations; expected only on dedicated
+      admin/automation hosts).
+level: high

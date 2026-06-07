@@ -1,0 +1,35 @@
+title: Process Adding Itself to Defender Exclusion List via Add-MpPreference
+id: b7f3d219-8c45-4e71-a9b2-5d1c6e3f8a27
+status: experimental
+description: >
+    Detects PowerShell Script Block Logging (Event ID 4104) content containing
+    'Add-MpPreference -ExclusionProcess'. The superlork-ton-rat Node.js RAT uses
+    this PowerShell command before launching a downloaded next-stage executable,
+    adding that executable to Microsoft Defender's exclusion list to prevent
+    detection. A process adding a binary to its own exclusion list is a near-zero
+    false-positive signal of malicious intent.
+references:
+    - https://blueteam.cool/posts/superlork-ton-rat/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/superlork-ton-rat/
+    - https://attack.mitre.org/techniques/T1562/001/
+author: Luke Wilkinson
+date: 2026-05-30
+tags:
+    - attack.defense_evasion
+    - attack.t1562.001
+logsource:
+    category: ps_script
+    product: windows
+    definition: >
+        Requires PowerShell Script Block Logging (Event ID 4104).
+detection:
+    selection:
+        EventID: 4104
+        ScriptBlockText|contains: 'Add-MpPreference'
+        ScriptBlockText|contains: 'ExclusionProcess'
+    condition: selection
+falsepositives:
+    - Legitimate software installers that add their process to Defender exclusions
+      during installation. These should be expected and baselinesed per environment.
+    - Security tooling that programmatically manages Defender exclusions.
+level: high

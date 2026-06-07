@@ -1,0 +1,10 @@
+type,value,notes,confidence,post_slug
+ip,77.221.155[.]150,C2 IP -- bare IPv4 HTTP beacon on port 80. No domain seen in sample.,high,vimtucdi-ps1-wmi-beacon
+url,hxxp://77.221.155[.]150/<C-volume-serial-int64>,Per-bot tasking URL template. Serial number is the int64 hex of the C: volume serial.,high,vimtucdi-ps1-wmi-beacon
+sha256,8c8c40ea3023a9ca4e59a1e72b8464e0f8089cf5f94c4237c46757fb7e900214,elrtwnbo.ps1 -- obfuscated PowerShell loader (196 KB),high,vimtucdi-ps1-wmi-beacon
+md5,2cb101d16717db3921c2223ac2451200,Same file (elrtwnbo.ps1),high,vimtucdi-ps1-wmi-beacon
+filepath,C:\ProgramData\vimtucdi\elrtwnbo.ps1,Obfuscated loader script,high,vimtucdi-ps1-wmi-beacon
+filepath,C:\ProgramData\vimtucdi\disocjel.sct,JScript SCT launcher,high,vimtucdi-ps1-wmi-beacon
+directory,C:\ProgramData\vimtucdi\,Campaign staging folder -- random name pattern. Hunt similar structures.,high,vimtucdi-ps1-wmi-beacon
+bot-id-algo,C: volume serial number (int64 of hex),Per-host bot identifier used as URI path and mutex name. Not a static IOC but a detection pattern.,high,vimtucdi-ps1-wmi-beacon
+xor-key,pEctAiwaWzmsNCHIPuGV,XOR codec password used in the payload decryption. High-fidelity campaign pivot.,high,vimtucdi-ps1-wmi-beacon

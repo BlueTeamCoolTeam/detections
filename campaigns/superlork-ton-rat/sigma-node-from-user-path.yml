@@ -1,0 +1,39 @@
+title: Node.js Executing From User-Writable Path
+id: c1e8f374-5a29-4b63-9d17-6f2e4c8b1a95
+status: experimental
+description: >
+    Detects node.exe (Node.js runtime) launching from user-writable directories
+    such as %LOCALAPPDATA%, %APPDATA%, or %TEMP%. The superlork-ton-rat campaign
+    downloads the genuine, signed Node.js runtime to %LOCALAPPDATA%\Nodejs\ and
+    uses it as a bring-your-own-interpreter (BYOI) to run a JavaScript RAT,
+    bypassing PowerShell controls by switching to a different interpreter.
+    Legitimate Node.js developer installations typically use Program Files,
+    not user profile directories.
+references:
+    - https://blueteam.cool/posts/superlork-ton-rat/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/superlork-ton-rat/
+author: Luke Wilkinson
+date: 2026-05-30
+tags:
+    - attack.execution
+    - attack.t1059.007
+    - attack.t1105
+    - attack.defense_evasion
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\node.exe'
+        Image|contains:
+            - '\AppData\Local\'
+            - '\AppData\Roaming\'
+            - '\Temp\'
+            - '\tmp\'
+    condition: selection
+falsepositives:
+    - Developers who install Node.js manually into their user profile (nvm for
+      Windows places node.exe under %APPDATA%\nvm\). Tune with an allowlist of
+      expected paths for Node.js developer tools in your environment.
+    - Node-based development tooling installed per-user on developer workstations.
+level: high
