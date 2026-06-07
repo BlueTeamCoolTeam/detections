@@ -1,0 +1,43 @@
+title: PowerShell AMSI or ETW Bypass via amsiInitFailed or etwProvider Reflection
+id: d9f2b438-7e51-4c82-a1d6-3e8b5c2f7a94
+status: experimental
+description: >
+    Detects PowerShell Script Block Logging (Event ID 4104) content containing
+    'amsiInitFailed' or 'etwProvider' -- the two reflection targets used by the
+    vimtucdi-ps1-wmi-beacon loader to blind AMSI and ETW telemetry. Setting
+    amsiInitFailed=$true bypasses AMSI scanning; nulling the etwProvider's
+    m_enabled field silences Script Block Logging. The loader also gates its
+    XOR decryption key on amsiInitFailed being $true, so the payload refuses to
+    decrypt if the bypass fails.
+references:
+    - https://blueteam.cool/posts/vimtucdi-ps1-wmi-beacon/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/vimtucdi-ps1-wmi-beacon/
+    - https://attack.mitre.org/techniques/T1562/001/
+    - https://attack.mitre.org/techniques/T1562/006/
+author: Luke Wilkinson
+date: 2026-05-30
+tags:
+    - attack.defense_evasion
+    - attack.t1562.001
+    - attack.t1562.006
+    - attack.t1059.001
+logsource:
+    category: ps_script
+    product: windows
+    definition: >
+        Requires PowerShell Script Block Logging (Event ID 4104). Enable via
+        Group Policy: Computer Configuration -> Administrative Templates ->
+        Windows Components -> Windows PowerShell -> Turn on PowerShell Script
+        Block Logging. Note: this campaign explicitly disables ETW to suppress
+        4104 logging; forward logs off-host to ensure centralized visibility.
+detection:
+    selection:
+        EventID: 4104
+        ScriptBlockText|contains:
+            - 'amsiInitFailed'
+            - 'etwProvider'
+    condition: selection
+falsepositives:
+    - Security testing and red-team tooling that probes AMSI or ETW state.
+    - Defensive scripts that check AMSI initialisation status.
+level: high

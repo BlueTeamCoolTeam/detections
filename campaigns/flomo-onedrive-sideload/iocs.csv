@@ -1,0 +1,15 @@
+type,value,notes,confidence,post_slug
+domain,clacndjsvulnarbi[.]beer,ClickFix delivery panel (gated PHP). Resolves to 178.16.52[.]101. Block apex.,high,flomo-onedrive-sideload
+ip,178.16.52[.]101,IP for clacndjsvulnarbi[.]beer delivery panel.,high,flomo-onedrive-sideload
+domain,devltd[.]top,Host for flomotg3.zip (145 MB trojanized Electron app). Block apex.,high,flomo-onedrive-sideload
+domain,finework[.]top,Electron RAT C2 -- /api/ endpoint with 30-second poll. Block apex.,high,flomo-onedrive-sideload
+sha256,999d411a33a31d7aa64ea72d76e80bd381cdb608de111e3c6e72974c63e42951,flomotg3.zip (145 MB trojanized Electron app archive),high,flomo-onedrive-sideload
+sha256,7a534b6f952b592b65863cc37d134090dcd5dc77e778521494794ab280325469,app.asar (Electron RAT bundle within flomotg3.zip),high,flomo-onedrive-sideload
+sha256,656fb0ce773fdfb745263deb1492170f9b332778a33ee3b15ee0adc33110cff7,LoggingPlatform.dll -- TROJANIZED loader (Authenticode digest MISMATCH). Block this hash.,high,flomo-onedrive-sideload
+sha256,d9da1e87d9a5c0003b5243efda6d85e72cfe1d46530560a43eeed152a38a6e67,signal_config.meta -- AES-CBC encrypted payload wrapped in PNG IDAT chunks,high,flomo-onedrive-sideload
+sha256,df6771aee7f8ffd86b2996e461f5d0ef1762e2aa1c2d979bcea652c9d3c56819,"Con_Adapter.exe -- GENUINE signed Microsoft OneDriveLauncher.exe, renamed. DO NOT blocklist this hash.",high,flomo-onedrive-sideload
+filepath,%LOCALAPPDATA%\ExFiles\flomo.exe,Trojanized Electron app install path,high,flomo-onedrive-sideload
+filepath,%APPDATA%\setup.txt,Campaign artifact -- purpose not fully determined,high,flomo-onedrive-sideload
+filepath,%TEMP%\runner.ps1,Second-stage PowerShell download script,high,flomo-onedrive-sideload
+filename,signal_config.meta,Sideload kit co-indicator -- AES payload file dropped alongside Con_Adapter.exe,high,flomo-onedrive-sideload
+filename,volume1024.conf,Sideload kit co-indicator -- dropped alongside signal_config.meta,high,flomo-onedrive-sideload

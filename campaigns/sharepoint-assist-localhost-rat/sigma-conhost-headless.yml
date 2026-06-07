@@ -1,0 +1,31 @@
+title: Conhost Launched With Headless Flag
+id: e5c9b271-3d48-4f52-8a16-7c2e1b9f4d38
+status: experimental
+description: >
+    Detects conhost.exe executed with the --headless argument. This flag creates a
+    console session with no visible window, making it impossible for a user to notice
+    the running process. The sharepoint-assist-localhost-rat campaign uses this as the
+    outermost wrapper to silently launch powershell.exe via cmd.exe: the persistence
+    task runs 'conhost.exe --headless cmd.exe /c powershell -ep bypass -file ...'.
+    There are essentially no legitimate uses of conhost.exe --headless on a workstation.
+references:
+    - https://blueteam.cool/posts/sharepoint-assist-localhost-rat/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/sharepoint-assist-localhost-rat/
+author: Luke Wilkinson
+date: 2026-06-06
+tags:
+    - attack.defense_evasion
+    - attack.t1564.003
+    - attack.t1053.005
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\conhost.exe'
+        CommandLine|contains: '--headless'
+    condition: selection
+falsepositives:
+    - Some developer tooling and CI/CD agents may use conhost.exe --headless for
+      legitimate console automation. Extremely rare on standard workstations.
+level: high

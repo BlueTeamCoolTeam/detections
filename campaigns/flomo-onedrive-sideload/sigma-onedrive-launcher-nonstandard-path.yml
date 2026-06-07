@@ -1,0 +1,36 @@
+title: OneDriveLauncher Executing Outside Real Install Path
+id: f8b3c192-5e47-4d29-a638-7b4e91c0d325
+status: experimental
+description: >
+    Detects OneDriveLauncher.exe (or a file named Con_Adapter.exe which is a
+    renamed copy) executing from a path that is not the genuine OneDrive install
+    directory. The flomo-onedrive-sideload campaign renamed a pristine, validly
+    signed OneDriveLauncher.exe to Con_Adapter.exe and dropped it in %TEMP% to
+    sideload a trojanized LoggingPlatform.dll. The EXE is genuine; the context
+    (wrong path, co-located signal_config.meta) betrays the sideload.
+references:
+    - https://blueteam.cool/posts/flomo-onedrive-sideload/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/flomo-onedrive-sideload/
+    - https://attack.mitre.org/techniques/T1574/002/
+author: Luke Wilkinson
+date: 2026-05-30
+tags:
+    - attack.defense_evasion
+    - attack.t1574.002
+    - attack.t1553.002
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\OneDriveLauncher.exe'
+    filter_legit_path:
+        Image|contains:
+            - '\OneDrive\'
+            - '\Microsoft OneDrive\'
+    condition: selection and not filter_legit_path
+falsepositives:
+    - Non-standard OneDrive installation paths in some enterprise deployments.
+      Tune the filter to match your organisation's actual OneDrive install path.
+    - Security researchers testing DLL sideloading detection.
+level: high

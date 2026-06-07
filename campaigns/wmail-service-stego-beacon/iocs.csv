@@ -1,0 +1,12 @@
+type,value,notes,confidence,post_slug
+sha256,e780a5c6284d89bb35d506ee31fcad09435a34838c4844acf87ba26124aaa538,"Steganographic carrier (A32F0B95-...-C084069DF941.sys). Per-host carriers may differ -- the shape matters more than the hash.",medium-high,wmail-service-stego-beacon
+md5,bb6ffce0798a810401144058d4acb128,Same carrier file. Per-host carriers may differ.,medium-high,wmail-service-stego-beacon
+domain,counter[.]wmail-service[.]com,Stage 3 C2 -- beacon polling endpoint. Block this subdomain.,high,wmail-service-stego-beacon
+domain,wmail-service[.]com,Apex domain -- block apex + all subdomains.,high,wmail-service-stego-beacon
+url,hxxp://counter[.]wmail-service[.]com/v1/5C08D34C-88E1-4331-A5A7-F7A741E4A274?v=DownloadsCounter_207,Observed beacon URL. UUID and counter are per-host/build -- use the domain + URL-shape as the pivot.,high,wmail-service-stego-beacon
+url-pattern,hxxp://counter[.]wmail-service[.]com/v1/<UUID>?v=DownloadsCounter_<NUM>,Campaign-wide URL template. Alert on this shape in proxy logs regardless of UUID.,high,wmail-service-stego-beacon
+filepath,C:\Windows\System32\drivers\tB2ZSTVM\A32F0B95-...-C084069DF941.sys,Steganographic carrier on this host. Subdirectory name and filename are per-host.,medium,wmail-service-stego-beacon
+filepath,C:\Windows\System32\2g4fwI\CAA2997E-65EC-4498-AA36-381AFA7B94B8,VBS wrapper (no extension) on this host. Path shape is the pivot.,medium,wmail-service-stego-beacon
+path-pattern,"C:\Windows\System32\<6-8 alnum>\<GUID, no extension>",Hunt this directory shape -- System32 subdirectory with short random name containing GUID-named extensionless files.,high,wmail-service-stego-beacon
+scheduled-task,6B476D21-70A0-49AC-91C0-C72DB8007815,GUID-named Scheduled Task running wscript.exe. Task name is per-host -- hunt the GUID-name pattern.,medium,wmail-service-stego-beacon
+string,Failed to load dependency Microsoft.AnalysisServices.AdomdClient ... 0x80131040,Repeated SSRS log line used as filler in the carrier. Never legitimately found in a Windows driver file.,high,wmail-service-stego-beacon

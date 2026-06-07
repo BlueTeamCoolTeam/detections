@@ -1,0 +1,35 @@
+title: Scheduled Task Named as Bare GUID Running Script Host
+id: e9c4d218-7b63-4a82-b1f9-9a5c3d8e7f14
+status: experimental
+description: >
+    Detects creation of a Scheduled Task (Event ID 4698) whose name is a bare
+    GUID (all hex digits and hyphens, no descriptive label) and whose action
+    runs wscript.exe or cscript.exe. This matches the persistence pattern used
+    by the wmail-service-stego-beacon campaign: task name
+    6B476D21-70A0-49AC-91C0-C72DB8007815 running wscript.exe /e:vbscript
+    against another GUID-named file.
+references:
+    - https://blueteam.cool/posts/wmail-service-stego-beacon/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/wmail-service-stego-beacon/
+author: Luke Wilkinson
+date: 2026-05-23
+tags:
+    - attack.persistence
+    - attack.t1053.005
+    - attack.execution
+    - attack.t1059.005
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4698
+        TaskContent|contains:
+            - 'wscript.exe'
+            - 'cscript.exe'
+        TaskName|re: '^\\{?[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}\}?$'
+    condition: selection
+falsepositives:
+    - Some legitimate software installers and tools create GUID-named scheduled
+      tasks. Cross-reference with the task action binary and path.
+level: medium
