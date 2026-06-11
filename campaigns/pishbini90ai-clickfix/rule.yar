@@ -52,6 +52,6 @@ rule ClickFix_WordSubstitutionCipher_DLL
 
     condition:
         uint16(0) == 0x5A4D and
-        ($wordlist or ($fiber1 and $fiber2)) and
+        ($wordlist or ($fiber1 and $fiber2) or $export) and
         filesize > 2MB and filesize < 4MB
 }
