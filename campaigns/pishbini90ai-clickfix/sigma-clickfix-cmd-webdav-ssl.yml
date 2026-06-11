@@ -1,0 +1,39 @@
+title: ClickFix WebDAV-over-HTTPS Delivery via cmd.exe Delayed Expansion
+id: b7e3a142-dc81-4f9a-8c3e-5b2d17a4e029
+status: experimental
+description: >
+    Detects cmd.exe invoked with delayed variable expansion (/v:on) where the
+    command line contains the @SSL\ WebDAV-over-HTTPS UNC path pattern alongside
+    rundll32. This is the exact delivery mechanism used by the pishbini90ai
+    ClickFix campaign: the victim pastes a cmd one-liner that uses set/!var!
+    substitution to hide the domain and binary names, then maps an HTTPS WebDAV
+    share and executes a DLL from it via rundll32.
+references:
+    - https://blueteam.cool/posts/pishbini90ai-clickfix/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/pishbini90ai-clickfix/
+author: Luke Wilkinson
+date: 2026-06-11
+tags:
+    - attack.execution
+    - attack.t1059.003
+    - attack.t1204.002
+    - attack.defense_evasion
+    - attack.t1027
+    - attack.t1218.011
+    - attack.t1071.001
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\cmd.exe'
+        CommandLine|contains|all:
+            - '/v'
+            - '@SSL\'
+            - 'rundll32'
+    condition: selection
+falsepositives:
+    - Essentially none in production. cmd.exe /v:on with @SSL\ UNC path and rundll32
+      together has no known legitimate use. Security researchers testing ClickFix
+      detection coverage may trigger this.
+level: critical
