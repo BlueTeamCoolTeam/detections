@@ -1,0 +1,22 @@
+type,value,notes,confidence,post_slug
+domain,captcha-code[.]lol,ClickFix lure and staging server,high,clickfix-captcha-code-lol
+domain,ziemaen[.]lol,EXE drop host (update.exe Rust stealer),high,clickfix-captcha-code-lol
+domain,9sxbhphss8kiyk2[.]top,Stage-7 domain (dead at time of analysis),medium,clickfix-captcha-code-lol
+domain,hfpfhy7zytroclo[.]top,Stage-7 domain (NXDOMAIN at time of analysis),medium,clickfix-captcha-code-lol
+domain,v4bdhuudd0n353v[.]top,Stage-7 domain (dead at time of analysis),medium,clickfix-captcha-code-lol
+ip,87.232.123[.]174,Flask shellcode C2 (port 80),high,clickfix-captcha-code-lol
+ip,94.154.32[.]21,Rust stealer C2 (port 8080) + Lunex C2 panel (port 8000),high,clickfix-captcha-code-lol
+sha256,ff2f74cc198a07ea7bf4457dd9e5c0e0adc5b073b5e50d4f13d32b753d7be744,main.ps1 stage-1 RC4+gzip loader,high,clickfix-captcha-code-lol
+sha256,bc25823b5a15b3fd607eba3e716d4bfab05391bc3a73c7603fba5d43ee25deab,wgr.ps1 workgroup branch stage,high,clickfix-captcha-code-lol
+sha256,4dd1f15776d78f82f2ee8dcf661e6d2431d9140e1b5b89b699e06d1e11712cdc,script.ps1 Flask branch stage,high,clickfix-captcha-code-lol
+sha256,372df5bac7bce42e403cd024589eec0f76c2b3ed92bd30a5cb34948a0662c2a1,update.exe Rust infostealer,high,clickfix-captcha-code-lol
+sha256,475a242cdd832aa43b562ffb6abf3fee1e7f0479425b9c00434a4a44b5c60f14,data.bin shellcode loader (XOR 0x3B encrypted on disk),high,clickfix-captcha-code-lol
+filename,data.bin,Shellcode loader dropped to %APPDATA%\Roaming\OFFICE\,high,clickfix-captcha-code-lol
+filename,update.exe,Rust stealer dropped to %TEMP%\ as u.exe,high,clickfix-captcha-code-lol
+registry,HKCU\Software\Microsoft\Windows\CurrentVersion\Run\ibrowser,Rust stealer Run key persistence value,high,clickfix-captcha-code-lol
+guid,580e250d-effb-401a-b981-fb7fd80635a2,Campaign GUID used as ?s= parameter across all stage-7 URLs,high,clickfix-captcha-code-lol
+api_key,eeb547f4dd3ba851526e1e3c6d1ae7a5256b46d988bf40710c731a107d670550,Hardcoded API key in Rust stealer binary,high,clickfix-captcha-code-lol
+build_path,/Users/chapter/.cargo/registry,Rust stealer build path (cross-sample pivot on username chapter),medium,clickfix-captcha-code-lol
+url,hxxps://captcha-code[.]lol/o,Initial payload download URL,high,clickfix-captcha-code-lol
+url,hxxps://captcha-code[.]lol/m,C2 beacon endpoint (POST -> iex response),high,clickfix-captcha-code-lol
+url,hxxp://94.154.32[.]21:8080/api/v1/checkin,Rust stealer checkin endpoint,high,clickfix-captcha-code-lol

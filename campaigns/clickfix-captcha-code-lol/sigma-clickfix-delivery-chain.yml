@@ -1,0 +1,40 @@
+title: ClickFix Delivery Chain - cmd Spawns curl Piped to Hidden PowerShell
+id: b8d3f9a2-4c5e-5f0b-c6d7-e8f9a0b1c2d3
+status: experimental
+description: Detects the ClickFix paste-and-run delivery pattern from the captcha-code[.]lol campaign. A cmd.exe process spawns curl.exe which downloads a payload, then spawns powershell.exe with -WindowStyle Hidden. Matches the cmd /v:on wildcard obfuscation pattern.
+references:
+  - https://blueteam.cool/posts/clickfix-captcha-code-lol/
+author: Luke Wilkinson
+date: 2026-06-11
+tags:
+  - attack.initial_access
+  - attack.t1204.002
+  - attack.execution
+  - attack.t1059.001
+  - attack.defense_evasion
+  - attack.t1027
+logsource:
+  product: windows
+  category: process_creation
+  definition: Requires process creation logging with full command line (Windows Security Event 4688 with CommandLine, or Sysmon Event ID 1)
+detection:
+  selection_curl_parent_cmd:
+    ParentImage|endswith: '\cmd.exe'
+    Image|endswith: '\curl.exe'
+    CommandLine|contains: 'captcha-code.lol'
+  selection_hidden_ps:
+    ParentImage|endswith: '\cmd.exe'
+    Image|endswith: '\powershell.exe'
+    CommandLine|contains|all:
+      - '-WindowStyle'
+      - 'Hidden'
+  selection_delayed_expansion:
+    Image|endswith: '\cmd.exe'
+    CommandLine|contains|all:
+      - '/v:on'
+      - 'where c*'
+  condition: 1 of selection_*
+falsepositives:
+  - Legitimate hidden PowerShell invocations in enterprise automation (tune by ParentImage or CommandLine)
+  - Curl downloads from cmd.exe in IT management scripts
+level: high

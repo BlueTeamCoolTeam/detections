@@ -1,0 +1,43 @@
+title: ClickFix RC4+GZip PowerShell Loader via Script Block Logging
+id: a7c2e8f1-3b4d-4e9a-b5c6-d7e8f9a0b1c2
+status: experimental
+description: Detects the RC4+GZip PowerShell loader delivered by the captcha-code[.]lol ClickFix campaign. Matches on the distinctive RC4 PRGA XOR expression captured in PowerShell Script Block Logging (Event ID 4104).
+references:
+  - https://blueteam.cool/posts/clickfix-captcha-code-lol/
+author: Luke Wilkinson
+date: 2026-06-11
+tags:
+  - attack.execution
+  - attack.t1059.001
+  - attack.defense_evasion
+  - attack.t1027
+  - attack.t1140
+logsource:
+  product: windows
+  service: powershell
+  definition: PowerShell Script Block Logging must be enabled (HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging\EnableScriptBlockLogging = 1)
+detection:
+  selection_rc4:
+    EventID: 4104
+    ScriptBlockText|contains: '-bxor $S[($S[$i] + $S[$j]) % 256]'
+  selection_gz:
+    EventID: 4104
+    ScriptBlockText|contains: 'IO.Compression.GzipStream'
+  selection_iex_concat:
+    EventID: 4104
+    ScriptBlockText|contains|all:
+      - "'I' + 'nv' + 'ok' + 'e-E'"
+      - "'xpr' + 'ess' + 'ion'"
+  selection_beacon:
+    EventID: 4104
+    ScriptBlockText|contains: 'captcha-code.lol'
+  selection_tags:
+    EventID: 4104
+    ScriptBlockText|contains:
+      - 'ABCD111'
+      - 'BCDA222'
+  condition: 1 of selection_*
+falsepositives:
+  - None expected; the RC4 PRGA expression is sufficiently specific
+  - The GZip decompression class alone may match legitimate scripts -- prefer rc4 or beacon selections for alerting
+level: critical
