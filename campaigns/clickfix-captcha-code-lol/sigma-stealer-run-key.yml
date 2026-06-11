@@ -1,0 +1,24 @@
+title: Rust Stealer Run Key Persistence - ibrowser Value
+id: c9e4a0b3-5d6f-6a1c-d7e8-f9a0b1c2d3e4
+status: experimental
+description: Detects the Run key persistence value written by the Rust infostealer from the captcha-code[.]lol campaign. The stealer writes an 'ibrowser' value under HKCU\...\CurrentVersion\Run pointing to its dropped executable.
+references:
+  - https://blueteam.cool/posts/clickfix-captcha-code-lol/
+author: Luke Wilkinson
+date: 2026-06-11
+tags:
+  - attack.persistence
+  - attack.t1547.001
+logsource:
+  product: windows
+  category: registry_set
+  definition: Requires Sysmon Event ID 13 (registry value set) or equivalent EDR telemetry
+detection:
+  selection:
+    EventType: SetValue
+    TargetObject|contains: '\CurrentVersion\Run\'
+    TargetObject|endswith: 'ibrowser'
+  condition: selection
+falsepositives:
+  - None expected; 'ibrowser' is not a legitimate application name
+level: critical
