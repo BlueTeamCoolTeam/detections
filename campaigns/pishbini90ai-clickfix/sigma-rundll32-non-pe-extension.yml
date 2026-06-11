@@ -1,0 +1,41 @@
+title: Rundll32 Loading a File with Non-PE Extension
+id: c9f4b253-ed92-5a0b-9d4f-6c3e28b5f130
+status: experimental
+description: >
+    Detects rundll32.exe executing a file whose extension is not a standard DLL
+    or OCX extension. The pishbini90ai campaign served its payload as google.cl
+    (masquerading as an OpenCL source file) and invoked it via rundll32 using
+    an ordinal reference: rundll32 google.cl,#1. This technique abuses the fact
+    that rundll32 ignores the file extension and loads any valid PE. The @SSL
+    WebDAV working directory condition narrows to the delivery pattern.
+references:
+    - https://blueteam.cool/posts/pishbini90ai-clickfix/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/pishbini90ai-clickfix/
+    - https://lolbas-project.github.io/lolbas/Binaries/Rundll32/
+author: Luke Wilkinson
+date: 2026-06-11
+tags:
+    - attack.execution
+    - attack.t1218.011
+    - attack.defense_evasion
+    - attack.t1036.008
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection_base:
+        Image|endswith: '\rundll32.exe'
+    filter_standard_ext:
+        CommandLine|contains:
+            - '.dll,'
+            - '.dll #'
+            - '.ocx,'
+            - '.cpl,'
+    selection_ordinal_non_dll:
+        CommandLine|re: '\.(?!dll|ocx|cpl|exe)[a-z0-9]{1,6},(#\d+|[A-Za-z])'
+    condition: selection_base and selection_ordinal_non_dll and not filter_standard_ext
+falsepositives:
+    - Some legitimate software registers non-DLL extensions with rundll32 (rare).
+      Tune exceptions for known paths in your environment (e.g. system32, SysWOW64).
+    - Security researchers or red teams testing LOLBIN coverage.
+level: high
