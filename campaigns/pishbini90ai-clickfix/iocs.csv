@@ -1,0 +1,19 @@
+type,value,notes,confidence,post_slug
+sha256,f39bf61a139f0571e4a6624d68d284d67e38875f8ddc648d914323aeadb4b9e1,Loader DLL (google.cl) on WebDAV share -- ClickFix Stage 1 stager,high,pishbini90ai-clickfix
+md5,0cc2d17469b0d4c8a13c748cb0bb5b28,Loader DLL (google.cl) -- alternate hash for pivoting,high,pishbini90ai-clickfix
+sha256,024574897599a6eeba572d28a6d440d6fbae0e7e85c36d2f393c51d5c9946e3c,Decoded shellcode (payload_decoded.bin) -- word-cipher reversed; inner payload encrypted,high,pishbini90ai-clickfix
+md5,baf10fef9b89fee262055ab4ae472c6f,Decoded shellcode -- alternate hash for pivoting,high,pishbini90ai-clickfix
+domain,pishbini90ai[.]com,Registered 2025-05-15 via Namecheap; Cloudflare-proxied; block apex and all subdomains,high,pishbini90ai-clickfix
+subdomain,iyrxs.pishbini90ai[.]com,WebDAV delivery host -- maps HTTPS share via @SSL UNC path; confirmed live 2026-06-11,high,pishbini90ai-clickfix
+url,hxxps://iyrxs.pishbini90ai[.]com/bc1fc622-be49-4978-a48c-fa728a19b9df/google.cl,Payload delivery URL -- HTTP 200; 2.4 MB DLL; Content-Type spoofed as text/x-opencl-src,high,pishbini90ai-clickfix
+ip,104.21.26[.]101,Cloudflare CDN IP backing pishbini90ai[.]com -- shared infrastructure; do not block without scoping impact,low,pishbini90ai-clickfix
+ip,172.67.135[.]218,Cloudflare CDN IP backing pishbini90ai[.]com -- shared infrastructure; do not block without scoping impact,low,pishbini90ai-clickfix
+filename,google.cl,DLL payload served from WebDAV share -- .cl extension masquerades as OpenCL source file,high,pishbini90ai-clickfix
+webdav-unc,\\iyrxs.pishbini90ai[.]com@SSL\bc1fc622-be49-4978-a48c-fa728a19b9df,Exact UNC path used in ClickFix cmd paste to map WebDAV drive,high,pishbini90ai-clickfix
+guid,bc1fc622-be49-4978-a48c-fa728a19b9df,WebDAV delivery GUID -- pivot in proxy/DNS/NGFW logs; may be victim- or campaign-specific,high,pishbini90ai-clickfix
+dll-export,aeertfdd,Randomised DLL export name; rundll32 entry point at ordinal 1,high,pishbini90ai-clickfix
+word-cipher-alphabet,"enforcement, bother, secret, gas, heaven, wealthy, fellow, orange, guest, island",First 10 words of the 256-word English substitution cipher in .rdata (fiber_buf) -- fingerprint for campaign clustering,high,pishbini90ai-clickfix
+pe-timestamp,2026-06-09T20:10:36Z,PE compile timestamp -- ~48 hours before discovery; operator actively building,high,pishbini90ai-clickfix
+image-base,0x6CB00000,Non-standard preferred base address -- unusual for MinGW/Rust toolchains; memory-scan pivot,medium,pishbini90ai-clickfix
+webdav-directory-mtime,2026-06-10T11:53:58Z,WebDAV directory creation time from PROPFIND response -- ~24 hours before discovery,medium,pishbini90ai-clickfix
+etag,18b7b622dc3d540f25aa00,WebDAV ETag for google.cl -- infrastructure reuse pivot,medium,pishbini90ai-clickfix
