@@ -1,4 +1,5 @@
 title: sindikat Webshell C2 Parameters in IIS Query String
+id: 5dc79ec5-03bf-4c08-a802-5ae29c955f67
 status: experimental
 description: Detects HTTP requests containing query string parameters unique to the sindikat/byp.php webshell family. The sindikat777 parameter accepts hex-encoded filesystem paths; c0m99nd is the command execution parameter.
 references:
