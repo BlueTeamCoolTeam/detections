@@ -1,0 +1,21 @@
+type,value,notes,confidence,post_slug
+url,/wp-content/plugins/toolbar-processor-428/toolbar-processor-428.php,Stage 1 dropper URL path,high,wordpress-webshell-gsocket
+url,/wp-content/plugins/toolbar-processor-428/byp.php,Stage 2 webshell URL path,high,wordpress-webshell-gsocket
+filename,toolbar-processor-428.php,Stage 1 dropper filename,high,wordpress-webshell-gsocket
+filename,byp.php,Stage 2 full webshell filename,medium,wordpress-webshell-gsocket
+ip,182.253.14[.]138,Primary attacker / webshell operator,high,wordpress-webshell-gsocket
+ip,103.59.160[.]93,Probable plugin installer,medium,wordpress-webshell-gsocket
+ip,103.82.195[.]44,Username enumeration + credential stuffing,medium,wordpress-webshell-gsocket
+ip,161.118.251[.]181,WordPress brute-force bot (may be shared scanning infrastructure),low,wordpress-webshell-gsocket
+domain,gsocket[.]io,gsocket C2 relay (legitimate open-source tool used maliciously),medium,wordpress-webshell-gsocket
+domain,cdn.gsocket[.]io,gsocket binary CDN (legitimate open-source tool used maliciously),medium,wordpress-webshell-gsocket
+domain,remotenyasar[.]click,Attacker-controlled backup C2 installer host,high,wordpress-webshell-gsocket
+url,hxxp://remotenyasar[.]click/AK/gs.sh,Backup gsocket installer script hosted by attacker,high,wordpress-webshell-gsocket
+string,@WebshellSR,Operator Telegram handle embedded in Stage 1 PHP output,high,wordpress-webshell-gsocket
+string,@Devco1,Operator Telegram handle embedded in Stage 1 PHP output,medium,wordpress-webshell-gsocket
+string,@BIBIL0DAY,Operator Telegram handle embedded in Stage 1 PHP output,medium,wordpress-webshell-gsocket
+crontab_marker,#1b5b324a50524e47 >/dev/random # seed prng,gsocket persistence marker present in all gsocket crontab/shell profile entries,high,wordpress-webshell-gsocket
+process_name,defunct,gsocket binary masquerade name (user-level install),medium,wordpress-webshell-gsocket
+process_name,gs-dbus,gsocket binary masquerade name,medium,wordpress-webshell-gsocket
+filepath,~/.config/htop/defunct,gsocket binary install path (user-level),medium,wordpress-webshell-gsocket
+filepath,/usr/bin/defunct,gsocket binary install path (root-level),medium,wordpress-webshell-gsocket

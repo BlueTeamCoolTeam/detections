@@ -1,0 +1,25 @@
+title: sindikat Webshell C2 Parameters in IIS Query String
+id: 5dc79ec5-03bf-4c08-a802-5ae29c955f67
+status: experimental
+description: Detects HTTP requests containing query string parameters unique to the sindikat/byp.php webshell family. The sindikat777 parameter accepts hex-encoded filesystem paths; c0m99nd is the command execution parameter.
+references:
+    - https://blueteam.cool/posts/wordpress-webshell-gsocket/
+author: Luke Wilkinson
+date: 2026/06/12
+tags:
+    - attack.persistence
+    - attack.t1505.003
+    - attack.defense_evasion
+    - attack.t1027
+logsource:
+    product: iis
+detection:
+    selection:
+        cs-uri-query|contains:
+            - 'act=c0m99nd'
+            - 'sindikat777='
+            - 'c0m99nd='
+    condition: selection
+falsepositives:
+    - None known -- these parameter names have no legitimate use in any known software
+level: critical

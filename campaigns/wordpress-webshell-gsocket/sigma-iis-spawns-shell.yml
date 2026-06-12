@@ -1,0 +1,30 @@
+title: IIS Worker Process Spawning Unexpected Shell or Transfer Tool
+id: dc8caf5c-2e0b-47a2-9e5b-5759c5467bab
+status: experimental
+description: Detects w3wp.exe (IIS worker process) spawning cmd.exe, bash.exe, wsl.exe, curl.exe, or wget.exe. This is not normal IIS behavior and is consistent with webshell command execution.
+references:
+    - https://blueteam.cool/posts/wordpress-webshell-gsocket/
+author: Luke Wilkinson
+date: 2026/06/12
+tags:
+    - attack.execution
+    - attack.t1059.004
+    - attack.persistence
+    - attack.t1505.003
+    - attack.t1105
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        ParentImage|endswith: '\w3wp.exe'
+        Image|endswith:
+            - '\cmd.exe'
+            - '\bash.exe'
+            - '\wsl.exe'
+            - '\curl.exe'
+            - '\wget.exe'
+    condition: selection
+falsepositives:
+    - Legitimate diagnostic scripts executed by an administrator via IIS -- review ParentCommandLine for context
+level: high
