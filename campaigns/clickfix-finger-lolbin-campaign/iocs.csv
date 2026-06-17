@@ -1,0 +1,65 @@
+type,value,notes,confidence,post_slug
+domain,leafdusts[.]com,Family 1 delivery domain; live at triage; Cogent IP 38[.]110[.]228[.]223,high,clickfix-finger-lolbin-campaign
+domain,healotod[.]com,Family 1 delivery domain; live at triage; Cogent IP 38[.]110[.]228[.]157,high,clickfix-finger-lolbin-campaign
+domain,griontera[.]com,Family 1 delivery domain; live at triage; Cogent IP 38[.]110[.]228[.]124,high,clickfix-finger-lolbin-campaign
+domain,swndoin[.]com,Family 1 delivery domain; live at triage; IP 23[.]27[.]180[.]166,high,clickfix-finger-lolbin-campaign
+domain,gioltan[.]com,Family 1 delivery domain; live at triage; IP 23[.]27[.]180[.]164,high,clickfix-finger-lolbin-campaign
+domain,violonq[.]com,Family 1 delivery domain; live at triage; IP 185[.]233[.]166[.]58,high,clickfix-finger-lolbin-campaign
+domain,quntont[.]com,Family 1 delivery domain; live at triage; IP 185[.]233[.]166[.]162,high,clickfix-finger-lolbin-campaign
+domain,artdeniart[.]com,Family 1 delivery domain; live at triage; IP 155[.]117[.]20[.]171,high,clickfix-finger-lolbin-campaign
+domain,glorrpotte[.]com,Family 1 delivery domain; NXDOMAIN at triage; confirmed campaign infra,high,clickfix-finger-lolbin-campaign
+domain,voliorer[.]com,Family 1 delivery domain; NXDOMAIN at triage; confirmed campaign infra,high,clickfix-finger-lolbin-campaign
+domain,loipolo[.]com,Family 1 delivery domain; NXDOMAIN at triage; confirmed campaign infra,high,clickfix-finger-lolbin-campaign
+domain,koilonda[.]com,Family 1 delivery domain; NXDOMAIN at triage; cluster by naming pattern only,medium,clickfix-finger-lolbin-campaign
+domain,swidont[.]com,Family 1 delivery domain; NXDOMAIN at triage; anagram of swndoin.com; naming cluster,medium,clickfix-finger-lolbin-campaign
+domain,youndor[.]com,Family 1 C2 domain; active at triage; IP 38[.]146[.]25[.]181 (Cogent),high,clickfix-finger-lolbin-campaign
+domain,noidoret[.]com,Family 1 C2 domain; active at triage; IP 50[.]114[.]167[.]195 (IPXO),high,clickfix-finger-lolbin-campaign
+domain,wegrefamou[.]com,Family 2 delivery domain; live at triage; IP 87[.]199[.]194[.]70 (VDSINA NL),high,clickfix-finger-lolbin-campaign
+domain,marblecologrgr[.]com,Family 2 delivery domain; prior intel only; shared auth key with wegrefamou.com,medium,clickfix-finger-lolbin-campaign
+domain,staruxasosiska[.]com,Family 2 C2 domain; active at triage; IP 95[.]133[.]228[.]65 (servinga.com DE),high,clickfix-finger-lolbin-campaign
+domain,starayadaet[.]com,Family 2 C2 domain; active at triage; same IP as staruxasosiska.com,high,clickfix-finger-lolbin-campaign
+domain,linkedngo[.]com,Family 3 staging; DO AS14061 NJ; Tor operator observed; no payload served,medium,clickfix-finger-lolbin-campaign
+domain,linked4x[.]com,Family 3 staging; DO AS14061 NJ; no payload served,medium,clickfix-finger-lolbin-campaign
+domain,linkedwiz[.]com,Family 3 staging; DO AS14061 NJ; active Tor operator at triage,medium,clickfix-finger-lolbin-campaign
+domain,linkedlet[.]com,Family 3 staging; DO AS14061 NJ; Tor operator idle 13 days,medium,clickfix-finger-lolbin-campaign
+domain,ilinkedx[.]com,Family 3 staging; DO AS14061 NJ; TCP/79 filtered,medium,clickfix-finger-lolbin-campaign
+domain,claudefos[.]com,Family 3 staging; DO AS14061 NJ; TCP/79 filtered,medium,clickfix-finger-lolbin-campaign
+ip,38[.]110[.]228[.]223,Family 1 delivery; leafdusts.com; Cogent /24 cluster,high,clickfix-finger-lolbin-campaign
+ip,38[.]110[.]228[.]157,Family 1 delivery; healotod.com; Cogent /24 cluster,high,clickfix-finger-lolbin-campaign
+ip,38[.]110[.]228[.]124,Family 1 delivery; griontera.com; Cogent /24 cluster,high,clickfix-finger-lolbin-campaign
+ip,23[.]27[.]180[.]166,Family 1 delivery; swndoin.com,high,clickfix-finger-lolbin-campaign
+ip,23[.]27[.]180[.]164,Family 1 delivery; gioltan.com,high,clickfix-finger-lolbin-campaign
+ip,185[.]233[.]166[.]58,Family 1 delivery; violonq.com,high,clickfix-finger-lolbin-campaign
+ip,185[.]233[.]166[.]162,Family 1 delivery; quntont.com,high,clickfix-finger-lolbin-campaign
+ip,155[.]117[.]20[.]171,Family 1 delivery; artdeniart.com; Hostinger US,high,clickfix-finger-lolbin-campaign
+ip,38[.]146[.]25[.]181,Family 1 C2; youndor.com; Cogent,high,clickfix-finger-lolbin-campaign
+ip,50[.]114[.]167[.]195,Family 1 C2; noidoret.com; IPXO,high,clickfix-finger-lolbin-campaign
+ip,87[.]199[.]194[.]70,Family 2 delivery; wegrefamou.com; VDSINA NL,high,clickfix-finger-lolbin-campaign
+ip,95[.]133[.]228[.]65,Family 2 C2; staruxasosiska.com and starayadaet.com; servinga.com DE,high,clickfix-finger-lolbin-campaign
+ip,103[.]216[.]220[.]9,Family 2 staging; BunnyCDN edge node serving build.zip; Host Universal AU,medium,clickfix-finger-lolbin-campaign
+ip,162[.]243[.]34[.]41,Family 3 staging; linkedngo.com; DO AS14061 NJ,medium,clickfix-finger-lolbin-campaign
+ip,64[.]225[.]52[.]81,Family 3 staging; linked4x.com; DO AS14061 NJ,medium,clickfix-finger-lolbin-campaign
+ip,162[.]243[.]213[.]197,Family 3 staging; linkedwiz.com; DO AS14061 NJ,medium,clickfix-finger-lolbin-campaign
+ip,162[.]243[.]16[.]117,Family 3 staging; linkedlet.com; DO AS14061 NJ,medium,clickfix-finger-lolbin-campaign
+ip,162[.]243[.]82[.]232,Family 3 staging; ilinkedx.com; DO AS14061 NJ,medium,clickfix-finger-lolbin-campaign
+ip,167[.]71[.]102[.]121,Family 3 staging; claudefos.com; DO AS14061 NJ,medium,clickfix-finger-lolbin-campaign
+url,hxxps://youndor[.]com/6d6d2d17-d270-59c6-8b75-df011af08e58/version7,Family 1 stage 2 Python payload URL,high,clickfix-finger-lolbin-campaign
+url,hxxps://noidoret[.]com/6d6d2d17-d270-59c6-8b75-df011af08e58/version2,Family 1 stage 2 Python payload URL,high,clickfix-finger-lolbin-campaign
+url,hxxps://youndor[.]com/6d6d2d17-d270-59c6-8b75-df011af08e58/callback7,Family 1 stage 4 encrypted payload; 297615 bytes,high,clickfix-finger-lolbin-campaign
+url,hxxps://noidoret[.]com/6d6d2d17-d270-59c6-8b75-df011af08e58/callback2,Family 1 stage 4 encrypted payload; 297103 bytes,high,clickfix-finger-lolbin-campaign
+url,hxxps://valval-cloud[.]b-cdn[.]net/build.zip,Family 2 RAT payload ZIP; 16 MB; BunnyCDN pull-zone 6019021,high,clickfix-finger-lolbin-campaign
+sha256,2e90bc34f65407ec989ed385e051b00a56831de57ef57f95bd2e93fccfca11a8,Family 1 stage 5 PE stub; identical across gioltan.com/violonq.com/swndoin.com,high,clickfix-finger-lolbin-campaign
+sha256,293589729fac519ab5c5eaf7250c980957c7c4c6acc6bc39bf24a0a98242d3bd,Family 1 stage 5 PE dropper (spiorist.com investigation),high,clickfix-finger-lolbin-campaign
+sha256,b1e2d43782d1e6f947eb93526b4fe4009d24d211730644f1f8a5a4e9a7597a5a,Family 2 build.zip (BunnyCDN payload),high,clickfix-finger-lolbin-campaign
+sha256,c9ab438796cf4c720fd9129ca3b0c3b55b96849770dd9e5d8a86f9ee6923b3fd,Family 2 install.pyc (wegrefamou.com),high,clickfix-finger-lolbin-campaign
+guid,6d6d2d17-d270-59c6-8b75-df011af08e58,Family 1 campaign GUID; present in every C2 URL path; near-zero FP cross-domain pivot,high,clickfix-finger-lolbin-campaign
+xor_key,70ce4f76a39b315cbc1ee201e9dc8d87cc21436ce3,Family 1 XOR key (21-byte); version7/youndor.com path,high,clickfix-finger-lolbin-campaign
+xor_key,a1c087fef519eaa493786a4661,Family 1 XOR key (13-byte); version2/noidoret.com path,high,clickfix-finger-lolbin-campaign
+mutex,MerlinMonroeBlond,Family 2 Python RAT mutex; near-zero expected FP,high,clickfix-finger-lolbin-campaign
+unc_path,\\.\pipe\PipingMet,Family 2 named pipe for in-memory shellcode delivery; near-zero FP,high,clickfix-finger-lolbin-campaign
+string,1n9YT@Kia!enROr=,Family 2 16-byte C2 XOR auth key; shared across confirmed builds,high,clickfix-finger-lolbin-campaign
+directory,%LocalAppData%\IronPython.3.4.2\,Family 1 constant drop directory across all samples,high,clickfix-finger-lolbin-campaign
+directory,C:\ProgramData\lspy\,Family 2 RAT install directory,high,clickfix-finger-lolbin-campaign
+filename,Python_*.lnk,Family 2 Startup folder persistence LNK pattern,high,clickfix-finger-lolbin-campaign
+string,Chrome/143.0.0.0,Family 1 shellcode hardcoded User-Agent; not a real Chrome release,high,clickfix-finger-lolbin-campaign
+string,C:\Bot\projects\LOADER\PS_PythonLOADER\,Family 2 operator dev path embedded in all .pyc files,medium,clickfix-finger-lolbin-campaign

@@ -1,0 +1,43 @@
+title: ClickFix Family 2 lspy Python RAT Artifacts
+id: 5d1f8a73-e2c4-4b9a-8d3e-7f2c1a5b9e4d
+status: experimental
+description: |
+    Detects artifacts of the Family 2 "lspy" Python RAT: mutex MerlinMonroeBlond,
+    named pipe \\.\pipe\PipingMet, startup LNK creation, and directory creation
+    of C:\ProgramData\lspy\. The RAT is delivered via a PowerShell dropper from
+    the finger.exe ClickFix chain, installs a portable Python 3.10 runtime, and
+    beacons via WebSocket/TLS to staruxasosiska[.]com. Persistence via Startup LNK.
+    All analysis was static. Validate rule coverage in your environment.
+references:
+    - https://blueteam.cool/posts/clickfix-finger-lolbin-campaign/
+    - https://attack.mitre.org/techniques/T1059/006/
+    - https://attack.mitre.org/techniques/T1547/001/
+author: Luke Wilkinson
+date: 2026-06-17
+tags:
+    - attack.execution
+    - attack.t1059.006
+    - attack.persistence
+    - attack.t1547.001
+    - attack.command_and_control
+    - attack.t1071.001
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection_mutex:
+        CommandLine|contains: 'MerlinMonroeBlond'
+    selection_pipe:
+        CommandLine|contains: 'PipingMet'
+    selection_startup_lnk:
+        TargetFilename|startswith: '%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\Python_'
+        TargetFilename|endswith: '.lnk'
+    selection_lspy_dir:
+        TargetFilename|startswith: 'C:\ProgramData\lspy\'
+    condition: 1 of selection_*
+falsepositives:
+    - MerlinMonroeBlond mutex: no known false positive sources
+    - PipingMet pipe: no known false positive sources
+    - Python_*.lnk in Startup: extremely rare for legitimate software
+    - C:\ProgramData\lspy\: no known legitimate software uses this path
+level: critical
