@@ -4,7 +4,7 @@ Blog post: https://blueteam.cool/posts/clickfix-finger-lolbin-campaign/
 
 ## Summary
 
-A month of endpoint telemetry (June 2026) surfaced 25 suspicious `finger.exe` commands shaped like ClickFix lures. Triaging all 25 revealed three distinct malware families sharing the same TCP/79 delivery vector.
+Roughly twelve hours of endpoint telemetry (June 2026) surfaced 25 suspicious `finger.exe` commands shaped like ClickFix lures. Triaging all 25 revealed three distinct malware families sharing the same TCP/79 delivery vector.
 
 **Family 1 (IronPython / MSI dropper):** The finger response is a 115-line batch script that uses `curl.exe` (renamed to a .com file), downloads IronPython 3.4.2 from GitHub disguised as a .pdf (extracted by `tar.exe`), renames `ipyw32.exe` to a random filename, and runs inline Python. The Python stager fetches Cyrillic-obfuscated Python from a GUID-keyed C2 URL. The Cyrillic substitution obscures a base64 blob that decodes to an XOR decrypt function; 8,912 bytes of x86 shellcode execute via `HeapCreate(HEAP_CREATE_ENABLE_EXECUTE)` + `RtlMoveMemory` + `CFUNCTYPE` inside the IronPython process. The shellcode downloads a ~297 KB encrypted blob; static analysis ends here.
 
