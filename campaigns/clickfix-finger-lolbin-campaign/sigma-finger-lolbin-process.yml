@@ -1,0 +1,55 @@
+title: ClickFix ClickFix Finger LOLBIN Process Chain
+id: 3a4e8f12-9c1d-4b7e-a2f5-6d8e0c3b1a9f
+status: experimental
+description: |
+    Detects the ClickFix finger.exe LOLBin delivery chain used across three malware
+    families in the June 2026 campaign. Covers finger.exe execution with @ in arguments,
+    the IronPython batch loader sequence (tar.exe extracting .pdf files, taskkill on
+    explorer, ipyw32.exe renamed to random exe), and the Family 2 PowerShell/pythonw.exe
+    dropper chain. All analysis was static -- validate FP rate in your environment.
+references:
+    - https://blueteam.cool/posts/clickfix-finger-lolbin-campaign/
+    - https://attack.mitre.org/techniques/T1218/
+author: Luke Wilkinson
+date: 2026-06-17
+tags:
+    - attack.execution
+    - attack.t1218
+    - attack.t1059.003
+    - attack.t1036
+    - attack.defense_evasion
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection_finger:
+        Image|endswith: '\finger.exe'
+        CommandLine|contains: '@'
+    selection_ironpython_tar:
+        Image|endswith: '\tar.exe'
+        CommandLine|contains:
+            - '.pdf'
+            - 'IronPython'
+    selection_explorer_kill:
+        Image|endswith: '\taskkill.exe'
+        CommandLine|contains: 'IMAGENAME eq explor'
+    selection_ipyw32:
+        Image|endswith: '\ipyw32.exe'
+    selection_family2_ps_drop:
+        Image|endswith: '\powershell.exe'
+        CommandLine|contains:
+            - 'lspy'
+            - 'install.pyc'
+            - 'valval-cloud'
+            - 'wegrefamou'
+    selection_pythonw_pgmdata:
+        Image|endswith: '\pythonw.exe'
+        Image|contains: '\ProgramData\'
+    condition: 1 of selection_*
+falsepositives:
+    - finger.exe with @ argument is extremely rare in enterprise environments; investigate any hit
+    - tar.exe extracting .pdf files has no known legitimate use case
+    - taskkill on explorer.exe pattern is highly unusual
+    - ipyw32.exe should never appear outside controlled IronPython deployments
+    - pythonw.exe running from C:\ProgramData\ is highly anomalous
+level: high

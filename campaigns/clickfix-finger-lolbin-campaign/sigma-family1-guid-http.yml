@@ -1,0 +1,29 @@
+title: ClickFix Family 1 Campaign GUID in HTTP Traffic
+id: 7b2c9e45-f3a1-4d8c-b6e2-1f5a7c9d3e8b
+status: experimental
+description: |
+    Detects the Family 1 campaign GUID (6d6d2d17-d270-59c6-8b75-df011af08e58) in
+    HTTP/HTTPS proxy logs. This GUID appears verbatim in the URL path of every
+    stage 2 Python payload request and stage 4 encrypted payload download across
+    all eight live delivery domains and both C2 endpoints. A hit means a victim
+    reached stage 2 and the ~297 KB encrypted payload was likely downloaded.
+    Expected false positive rate in any production environment: near-zero.
+references:
+    - https://blueteam.cool/posts/clickfix-finger-lolbin-campaign/
+    - https://attack.mitre.org/techniques/T1071/001/
+author: Luke Wilkinson
+date: 2026-06-17
+tags:
+    - attack.command_and_control
+    - attack.t1071.001
+    - attack.t1105
+logsource:
+    category: proxy
+    product: windows
+detection:
+    selection:
+        c-uri|contains: '6d6d2d17-d270-59c6-8b75-df011af08e58'
+    condition: selection
+falsepositives:
+    - None expected
+level: critical
