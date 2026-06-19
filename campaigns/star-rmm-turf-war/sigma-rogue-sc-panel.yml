@@ -1,0 +1,33 @@
+title: STAR Campaign -- Rogue ScreenConnect Panel Instance ID (Registry)
+id: c9d35e4b-2f6a-4c7d-ae3b-8f1042567923
+status: experimental
+description: >
+  Detects creation of a ScreenConnect client service whose instance ID matches
+  known STAR campaign operator-owned relay panels. These six instance IDs map to
+  the actor's six SC relay domains. Any host receiving a SC service registration
+  matching these IDs is compromised by the STAR campaign.
+references:
+    - https://blueteam.cool/posts/star-rmm-turf-war/
+author: Luke Wilkinson
+date: 2026-06-19
+logsource:
+    category: registry_event
+    product: windows
+detection:
+    sel:
+        TargetObject|contains: 'SYSTEM\CurrentControlSet\Services\ScreenConnect Client ('
+        TargetObject|contains:
+            - '8df439ea69ba1ba8'   # digitalaccessmanagement[.]com (digitalacces_Star)
+            - 'bafd0ea8d422c32c'   # office1001[.]com (office101_VIP)
+            - 'e64730829b489fd7'   # office1002[.]com (office102_VIP)
+            - '534179a8e5dac2c9'   # office1003[.]com (office103_VIP)
+            - '7fc846f428209093'   # office1004[.]com (office104_VIP)
+            - 'd9a10039878302f6'   # dentalfaxgate[.]vip (dentalfaxgateSTAR)
+    condition: sel
+falsepositives:
+    - None -- these are attacker-controlled instance IDs with no legitimate use
+level: critical
+tags:
+    - attack.initial_access
+    - attack.persistence
+    - attack.t1219

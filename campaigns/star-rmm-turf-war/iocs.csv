@@ -1,0 +1,57 @@
+type,value,notes,confidence,post_slug
+domain,digitalaccessmanagement[.]com,STAR SC relay; CF DAMIETE+LIA; IP 216.126.227[.]29; Cloudzy,high,star-rmm-turf-war
+domain,office1001[.]com,STAR SC relay; CF LOUIS+HALEY; IP 172.86.127[.]33; Cloudzy,high,star-rmm-turf-war
+domain,office1002[.]com,STAR SC relay; CF NANCY+KELLEN; IP 45.61.148[.]2; Cloudzy,high,star-rmm-turf-war
+domain,office1003[.]com,STAR SC relay; CF NANCY+KELLEN; IP 193.143.1[.]106; Proton66 RU,high,star-rmm-turf-war
+domain,office1004[.]com,STAR SC relay; CF NANCY+KELLEN; IP 37.77.150[.]69; Proton66 RU,high,star-rmm-turf-war
+domain,dentalfaxgate[.]vip,STAR SC relay; CF NANCY+KELLEN; IP 91.215.85[.]231; Prospero RU,high,star-rmm-turf-war
+ip,216.126.227[.]29,Cloudzy; digitalaccessmanagement[.]com SC relay,high,star-rmm-turf-war
+ip,172.86.127[.]33,Cloudzy; office1001[.]com SC relay,high,star-rmm-turf-war
+ip,45.61.148[.]2,Cloudzy; office1002[.]com SC relay,high,star-rmm-turf-war
+ip,193.143.1[.]106,Proton66 RU; office1003[.]com SC relay,high,star-rmm-turf-war
+ip,37.77.150[.]69,Proton66 RU; office1004[.]com SC relay,high,star-rmm-turf-war
+ip,91.215.85[.]231,Prospero RU; dentalfaxgate[.]vip SC relay,high,star-rmm-turf-war
+ip,51.89.204[.]91,Competitor C2 blocked by Star_v3.ps1,medium,star-rmm-turf-war
+ip,216.244.73[.]27,Competitor C2 blocked by Star_v3.ps1,medium,star-rmm-turf-war
+domain,simcomp.rockfordcomputers[.]net,Competitor SC relay sinkholed by Star_v3.ps1,medium,star-rmm-turf-war
+domain,screlay.amtechcomputers[.]com,Competitor SC relay sinkholed by Star_v3.ps1,medium,star-rmm-turf-war
+domain,af12411agga.anondns[.]net,Competing malware C2 blocked by Star_v3.ps1,medium,star-rmm-turf-war
+domain,zinoitalia[.]io,Competing malware C2 blocked by Star_v3.ps1,medium,star-rmm-turf-war
+domain,sc.harbortechgrp[.]com,Competitor SC relay sinkholed by Star_v3.ps1,medium,star-rmm-turf-war
+url,hxxps://t[.]me/+Q_lHOJF9QQQ1Njk5,Checker Channel Telegram invite link,high,star-rmm-turf-war
+url,hxxps://t[.]me/+VLotyIv-UZJlYTky,APPLY group Telegram invite link,high,star-rmm-turf-war
+telegram_bot_token,8561959266:AAEI32HfP40cKQwtAtSyS6o9Srcjd7W7B9A,@Check12899_bot - QBO data channel,high,star-rmm-turf-war
+telegram_bot_token,8638944609:AAECv0FW5fCFPxp4cNz-Mp856SyocgfEgdA,@AndrewTateSigma_bot - wallet data,high,star-rmm-turf-war
+telegram_bot_token,8662428383:AAE7q7noOfH_12SZJPCQNB1A98DqnyAn344,@botbybost_bot - browser history,high,star-rmm-turf-war
+telegram_chat_id,-1003277400990,Checker Channel (5 members),high,star-rmm-turf-war
+telegram_chat_id,-5212689198,APPLY group (4 members),high,star-rmm-turf-war
+telegram_user_id,7423684294,@sadfewego "Star" - wallet DM recipient and APPLY creator,high,star-rmm-turf-war
+telegram_user_id,8238936394,@head_exp - wallet DM co-recipient,high,star-rmm-turf-war
+telegram_user_id,4124665,@LetssRoll - senior operator with promote rights,high,star-rmm-turf-war
+telegram_user_id,6636177227,@LysayaGnida7 - Checker Channel creator (Russian-confirmed),high,star-rmm-turf-war
+telegram_user_id,8388183361,@sunchez1337 - Checker Channel admin,high,star-rmm-turf-war
+sc_instance_id,8df439ea69ba1ba8,STAR relay: digitalaccessmanagement[.]com (digitalacces_Star),high,star-rmm-turf-war
+sc_instance_id,bafd0ea8d422c32c,STAR relay: office1001[.]com (office101_VIP),high,star-rmm-turf-war
+sc_instance_id,e64730829b489fd7,STAR relay: office1002[.]com (office102_VIP),high,star-rmm-turf-war
+sc_instance_id,534179a8e5dac2c9,STAR relay: office1003[.]com (office103_VIP),high,star-rmm-turf-war
+sc_instance_id,7fc846f428209093,STAR relay: office1004[.]com (office104_VIP),high,star-rmm-turf-war
+sc_instance_id,d9a10039878302f6,STAR relay: dentalfaxgate[.]vip (dentalfaxgateSTAR),high,star-rmm-turf-war
+sc_instance_id,6eefc2f3701d32fa,Competitor panel "911" - eviction target,medium,star-rmm-turf-war
+sc_instance_id,c68313e13a2203e9,Competitor panel "VieverSSA" - eviction target,medium,star-rmm-turf-war
+sc_instance_id,71c2dbb206035659,Competitor panel "office420" - eviction target,medium,star-rmm-turf-war
+sc_instance_id,b81c2f348b5b9068,Competitor panel "Three/treeoskreen" - eviction target,medium,star-rmm-turf-war
+sc_instance_id,93e544c1d065d4fc,Competitor panel "DwsaSSA" - eviction target,medium,star-rmm-turf-war
+sc_instance_id,9345cd62a005b9da,Competitor panel "NFI" - eviction target,medium,star-rmm-turf-war
+sc_instance_id,3a22911e88aa8179,Competitor panel "officecalm111_NEW" - eviction target,medium,star-rmm-turf-war
+sc_instance_id,b5609601d6c66f16,Competitor panel "Copycat" - eviction target,medium,star-rmm-turf-war
+sc_instance_id,a6e76b5d58ae57e1,Secondary STAR relay "Star_mgnaskp" - in eviction list,medium,star-rmm-turf-war
+filename,tg_send_df3be96dc6cb448f849f2aaff0fad922.ps1,Captured one-shot Telegram sender script,high,star-rmm-turf-war
+filename,tg_send_4e42ab4b830b4799ab2613a4c43e56db.ps1,Captured one-shot Telegram sender script,high,star-rmm-turf-war
+filename,tg_send_f08e39b5871041939f79d9d8389a4ea7.ps1,Captured one-shot Telegram sender script,high,star-rmm-turf-war
+filename,starQBOv35.ps1,QBO browser history scanner,high,star-rmm-turf-war
+filename,findwal_system.ps1,SYSTEM-level crypto wallet scanner,high,star-rmm-turf-war
+filename,Star_v3.ps1,Competitor eviction and trace-wipe script (version 3),high,star-rmm-turf-war
+filename,qbo2026.ps1,QBO harvester - name from Telegram channel pinned message,high,star-rmm-turf-war
+unc_path,C:\H\telegram_bg.log,Exfiltration execution log (persists after payload self-deletion),high,star-rmm-turf-war
+unc_path,C:\H\,Actor staging directory - short path avoids length-based heuristics,high,star-rmm-turf-war
+unc_path,C:\Windows\SystemTemp\ScreenConnect\25.3.4.9288\,SC version-specific script delivery path,high,star-rmm-turf-war

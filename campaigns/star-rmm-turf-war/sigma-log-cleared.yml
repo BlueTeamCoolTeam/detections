@@ -1,0 +1,26 @@
+title: STAR Campaign -- Event Log Cleared Following Script Execution
+id: b7e24f3a-1c5d-4a8b-9e2f-7d6c30142856
+status: experimental
+description: >
+  Star_v3.ps1 clears six event logs via wevtutil after competitor eviction:
+  Windows PowerShell, Microsoft-Windows-PowerShell/Operational,
+  Microsoft-Windows-TaskScheduler/Operational, Microsoft-Windows-WMI-Activity/Operational,
+  Application, System. Event ID 1102 (security log cleared) on any production
+  host warrants immediate investigation.
+references:
+    - https://blueteam.cool/posts/star-rmm-turf-war/
+author: Luke Wilkinson
+date: 2026-06-19
+logsource:
+    service: security
+    product: windows
+detection:
+    sel:
+        EventID: 1102
+    condition: sel
+falsepositives:
+    - Legitimate IT maintenance -- document and exclude if expected; should be rare
+level: high
+tags:
+    - attack.defense_evasion
+    - attack.t1070.001
