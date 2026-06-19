@@ -1,0 +1,40 @@
+title: STAR Campaign -- Telegram Exfiltration via Hash-Named Scheduled Task
+id: a3f8c21d-7b4e-4d9f-bc6a-1e5f28304917
+status: experimental
+description: >
+  Detects STAR campaign pattern: hash-named or UID-named scheduled task
+  launching hidden PowerShell to api.telegram.org, consistent with
+  self-deleting QBO/wallet stealer scripts staging from C:\H\ or SC temp path.
+references:
+    - https://blueteam.cool/posts/star-rmm-turf-war/
+author: Luke Wilkinson
+date: 2026-06-19
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    sel_task_name:
+        CommandLine|contains:
+            - 'TG_Send_'
+            - 'BHS_'
+    sel_telegram:
+        CommandLine|contains: 'api.telegram.org'
+    sel_staging_path:
+        CommandLine|contains:
+            - 'C:\H\'
+            - 'SystemTemp\ScreenConnect'
+    sel_bypass:
+        CommandLine|contains|all:
+            - 'ExecutionPolicy Bypass'
+            - 'WindowStyle Hidden'
+    condition: sel_task_name or sel_telegram or (sel_bypass and sel_staging_path)
+falsepositives:
+    - None expected for TG_Send_/BHS_ task names; review every match
+    - ExecutionPolicy Bypass + WindowStyle Hidden from SystemTemp is low FP in practice
+level: high
+tags:
+    - attack.exfiltration
+    - attack.t1041
+    - attack.t1053.005
+    - attack.t1059.001
+    - attack.t1219
