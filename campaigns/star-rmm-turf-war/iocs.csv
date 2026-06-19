@@ -25,7 +25,7 @@ telegram_bot_token,8638944609:AAECv0FW5fCFPxp4cNz-Mp856SyocgfEgdA,@AndrewTateSig
 telegram_bot_token,8662428383:AAE7q7noOfH_12SZJPCQNB1A98DqnyAn344,@botbybost_bot - browser history,high,star-rmm-turf-war
 telegram_chat_id,-1003277400990,Checker Channel (5 members),high,star-rmm-turf-war
 telegram_chat_id,-5212689198,APPLY group (4 members),high,star-rmm-turf-war
-telegram_user_id,7423684294,@sadfewego "Star" - wallet DM recipient and APPLY creator,high,star-rmm-turf-war
+telegram_user_id,7423684294,"@sadfewego ""Star"" - wallet DM recipient and APPLY creator",high,star-rmm-turf-war
 telegram_user_id,8238936394,@head_exp - wallet DM co-recipient,high,star-rmm-turf-war
 telegram_user_id,4124665,@LetssRoll - senior operator with promote rights,high,star-rmm-turf-war
 telegram_user_id,6636177227,@LysayaGnida7 - Checker Channel creator (Russian-confirmed),high,star-rmm-turf-war
@@ -36,15 +36,15 @@ sc_instance_id,e64730829b489fd7,STAR relay: office1002[.]com (office102_VIP),hig
 sc_instance_id,534179a8e5dac2c9,STAR relay: office1003[.]com (office103_VIP),high,star-rmm-turf-war
 sc_instance_id,7fc846f428209093,STAR relay: office1004[.]com (office104_VIP),high,star-rmm-turf-war
 sc_instance_id,d9a10039878302f6,STAR relay: dentalfaxgate[.]vip (dentalfaxgateSTAR),high,star-rmm-turf-war
-sc_instance_id,6eefc2f3701d32fa,Competitor panel "911" - eviction target,medium,star-rmm-turf-war
-sc_instance_id,c68313e13a2203e9,Competitor panel "VieverSSA" - eviction target,medium,star-rmm-turf-war
-sc_instance_id,71c2dbb206035659,Competitor panel "office420" - eviction target,medium,star-rmm-turf-war
-sc_instance_id,b81c2f348b5b9068,Competitor panel "Three/treeoskreen" - eviction target,medium,star-rmm-turf-war
-sc_instance_id,93e544c1d065d4fc,Competitor panel "DwsaSSA" - eviction target,medium,star-rmm-turf-war
-sc_instance_id,9345cd62a005b9da,Competitor panel "NFI" - eviction target,medium,star-rmm-turf-war
-sc_instance_id,3a22911e88aa8179,Competitor panel "officecalm111_NEW" - eviction target,medium,star-rmm-turf-war
-sc_instance_id,b5609601d6c66f16,Competitor panel "Copycat" - eviction target,medium,star-rmm-turf-war
-sc_instance_id,a6e76b5d58ae57e1,Secondary STAR relay "Star_mgnaskp" - in eviction list,medium,star-rmm-turf-war
+sc_instance_id,6eefc2f3701d32fa,Competitor panel 911 - eviction target,medium,star-rmm-turf-war
+sc_instance_id,c68313e13a2203e9,Competitor panel VieverSSA - eviction target,medium,star-rmm-turf-war
+sc_instance_id,71c2dbb206035659,Competitor panel office420 - eviction target,medium,star-rmm-turf-war
+sc_instance_id,b81c2f348b5b9068,Competitor panel Three/treeoskreen - eviction target,medium,star-rmm-turf-war
+sc_instance_id,93e544c1d065d4fc,Competitor panel DwsaSSA - eviction target,medium,star-rmm-turf-war
+sc_instance_id,9345cd62a005b9da,Competitor panel NFI - eviction target,medium,star-rmm-turf-war
+sc_instance_id,3a22911e88aa8179,Competitor panel officecalm111_NEW - eviction target,medium,star-rmm-turf-war
+sc_instance_id,b5609601d6c66f16,Competitor panel Copycat - eviction target,medium,star-rmm-turf-war
+sc_instance_id,a6e76b5d58ae57e1,Secondary STAR relay Star_mgnaskp - in eviction list,medium,star-rmm-turf-war
 filename,tg_send_df3be96dc6cb448f849f2aaff0fad922.ps1,Captured one-shot Telegram sender script,high,star-rmm-turf-war
 filename,tg_send_4e42ab4b830b4799ab2613a4c43e56db.ps1,Captured one-shot Telegram sender script,high,star-rmm-turf-war
 filename,tg_send_f08e39b5871041939f79d9d8389a4ea7.ps1,Captured one-shot Telegram sender script,high,star-rmm-turf-war
