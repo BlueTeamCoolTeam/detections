@@ -17,7 +17,7 @@ url,hxxps://code.verification-claude-cdn[.]beer/<16-hex>,Stage 1 endpoint patter
 url,hxxps://code.verification-claude-cdn[.]beer/<16-hex>?_=1,Stage 2 endpoint pattern,high,puppetking-stealc
 url,hxxps://code.verification-claude-cdn[.]beer/<16-hex>?ack=1,Victim acknowledgment callback pattern,high,puppetking-stealc
 sha256,a718feaaaa975fc1b9aa069be3cd7ddfff84a7b9ff0e2dd58b0cd94929a43398,Decrypted StealC v2 stage 4 native PE (784385 bytes),high,puppetking-stealc
-filename,PuppetKing.exe,Game decoy binary - French strategy game "Le Roi Fantoche",high,puppetking-stealc
+filename,PuppetKing.exe,Game decoy binary - French strategy game 'Le Roi Fantoche',high,puppetking-stealc
 unc_path,%TEMP%\<random-guid>,7-Zip CLI and payload ZIP staging directory (PuppetKing pattern),medium,puppetking-stealc
 registry,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,Loader persistence - random value name,high,puppetking-stealc
 blockchain_contract,0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2,Polygon C2 resolver contract - selector 0xb68d1809 returns current active domain,high,puppetking-stealc
