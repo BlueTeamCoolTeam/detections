@@ -1,0 +1,34 @@
+title: PuppetKing StealC Loader - LOLBin Process Hollowing
+id: b7c3f1d2-4e8a-4b2e-a9f3-1e6d7b9c2345
+status: experimental
+description: Detects MSBuild.exe, RegSvcs.exe, or vbc.exe executing with network egress and no project file argument, consistent with PuppetKing's process-hollowing delivery of StealC v2. These .NET build utilities are rarely legitimate on non-developer workstations.
+references:
+    - https://blueteam.cool/posts/puppetking-stealc/
+author: Luke Wilkinson
+date: 2026-06-25
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith:
+            - '\msbuild.exe'
+            - '\regsvcs.exe'
+            - '\vbc.exe'
+    filter_legitimate_msbuild:
+        CommandLine|contains:
+            - '.csproj'
+            - '.vbproj'
+            - '.proj'
+            - '.targets'
+            - '.sln'
+    condition: selection and not filter_legitimate_msbuild
+falsepositives:
+    - Developer workstations running legitimate builds without explicit project file path in command line
+    - CI/CD agents on build servers
+    - Tune by excluding known build server hostnames or user accounts
+level: medium
+tags:
+    - attack.defense_evasion
+    - attack.t1055.012
+    - attack.t1127.001
