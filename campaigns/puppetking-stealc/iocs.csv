@@ -1,0 +1,37 @@
+type,value,notes,confidence,post_slug
+ip,178.16.52[.]101,Loader/ClickFix C2 - AS202412 Omegatech LTD Frankfurt DE - same IP as original PuppetKing campaign,high,puppetking-stealc
+ip,151.243.18[.]28,StealC v2 C2 - AS207043 DEDIK SERVICES LIMITED - ThreatFox IOC 1829974,high,puppetking-stealc
+domain,code.verification-claude-cdn[.]beer,ClickFix/loader C2 (blockchain-rotated) - registered ~2026-06-23,high,puppetking-stealc
+domain,anlytic-js-cloud[.]beer,Probable JS injection CDN - same server as loader C2 - wildcard cert issued 2026-05-21,medium,puppetking-stealc
+subdomain,www.anlytic-js-cloud[.]beer,aaPanel default page exposed - server management interface,medium,puppetking-stealc
+domain,xdavnode[.]pro,Related farm infrastructure - Maltrail ClickFix/ClearFake,medium,puppetking-stealc
+domain,testapi34726[.]sbs,Related farm infrastructure,medium,puppetking-stealc
+domain,ai-nexora[.]sbs,Related farm infrastructure,medium,puppetking-stealc
+domain,cdn-verification-cloud[.]boats,Related farm infrastructure,medium,puppetking-stealc
+domain,verification-js-cdn[.]boats,Related farm infrastructure,medium,puppetking-stealc
+domain,nexus-server[.]click,Related farm infrastructure,medium,puppetking-stealc
+domain,code-verification-js[.]beer,Prior PuppetKing C2 (June 17-23 2026) - same contract now rotated,high,puppetking-stealc
+url,hxxp://151.243.18[.]28/4940cc4b5ddb4a2bb8f8.php,StealC v2 primary C2 endpoint - HTTP JSON POST,high,puppetking-stealc
+url,hxxp://151.243.18[.]28/passive,StealC v2 secondary C2 endpoint,medium,puppetking-stealc
+url,hxxps://code.verification-claude-cdn[.]beer/<16-hex>,Stage 1 endpoint pattern - victim-token gated,high,puppetking-stealc
+url,hxxps://code.verification-claude-cdn[.]beer/<16-hex>?_=1,Stage 2 endpoint pattern,high,puppetking-stealc
+url,hxxps://code.verification-claude-cdn[.]beer/<16-hex>?ack=1,Victim acknowledgment callback pattern,high,puppetking-stealc
+sha256,a718feaaaa975fc1b9aa069be3cd7ddfff84a7b9ff0e2dd58b0cd94929a43398,Decrypted StealC v2 stage 4 native PE (784385 bytes),high,puppetking-stealc
+filename,PuppetKing.exe,Game decoy binary - French strategy game "Le Roi Fantoche",high,puppetking-stealc
+unc_path,%TEMP%\<random-guid>,7-Zip CLI and payload ZIP staging directory (PuppetKing pattern),medium,puppetking-stealc
+registry,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,Loader persistence - random value name,high,puppetking-stealc
+blockchain_contract,0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2,Polygon C2 resolver contract - selector 0xb68d1809 returns current active domain,high,puppetking-stealc
+wallet,0xcaf2c54e400437da717cf215181b170f65187abf,Polygon deployer wallet - same as original PuppetKing campaign,high,puppetking-stealc
+build_id,500d26e43f8f42d8a17f,StealC botnet/build identifier,high,puppetking-stealc
+rc4_key,SdrHT8fDmGQz9AKgYb,StealC v2 RC4 string decryption key - cross-sample pivot,high,puppetking-stealc
+cipher_key,kscUQgiEmD,Stage 4 custom byte stream cipher key,high,puppetking-stealc
+export,MSBuild.exe,Process-hollowing host - .NET build utility,high,puppetking-stealc
+export,RegSvcs.exe,Process-hollowing host - .NET component services,high,puppetking-stealc
+export,vbc.exe,Process-hollowing host - VB compiler,high,puppetking-stealc
+lure_site,nashimkorot.org.il/giris,Compromised Israeli parenting blog - ClickFix lure at /giris path,medium,puppetking-stealc
+lure_site,bashirdesign.com/giris,Compromised WooCommerce site,medium,puppetking-stealc
+lure_site,oceansidepost.com/giris,Compromised news site,medium,puppetking-stealc
+lure_site,kozijnenmaster.nl/giris,Compromised Dutch site,medium,puppetking-stealc
+lure_site,emergsol.com/giris,Compromised site,medium,puppetking-stealc
+lure_site,mascotfreights.com/giris,Compromised freight site,medium,puppetking-stealc
+lure_site,novaflexcomponents.com/giris,Compromised industrial site,medium,puppetking-stealc

@@ -1,0 +1,31 @@
+title: PuppetKing ClickFix PowerShell Stager
+id: a4f2e8b1-9c3d-4a1f-b7e2-0d5c6a8f1234
+status: experimental
+description: Detects PuppetKing ClickFix paste-and-run PowerShell execution pattern (iex+irm+UseBasicParsing). Associated with the PuppetKing campaign delivering StealC v2 infostealer via blockchain-resolved C2.
+references:
+    - https://blueteam.cool/posts/puppetking-stealc/
+    - https://threatfox.abuse.ch/ioc/1829974/
+author: Luke Wilkinson
+date: 2026-06-24
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\powershell.exe'
+        CommandLine|contains|all:
+            - 'iex'
+            - 'irm'
+            - 'UseBasicParsing'
+    filter_legitimate:
+        CommandLine|contains: 'microsoft.com'
+    condition: selection and not filter_legitimate
+falsepositives:
+    - Rare legitimate PowerShell automation using irm+iex pattern (e.g. winget install scripts)
+    - Tune by adding additional domain allowlist entries to filter_legitimate
+level: high
+tags:
+    - attack.initial_access
+    - attack.t1204.004
+    - attack.execution
+    - attack.t1059.001
