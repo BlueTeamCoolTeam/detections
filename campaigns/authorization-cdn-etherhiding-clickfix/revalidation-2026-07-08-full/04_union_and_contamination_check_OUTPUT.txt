@@ -1,0 +1,30 @@
+EVIDENCE CAPTURE
+Script: 04_union_and_contamination_check.py
+Command: python 04_union_and_contamination_check.py
+Purpose: consolidates the 3 fresh verification passes into final per-operator confirmed counts (union, attributed by each hit's own decoded contract address), and explicitly checks that no C2 domain was ever misclassified as a confirmed victim.
+Captured (UTC): 2026-07-08T21:18:22Z
+======================================================================
+
+Per-pass CONFIRMED counts: pass1=151  pass2=152  pass3=153
+
+--- C2-domain contamination check ---
+  pass1: clean, no C2 domain in CONFIRMED bucket
+  pass2: clean, no C2 domain in CONFIRMED bucket
+  pass3: clean, no C2 domain in CONFIRMED bucket
+Contamination found: False
+
+3-pass UNION total (all operators combined): 153
+
+--- final per-operator confirmed counts (3-pass union) ---
+  op1: 123
+  op2: 27
+  op3: 3
+  unknown: 0
+wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\op1_confirmed_final.txt (123 hosts)
+wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\op2_confirmed_final.txt (27 hosts)
+wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\op3_confirmed_final.txt (3 hosts)
+
+TOTAL CONFIRMED (op1+op2+op3, 3-pass union): 153
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:18:22Z

@@ -1,0 +1,32 @@
+EVIDENCE CAPTURE
+Script: 03_live_verification_checker.py -- PASS 2 of 3
+Command: python 03_live_verification_checker.py notes/revalidation_2026-07-08_2107_full/combined_candidates_final.txt notes/revalidation_2026-07-08_2107_full/pass2_
+Purpose: second independent live pass against the same 984-site pool, to catch intermittent/gated injection serving (referrer/geo/UA/cookie-based). Full per-site results written to pass2_verification_results.txt.
+Captured (UTC): 2026-07-08T21:14:52Z
+======================================================================
+
+Checking 984 sites, 40 workers, single pass...
+  ...100/984 checked (6s elapsed)
+  ...200/984 checked (12s elapsed)
+  ...300/984 checked (19s elapsed)
+  ...400/984 checked (25s elapsed)
+  ...500/984 checked (31s elapsed)
+  ...600/984 checked (37s elapsed)
+  ...700/984 checked (42s elapsed)
+  ...800/984 checked (48s elapsed)
+  ...900/984 checked (54s elapsed)
+
+============================================================
+Scanned 984 in 78s
+============================================================
+CONFIRMED: 152
+WRAPPER_NO_MATCH: 2
+CLEAN: 689
+UNREACHABLE: 141
+
+Contracts seen among CONFIRMED: {'0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2': 122, '0x83833C5D676cA06E941A32310AE67D0890F657eE': 27, '0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55': 3}
+
+Wrote notes/revalidation_2026-07-08_2107_full/pass2_verification_results.txt and notes/revalidation_2026-07-08_2107_full/pass2_confirmed.txt
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:16:11Z

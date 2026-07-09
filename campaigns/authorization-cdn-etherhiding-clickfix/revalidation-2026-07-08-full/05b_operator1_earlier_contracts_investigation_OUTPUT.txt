@@ -1,0 +1,44 @@
+EVIDENCE CAPTURE
+Script: 05b_operator1_earlier_contracts_investigation.py
+Command: python 05b_operator1_earlier_contracts_investigation.py
+Purpose: investigate 2 previously-unknown contracts operator 1's wallet called updateDomain on (2026-05-24), predating the assumed 2026-06-05 start date. Determines whether these are earlier EtherHiding deployments or unrelated contract interactions.
+Captured (UTC): 2026-07-08T21:20:18Z
+======================================================================
+
+
+============================================================================
+may24_contract_A: 0x76fA199B724Bb511BA326BB0400ED89227B39AEF
+============================================================================
+eth_getCode length: 4864  is_contract: True
+bytecode (first 300 chars): 0x608060405234801561000f575f5ffd5b506004361061004a575f3560e01c8063b249cd2d1461004e578063b68d18091461006a578063e096a09114610088578063f851a440146100a6575b5f5ffd5b610068600480360381019061006391906104b8565b6100c4565b005b61007261022b565b60405161007f919061055f565b60405180910390f35b6100906102bb565b60405161
+
+Raw 'domain' value from updateDomain call: 'wc1:q79uijiUnZGe5eH2x6caZQkaG4Jx2uRYO0Im1bl+nrlyXNh2flqZd/ltVwZt+A0='
+Attempting interpretations:
+  as base64 -> 47 bytes, hex: abbf6e8a38949d919ee5e1f6c7a71a65091a1b8271dae4583b4226d5b97e9eb9725cd8767e5a9977f96d57066df80d
+  printable-ASCII ratio: 0.38
+
+Full transaction history for this contract:
+  2 items
+  wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\may24_contract_A_full_history_raw.json
+    2026-05-24T09:14:04.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None
+    2026-05-24T09:14:30.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x76fA199B724Bb511BA326BB0400ED89227B39AEF
+
+============================================================================
+may24_contract_B: 0xbdC80AdF5944aE01A7a56552A03C507DB1f40dDd
+============================================================================
+eth_getCode length: 4864  is_contract: True
+bytecode (first 300 chars): 0x608060405234801561000f575f5ffd5b506004361061004a575f3560e01c8063b249cd2d1461004e578063b68d18091461006a578063e096a09114610088578063f851a440146100a6575b5f5ffd5b610068600480360381019061006391906104b8565b6100c4565b005b61007261022b565b60405161007f919061055f565b60405180910390f35b6100906102bb565b60405161
+
+Raw 'domain' value from updateDomain call: 'BwQFBwQFBwQFBwQFBwQFBwQF'
+Attempting interpretations:
+  as base64 -> 18 bytes, hex: 070405070405070405070405070405070405
+  printable-ASCII ratio: 0.00
+
+Full transaction history for this contract:
+  2 items
+  wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\may24_contract_B_full_history_raw.json
+    2026-05-24T09:15:26.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None
+    2026-05-24T09:15:57.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xbdC80AdF5944aE01A7a56552A03C507DB1f40dDd
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:20:24Z

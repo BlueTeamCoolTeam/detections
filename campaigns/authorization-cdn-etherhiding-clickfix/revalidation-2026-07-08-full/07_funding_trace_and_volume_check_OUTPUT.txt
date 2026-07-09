@@ -1,0 +1,127 @@
+EVIDENCE CAPTURE
+Script: 07_funding_trace_and_volume_check.py
+Command: python 07_funding_trace_and_volume_check.py
+Purpose: fresh funding-source trace for all 3 deployer wallets (both direct and internal-transaction endpoints, to close the gap found in the prior round for operator 2), plus a volume check on any funder found to assess whether it's a traceable dedicated source or shared infrastructure.
+Captured (UTC): 2026-07-08T21:22:09Z
+======================================================================
+
+
+============================================================================
+operator1_wallet: 0xCaf2C54E400437da717cF215181B170F65187aBf
+============================================================================
+Direct incoming transactions (filter=to):
+  13 items
+  wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator1_wallet_incoming_direct_raw.json
+    2024-10-17T11:09:36.000000Z  from=0xD44a53c0d5Ab8E6C07cB20d482B3d2CB76029dd3  value=25214322000000000000
+    2025-04-08T10:07:13.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  value=0
+    2025-04-08T10:07:13.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  value=0
+    2025-04-08T10:07:13.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  value=0
+    2025-10-09T10:24:35.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  value=0
+    2025-10-09T10:24:35.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  value=0
+    2025-10-09T10:53:55.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  value=0
+    2025-10-09T10:53:55.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  value=0
+    2025-10-26T10:17:05.000000Z  from=0xBE372a40Ea19DB6F4641963B4741B1fF6a0De734  value=41443314622924498
+    2025-11-18T04:04:21.000000Z  from=0x86e83a28BAc0359Ff6672bB6e1A474E527264641  value=3883542136818767587
+    2025-11-18T04:09:03.000000Z  from=0x86e83a28BAc0359Ff6672bB6e1A474E527264641  value=11956153488689153346
+    2025-11-30T07:56:39.000000Z  from=0x707559E6AD74060bb687A3764A7B03E1345A882e  value=44137824970507418335
+    2025-11-30T07:59:13.000000Z  from=0x67d259a58e6503862Ae3753c37bA5eE42e0E5b48  value=33835243276147653488
+
+Internal transactions (contract-relayed value transfers, both directions):
+  50 items
+  wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator1_wallet_internal_txs_raw.json
+    2025-10-28T10:03:11.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x137c3b1dbB3023bf899B08506436e5662d575D0b  value=0
+    2025-10-28T10:03:19.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x5Deb7715Fc7Fe762303514BF85F0dE89FB5CAB17  value=0
+    2025-10-28T10:03:45.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x162b0C7F043770F4aEA7c55A4CF3f7b693892FB0  value=0
+    2025-10-28T10:35:23.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x9a3dEd964f747A71E341a6450b84108B5DE4960d  value=0
+    2025-10-28T13:11:35.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x78343E63D5aBfFa5c547c92b9F799123A066D422  value=0
+    2025-10-29T12:15:21.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xE4d1ae04D82a7653Eb296437eD8f1a971924e4CA  value=0
+    2025-10-31T07:07:08.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x2205Cf086a148Cf7E9d32Bf05F9105e568292bFA  value=0
+    2025-10-31T07:07:56.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xa2daB4d25533ad9D300182932D02199DCC0AC93F  value=0
+    2025-10-31T07:08:50.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x8FC0C5bB049953aAb65da8263a688C1b100049aE  value=0
+    2025-10-31T07:09:30.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xf0e33835cA2485c5cC40D91B56d6E7284fFFbEA7  value=0
+    2025-10-31T07:09:48.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x7B5CDC8ca7f53b99FF11Ee3C8dAede04693cefEd  value=0
+    2025-10-31T07:10:06.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x6a1926B93FA2f7A17f300a3e2f6a49ffCa6248f9  value=0
+    2025-10-31T07:17:42.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x39bA1692dcBD18b3A29d9FD918f88464BE6aB512  value=0
+    2025-10-31T07:20:00.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x8484BA9a9CBed8cCC3aC30b33d2e9BdB669a9687  value=0
+    2025-10-31T07:25:32.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xE89B841094Cc626b5Ca36f4bF2066D27e9313d9f  value=0
+    2025-10-31T07:47:28.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x89d5b68c74631ECE98706151E049b858e3DD0D01  value=0
+    2025-10-31T07:54:22.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xEf6Af222096f6B5B5DFd20622088Ac74673006bf  value=0
+    2025-10-31T07:55:30.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x50D19A87f3eBacEf520EcB62827164f26f98f7F9  value=0
+    2025-10-31T08:00:44.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB4F7365d21F3E7A5Cac751aCCE3F1a4419C1BEfd  value=0
+    2025-10-31T08:01:58.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xCfE9150Ee440Dc043895949dC6b4430BF18cf373  value=0
+    2025-10-31T08:05:00.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xFE874243f813779C27E32EA5366B845f5F116688  value=0
+    2025-10-31T08:07:08.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xD6f480B9C48d295063730bfa16d8363cDFe8df0e  value=0
+    2025-10-31T08:14:02.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xfe66Cb84Da764e3A2F5DDfFbd3D34A8a4Ab1221B  value=0
+    2025-10-31T08:15:08.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x061F8C52ce8e46EB897e090897a4fE3Df2DA1bDe  value=0
+    2025-10-31T08:15:46.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xb4BACa3cC9b1253294594862Df57F359f011e879  value=0
+    2025-10-31T08:16:24.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x17dd90F9178B1549cbE6b340927c7835cE5A3A28  value=0
+    2025-10-31T08:17:02.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x78f973f0e4D9F1baCfA97E64E23386de302ab3a1  value=0
+    2025-10-31T08:25:42.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x2d70BdfA1D3764085149ef02980F9Ad6a81b7480  value=0
+    2025-10-31T08:26:20.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x1B63B3DADD4A1c180E2FB04c1b798AE808A19D84  value=0
+    2025-10-31T09:17:58.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x302714f5CCeeF94627A1ce54F809ba77cb625a37  value=0
+    2025-10-31T09:19:28.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x50797cf1C11e9f19b9CE19541f755aE69Ad42B08  value=0
+    2025-10-31T10:03:12.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xf9438b4E3200AE1611eD3d03310c803FDdf67672  value=0
+    2025-10-31T10:17:52.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x55b4F951d5Ac035C21B170C73C0A930a641b718C  value=0
+    2025-10-31T10:22:52.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xfbC267200f9e5749045f32dbB55BB16615f1CE5F  value=0
+    2025-11-01T09:28:26.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x1D50703722729dD68e89D819F69eFc5Fb206bBe7  value=0
+    2025-11-02T11:25:07.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xD69A36439FffD145ADAcacB94fDe6f8b3546a361  value=0
+    2025-11-02T11:25:17.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xb3EF2D08Bf25a7daB9d8b98d64E564eA1f6Db924  value=0
+    2025-11-02T11:35:09.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x16dA95799CB8aB203f83e01AFC030B1217198Da4  value=0
+    2025-11-02T14:07:05.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xFDB8b139EeacD17ea7c10c256eA77Ba6Dff18D7d  value=0
+    2025-11-02T14:16:19.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x737791081A398151195a753Fb49f9c1b8bc1fCDB  value=0
+    2025-11-04T10:26:47.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x16d9b70e34DF8d00f845c360ca3Cd1b20D0efD6c  value=0
+    2025-11-17T12:40:51.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x98D5270C09b6A1c878212B8e96d9870Bc0241b89  value=0
+    2025-11-17T12:41:01.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x8faD835d5D4803a94b9248cCb3937E9Ac757A88e  value=0
+    2025-11-18T02:07:19.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xA14b732632cb42f050F727068F65aA2d6906C7cC  value=0
+    2025-11-18T04:17:09.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xcEc9032BCD8b8A67437093289121C5c6a642c680  value=0
+    2025-11-18T06:21:59.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xc4206184588f03120aeB81A037A4037Fcb61E4Cb  value=0
+    2025-11-18T09:58:31.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x6da31EB2A016074ffd5519326573E78E2677E4C8  value=0
+    2025-11-18T09:58:41.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x27c7c36981c1ed5cFA2DCDb4B43C27A6BaF6bEa8  value=0
+    2025-11-18T09:58:51.000000Z  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x04E25a563f159308FC3E15fE9Ccc9D2CF623D0cc  value=0
+    2025-11-19T10:36:23.000000Z  from=0xF5042e6ffaC5a625D4E7848e0b01373D8eB9e222  to=0xCaf2C54E400437da717cF215181B170F65187aBf  value=103880457036425862127
+
+Current balance (wei, hex): 0x430449172e59c0a1e
+Current outgoing tx count (nonce): 934
+
+============================================================================
+operator2_wallet: 0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5
+============================================================================
+Direct incoming transactions (filter=to):
+  0 items
+  wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator2_wallet_incoming_direct_raw.json
+
+Internal transactions (contract-relayed value transfers, both directions):
+  0 items
+  wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator2_wallet_internal_txs_raw.json
+
+Current balance (wei, hex): 0x3880d1ffc66d09570
+Current outgoing tx count (nonce): 8
+
+============================================================================
+operator3_wallet: 0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096
+============================================================================
+Direct incoming transactions (filter=to):
+  1 items
+  wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator3_wallet_incoming_direct_raw.json
+    2026-06-29T12:30:31.000000Z  from=0x71d4249079684479F2651745fA2fcD79c9b45f53  value=684850000000000000000
+
+Internal transactions (contract-relayed value transfers, both directions):
+  0 items
+  wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator3_wallet_internal_txs_raw.json
+
+Current balance (wei, hex): 0x251c29239df403448e
+Current outgoing tx count (nonce): 4
+
+============================================================================
+FUNDER VOLUME CHECK
+============================================================================
+Funders identified: {'operator1_wallet': '0xD44a53c0d5Ab8E6C07cB20d482B3d2CB76029dd3', 'operator3_wallet': '0x71d4249079684479F2651745fA2fcD79c9b45f53'}
+  operator1_wallet's funder 0xD44a53c0d5Ab8E6C07cB20d482B3d2CB76029dd3: outgoing_tx_count=2229  is_contract=False
+  operator3_wallet's funder 0x71d4249079684479F2651745fA2fcD79c9b45f53: outgoing_tx_count=294077  is_contract=False
+
+Direct link check -- do any two wallets share the same funder?
+  funders: {'operator1_wallet': '0xD44a53c0d5Ab8E6C07cB20d482B3d2CB76029dd3', 'operator3_wallet': '0x71d4249079684479F2651745fA2fcD79c9b45f53'}
+  all distinct: True
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:22:27Z

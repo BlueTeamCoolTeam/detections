@@ -1,0 +1,24 @@
+EVIDENCE CAPTURE
+Script: 09_independent_spotcheck.py
+Command: python 09_independent_spotcheck.py
+Purpose: independent re-verification of a random sample (3 op1, 2 op2, 3 op3 -- all of op3) drawn from this session's fresh confirmed lists, using a separately-written script that does not reuse the checker's own reported key. Full decoded content saved per site, not excerpted.
+Sample selection: shuf -n3/-n2 --random-source=<(yes 42) against op1/op2_confirmed_final.txt (reproducible); all 3 of op3_confirmed_final.txt used since the pool is small.
+Captured (UTC): 2026-07-08T21:26:31Z
+======================================================================
+
+wrote FULL log to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\09_independent_spotcheck_full_log.txt
+
+SUMMARY:
+  killtonyticket.com: CONFIRMED xor=87
+  kienthucquocphong.com: CONFIRMED xor=90
+  astrohubpro.com: CONFIRMED xor=67
+  www.tramites-usa.com: CONFIRMED xor=73
+  www.abenegihugu.com: CONFIRMED xor=93
+  greencoalition.pl: CONFIRMED xor=114
+  www.motorbeam.com: CONFIRMED xor=114
+  www.realoptionsvaluation.com: CONFIRMED xor=59
+
+8/8 independently reconfirmed
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:26:48Z

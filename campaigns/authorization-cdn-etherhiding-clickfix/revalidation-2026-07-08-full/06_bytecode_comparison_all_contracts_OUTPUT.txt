@@ -1,0 +1,30 @@
+EVIDENCE CAPTURE
+Script: 06_bytecode_comparison_all_contracts.py
+Command: python 06_bytecode_comparison_all_contracts.py
+Purpose: full deployed-bytecode comparison (via eth_getCode) across all 9 known contracts (operator 1 live + its 2 newly-discovered May-24 test contracts, operator 2's 5 contracts, operator 3's contract). Full hex bytecode saved per contract, full untruncated SHA-256 shown, not just first 16 hex.
+Captured (UTC): 2026-07-08T21:21:19Z
+======================================================================
+
+SESSION START (UTC): 2026-07-08T21:21:19Z
+op1_live_contract_jun05      0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  len=  2980  sha256=a38bc4251391ff706f48217c14fb2b8d3379cb3065b3466584cd0b5db5f5afa9
+op1_test_contract_may24_A    0x76fA199B724Bb511BA326BB0400ED89227B39AEF  len=  4864  sha256=473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+op1_test_contract_may24_B    0xbdC80AdF5944aE01A7a56552A03C507DB1f40dDd  len=  4864  sha256=473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+op2_current                  0x83833C5D676cA06E941A32310AE67D0890F657eE  len=  4864  sha256=473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+op2_hist_1_apr13             0x6C4bECa447067D6452029888AFd56417293F6A1f  len=  4864  sha256=473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+op2_hist_2_apr23             0x623a17677Ed3B95A512c4DD32AB4A6Ba43444FFb  len=  4864  sha256=473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+op2_hist_3_may18             0xF9344f7F9d7954a78D57ae940827126C30C4d678  len=  4864  sha256=473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+op2_hist_4_jun04             0xE762F84B8c509f7DEbDd72Ea4E9BA099DF9b9097  len=  4864  sha256=473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+op3_current                  0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55  len=  4864  sha256=473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+
+--- grouping by identical bytecode (full SHA-256, not truncated) ---
+  a38bc4251391ff706f48217c14fb2b8d3379cb3065b3466584cd0b5db5f5afa9
+    -> ['op1_live_contract_jun05']
+  473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3
+    -> ['op1_test_contract_may24_A', 'op1_test_contract_may24_B', 'op2_current', 'op2_hist_1_apr13', 'op2_hist_2_apr23', 'op2_hist_3_may18', 'op2_hist_4_jun04', 'op3_current']
+
+SESSION END (UTC): 2026-07-08T21:21:25Z
+
+All 9 full hex bytecodes written to bytecode_<label>.hex in this folder.
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:21:25Z

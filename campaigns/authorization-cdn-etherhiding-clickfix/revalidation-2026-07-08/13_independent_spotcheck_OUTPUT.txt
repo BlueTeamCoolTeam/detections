@@ -1,0 +1,57 @@
+Independent spot-check run: 2026-07-08
+Purpose: verify a random sample of CONFIRMED hits from the main verification
+run using a freshly-written, independent script (does not reuse the checker's
+own reported XOR key -- re-derives it from a fresh HTTP fetch).
+
+Sample selection: `shuf -n3 --random-source=<(yes 42)` on operator-1 confirmed
+sites and `shuf -n2` on operator-2 confirmed sites, from
+revalidate_pass1_verification_results.txt. Fixed random source used so this
+exact sample is reproducible from that file.
+
+======================================================================
+www.valores.ae
+======================================================================
+  atob() blobs found: 1
+  MATCH at xor=53
+  decoded excerpt (first 400 chars):
+  (function(){if(window['_64a6a1839b'])return;window['_64a6a1839b']=1;var _lrxk="8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2";var _qapadbw=['https://polygon.therpc.io','https://polygon.rpc.hypersync.xyz/','https://rpc-mainnet.matic.quiknode.pro','https://polygon.rpc.subquery.network/public','https://polygon-mainnet.public.blastapi.io','https://polygon.drpc.org','https://polygon.lava.build','htt
+
+======================================================================
+mecfpune.com
+======================================================================
+  atob() blobs found: 1
+  MATCH at xor=90
+  decoded excerpt (first 400 chars):
+  (function(){if(window['_7eae64e939'])return;window['_7eae64e939']=1;var _ruhx="7461e8c0bb505b66188eb183e88b86881ea65d410314faf5";var _riqkxc=['https://polygon.drpc.org','https://polygon-mainnet.gateway.tatum.io','https://polygon.rpc.subquery.network/public','https://polygon.lava.build','https://1rpc.io/matic','https://polygon-public.nodies.app','https://polygon.rpc.hypersync.xyz/','https://rpc-mai
+
+======================================================================
+makeupgirl.org
+======================================================================
+  atob() blobs found: 2
+  MATCH at xor=53
+  decoded excerpt (first 400 chars):
+  (function(){if(window['_64a6a1839b'])return;window['_64a6a1839b']=1;var _lrxk="8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2";var _qapadbw=['https://polygon.therpc.io','https://polygon.rpc.hypersync.xyz/','https://rpc-mainnet.matic.quiknode.pro','https://polygon.rpc.subquery.network/public','https://polygon-mainnet.public.blastapi.io','https://polygon.drpc.org','https://polygon.lava.build','htt
+
+======================================================================
+profesormatematica.cl
+======================================================================
+  atob() blobs found: 2
+  MATCH at xor=20
+  decoded excerpt (first 400 chars):
+  (function(){if(window['_9a0c0da25f'])return;window['_9a0c0da25f']=1;var _coveg="f61eff363d1bbd3db61fbed8769236f8e2a9a4474ca5bda7";var _acac=['https://polygon-bor-rpc.publicnode.com','https://polygon.drpc.org','https://1rpc.io/matic','https://polygon.gateway.tenderly.co','https://rpc-mainnet.matic.quiknode.pro','https://polygon-mainnet.public.blastapi.io','https://polygon-public.nodies.app','https:
+
+======================================================================
+www.redlodgeoutfitters.com
+======================================================================
+  atob() blobs found: 1
+  MATCH at xor=73
+  decoded excerpt (first 400 chars):
+  (function(){if(window['_e3e765eb56'])return;window['_e3e765eb56']=1;var _eqeggk="35ab99f5a3d9d9770e9f5576efcff42a808e67f7f1808cb8";var _jtgfd=['https://rpc-mainnet.matic.quiknode.pro','https://rpc.ankr.com/polygon','https://polygon.gateway.tenderly.co','https://1rpc.io/matic','https://polygon-mainnet.public.blastapi.io','https://polygon-bor-rpc.publicnode.com','https://polygon-public.nodies.app','
+
+RESULT: 5/5 independently re-confirmed, same XOR key as the original checker
+reported in every case. Additional observation: several sites show Polygon
+RPC endpoints beyond the 8 documented from the original injected_lure.js
+capture (polygon.therpc.io, polygon.rpc.hypersync.xyz, polygon.lava.build,
+polygon.rpc.subquery.network/public, polygon-mainnet.gateway.tatum.io) --
+the kit's RPC list is longer and/or more variable across sites than
+originally documented. Flagged for correction in the post.

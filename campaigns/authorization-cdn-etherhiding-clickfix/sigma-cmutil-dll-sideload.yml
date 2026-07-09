@@ -1,0 +1,23 @@
+title: Non-System32 cmutil.dll Image Load (Suspected Side-Load)
+id: 4b9e7c1a-2f5d-4a83-b6c0-9d1e3a7f5c42
+status: experimental
+description: Detects cmutil.dll (a legitimate Microsoft Connection Manager component name) loading from any path outside System32. The authorization-cdn-press-enter.info campaign side-loads a trojanised 27 MB cmutil.dll from a random %TEMP% subfolder via an unsigned launcher (cmtp_86x.exe).
+references:
+    - https://blueteam.cool/posts/authorization-cdn-etherhiding-clickfix/
+author: Luke Wilkinson
+date: 2026-07-08
+logsource:
+    category: image_load
+    product: windows
+detection:
+    selection:
+        ImageLoaded|endswith: '\cmutil.dll'
+    filter_system32:
+        ImageLoaded|contains: '\Windows\System32\'
+    condition: selection and not filter_system32
+falsepositives:
+    - None known. The legitimate cmutil.dll ships only in System32; a load from any other path is not expected on a standard build.
+level: high
+tags:
+    - attack.defense_evasion
+    - attack.t1574.002

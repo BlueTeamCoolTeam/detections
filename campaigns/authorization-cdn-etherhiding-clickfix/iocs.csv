@@ -1,0 +1,62 @@
+type,value,notes,confidence,post_slug
+domain,authorization-cdn-press-enter[.]info,Operator 1 current C2 at time of writing,high,authorization-cdn-etherhiding-clickfix
+ip,178.16.52[.]101,Operator 1 C2 host (nginx) - AS202412 Omegatech LTD - Frankfurt DE,high,authorization-cdn-etherhiding-clickfix
+domain,labiennale[.]art[.]pl,Compromised WordPress 5.7.15 delivery site (lure host) - IP 176.119.60[.]208,high,authorization-cdn-etherhiding-clickfix
+domain,authorization-code[.]info,Operator 1 historical C2 (2026-07-02) - same on-chain rotation,high,authorization-cdn-etherhiding-clickfix
+domain,authorization-id-code[.]info,Operator 1 historical C2 (2026-07-04),high,authorization-cdn-etherhiding-clickfix
+domain,authorization-code[.]beer,Operator 1 historical C2 (2026-07-04),high,authorization-cdn-etherhiding-clickfix
+domain,idverification-cdn[.]info,Operator 1 historical C2 (2026-06-29),high,authorization-cdn-etherhiding-clickfix
+domain,codeverificatrorcl[.]info,Operator 1 historical C2 (2026-07-01/02) - flip-flopped with authorization-code[.]info twice,high,authorization-cdn-etherhiding-clickfix
+domain,verificationscodes[.]beer,Operator 1 historical C2 (2026-06-24),high,authorization-cdn-etherhiding-clickfix
+domain,code.verification-claude-cdn[.]beer,Operator 1 historical C2 (2026-06-23) - also the active C2 in the earlier PuppetKing/StealC case (same contract),high,authorization-cdn-etherhiding-clickfix
+domain,claudverification-id[.]beer,Operator 1 historical C2 (2026-06-22),high,authorization-cdn-etherhiding-clickfix
+domain,idverification-code[.]beer,Operator 1 historical C2 (2026-06-20),high,authorization-cdn-etherhiding-clickfix
+domain,codecerification[.]beer,Operator 1 historical C2 (2026-06-18),high,authorization-cdn-etherhiding-clickfix
+domain,code-verification-js[.]beer,Operator 1 historical C2 (2026-06-17) - PuppetKing overlap,high,authorization-cdn-etherhiding-clickfix
+domain,verification-code-js[.]beer,Operator 1 historical C2 (2026-06-17),high,authorization-cdn-etherhiding-clickfix
+domain,svs-verificationdate[.]beer,Operator 1 historical C2 (2026-06-15),high,authorization-cdn-etherhiding-clickfix
+domain,verification-js-cdn[.]boats,Operator 1 historical C2 (2026-06-12),high,authorization-cdn-etherhiding-clickfix
+domain,framework-css-styles-js[.]beer,Operator 1 historical C2 (2026-06-11),high,authorization-cdn-etherhiding-clickfix
+domain,ethercdnns[.]beer,Operator 1 historical C2 (2026-06-09),high,authorization-cdn-etherhiding-clickfix
+domain,xdavnode[.]pro,Operator 1 first C2 - stored in the contract constructor (2026-06-05) - the first domain before any updateDomain call,high,authorization-cdn-etherhiding-clickfix
+domain,iwannagetmoremoney[.]beer,Operator 2 current C2 (contract 0x83833C5D...),high,authorization-cdn-etherhiding-clickfix
+domain,hahletsgoagain[.]beer,Operator 2 historical C2 (since 2026-06-04),high,authorization-cdn-etherhiding-clickfix
+domain,letsgomakemoneyoncaptcha[.]beer,Operator 2 earliest C2 (since 2026-04-13) - also served a direct /payload.exe variant,high,authorization-cdn-etherhiding-clickfix
+domain,hilacbatoriaaa[.]cc,Operator 3 current C2 at time of writing (contract 0x0C7Cb01C...) - newly discovered,high,authorization-cdn-etherhiding-clickfix
+domain,pluhabovra[.]info,Operator 3 historical C2 (2026-07-06 22:10),high,authorization-cdn-etherhiding-clickfix
+domain,huishuvish[.]cc,Operator 3 historical C2 (2026-07-06 03:58),high,authorization-cdn-etherhiding-clickfix
+domain,errrkotmlkpoy[.]xyz,Operator 3 earliest C2 - stored in the contract constructor (2026-06-29),high,authorization-cdn-etherhiding-clickfix
+url,hxxp://authorization-cdn-press-enter[.]info/<16-hex>,Stage 1 loader - per-victim ephemeral token,high,authorization-cdn-etherhiding-clickfix
+url,hxxp://authorization-cdn-press-enter[.]info/<16-hex>?_=1,Stage 3 gate - advances token to next stage,high,authorization-cdn-etherhiding-clickfix
+url,hxxp://authorization-cdn-press-enter[.]info/7z,Legitimate standalone 7-Zip extractor served by the C2 - context IOC not itself malicious,high,authorization-cdn-etherhiding-clickfix
+url,hxxp://authorization-cdn-press-enter[.]info/<64-hex>,Payload ZIP download,high,authorization-cdn-etherhiding-clickfix
+url,hxxp://authorization-cdn-press-enter[.]info/p/<64-hex>,Install beacon / task-poll endpoint - GET reply "no" means no task queued,high,authorization-cdn-etherhiding-clickfix
+url,hxxp://<c2>/api.php?s=<48-hex>&_v=<digits>,Injected-loader entry point - mints the per-victim token and renders the ClickFix overlay,high,authorization-cdn-etherhiding-clickfix
+cookie,xdv_sess,C2 panel PHP session cookie - durable pivot that survives domain rotation,high,authorization-cdn-etherhiding-clickfix
+contract,0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2,Operator 1 live EtherHiding contract on Polygon - created 2026-06-05 - same contract behind the earlier PuppetKing/StealC campaign,high,authorization-cdn-etherhiding-clickfix
+contract,0x76fA199B724Bb511BA326BB0400ED89227B39AEF,Operator 1 wallet - abandoned test contract (2026-05-13) - shared 4864-byte template - placeholder domain value not a real C2,medium,authorization-cdn-etherhiding-clickfix
+contract,0xbdC80AdF5944aE01A7a56552A03C507DB1f40dDd,Operator 1 wallet - abandoned test contract (2026-05-13) - shared 4864-byte template - placeholder domain value not a real C2,medium,authorization-cdn-etherhiding-clickfix
+wallet,0xCaf2C54E400437da717cF215181B170F65187aBf,Operator 1 wallet - sole updater of the live contract via updateDomain (23 txns observed) - 934 total transactions on-chain funded since Oct 2024 - long-lived multi-purpose wallet not dedicated to this campaign alone,high,authorization-cdn-etherhiding-clickfix
+contract,0x83833C5D676cA06E941A32310AE67D0890F657eE,Operator 2 current EtherHiding contract on Polygon - created 2026-06-23,high,authorization-cdn-etherhiding-clickfix
+contract,0x6C4bECa447067D6452029888AFd56417293F6A1f,Operator 2 historical contract (created 2026-04-13),medium,authorization-cdn-etherhiding-clickfix
+contract,0x623a17677Ed3B95A512c4DD32AB4A6Ba43444FFb,Operator 2 historical contract (created 2026-04-23),medium,authorization-cdn-etherhiding-clickfix
+contract,0xF9344f7F9d7954a78D57ae940827126C30C4d678,Operator 2 historical contract (created 2026-05-18) - direct-EXE variant,medium,authorization-cdn-etherhiding-clickfix
+contract,0xE762F84B8c509f7DEbDd72Ea4E9BA099DF9b9097,Operator 2 historical contract (created 2026-06-04),medium,authorization-cdn-etherhiding-clickfix
+wallet,0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5,Operator 2 wallet - deploys one contract per C2 rather than updating a single contract,high,authorization-cdn-etherhiding-clickfix
+contract,0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55,Operator 3 EtherHiding contract on Polygon - created 2026-06-29 - newly discovered during re-validation,high,authorization-cdn-etherhiding-clickfix
+wallet,0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096,Operator 3 wallet - sole updater of the above contract via updateDomain - 4 txns total on-chain ever,high,authorization-cdn-etherhiding-clickfix
+selector,0xb68d1809,Shared EtherHiding kit read selector - "get current C2" - identical across all three operators,high,authorization-cdn-etherhiding-clickfix
+sha256,473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3,Deployed contract bytecode - full SHA-256 - byte-identical (4864 bytes) across operator 1's 2 abandoned test contracts operator 2's 5 contracts and operator 3's contract (8 of 9 known contracts) - check with eth_getCode,high,authorization-cdn-etherhiding-clickfix
+sha256,d87dbf7df276bca5870d7ef6d1654ae33e6f0092dc215966e56dc151cdfdaf3b,payload.zip,high,authorization-cdn-etherhiding-clickfix
+sha256,2eb8278210434ced87711889ba19582b7a104190310d2a06f0855a9cf5772d11,cmtp_86x.exe - side-load launcher (unsigned),high,authorization-cdn-etherhiding-clickfix
+sha256,acdeca64b1328b6e0aab9ab0839c770cb40f370ba9857a01ab104d8c73b28064,cmutil.dll - trojanised 27 MB side-loaded DLL (unsigned),high,authorization-cdn-etherhiding-clickfix
+sha256,929c75da6a734daeb6741ac65968acb3551de248de292c7024f787e9edac8e22,Encrypted inner implant (738 KB - entropy 8.00 - decryption key not recovered statically),medium,authorization-cdn-etherhiding-clickfix
+sha256,26817725650583d99ca3e617a618dd75c0f71bd316b5761780b7361f5f824cad,/7z - legitimate standalone 7-Zip binary served by the C2 - context IOC not itself malicious,high,authorization-cdn-etherhiding-clickfix
+filename,cmtp_86x.exe,Side-load launcher dropped to a random %TEMP% subfolder,high,authorization-cdn-etherhiding-clickfix
+filename,cmutil.dll,Trojanised Microsoft Connection Manager DLL name - side-loaded from a random %TEMP% subfolder - not the legitimate System32 copy,high,authorization-cdn-etherhiding-clickfix
+filename,VERSION.txt,Decoy "redistributable build" text file dropped alongside the payload,medium,authorization-cdn-etherhiding-clickfix
+export,qrclfw1_nom08o,Malicious garbage-named export added to cmutil.dll,high,authorization-cdn-etherhiding-clickfix
+export,t3cclj_t58rlx,Malicious garbage-named export added to cmutil.dll,high,authorization-cdn-etherhiding-clickfix
+export,ygeui0_ew9f94,Malicious garbage-named export added to cmutil.dll,high,authorization-cdn-etherhiding-clickfix
+other,window['_d446a81607'],Injected-loader run-once guard variable - randomised per compromised site - example value only,medium,authorization-cdn-etherhiding-clickfix
+other,XOR keys 44/52/114/69/85/12/14/63,Per-stage single-byte XOR keys observed in the PowerShell decode chain and dropper URLs - campaign fingerprint - rotates between waves,medium,authorization-cdn-etherhiding-clickfix

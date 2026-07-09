@@ -1,0 +1,19 @@
+EVIDENCE CAPTURE
+Script: 02_self_match_filter.py
+Command: python 02_self_match_filter.py
+Purpose: removes each operator's own C2 domains from its raw candidate list (a domain trivially matches its own domain: query, so this isn't a real victim). Documents exactly what was removed and writes the final candidate lists step 3 (live verification) runs against.
+Captured (UTC): 2026-07-08T21:12:17Z
+======================================================================
+
+operator1: raw=869  C2 domains matched against own list=['authorization-cdn-press-enter.info', 'authorization-code.beer', 'authorization-code.info', 'authorization-id-code.info', 'claudverification-id.beer', 'code-verification-js.beer', 'code.verification-claude-cdn.beer', 'codecerification.beer', 'codeverificatrorcl.info', 'ethercdnns.beer', 'framework-css-styles-js.beer', 'idverification-cdn.info', 'idverification-code.beer', 'svs-verificationdate.beer', 'verification-code-js.beer', 'verification-js-cdn.boats', 'verificationscodes.beer', 'xdavnode.pro']  final=851
+  wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator1_candidates_final.txt
+operator2: raw=153  C2 domains matched against own list=['hahletsgoagain.beer', 'iwannagetmoremoney.beer', 'letsgomakemoneyoncaptcha.beer']  final=150
+  wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator2_candidates_final.txt
+operator3: raw=6  C2 domains matched against own list=['huishuvish.cc', 'pluhabovra.info']  final=4
+  wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator3_candidates_final.txt
+
+Combined unique candidate pool across all 3 operators (final, self-matches removed): 984
+wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\combined_candidates_final.txt
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:12:18Z

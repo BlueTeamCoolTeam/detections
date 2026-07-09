@@ -1,0 +1,32 @@
+EVIDENCE CAPTURE
+Script: 03_live_verification_checker.py -- PASS 3 of 3
+Command: python 03_live_verification_checker.py notes/revalidation_2026-07-08_2107_full/combined_candidates_final.txt notes/revalidation_2026-07-08_2107_full/pass3_
+Purpose: third independent live pass against the same 984-site pool. Full per-site results written to pass3_verification_results.txt. Combined with pass1/pass2 for a 3-pass union in step 4.
+Captured (UTC): 2026-07-08T21:16:20Z
+======================================================================
+
+Checking 984 sites, 40 workers, single pass...
+  ...100/984 checked (6s elapsed)
+  ...200/984 checked (12s elapsed)
+  ...300/984 checked (19s elapsed)
+  ...400/984 checked (24s elapsed)
+  ...500/984 checked (30s elapsed)
+  ...600/984 checked (36s elapsed)
+  ...700/984 checked (41s elapsed)
+  ...800/984 checked (47s elapsed)
+  ...900/984 checked (54s elapsed)
+
+============================================================
+Scanned 984 in 78s
+============================================================
+CONFIRMED: 153
+WRAPPER_NO_MATCH: 2
+CLEAN: 690
+UNREACHABLE: 139
+
+Contracts seen among CONFIRMED: {'0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2': 123, '0x83833C5D676cA06E941A32310AE67D0890F657eE': 27, '0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55': 3}
+
+Wrote notes/revalidation_2026-07-08_2107_full/pass3_verification_results.txt and notes/revalidation_2026-07-08_2107_full/pass3_confirmed.txt
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:17:39Z
