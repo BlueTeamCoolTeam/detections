@@ -30,7 +30,7 @@ url,hxxp://authorization-cdn-press-enter[.]info/<16-hex>,Stage 1 loader - per-vi
 url,hxxp://authorization-cdn-press-enter[.]info/<16-hex>?_=1,Stage 3 gate - advances token to next stage,high,authorization-cdn-etherhiding-clickfix
 url,hxxp://authorization-cdn-press-enter[.]info/7z,Legitimate standalone 7-Zip extractor served by the C2 - context IOC not itself malicious,high,authorization-cdn-etherhiding-clickfix
 url,hxxp://authorization-cdn-press-enter[.]info/<64-hex>,Payload ZIP download,high,authorization-cdn-etherhiding-clickfix
-url,hxxp://authorization-cdn-press-enter[.]info/p/<64-hex>,Install beacon / task-poll endpoint - GET reply "no" means no task queued,high,authorization-cdn-etherhiding-clickfix
+url,hxxp://authorization-cdn-press-enter[.]info/p/<64-hex>,Install beacon / task-poll endpoint - GET reply 'no' means no task queued,high,authorization-cdn-etherhiding-clickfix
 url,hxxp://<c2>/api.php?s=<48-hex>&_v=<digits>,Injected-loader entry point - mints the per-victim token and renders the ClickFix overlay,high,authorization-cdn-etherhiding-clickfix
 cookie,xdv_sess,C2 panel PHP session cookie - durable pivot that survives domain rotation,high,authorization-cdn-etherhiding-clickfix
 contract,0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2,Operator 1 live EtherHiding contract on Polygon - created 2026-06-05 - same contract behind the earlier PuppetKing/StealC campaign,high,authorization-cdn-etherhiding-clickfix
@@ -45,7 +45,7 @@ contract,0xE762F84B8c509f7DEbDd72Ea4E9BA099DF9b9097,Operator 2 historical contra
 wallet,0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5,Operator 2 wallet - deploys one contract per C2 rather than updating a single contract,high,authorization-cdn-etherhiding-clickfix
 contract,0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55,Operator 3 EtherHiding contract on Polygon - created 2026-06-29 - newly discovered during re-validation,high,authorization-cdn-etherhiding-clickfix
 wallet,0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096,Operator 3 wallet - sole updater of the above contract via updateDomain - 4 txns total on-chain ever,high,authorization-cdn-etherhiding-clickfix
-selector,0xb68d1809,Shared EtherHiding kit read selector - "get current C2" - identical across all three operators,high,authorization-cdn-etherhiding-clickfix
+selector,0xb68d1809,Shared EtherHiding kit read selector - 'get current C2' - identical across all three operators,high,authorization-cdn-etherhiding-clickfix
 sha256,473d49db1b57434ad2f08d43361f5d73b5ea864a408afb052645f5d5c63db3d3,Deployed contract bytecode - full SHA-256 - byte-identical (4864 bytes) across operator 1's 2 abandoned test contracts operator 2's 5 contracts and operator 3's contract (8 of 9 known contracts) - check with eth_getCode,high,authorization-cdn-etherhiding-clickfix
 sha256,d87dbf7df276bca5870d7ef6d1654ae33e6f0092dc215966e56dc151cdfdaf3b,payload.zip,high,authorization-cdn-etherhiding-clickfix
 sha256,2eb8278210434ced87711889ba19582b7a104190310d2a06f0855a9cf5772d11,cmtp_86x.exe - side-load launcher (unsigned),high,authorization-cdn-etherhiding-clickfix
@@ -54,7 +54,7 @@ sha256,929c75da6a734daeb6741ac65968acb3551de248de292c7024f787e9edac8e22,Encrypte
 sha256,26817725650583d99ca3e617a618dd75c0f71bd316b5761780b7361f5f824cad,/7z - legitimate standalone 7-Zip binary served by the C2 - context IOC not itself malicious,high,authorization-cdn-etherhiding-clickfix
 filename,cmtp_86x.exe,Side-load launcher dropped to a random %TEMP% subfolder,high,authorization-cdn-etherhiding-clickfix
 filename,cmutil.dll,Trojanised Microsoft Connection Manager DLL name - side-loaded from a random %TEMP% subfolder - not the legitimate System32 copy,high,authorization-cdn-etherhiding-clickfix
-filename,VERSION.txt,Decoy "redistributable build" text file dropped alongside the payload,medium,authorization-cdn-etherhiding-clickfix
+filename,VERSION.txt,Decoy 'redistributable build' text file dropped alongside the payload,medium,authorization-cdn-etherhiding-clickfix
 export,qrclfw1_nom08o,Malicious garbage-named export added to cmutil.dll,high,authorization-cdn-etherhiding-clickfix
 export,t3cclj_t58rlx,Malicious garbage-named export added to cmutil.dll,high,authorization-cdn-etherhiding-clickfix
 export,ygeui0_ew9f94,Malicious garbage-named export added to cmutil.dll,high,authorization-cdn-etherhiding-clickfix
