@@ -1,0 +1,26 @@
+EVIDENCE CAPTURE
+Script: 08_wrapper_no_match_investigation.py
+Command: python 08_wrapper_no_match_investigation.py
+Purpose: fresh, fully-untruncated re-investigation of the 2 sites that showed the injected-loader shape but never matched the known kit across all 3 fresh passes. Full page content and full decode output (not excerpted) saved per site, to determine whether these represent a 4th operator or unrelated malware.
+Captured (UTC): 2026-07-08T21:23:44Z
+======================================================================
+
+
+============================================================================
+offertic.net
+============================================================================
+  page length: 90986 bytes
+  wrote FULL page content to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\wrapper_investigation_offertic_net_full_page.html
+  atob() blobs found: 2
+  wrote FULL decode log to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\wrapper_investigation_offertic_net_decode_log.txt
+
+============================================================================
+www.cartolibreriabisceglia.it
+============================================================================
+  page length: 1307631 bytes
+  wrote FULL page content to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\wrapper_investigation_www_cartolibreriabisceglia_it_full_page.html
+  atob() blobs found: 1
+  wrote FULL decode log to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\wrapper_investigation_www_cartolibreriabisceglia_it_decode_log.txt
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:23:55Z

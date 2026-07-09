@@ -1,0 +1,28 @@
+title: Randomly-Named 7-Zip Extraction from %TEMP%
+id: 9c2f5e8a-1d4b-4f76-a3e9-5b8c2d6f1a90
+status: experimental
+description: Detects a randomly-named executable in a %TEMP% subfolder invoked with 7-Zip's silent-extract arguments (x -y -o<dir>). The authorization-cdn-press-enter.info dropper downloads a legitimate, renamed 7-Zip binary to extract its payload ZIP, so the extraction step never trips a "known bad" file check.
+references:
+    - https://blueteam.cool/posts/authorization-cdn-etherhiding-clickfix/
+author: Luke Wilkinson
+date: 2026-07-08
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|contains: '\AppData\Local\Temp\'
+        CommandLine|contains|all:
+            - 'x '
+            - '-y'
+            - '-o'
+    parent_powershell:
+        ParentImage|endswith: '\powershell.exe'
+    condition: selection and parent_powershell
+falsepositives:
+    - Legitimate installers or automation that stage 7-Zip in %TEMP% for extraction - check the parent PowerShell command line for the iex/irm ClickFix pattern to disambiguate
+level: medium
+tags:
+    - attack.execution
+    - attack.t1059.001
+    - attack.t1105

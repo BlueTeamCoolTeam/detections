@@ -1,0 +1,418 @@
+EVIDENCE CAPTURE (redo -- original control test was invalid, fixed below)
+Purpose: fresh re-confirmation of two supporting claims previously only chat output: (1) xdv_sess cookie is set backend-wide; (2) urlscan's page.content field does not return results even for content on a page confirmed indexed via a real, independently-verified control (killtonyticket.com, title queried live just before this test).
+Captured (UTC): 2026-07-08T21:27:58Z
+======================================================================
+
+--- Check 1: xdv_sess cookie on 4 different paths/hosts (full headers, not grepped) ---
+
+[1a] GET https://authorization-cdn-press-enter.info/
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Wed, 08 Jul 2026 21:28:26 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=(), geolocation=()
+Set-Cookie: xdv_sess=eu970aehqu6t9a9nklaa8ta6lk; path=/; secure; HttpOnly; SameSite=Strict
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+
+
+[1b] GET https://authorization-cdn-press-enter.info/api.php (full headers)
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 08 Jul 2026 21:28:28 GMT
+Content-Type: image/gif
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: Content-Type
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000
+
+
+[1c] GET https://178.16.52.101/ (raw IP, Host header forged)
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Wed, 08 Jul 2026 21:28:29 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=(), geolocation=()
+Set-Cookie: xdv_sess=kbi9c0q616kq9203fvtt1kbm7s; path=/; secure; HttpOnly; SameSite=Strict
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+
+
+--- Check 2: urlscan page.content field behavior, with a REAL verified control ---
+
+Control page confirmed indexed (queried live, this session): https://killtonyticket.com/
+Confirmed real title (from live query): 'Kill Tony Tour 2026: Official Tickets, Dates & Complete Show Guide'
+
+[2a] page.title search for the exact confirmed title text
+{
+  "results": [
+    {
+      "canonical": {
+        "task": {
+          "url": "killtonyticket.com"
+        },
+        "page": {
+          "url": "killtonyticket.com"
+        }
+      },
+      "task": {
+        "visibility": "public",
+        "method": "automatic",
+        "domain": "www.killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "time": "2026-06-30T16:49:46.918Z",
+        "source": "certstream-suspicious",
+        "uuid": "019f196f-b97e-779b-969b-198e9d0d2976",
+        "url": "https://www.killtonyticket.com/"
+      },
+      "stats": {
+        "uniqIPs": 11,
+        "uniqCountries": 2,
+        "dataLength": 4967766,
+        "encodedDataLength": 1572527,
+        "requests": 53
+      },
+      "page": {
+        "server": "cloudflare",
+        "redirected": "sub-domain",
+        "ip": "172.67.173.252",
+        "apexDomainAgeDays": 314,
+        "language": "en",
+        "mimeType": "text/html",
+        "title": "Kill Tony Tour 2026: Official Tickets, Dates & Complete Show Guide",
+        "url": "https://killtonyticket.com/",
+        "tlsValidDays": 89,
+        "tlsAgeDays": 6,
+        "domainAgeDays": 314,
+        "tlsValidFrom": "2026-06-24T00:55:12.000Z",
+        "domain": "killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+        "asn": "AS13335",
+        "tlsIssuer": "YE1",
+        "status": "200"
+      },
+      "_id": "019f196f-b97e-779b-969b-198e9d0d2976",
+      "_score": null,
+      "sort": [
+        1782838186918,
+        "019f196f-b97e-779b-969b-198e9d0d2976"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019f196f-b97e-779b-969b-198e9d0d2976/",
+      "screenshot": "https://urlscan.io/screenshots/019f196f-b97e-779b-969b-198e9d0d2976.png"
+    },
+    {
+      "canonical": {
+        "task": {
+          "url": "killtonyticket.com"
+        },
+        "page": {
+          "url": "killtonyticket.com"
+        }
+      },
+      "task": {
+        "visibility": "public",
+        "method": "automatic",
+        "domain": "killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "time": "2026-06-24T00:45:52.199Z",
+        "source": "certstream-suspicious",
+        "uuid": "019ef717-08a9-71ea-a332-e69323c19520",
+        "url": "https://killtonyticket.com/"
+      },
+      "stats": {
+        "uniqIPs": 14,
+        "uniqCountries": 3,
+        "dataLength": 5076325,
+        "encodedDataLength": 1590224,
+        "requests": 57
+      },
+      "page": {
+        "server": "cloudflare",
+        "ip": "172.67.173.252",
+        "apexDomainAgeDays": 307,
+        "language": "en",
+        "mimeType": "text/html",
+        "title": "Kill Tony Tour 2026: Official Tickets, Dates & Complete Show Guide",
+        "url": "https://killtonyticket.com/",
+        "tlsValidDays": 89,
+        "tlsAgeDays": 0,
+        "domainAgeDays": 307,
+        "tlsValidFrom": "2026-06-23T23:45:20.000Z",
+        "domain": "killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+        "asn": "AS13335",
+        "tlsIssuer": "YE2",
+        "status": "200"
+      },
+      "_id": "019ef717-08a9-71ea-a332-e69323c19520",
+      "_score": null,
+      "sort": [
+        1782261952199,
+        "019ef717-08a9-71ea-a332-e69323c19520"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019ef717-08a9-71ea-a332-e69323c19520/",
+      "screenshot": "https://urlscan.io/screenshots/019ef717-08a9-71ea-a332-e69323c19520.png"
+    },
+    {
+      "canonical": {
+        "task": {
+          "url": "killersofkilltonytour2025-com-github-io.pages.dev"
+        },
+        "page": {
+          "url": "killersofkilltonytour2025-com-github-io.pages.dev"
+        }
+      },
+      "task": {
+        "visibility": "public",
+        "method": "automatic",
+        "domain": "killersofkilltonytour2025-com-github-io.pages.dev",
+        "apexDomain": "killersofkilltonytour2025-com-github-io.pages.dev",
+        "time": "2026-06-02T12:34:40.545Z",
+        "source": "certstream-suspicious",
+        "uuid": "019e8854-15c2-7404-aa3b-42192da9b4c5",
+        "url": "https://killersofkilltonytour2025-com-github-io.pages.dev/"
+      },
+      "stats": {
+        "uniqIPs": 9,
+        "uniqCountries": 2,
+        "dataLength": 5765940,
+        "encodedDataLength": 2711787,
+        "requests": 35
+      },
+      "page": {
+        "server": "cloudflare",
+        "ip": "188.114.97.3",
+        "apexDomainAgeDays": 369,
+        "language": "en",
+        "mimeType": "text/html",
+        "title": "Killers of Kill Tony Tour 2026 - Concert Dates & Tickets",
+        "url": "https://killersofkilltonytour2025-com-github-io.pages.dev/",
+        "tlsValidDays": 90,
+        "tlsAgeDays": 14,
+        "domainAgeDays": 369,
+        "tlsValidFrom": "2026-05-19T10:22:35.000Z",
+        "domain": "killersofkilltonytour2025-com-github-io.pages.dev",
+        "apexDomain": "killersofkilltonytour2025-com-github-io.pages.dev",
+        "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+        "asn": "AS13335",
+        "tlsIssuer": "WE1",
+        "status": "200"
+      },
+      "_id": "019e8854-15c2-7404-aa3b-42192da9b4c5",
+      "_score": null,
+      "sort": [
+        1780403680545,
+        "019e8854-15c2-7404-aa3b-42192da9b4c5"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019e8854-15c2-7404-aa3b-42192da9b4c5/",
+      "screenshot": "https://urlscan.io/screenshots/019e8854-15c2-7404-aa3b-42192da9b4c5.png"
+    },
+    {
+      "canonical": {
+        "task": {
+          "url": "killtonyticket.com"
+        },
+        "page": {
+          "url": "killtonyticket.com"
+        }
+      },
+      "task": {
+        "visibility": "public",
+        "method": "automatic",
+        "domain": "www.killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "time": "2026-05-01T17:33:23.331Z",
+        "source": "certstream-suspicious",
+        "uuid": "019de49a-0fcc-7468-8132-b3078bd14ba6",
+        "url": "https://www.killtonyticket.com/"
+      },
+      "stats": {
+        "uniqIPs": 10,
+        "uniqCountries": 3,
+        "dataLength": 6028527,
+        "encodedDataLength": 1578052,
+        "requests": 51
+      },
+      "page": {
+        "server": "cloudflare",
+        "redirected": "sub-domain",
+        "ip": "172.67.173.252",
+        "apexDomainAgeDays": 254,
+        "language": "en",
+        "mimeType": "text/html",
+        "title": "Kill Tony Tour 2026: Official Tickets, Dates & Complete Show Guide",
+        "url": "https://killtonyticket.com/",
+        "tlsValidDays": 89,
+        "tlsAgeDays": 5,
+        "domainAgeDays": 254,
+        "tlsValidFrom": "2026-04-25T23:36:42.000Z",
+        "domain": "killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+        "asn": "AS13335",
+        "tlsIssuer": "E8",
+        "status": "200"
+      },
+      "_id": "019de49a-0fcc-7468-8132-b3078bd14ba6",
+      "_score": null,
+      "sort": [
+        1777656803331,
+        "019de49a-0fcc-7468-8132-b3078bd14ba6"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019de49a-0fcc-7468-8132-b3078bd14ba6/",
+      "screenshot": "https://urlscan.io/screenshots/019de49a-0fcc-7468-8132-b3078bd14ba6.png"
+    },
+    {
+      "canonical": {
+        "task": {
+          "url": "killtonyticket.com"
+        },
+        "page": {
+          "url": "killtonyticket.com"
+        }
+      },
+      "task": {
+        "visibility": "public",
+        "method": "automatic",
+        "domain": "killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "time": "2026-04-26T00:36:13.941Z",
+        "source": "certstream-suspicious",
+        "uuid": "019dc737-07c5-7026-9386-944ccd2d778c",
+        "url": "https://killtonyticket.com/"
+      },
+      "stats": {
+        "uniqIPs": 10,
+        "uniqCountries": 3,
+        "dataLength": 5981650,
+        "encodedDataLength": 1576762,
+        "requests": 50
+      },
+      "page": {
+        "server": "cloudflare",
+        "ip": "172.67.173.252",
+        "apexDomainAgeDays": 248,
+        "language": "en",
+        "mimeType": "text/html",
+        "title": "Kill Tony Tour 2026: Official Tickets, Dates & Complete Show Guide",
+        "url": "https://killtonyticket.com/",
+        "tlsValidDays": 89,
+        "tlsAgeDays": 0,
+        "domainAgeDays": 248,
+        "tlsValidFrom": "2026-04-25T23:36:42.000Z",
+        "domain": "killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+        "asn": "AS13335",
+        "tlsIssuer": "E8",
+        "status": "200"
+      },
+      "_id": "019dc737-07c5-7026-9386-944ccd2d778c",
+      "_score": null,
+      "sort": [
+        1777163773941,
+        "019dc737-07c5-7026-9386-944ccd2d778c"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019dc737-07c5-7026-9386-944ccd2d778c/",
+      "screenshot": "https://urlscan.io/screenshots/019dc737-07c5-7026-9386-944ccd2d778c.png"
+    }
+  ],
+  "total": 8,
+  "took": 263,
+  "has_more": false
+}
+
+[2b] page.content search for the SAME confirmed-present text 'Kill Tony Tour'
+{
+  "results": [],
+  "total": 0,
+  "took": 327,
+  "has_more": false
+}
+
+[2c] domain: search as a sanity check the page is genuinely indexed under this API key
+{
+  "results": [
+    {
+      "canonical": {
+        "task": {
+          "url": "killtonyticket.com"
+        },
+        "page": {
+          "url": "killtonyticket.com"
+        }
+      },
+      "task": {
+        "visibility": "public",
+        "method": "automatic",
+        "domain": "www.killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "time": "2026-06-30T16:49:46.918Z",
+        "source": "certstream-suspicious",
+        "uuid": "019f196f-b97e-779b-969b-198e9d0d2976",
+        "url": "https://www.killtonyticket.com/"
+      },
+      "stats": {
+        "uniqIPs": 11,
+        "uniqCountries": 2,
+        "dataLength": 4967766,
+        "encodedDataLength": 1572527,
+        "requests": 53
+      },
+      "page": {
+        "server": "cloudflare",
+        "redirected": "sub-domain",
+        "ip": "172.67.173.252",
+        "apexDomainAgeDays": 314,
+        "language": "en",
+        "mimeType": "text/html",
+        "title": "Kill Tony Tour 2026: Official Tickets, Dates & Complete Show Guide",
+        "url": "https://killtonyticket.com/",
+        "tlsValidDays": 89,
+        "tlsAgeDays": 6,
+        "domainAgeDays": 314,
+        "tlsValidFrom": "2026-06-24T00:55:12.000Z",
+        "domain": "killtonyticket.com",
+        "apexDomain": "killtonyticket.com",
+        "asnname": "CLOUDFLARENET - Cloudflare, Inc., US",
+        "asn": "AS13335",
+        "tlsIssuer": "YE1",
+        "status": "200"
+      },
+      "_id": "019f196f-b97e-779b-969b-198e9d0d2976",
+      "_score": null,
+      "sort": [
+        1782838186918,
+        "019f196f-b97e-779b-969b-198e9d0d2976"
+      ],
+      "result": "https://urlscan.io/api/v1/result/019f196f-b97e-779b-969b-198e9d0d2976/",
+      "screenshot": "https://urlscan.io/screenshots/019f196f-b97e-779b-969b-198e9d0d2976.png"
+    }
+  ],
+  "total": 7,
+  "took": 340,
+  "has_more": false
+}
+
+capture complete (UTC): 2026-07-08T21:28:07Z

@@ -1,0 +1,224 @@
+EVIDENCE CAPTURE
+Script: 05_onchain_history_all_operators.py
+Command: python 05_onchain_history_all_operators.py
+Purpose: fresh, complete on-chain transaction history for all 3 operators' contracts and deployer wallets, via Blockscout's public Polygon API. Full raw JSON saved per target (not truncated) alongside the decoded updateDomain rotation timeline.
+Captured (UTC): 2026-07-08T21:19:01Z
+======================================================================
+
+
+============================================================================
+operator1_contract: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  (filter=to)
+============================================================================
+Query: GET https://polygon.blockscout.com/api/v2/addresses/0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2/transactions?filter=to
+Items returned: 24
+wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator1_contract_transactions_raw.json (70851 bytes)
+
+Decoded updateDomain calls (if any):
+  2026-06-09T23:36:27.000000Z  https://ethercdnns.beer  tx=0xee624ad01a7eb26dccfd8a2acf58be195f481531439380459c956fe3d563e5d5
+  2026-06-11T00:09:06.000000Z  https://framework-css-styles-js.beer  tx=0xdbaaedeef443e001fa227f867a81a161b09a96072ddc7be66b939fc7e0a439c1
+  2026-06-12T23:57:51.000000Z  https://verification-js-cdn.boats  tx=0xe339bfa821820f5a22a014e22365f4d584668bb89dde4ca2c9f0f1f01748f095
+  2026-06-15T12:45:10.000000Z  https://svs-verificationdate.beer  tx=0x42791269e696184e52fe92441c93729dbb7561b4e57415b911aca8753b1d155d
+  2026-06-17T00:25:10.000000Z  https://verification-code-js.beer  tx=0x67d0befa14c4af207619fb9b65a28b06d4dfe9555846036272419b16d676a957
+  2026-06-17T01:47:25.000000Z  https://code-verification-js.beer  tx=0xad8bc19bd232080703c14a1eb4136c93c77c0e8d37dac37480c9275710f67f03
+  2026-06-17T01:50:34.000000Z  https://verification-code-js.beer  tx=0x4e9eb0ee3d4bc7060442bc045bc03c00f5cc3d1ddfb31410c5cb030ad295632e
+  2026-06-17T02:11:30.000000Z  https://code-verification-js.beer  tx=0xc270f7a489a2cfbe03957b5da2ad431cc8178eb700841ec4ad8f3b29cbc6a6d4
+  2026-06-17T02:14:24.000000Z  https://verification-code-js.beer  tx=0xf4ba89ae81ee335dd4ee4e11ee0f9d2c7e3039fab438078fa3c8160763258077
+  2026-06-17T02:15:15.000000Z  https://code-verification-js.beer  tx=0x1d1aade44399d4acdfcc6e41f8d7b76e69047c6e2659910c30d2f3a261fa0e94
+  2026-06-18T09:01:13.000000Z  https://codecerification.beer  tx=0x45be30ccc0eaa3d9fcef44784f8fad381ba435012abbbaf19765d03e0407197f
+  2026-06-20T00:44:01.000000Z  https://idverification-code.beer  tx=0x6de3b10a6e61f7acef7f96095b166dd180b031e357abca1ff547487bec428024
+  2026-06-22T05:21:47.000000Z  https://claudverification-id.beer  tx=0xc143bf10a7a9a4e8e5b18c3db26b441dd222f2ab0c988748c7c981b6aa7ba97e
+  2026-06-23T05:57:43.000000Z  https://code.verification-claude-cdn.beer  tx=0x25620c245380c0ed6c5c3b3eeb103dc370c7ec0347ece49b668cffcc622d4712
+  2026-06-24T23:08:17.000000Z  https://verificationscodes.beer  tx=0x8ecf913e9a8fadc0a4b645321dd948b754566c93bb4d97cdd80086695066a21b
+  2026-06-29T01:50:46.000000Z  https://idverification-cdn.info  tx=0xb5b441f9cef902106b19f11252e1b8385d779f315e0a1ae21f444c64244f5220
+  2026-07-01T07:34:40.000000Z  https://codeverificatrorcl.info  tx=0x96142ff39e3751205c4a67692e1a46c6f9dafebf950dbb9d410b801c04e334f8
+  2026-07-02T09:13:04.000000Z  https://authorization-code.info  tx=0x8942df03bb4754a5b8eced6b3ac5eeec8947c574aed9dfc4e8fc2ea481747903
+  2026-07-02T09:20:07.000000Z  https://codeverificatrorcl.info  tx=0xd4fe345d61e588abcb09770e65c3ee5917da146a6953218ce136668417540898
+  2026-07-02T09:27:31.000000Z  https://authorization-code.info  tx=0x4288eba3f4c25ebc9719377fb3cba54b35cc56a44ccad9306ee48eec9b8ccd71
+  2026-07-04T02:01:22.000000Z  https://authorization-code.beer  tx=0x4e5e20375452d36347c49372094f5763fb7ca3edf49265678096c2b31e3d19ae
+  2026-07-04T12:17:59.000000Z  https://authorization-id-code.info  tx=0x5dfbf987fd8837233d40e87026a7a0c3cd40c9d37c05b613cdcd47859121fbc2
+  2026-07-06T23:32:46.000000Z  https://authorization-cdn-press-enter.info  tx=0x50e9540f351241e639238cc1bb94090c3fd4947d64799b8faa629102257187ba
+
+All transactions summary (timestamp, method, from, to, value):
+  2026-06-05T06:18:13.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-09T23:36:27.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-11T00:09:06.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-12T23:57:51.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-15T12:45:10.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T00:25:10.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T01:47:25.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T01:50:34.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T02:11:30.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T02:14:24.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T02:15:15.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-18T09:01:13.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-20T00:44:01.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-22T05:21:47.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-23T05:57:43.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-24T23:08:17.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-29T01:50:46.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-01T07:34:40.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-02T09:13:04.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-02T09:20:07.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-02T09:27:31.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-04T02:01:22.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-04T12:17:59.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-06T23:32:46.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+
+============================================================================
+operator1_wallet: 0xCaf2C54E400437da717cF215181B170F65187aBf  (filter=from)
+============================================================================
+Query: GET https://polygon.blockscout.com/api/v2/addresses/0xCaf2C54E400437da717cF215181B170F65187aBf/transactions?filter=from
+Items returned: 50
+wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator1_wallet_transactions_raw.json (280034 bytes)
+
+Decoded updateDomain calls (if any):
+  2026-05-24T09:14:30.000000Z  wc1:q79uijiUnZGe5eH2x6caZQkaG4Jx2uRYO0Im1bl+nrlyXNh2flqZd/ltVwZt+A0=  tx=0x072fdd6024a5457d7ed61a9ab1f5108646ec89a9fb554984b04eb4fb0c11de87
+  2026-05-24T09:15:57.000000Z  BwQFBwQFBwQFBwQFBwQFBwQF  tx=0xa672d8766e638ce07eb0a184ff3c1a9e8786e8d330126d030b7360dce5fd8eb0
+  2026-06-09T23:36:27.000000Z  https://ethercdnns.beer  tx=0xee624ad01a7eb26dccfd8a2acf58be195f481531439380459c956fe3d563e5d5
+  2026-06-11T00:09:06.000000Z  https://framework-css-styles-js.beer  tx=0xdbaaedeef443e001fa227f867a81a161b09a96072ddc7be66b939fc7e0a439c1
+  2026-06-12T23:57:51.000000Z  https://verification-js-cdn.boats  tx=0xe339bfa821820f5a22a014e22365f4d584668bb89dde4ca2c9f0f1f01748f095
+  2026-06-15T12:45:10.000000Z  https://svs-verificationdate.beer  tx=0x42791269e696184e52fe92441c93729dbb7561b4e57415b911aca8753b1d155d
+  2026-06-17T00:25:10.000000Z  https://verification-code-js.beer  tx=0x67d0befa14c4af207619fb9b65a28b06d4dfe9555846036272419b16d676a957
+  2026-06-17T01:47:25.000000Z  https://code-verification-js.beer  tx=0xad8bc19bd232080703c14a1eb4136c93c77c0e8d37dac37480c9275710f67f03
+  2026-06-17T01:50:34.000000Z  https://verification-code-js.beer  tx=0x4e9eb0ee3d4bc7060442bc045bc03c00f5cc3d1ddfb31410c5cb030ad295632e
+  2026-06-17T02:11:30.000000Z  https://code-verification-js.beer  tx=0xc270f7a489a2cfbe03957b5da2ad431cc8178eb700841ec4ad8f3b29cbc6a6d4
+  2026-06-17T02:14:24.000000Z  https://verification-code-js.beer  tx=0xf4ba89ae81ee335dd4ee4e11ee0f9d2c7e3039fab438078fa3c8160763258077
+  2026-06-17T02:15:15.000000Z  https://code-verification-js.beer  tx=0x1d1aade44399d4acdfcc6e41f8d7b76e69047c6e2659910c30d2f3a261fa0e94
+  2026-06-18T09:01:13.000000Z  https://codecerification.beer  tx=0x45be30ccc0eaa3d9fcef44784f8fad381ba435012abbbaf19765d03e0407197f
+  2026-06-20T00:44:01.000000Z  https://idverification-code.beer  tx=0x6de3b10a6e61f7acef7f96095b166dd180b031e357abca1ff547487bec428024
+  2026-06-22T05:21:47.000000Z  https://claudverification-id.beer  tx=0xc143bf10a7a9a4e8e5b18c3db26b441dd222f2ab0c988748c7c981b6aa7ba97e
+  2026-06-23T05:57:43.000000Z  https://code.verification-claude-cdn.beer  tx=0x25620c245380c0ed6c5c3b3eeb103dc370c7ec0347ece49b668cffcc622d4712
+  2026-06-24T23:08:17.000000Z  https://verificationscodes.beer  tx=0x8ecf913e9a8fadc0a4b645321dd948b754566c93bb4d97cdd80086695066a21b
+  2026-06-29T01:50:46.000000Z  https://idverification-cdn.info  tx=0xb5b441f9cef902106b19f11252e1b8385d779f315e0a1ae21f444c64244f5220
+  2026-07-01T07:34:40.000000Z  https://codeverificatrorcl.info  tx=0x96142ff39e3751205c4a67692e1a46c6f9dafebf950dbb9d410b801c04e334f8
+  2026-07-02T09:13:04.000000Z  https://authorization-code.info  tx=0x8942df03bb4754a5b8eced6b3ac5eeec8947c574aed9dfc4e8fc2ea481747903
+  2026-07-02T09:20:07.000000Z  https://codeverificatrorcl.info  tx=0xd4fe345d61e588abcb09770e65c3ee5917da146a6953218ce136668417540898
+  2026-07-02T09:27:31.000000Z  https://authorization-code.info  tx=0x4288eba3f4c25ebc9719377fb3cba54b35cc56a44ccad9306ee48eec9b8ccd71
+  2026-07-04T02:01:22.000000Z  https://authorization-code.beer  tx=0x4e5e20375452d36347c49372094f5763fb7ca3edf49265678096c2b31e3d19ae
+  2026-07-04T12:17:59.000000Z  https://authorization-id-code.info  tx=0x5dfbf987fd8837233d40e87026a7a0c3cd40c9d37c05b613cdcd47859121fbc2
+  2026-07-06T23:32:46.000000Z  https://authorization-cdn-press-enter.info  tx=0x50e9540f351241e639238cc1bb94090c3fd4947d64799b8faa629102257187ba
+
+All transactions summary (timestamp, method, from, to, value):
+  2026-05-13T13:20:57.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-13T16:22:38.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-13T17:02:30.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-14T13:17:19.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-18T08:03:40.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-24T09:13:06.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-24T09:14:04.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-24T09:14:30.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0x76fA199B724Bb511BA326BB0400ED89227B39AEF  value=0
+  2026-05-24T09:15:26.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-24T09:15:57.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xbdC80AdF5944aE01A7a56552A03C507DB1f40dDd  value=0
+  2026-05-31T12:39:10.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-31T12:41:48.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-31T12:45:41.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-31T12:54:48.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-31T12:58:10.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-31T13:04:45.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-05-31T13:05:04.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-01T04:12:09.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-01T06:05:09.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-01T06:08:53.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-01T11:42:42.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-03T00:21:01.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-04T02:20:03.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-05T06:18:13.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-05T06:18:46.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-05T06:23:30.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-05T11:31:37.000000Z  method=None  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=None  value=0
+  2026-06-09T23:36:27.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-11T00:09:06.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-12T23:57:51.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-15T12:45:10.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T00:25:10.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T01:47:25.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T01:50:34.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T02:11:30.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T02:14:24.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-17T02:15:15.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-18T09:01:13.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-20T00:44:01.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-22T05:21:47.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-23T05:57:43.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-24T23:08:17.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-06-29T01:50:46.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-01T07:34:40.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-02T09:13:04.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-02T09:20:07.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-02T09:27:31.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-04T02:01:22.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-04T12:17:59.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+  2026-07-06T23:32:46.000000Z  method=updateDomain  from=0xCaf2C54E400437da717cF215181B170F65187aBf  to=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2  value=0
+
+============================================================================
+operator2_contract_current: 0x83833C5D676cA06E941A32310AE67D0890F657eE  (filter=to)
+============================================================================
+Query: GET https://polygon.blockscout.com/api/v2/addresses/0x83833C5D676cA06E941A32310AE67D0890F657eE/transactions?filter=to
+Items returned: 1
+wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator2_contract_current_transactions_raw.json (9940 bytes)
+
+Decoded updateDomain calls (if any):
+  (none -- this is not a domain-update-receiving contract, or none decoded)
+
+All transactions summary (timestamp, method, from, to, value):
+  2026-06-23T01:27:19.000000Z  method=None  from=0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5  to=None  value=0
+
+============================================================================
+operator2_wallet: 0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5  (filter=from)
+============================================================================
+Query: GET https://polygon.blockscout.com/api/v2/addresses/0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5/transactions?filter=from
+Items returned: 5
+wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator2_wallet_transactions_raw.json (49709 bytes)
+
+Decoded updateDomain calls (if any):
+  (none -- this is not a domain-update-receiving contract, or none decoded)
+
+All transactions summary (timestamp, method, from, to, value):
+  2026-04-13T07:07:33.000000Z  method=None  from=0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5  to=None  value=0
+  2026-04-23T14:35:44.000000Z  method=None  from=0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5  to=None  value=0
+  2026-05-18T18:25:34.000000Z  method=None  from=0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5  to=None  value=0
+  2026-06-04T06:06:33.000000Z  method=None  from=0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5  to=None  value=0
+  2026-06-23T01:27:19.000000Z  method=None  from=0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5  to=None  value=0
+
+============================================================================
+operator3_contract: 0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55  (filter=to)
+============================================================================
+Query: GET https://polygon.blockscout.com/api/v2/addresses/0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55/transactions?filter=to
+Items returned: 4
+wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator3_contract_transactions_raw.json (18150 bytes)
+
+Decoded updateDomain calls (if any):
+  2026-07-06T03:58:05.000000Z  https://huishuvish.cc  tx=0x82a5973cb14b4a34f82ae94cc59fdace6de23405aded4b33770348a83046c87a
+  2026-07-06T22:10:34.000000Z  https://pluhabovra.info  tx=0x8d0d713b33372567e47582b6fcfbb49199f2e2ca92a13071e161c95dfba5aef5
+  2026-07-08T08:33:22.000000Z  https://hilacbatoriaaa.cc  tx=0xcc5109e33fa2ba0c0fc7ff98eb93869ad0190d2014d78ee059f7311f8501ab05
+
+All transactions summary (timestamp, method, from, to, value):
+  2026-06-29T14:45:08.000000Z  method=None  from=0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  to=None  value=0
+  2026-07-06T03:58:05.000000Z  method=updateDomain  from=0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  to=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55  value=0
+  2026-07-06T22:10:34.000000Z  method=updateDomain  from=0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  to=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55  value=0
+  2026-07-08T08:33:22.000000Z  method=updateDomain  from=0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  to=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55  value=0
+
+============================================================================
+operator3_wallet: 0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  (filter=from)
+============================================================================
+Query: GET https://polygon.blockscout.com/api/v2/addresses/0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096/transactions?filter=from
+Items returned: 4
+wrote FULL raw JSON to C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\blogs\drafts\authorization-cdn-press-enter-clickfix\authorization-cdn-press-enter-clickfix\notes\revalidation_2026-07-08_2107_full\operator3_wallet_transactions_raw.json (18150 bytes)
+
+Decoded updateDomain calls (if any):
+  2026-07-06T03:58:05.000000Z  https://huishuvish.cc  tx=0x82a5973cb14b4a34f82ae94cc59fdace6de23405aded4b33770348a83046c87a
+  2026-07-06T22:10:34.000000Z  https://pluhabovra.info  tx=0x8d0d713b33372567e47582b6fcfbb49199f2e2ca92a13071e161c95dfba5aef5
+  2026-07-08T08:33:22.000000Z  https://hilacbatoriaaa.cc  tx=0xcc5109e33fa2ba0c0fc7ff98eb93869ad0190d2014d78ee059f7311f8501ab05
+
+All transactions summary (timestamp, method, from, to, value):
+  2026-06-29T14:45:08.000000Z  method=None  from=0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  to=None  value=0
+  2026-07-06T03:58:05.000000Z  method=updateDomain  from=0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  to=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55  value=0
+  2026-07-06T22:10:34.000000Z  method=updateDomain  from=0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  to=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55  value=0
+  2026-07-08T08:33:22.000000Z  method=updateDomain  from=0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096  to=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55  value=0
+
+============================================================================
+DONE
+============================================================================
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:19:17Z

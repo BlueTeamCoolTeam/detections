@@ -1,0 +1,992 @@
+
+### CONFIRMED (152)
+1stmeridiancareservices.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+5bloxhomeremodeling.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+acharlierpa.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+adepopalomeras.com	xor=24 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+affordabledebtconsolidation.org	xor=126 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+airbet177.org	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+aircold.be	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+ak-architects.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+alertsecurityforce.in	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+alimentosochoa.com	xor=80 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+amc-montauban.fr	xor=62 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+arcos21.es	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+ascendagency.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+asociacionorewa.org	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+astrohubpro.com	xor=67 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+atelierspyros.com	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+azlaw.com.vn	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+azyl-schronisko.pl	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+basang88.org	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+bbeocean.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+bea.cnt.br	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+berrizdesign.com	xor=120 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+betty-hensel.de	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+bimworkshop.com	xor=120 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+bizsyncgenius.at	xor=121 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+blog.eticketing.us	xor=101 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+branchouttreecareltd.co.uk	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+bvinnova.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+c4conklin.com	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+carkey4u.com	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+carolinadrywallsupply.com	xor=28 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+chadiaashtattoo.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+clearlinewebdesign.com	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+constructorategom.com	xor=48 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+cortijocolomo.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+crossmolinaparish.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+curier.ro	xor=80 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+dailypost-sl.com	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+data-point.us	xor=124 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+demarches.quebec	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+detailmasters.com	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+divineafromarket.com	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+dunquin-capital.com	xor=103 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+electriq.se	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+elnathglobalaccess.com	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+emergsol.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+encofradosamazon.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+euromarine.projet-client.com	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+fbatalk.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+genesismining-eg.com	xor=24 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+getdomus.ai	xor=48 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+greencoalition.pl	xor=114 contract=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55 sel=?
+guinespalacehotel.com.br	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+guvana.com.hk	xor=67 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+heartofthecustomer.com	xor=124 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+heeleuropa.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+hocicosypatitas.com	xor=28 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+hollybloom.co.uk	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+idcc.group	xor=20 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+identitymatch.ai	xor=55 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+imprentaprintcenter.com	xor=26 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+indiananeurologyandpain.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+insurancesupport.org	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+iptv-pro.store	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+jackdohertycontracting.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+janejirabangkok.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+junk-removalguys.com	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+kienthucquocphong.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+killtonyticket.com	xor=87 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+llynkup.com	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+maisonmichelet.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+makeupgirl.org	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+mapsengr.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+mayo69.org	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+mecfpune.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+mikeyandmelsdeli.com	xor=124 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+musicworkscanada.com	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+namaste-bungalows.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+noscalpelvasectomy.com	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+opais.co.mz	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+panelff.net	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+piscinaslosalcazares.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+plasmont.com.br	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+profesormatematica.cl	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+ridley-windows.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+rockersmovementradio.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+rotarynewsonline.org	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+rubynailbarcollierville.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sampling-innovations.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sanantoniodwidefense.com	xor=101 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sandrascleaningservice-oc.com	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+seminariodeintegracao.ucam-campos.br	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+shubham-hospitals.com	xor=48 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sindhhec.gov.pk	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sisi-303.com	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+smithhousecrafts.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sprayart.com	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+ssfeshipping.com	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+stg-poaaewebsite-test.kinsta.cloud	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+subhexports.com	xor=67 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sullinstreeservice.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sweetvalleycitrus.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thebestchristmasgiftideas.com	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thebowerypies.com	xor=101 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thecadetfoundation.org	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thecariangroup.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thedisarraydoctor.com	xor=80 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+theexceptionalhometeam.com	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+ticketsport.co.uk	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+tinkers.co.za	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+tokyo787.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+tsiry-assistante-sav-virtuelle3.com	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.abenegihugu.com	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+www.avisenlegal.com	xor=48 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.azyl-schronisko.pl	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.beltboutique.co.uk	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.blackhawkconstructionaz.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.brich.co.th	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.canmoreadventures.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.capcha-cloudflare.cfd	xor=83 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.charsfootsteps.com	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.cieareski.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.complete4x4.au	xor=124 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.eigenengineering.com	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.fofilm.org	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.forumpolitiquenogentais.asso.fr	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.hawkinstreeservice.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.indabaafrica.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+www.inpratica.online	xor=24 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.intersoftla.com	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.keenanwinery.com	xor=80 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.lifestyleboardcentre.co.za	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.londoni-co-il-yeta.devim.dev	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.minivancicservice.sk	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.mjblawchicago.com	xor=45 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+www.motorbeam.com	xor=114 contract=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55 sel=?
+www.pasticceriabarberini.it	xor=20 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.peakcivil.com.au	xor=28 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.pushtihospital.com	xor=23 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.realoptionsvaluation.com	xor=59 contract=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55 sel=?
+www.redes-solidarias.org.ar	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.redlodgeoutfitters.com	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+www.reseaucupidontogo.org	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.rotekapsel.de	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.safehandspro.care	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.shahpaperplast.com	xor=23 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.surepaint.com.au	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.taimei.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.toyotec.com	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.tramites-usa.com	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+www.zimensa.com	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+youmeandtrends.com	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+
+### WRAPPER_NO_MATCH (2)
+offertic.net	atob+newFunction present; kit not confirmed
+www.cartolibreriabisceglia.it	atob+newFunction present; kit not confirmed
+
+### CLEAN (689)
+2hbau.com	
+2legendsnyc.com	
+4evangelists.org	
+69gacor.org	
+abadi136.net	
+abc.stagingwebapp.co.in	
+abogadosdeaccidentesgancedolaw.com	
+aderfistudio.ma	
+advancedk9bbs.com	
+aerialelectronics.in	
+affiliatepro.win	
+ags.vn	
+aimedicalsupply.com	
+akimkoleji.k12.tr	
+alamanahtravels.co.uk	
+alistairdavis.co.za	
+alkab.ae	
+amb-wellness.com	
+amber-recordings.com	
+americanhomereliance.com	
+ameriparts.com	
+anaintercontinental-tokyo.jp	
+anandamdesigns.com	
+anawanti.international	
+ancartec.com	
+andreapalframan.com	
+animal-pedia.org	
+annasabe.com	
+anybodycanrun.com	
+apaearaxa.org.br	
+apartners.group	
+apeeurope.eu	
+apimetrology.com	
+apisms.bingwasokoni.top	
+applemarketstore.co.id	
+aprovacredito.com.br	
+archives.chinmayamission.com	
+auramedina.com	
+authorskdpublishing.com	
+averymediation.com	
+azeebands.com	
+babe183.org	
+bacana.news	
+backup-chatgpt.com	
+baileyclarkhrconsulting.com	
+bakeannarecipes.com	
+balboser.es	
+baltruszewicz.com	
+bankopenhours.com	
+banksumedang.co.id	
+bashirdesign.com	
+batsfoundationrepair.com	
+bedrockrealty.ca	
+benjaminhouse.co.uk	
+beras118.org	
+bettingpost.info	
+bgautorepair.com	
+biancaparzanezi.ae	
+bibliotecadelceat.cl	
+bigbooth.com	
+bigburger.ch	
+binbayyapi.com.tr	
+binnova.it	
+bkgreenwood.com	
+bluedigitalmedia.ltd	
+bmlh.org	
+bola-122.net	
+bonsaiall.com	
+booksgalore.pk	
+bpm.nusamandiri.ac.id	
+branker.co	
+brightaccentsservice.com	
+brightdent.com	
+brightenaccountants.com.au	
+brycefetter.com	
+bulksms.bingwasokoni.top	
+bullfrogtech.com	
+burgas.aquahotels.com	
+caddac.ca	
+caikkiosks.com	
+canaanland.africa	
+carlos-larry-author.secureserverinternal.com	
+cemzengin.com.tr	
+centasmed.com	
+centraljerseylaw.com	
+centrallimpeza.pt	
+centralnj-pestcontrol.com	
+ceuskalduna.com	
+cfesa.com	
+cgamadvisor.com	
+charifarquitetura.com.br	
+chariotent.com	
+chatsell.net	
+chemted.com	
+chrisconewlife.org	
+chrisgursky.com	
+chsaleem.com	
+ciaobellamemphis.com	
+cinesvilla.es	
+circlesafe.com	
+citra-landmark.id	
+citychoicepharmacy.co.uk	
+clearworld.us	
+clintonmo.com	
+cloudbunker.io	
+cloverelitefc.com	
+cmcradio.fr	
+cohenimmigrationgroup.com	
+competicionesfes.es	
+compgihealth.com	
+connectjade.com	
+connextsriracha.com	
+consortiumforblackhealthresearchandclinicaltrials.com	
+continentalchemicals.com	
+continentaldiesel.com	
+cookinamos.es	
+copernicorp.us	
+cosmeticsmyaddiction.pl	
+costablancaklinikken.com	
+cozy-corner.co.za	
+criminallawyerminnesota.com	
+crysendo.com	
+culturaasiatica.com	
+customertraac.com	
+cuul.or.ug	
+dahoacuongsaigon.com.vn	
+dalhousiepublicschool.com	
+dasgems.com	
+datametricsnigeria.com	
+deckremodelingsandiego.com	
+deentek.com	
+denizmennakliyat.com.tr	
+dentalplusspecialists.com	
+denteusclinic.com	
+dentzone.com.au	
+derekforhexham.net	
+dermatologyinfo.net	
+devendraautomobile.in	
+diananeege.com	
+din4d.org	
+diogene-service.fr	
+dnaaesthetics.pk	
+doclick.com.co	
+doctoranirbanmajumder.com	
+dojostudios.com	
+domyzbali-krakow.pl	
+doublecranchllc.com	
+dpservicesfl.com	
+dr-mobile.co.uk	
+drckanowitz.com	
+dreamuniglobal.com	
+drivenoir.org	
+dubaischolars.com	
+duda-design.pl	
+e-borrow-lending.com	
+eaglestrikecontracting.com	
+eastward.com	
+echorse.com	
+edubestari.com	
+electralaser.com	
+elevatepsychiatry.com	
+elevenmovement.nl	
+elexartevent.com	
+energy21.com.mx	
+enerworld.com	
+engenhariaaeronautica.com.br	
+englishclub.academy	
+englishsharpmind.com	
+epsteinchiropractors.com	
+esahaber.com.tr	
+etizaz.net	
+evansvilledogpark.org	
+everestx.us	
+exercise.co.uk	
+expertis-sa.com	
+exploratlantico.com	
+expomadera.com.py	
+extrasegovia.es	
+fahmi123.org	
+fakebitcointransaction.com	
+fat-or-not.pl	
+fepal.com.br	
+fietstest.nl	
+fijianloveincaregivers.org	
+filippettiyachts.com	
+firstpost.com.au	
+flashtransaction.com	
+flavorcreationsnola.com	
+flextro.co.uk	
+floresbakeryservice.com	
+fn7in.co.in	
+forexsisters.com	
+forkfull.com	
+freirevieira.com.br	
+frigilianatours.com	
+fshistoricalsociety.org	
+funerailles.eu	
+funoutdoorliving.com	
+funpoker77.com	
+gancedo.com	
+garront.com	
+gau-ed.org	
+geigerbrothers.com	
+geonosisgroup.com	
+giasaurieng.vn	
+gigmetric.com	
+glosscleaningtampa.com	
+gofashionlane.com	
+goodroofer.com	
+grandeurudaipur.com	
+greaterpurpose.info	
+greyconsultinggroup.com	
+grietsch-fotografie.de	
+gwensgrosir.com	
+haksoftltd.co.rw	
+hanner.lt	
+harpelbuilders.com	
+health-container.com	
+healthcarehustlers.org	
+helen777.org	
+helpageusa.org	
+hfmsolar.com	
+highhillentertainment.com	
+hikvisionargentina.com	
+honghunghospital.com.vn	
+hopigardentools.com	
+houseinspectpro.com	
+iacg.co.in	
+iadbfamilyassociation.org	
+ibgm.com.br	
+ic2.com.sg	
+idahoeyecarecenter.com	
+idanstock.co.il	
+idrive4x4.com	
+ild.al	
+ilmufree.com	
+imagerymontana.com	
+imperiomodahomem.com.br	
+imretrades.com	
+indiefilmmusiccontest.com	
+infobhz.com.br	
+innovative.co.zw	
+innovativestonecraft.ca	
+inpa.co.il	
+institutotecnisistemas.edu.co	
+inversionessouthlands.com	
+isldofficial.com	
+jackdukedesigns.com	
+jampedals.com	
+jbssrnet.com	
+jelanilebourne.com	
+kalia.com.my	
+karamtara.com	
+kbcnmedia.com	
+kduworld.com	
+keystone-invest.co.uk	
+kirschwellness.com	
+kitdigitalensevilla.com	
+kno77.org	
+kookymoose.com	
+koreatravellog.com	
+kosmiqua.com	
+kulinarium.swiss	
+ladylegal.com	
+lamaisonone.com	
+landrunalpacas.com	
+landscapeillinois.org	
+lasiestaresorts.com	
+law-offices-patricia-micek.mysites.io	
+lawmensupplyco.com	
+lelubricants.com	
+liferiderun.net	
+lifesportcoaching.com	
+lightforallusa.org	
+livesports.watch	
+luminatherapy.info	
+lux-aeterna.ca	
+lynnhomeforelderly.org	
+macan383.net	
+maf.gov.sl	
+mafaintegratedfarms.com	
+magiciantyson.com	
+maiaflequers.es	
+maik-freudenberg.de	
+majestrek.com	
+mallowgaa.com	
+man88slot.com	
+marchmanstrength.com	
+marcosjewellers.co.za	
+marki.group	
+marmodelkaiser.com	
+martintobin.com	
+marussiabeverages.com	
+mascotfreights.com	
+masstamilan.fun	
+mcovenantacademy.net	
+mdi-alger.com	
+medicabtrans.com	
+medyakumpanya.com	
+metropolio.pl	
+migraineheroes.com	
+mikebuyshousesnc.com	
+minasaywhat.com	
+mindtribe.io	
+mintmonkey.co.za	
+mixedlog.com	
+mm-international.com	
+mogadorebaitandtackle.com	
+mogca.gov.sl	
+monilekgroup.com	
+monprochainvoyage.com	
+moped.gov.sl	
+mosw.gov.sl	
+movefreephysio.com.sg	
+mrufo.pl	
+mujdovoz.cz	
+myfantasynames.com	
+naasongs.ltd	
+naasongs24.com	
+nashimkorot.org.il	
+nbiz.pt	
+neiva.es	
+nepsych.org	
+new.cleargear.com	
+newbankaccount.com	
+nhconsulting-group.com	
+nickhodder.com	
+nigerianconsulatesa.org	
+nijacc.org	
+nirwana123.net	
+noblesvilledds.com	
+north.tech	
+novaphos.com	
+nutrishmish.com	
+nuveenafighter.win	
+nvisionresearch.org	
+nxamagelesecurity.co.za	
+nyalabet88.org	
+oakleyhistory.com	
+oceanbluseafood.com	
+oceansidepost.com	
+ohaus.com.vn	
+oke88.org	
+okuhida.or.jp	
+olivehouse.my	
+onboardingidentity.com	
+ono138.org	
+opstinakiselavoda.gov.mk	
+orlando-pestcontrolco.com	
+orzellecagioielli.it	
+osteopata-igone.es	
+osteoporoza.si	
+otorios.com.br	
+pac.fr	
+pakettogel.net	
+paletzwindows.com	
+pandyahospital.org	
+pardesshlomo.org	
+pawinsider.com	
+pennengineering.com	
+perisai4d.net	
+petervalli.com	
+pilotandcar.ae	
+pineknollfarm.com	
+planetgroovechicago.com	
+plant-a.com	
+porthole.com	
+potatoseed.co.za	
+powershopeg.com	
+precision.creativeheightsmockups.com	
+priestsassembly.org	
+primeenvironmentalgroup.com	
+pro-comfort.pl	
+psifas-spa.co.il	
+puenteeditores.com	
+pulsexbar.us	
+punstersclub.com	
+purintonmaple.com	
+qasraldur.com	
+qrius.com	
+qualityautorepairservice.com	
+queensmedicalcenter.ae	
+queenwithoutacountry.com	
+queseriaelpalancar.es	
+radiodeputter.nl	
+rainbow-roofing.com	
+raksasa633.com	
+rasoiva.com	
+realfantasynames.com	
+rebeccacreekdistillery.com	
+reflection-prowash.secureserverinternal.com	
+regaljewellery.co.uk	
+regenerativeaestheticsmd.com	
+reidyremaps.co.uk	
+rendelmanlaw.com	
+repipexpress.com	
+responsegenius.com	
+resultsxagency.com	
+revolutionturf.com	
+rheumatology.org.lk	
+riah.dev	
+ripped.topps.com	
+riptapparel.com	
+rizqcatering.com	
+roamforge.com	
+roseofyorkrichmond.co.uk	
+royalbeach.ae	
+rrcleanup.com	
+safarwithsasha.com	
+sahabat-inti.com	
+saharty.com	
+saluteopinioni.it	
+santamonicarestaurant.es	
+santospi.com	
+sarimagrohealth.com	
+sb-traworld.com	
+schupan.com	
+schweigen-rechtenbach.de	
+seamasterscf.com	
+seanofficials.com	
+securitycompanymelbourne.com.au	
+senigor.ba	
+services4u.ae	
+shop.hunterpp.com.au	
+shorelineroofing.ca	
+shouravgroup-bd.com	
+showerdoorsrepair.com	
+simitra.com	
+sindiplastes.org.br	
+singharthritis.com	
+sitepacket.com	
+sk-insurance.com	
+skookumbeehives.com	
+slcgroup.co.za	
+smpwelding.com	
+solar.wp-assist.co.za	
+solugen.com	
+sosureai.com	
+sotirov-service.com	
+soulx.care	
+spacecasecompany.com	
+sparktankincubator.com	
+speaknskills.com	
+specialmomentsvenue.com	
+spectrumpharma.org	
+spefm.stretching-postural.com	
+spendvest.com	
+sporium.net	
+springglobalmedia.com	
+staging.griyasafety.com	
+standridgecolor.com	
+stantontreeservice.com	
+stolentime.com	
+strategicadvisersllc.com	
+sudarshanaddpack.com	
+sulfomax-dz.com	
+synermedkenya.com	
+syrianeds.org	
+systechsec.com.br	
+takeawaytwenty2.com.au	
+takeme.taxi	
+tanhuong.org	
+tasteofthaibc.ca	
+taydoland.info	
+teamtacticals.com	
+tentetop.com	
+theawardgroup.com	
+thecapcut.app	
+thecitymagazineelp.com	
+thegioisocorp.com	
+theglobalskillshub.com	
+thelifecoachingcollege.com.au	
+themsigroup.com	
+thepier-house.co.uk	
+theprosperinghouse.com	
+thespartangroup.com	
+theworthywitch.com	
+think-oral-implants-and-periodontics.org	
+thompsoncg.ca	
+thompsonsrestoration.com	
+tigerfoods.net	
+tijdschriftdetuin.nl	
+timbertales.com	
+tmcelitehomes.com	
+tnpc.ph	
+totalmentemujer.com	
+touchofkindnesstransportation.com	
+transcap.com	
+travelingplace.com.au	
+trentpark.com	
+tricitieselectrical.com	
+tsscgroup.com	
+tuivaikhongdetaz.vn	
+turattolopes.com.br	
+turtlebeanscoffee.com	
+tutor.bookingor.com	
+two-keys.com	
+twolionspainting.com	
+upgradevip.com	
+upsideinnovations.com	
+usdtflashsoftware.org	
+valdezengineering.com	
+valleyridgedental.com	
+valltorp.se	
+vedantfashions.com	
+veteranwalls.com	
+vidriorec.com	
+viewpointproducts.com	
+ville-saintemarie.com	
+viptravel.ca	
+warentestonline.de	
+watertec.ch	
+wearevoip.us	
+webcave.nl	
+websites.riiqo.com	
+webuyexotics.com	
+whitespowersports.net	
+williamsandkent.com	
+winsoncapital.com	
+wnwfm.com	
+woo.loadlink.com.au	
+www.7.mk	
+www.965.gr	
+www.a-meenah.com	
+www.abaigroup.com	
+www.actionairfishers.com	
+www.actuali.co.il	
+www.adirondacknetworks.com	
+www.adsposure.com	
+www.aec54.com	
+www.agrisomtrading.com	
+www.aisportpredictor.com	
+www.alcainc.com	
+www.alternativenation.net	
+www.apdiving.com	
+www.armadillo.one	
+www.armati.com.br	
+www.arrowmarkpartners.com	
+www.aureliuslp.com	
+www.authorization-code.info	
+www.autobodyplusgb.com	
+www.bankstatementmortgage.com	
+www.batrapm.com	
+www.bayalarm.com	
+www.baytree.co.za	
+www.bcpaints.com	
+www.benchmarkscientific.com	
+www.beshekel.org.il	
+www.billigteknik.se	
+www.blackpoolglass.com	
+www.bluemounts.fr	
+www.bridgefoldfuneralservice.co.uk	
+www.bugguys.net	
+www.bureaupcr.fr	
+www.canhandling.com	
+www.carbonfreesummit.com	
+www.ccya.org.sl	
+www.cesaschools.org	
+www.citrusgrandepattaya.com	
+www.clinicahigeaips.com	
+www.codecerification.beer	
+www.consiguetuempleo.com	
+www.cosmeticalabs.com	
+www.critorino.it	
+www.cv3containers.com	
+www.daimajin.us	
+www.devakopleiding.nl	
+www.diamondhousepainting.com	
+www.digitizeconsultants.co.uk	
+www.dolmarchainsawguide.com	
+www.doombeardreport.com	
+www.dragibusmag.com	
+www.drchristielehman.com	
+www.e-tickets.co.il	
+www.ecoluxorganics.com	
+www.eetgemakgroep.nl	
+www.elitehouseuae.com	
+www.emlaktelevizyonu.com	
+www.entpeleg.com	
+www.erectastep.com	
+www.everbill.com	
+www.exaride.com	
+www.ferestrehelios.ro	
+www.filsonfilters.com	
+www.fresh-produce.co.uk	
+www.fst.co.il	
+www.ftknox.com	
+www.gemfellowship.org	
+www.gillselectric.com	
+www.gmba.blue	
+www.gordontag.ru	
+www.grains-de-memoire.org	
+www.gtmedical.com	
+www.hermesimmobiliare.com	
+www.hlsre.com	
+www.homeopathic-center.co.il	
+www.horizontravelers.com	
+www.hydro-x.co.uk	
+www.idsolutionsusa.com	
+www.ingeminandina.cl	
+www.jbtransmissions.com	
+www.kalyangems.com	
+www.kaylogisticsinc.com	
+www.kominki-sauny.pl	
+www.kotelvceneplynu.cz	
+www.kozijnenmaster.nl	
+www.lamarka.nl	
+www.linkstone.com.au	
+www.lionprideproducts.co.za	
+www.llabmarketing.com	
+www.login-odoo.com	
+www.lonavalafinest.com	
+www.luxexii.com	
+www.maconclay.com	
+www.mahmoodandsons.com	
+www.managementstudyguide.com	
+www.mandyslaundry.com	
+www.marketingbioengineered.com	
+www.martinelliluca.it	
+www.mein-vergleich.info	
+www.metisstrategy.com	
+www.micronicsinc.com	
+www.monilekgroup.com	
+www.motivef.com	
+www.muddidarfdas.de	
+www.muniuchumayo.gob.pe	
+www.mykonos-explorer.com	
+www.nawafidpress.com	
+www.needcustompackaging.com	
+www.nissin.be	
+www.nnadministratie.nl	
+www.noflippingexcuses.com	
+www.palauembassy.org	
+www.perthdisabilityservices.com.au	
+www.poplarridgedachshunds.com	
+www.protonkajang.com	
+www.psicohipnos.com	
+www.qnetuae.com	
+www.recology.com	
+www.rheinimmobilienservice.ch	
+www.royaltruckequipment.com	
+www.rutlandholdings.com	
+www.sahabat-inti.com	
+www.saint-hubert.be	
+www.sallyjacobs.com	
+www.saraffglobal.com	
+www.schupan.com	
+www.shareintelli.com	
+www.shark.mu	
+www.shilo4u.org.il	
+www.shivshaktidancecostumes.com	
+www.slncoffee.com	
+www.snapology.com	
+www.solar-panel-cleaners.com	
+www.solidarity.in	
+www.sonnyproperty.com	
+www.spacentralbatam.com	
+www.ssotsase.co.in	
+www.straincanes.com	
+www.survivalq.com	
+www.tailormadelogistic.it	
+www.taxiblau.es	
+www.techstarmechanical.com	
+www.telepsychhealth.com	
+www.texasspecialty.com	
+www.tfa.de	
+www.thebagelmarketandbistro.com	
+www.thecoreli.com	
+www.themineralshop.com	
+www.thenafemshow.org	
+www.thinkgr.com	
+www.thoppiljewellery.com	
+www.tto.co.th	
+www.uniatlantico.edu.co	
+www.universalcargo.com	
+www.usmodularinc.com	
+www.valores.ae	
+www.vedantfashions.com	
+www.verificationscodes.beer	
+www.visdel.de	
+www.vitrifysoftware.com	
+www.wallybaleja.com	
+www.wovencapital.net	
+www.zunder.com	
+xecotec.com	
+xeniamanagement.com	
+yodonoplasma.es	
+zaciszewbobrzy.pl	
+zerosyntax.in	
+
+### UNREACHABLE (141)
+8mao.cn	
+aadeburr.net	
+accpocolombia.com	
+agatadominik.pl	
+alcadymc.ae	
+altanmia.org	
+appliancehavenservice.com	
+arthuratelier.com	
+audenteslabs.com	
+bbc-world-news.com	
+boldthrives.com	
+broadwayshoppingplaza.com	
+brokeragentpayscale.com	
+caddcampus.com	
+cardingifts.com	
+carrosserieservicebergh.nl	
+ccwebsite-qa.creativecoefficient.net	
+chatgpt-backup.com	
+chatgpt-web.vip	
+cloud-flare.cfd	
+cocacolaswb.com	
+computerobjectivequestions.com	
+cswatchesservices.online	
+cuan-78.net	
+dal.co.rs	
+davesrockblasting.co.zw	
+denim888.com	
+dentisti-albania.com	
+digitalinvite.win	
+education.marshalltaxservice.com	
+elegant-themes.nl	
+element6.cc	
+erikahuddleston.com	
+fbs-fahrzeugbau.de	
+fireflowmedia.dk	
+flashusd-t.co	
+gemiamen.com	
+get-mails.com	
+goodyoutubers.com	
+hedgeandsachs.com	
+hikinggearsreviews.com	
+hiradipfoundation.org	
+hrec.bru.ac.th	
+industriasacervinox.com	
+iryni.fr	
+jendral169.org	
+jsonusdtflashprogramcompany.online	
+katecrumpscloset.com	
+keepcardapp.com	
+laclarita.com.ar	
+magazzinigenerali.shop	
+magichomesgurgaon.com	
+marquisflorals.com	
+matthewsbuildingadvisors.co.uk	
+mcnltdaweb.cl	
+mctechnologie.com	
+moneymentorsca.com.au	
+mysaraoutfit.com	
+nasroyalsafaris.com	
+nelsonmrodriguez.com	
+novaflexcomponents.com	
+ob-lawn.secureserverinternal.com	
+oldglorybullies.shop	
+oldschoolalentejotours.com	
+omicsynergy.net	
+oostflankpurmerend.nl	
+pctechbilisim.net	
+perrymed-com.translate.goog	
+pillarofassociation.com	
+postapointexpress.it	
+poudretrailsapartments.com	
+pwso.org	
+raveliahubirnbaum.com	
+recogniseandreward.co.nz	
+resto89.net	
+robynbirkin.com	
+roselle-digital.com	
+safri.mx	
+sagebrushliving.com	
+sakpiroon.com	
+savana99.org	
+sensientflavorsandextracts.com	
+silkeborgkfum.dk	
+socialtypro.com	
+souvenirworldja.com	
+sport666.org	
+summitstyledecor.com	
+supertransfer.ch	
+surinusantaracoldstorage.com	
+thaphra.khonkaen.police.go.th	
+theassist.com	
+theholecompany.net	
+thirrili.com.au	
+tr.grandpashaweb.com	
+transactionflash.com	
+transactionflasher.com	
+truckstotal.com	
+veesixteen.com	
+wpfi.popgeneratorclicknow.monster	
+www.acnetreatmentcenteroc.com	
+www.alterationwala.com	
+www.ardesiatechnologies.com	
+www.campeggioletizialivigno.it	
+www.canva-web.org	
+www.centromedicoandrade.com.br	
+www.chatgpt-web.vip	
+www.chichibiocaserta.it	
+www.chriscolegate.com	
+www.delivercarton.com	
+www.e-boatsardinia.com	
+www.fluorite.eu	
+www.healthmanagementsolutionsinc.com	
+www.hyperx.com.pk	
+www.joetowingservice.com	
+www.laser-company.co.il	
+www.login-netsuite.com	
+www.login-salesforce.com	
+www.loriquinn.com	
+www.maxillobraconi.it	
+www.netcooilfield.com	
+www.newhomerebatesdfw.com	
+www.nhia.gov.ng	
+www.nw-heidi.at	
+www.oamichigan.com	
+www.osnfabtech.com	
+www.prominentaustralia.com.au	
+www.psiquiatrafuengirola.com	
+www.rgh-malta.com	
+www.riocinemas.com.cy	
+www.studio-panetta.it	
+www.studiolegaleribaudo.com	
+www.studiotecnicoareanova.it	
+www.tatouage-maori.com	
+www.tersitefilm.it	
+www.triumphcapitalltd.com	
+www.tweewees.nl	
+www.viyugamconsultancy.com	
+www.wereldfestival.be	
+www.wtfolierung.com	
+xn--mlltaxi-n2a.ch	
+xplorearizona.com	

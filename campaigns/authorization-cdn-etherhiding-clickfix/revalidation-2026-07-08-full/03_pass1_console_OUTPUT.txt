@@ -1,0 +1,32 @@
+EVIDENCE CAPTURE
+Script: 03_live_verification_checker.py -- PASS 1 of 3
+Command: python 03_live_verification_checker.py notes/revalidation_2026-07-08_2107_full/combined_candidates_final.txt notes/revalidation_2026-07-08_2107_full/pass1_
+Purpose: live brute-force per-site polymorphic-XOR verification against this session's fresh 984-site candidate pool. For each site: fetch live, try every atob() blob against all 256 single-byte XOR keys, classify CONFIRMED/WRAPPER_NO_MATCH/CLEAN/UNREACHABLE. Full per-site results (every one of 984 sites, not just confirmed) written to pass1_verification_results.txt.
+Captured (UTC): 2026-07-08T21:13:02Z
+======================================================================
+
+Checking 984 sites, 40 workers, single pass...
+  ...100/984 checked (8s elapsed)
+  ...200/984 checked (16s elapsed)
+  ...300/984 checked (25s elapsed)
+  ...400/984 checked (32s elapsed)
+  ...500/984 checked (39s elapsed)
+  ...600/984 checked (46s elapsed)
+  ...700/984 checked (54s elapsed)
+  ...800/984 checked (62s elapsed)
+  ...900/984 checked (71s elapsed)
+
+============================================================
+Scanned 984 in 94s
+============================================================
+CONFIRMED: 151
+WRAPPER_NO_MATCH: 2
+CLEAN: 688
+UNREACHABLE: 143
+
+Contracts seen among CONFIRMED: {'0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2': 122, '0x83833C5D676cA06E941A32310AE67D0890F657eE': 26, '0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55': 3}
+
+Wrote notes/revalidation_2026-07-08_2107_full/pass1_verification_results.txt and notes/revalidation_2026-07-08_2107_full/pass1_confirmed.txt
+
+exit code: 0
+Capture complete (UTC): 2026-07-08T21:14:37Z

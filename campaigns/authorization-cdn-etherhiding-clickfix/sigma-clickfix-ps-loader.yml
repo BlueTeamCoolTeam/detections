@@ -1,0 +1,32 @@
+title: ClickFix EtherHiding PowerShell Loader Stager
+id: 7d3a1f2e-6b48-4c9a-9e2d-1f8c4a5b6e21
+status: experimental
+description: Detects the ClickFix paste-and-run PowerShell pattern (iex+irm+UseBasicParsing with a "Verification ID" comment) used to pull the authorization-cdn-press-enter.info / EtherHiding loader chain.
+references:
+    - https://blueteam.cool/posts/authorization-cdn-etherhiding-clickfix/
+author: Luke Wilkinson
+date: 2026-07-08
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection_iex:
+        Image|endswith: '\powershell.exe'
+        CommandLine|contains|all:
+            - 'iex'
+            - 'irm'
+            - 'UseBasicParsing'
+    selection_comment:
+        CommandLine|contains: 'Verification ID'
+    filter_legitimate:
+        CommandLine|contains: 'microsoft.com'
+    condition: (selection_iex or selection_comment) and not filter_legitimate
+falsepositives:
+    - Rare legitimate PowerShell automation using irm+iex (e.g. some winget/package-install scripts)
+    - Tune by adding internal automation domains to filter_legitimate
+level: high
+tags:
+    - attack.initial_access
+    - attack.t1204.004
+    - attack.execution
+    - attack.t1059.001

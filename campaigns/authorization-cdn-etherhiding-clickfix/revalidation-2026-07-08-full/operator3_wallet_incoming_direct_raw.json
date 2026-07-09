@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "priority_fee": "663294114483000",
+      "raw_input": "0x",
+      "is_pending_update": false,
+      "result": "success",
+      "hash": "0xa0c395dd203cc98fb6e9e4b837770e4478d22b6215e83c8e2a60bf20e1218265",
+      "max_fee_per_gas": "393475434023",
+      "revert_reason": null,
+      "confirmation_duration": [
+        0,
+        1495.0
+      ],
+      "transaction_burnt_fee": "5237870864562000",
+      "type": 2,
+      "token_transfers_overflow": null,
+      "confirmations": 539693,
+      "position": 132,
+      "max_priority_fee_per_gas": "31585434023",
+      "transaction_tag": null,
+      "created_contract": null,
+      "value": "684850000000000000000",
+      "from": {
+        "ens_domain_name": null,
+        "hash": "0x71d4249079684479F2651745fA2fcD79c9b45f53",
+        "implementations": [],
+        "is_contract": false,
+        "is_scam": false,
+        "is_verified": false,
+        "metadata": {
+          "tags": [
+            {
+              "meta": {},
+              "name": "Exchange",
+              "ordinal": 0,
+              "slug": "exchange",
+              "tagType": "generic"
+            },
+            {
+              "meta": {},
+              "name": "FixedFloat 3",
+              "ordinal": 0,
+              "slug": "fixedfloat-3",
+              "tagType": "name"
+            },
+            {
+              "meta": {
+                "alertStatus": "info",
+                "data": "This address has been tagged based on hildobby compilation."
+              },
+              "name": "note_0",
+              "ordinal": 0,
+              "slug": "note0",
+              "tagType": "note"
+            }
+          ]
+        },
+        "name": null,
+        "private_tags": [],
+        "proxy_type": null,
+        "public_tags": [],
+        "reputation": "ok",
+        "watchlist_names": []
+      },
+      "gas_used": "21000",
+      "status": "ok",
+      "to": {
+        "ens_domain_name": null,
+        "hash": "0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096",
+        "implementations": [],
+        "is_contract": false,
+        "is_scam": false,
+        "is_verified": false,
+        "metadata": null,
+        "name": null,
+        "private_tags": [],
+        "proxy_type": null,
+        "public_tags": [],
+        "reputation": "ok",
+        "watchlist_names": []
+      },
+      "authorization_list": [],
+      "method": null,
+      "fee": {
+        "type": "actual",
+        "value": "5901164979045000"
+      },
+      "gas_limit": "21000",
+      "gas_price": "281007856145",
+      "decoded_input": null,
+      "fhe_operations_count": 0,
+      "token_transfers": null,
+      "base_fee_per_gas": "249422422122",
+      "timestamp": "2026-06-29T12:30:31.000000Z",
+      "nonce": 291573,
+      "historic_exchange_rate": null,
+      "transaction_types": [
+        "coin_transfer"
+      ],
+      "exchange_rate": "0.075883",
+      "block_number": 89354157,
+      "has_error_in_internal_transactions": null
+    }
+  ],
+  "next_page_params": null
+}
