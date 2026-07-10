@@ -17,6 +17,6 @@ rule WMI_NetCon_EtherHiding_JScript_Backdoor
         $xhr_obj        = "Msxml2.ServerXMLHTTP.6.0" ascii wide
         $uuid_sample    = "15aee2fa-27bc-4322-942c-144f35dc7bda" ascii
     condition:
-        3 of ($eth_method, $rpc_endpoint, $signin_path, $clb_path, $callback_hdr, $rc4_ksa, $xhr_obj)
+        3 of ($consumer_name, $eth_method, $rpc_endpoint, $signin_path, $clb_path, $callback_hdr, $rc4_ksa, $xhr_obj)
         or $uuid_sample
 }
