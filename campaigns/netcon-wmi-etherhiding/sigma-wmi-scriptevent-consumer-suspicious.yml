@@ -1,0 +1,40 @@
+title: Suspicious WMI ActiveScriptEventConsumer Registration
+id: 8f3b6f1a-3f2b-4b6e-9d2a-1c9e2f7a6b41
+status: experimental
+description: |
+    Detects registration of a WMI __EventFilter, __EventConsumer, or
+    __FilterToConsumerBinding via Sysmon, with extra weight on
+    ActiveScriptEventConsumer objects (fileless script persistence, T1546.003).
+    Not validated in a production environment - tune before deploying as an
+    alert. See blueteam.cool/posts/netcon-wmi-etherhiding/ for the "NetCon"
+    sample this rule was written against.
+references:
+    - https://blueteam.cool/posts/netcon-wmi-etherhiding/
+    - https://attack.mitre.org/techniques/T1546/003/
+author: blueteam.cool
+date: 2026-07-10
+tags:
+    - attack.persistence
+    - attack.t1546.003
+logsource:
+    product: windows
+    category: wmi_event
+detection:
+    selection_filter:
+        EventID: 19
+    selection_consumer:
+        EventID: 20
+    selection_binding:
+        EventID: 21
+    condition: selection_filter or selection_consumer or selection_binding
+fields:
+    - EventID
+    - Operation
+    - EventNamespace
+    - Name
+    - Destination
+falsepositives:
+    - Legitimate management/monitoring software that installs permanent WMI
+      subscriptions (SCCM, some AV/EDR agents). Baseline known-good names
+      before alerting broadly.
+level: medium

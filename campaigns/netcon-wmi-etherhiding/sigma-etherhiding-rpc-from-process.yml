@@ -1,0 +1,41 @@
+title: Blockchain RPC Call From Non-Browser Process (EtherHiding Indicator)
+id: 6d1e4a2f-9c3b-4a7e-8f1d-5b2c8a9e0d64
+status: experimental
+description: |
+    A process other than a browser or a crypto-wallet application making an
+    eth_getStorageAt/eth_call JSON-RPC POST to a public blockchain RPC
+    provider is a strong, low-false-positive indicator of EtherHiding-style
+    C2 resolution - a technique where the C2 address is stored in smart
+    contract storage instead of DNS. Requires a network/proxy log source
+    that captures the destination hostname and the initiating process.
+    Not validated in a production environment - tune before deploying as an
+    alert.
+references:
+    - https://blueteam.cool/posts/netcon-wmi-etherhiding/
+    - https://blueteam.cool/posts/authorization-cdn-etherhiding-clickfix/
+author: blueteam.cool
+date: 2026-07-10
+tags:
+    - attack.command_and_control
+    - attack.t1102.001
+logsource:
+    category: network_connection
+    product: windows
+detection:
+    selection_dest:
+        DestinationHostname|contains:
+            - 'publicnode.com'
+            - 'infura.io'
+            - 'alchemy.com'
+            - 'ankr.com'
+    filter_known_good:
+        Image|endswith:
+            - '\chrome.exe'
+            - '\msedge.exe'
+            - '\firefox.exe'
+    condition: selection_dest and not filter_known_good
+falsepositives:
+    - Any legitimate crypto-wallet, dApp, or blockchain-development tooling
+      running on the host. Baseline expected wallet/dev software before
+      alerting broadly.
+level: medium

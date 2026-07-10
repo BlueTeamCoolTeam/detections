@@ -1,0 +1,35 @@
+title: WMI ActiveScriptEventConsumer With No Backing Binary
+id: 2a7c9e4d-6b1f-4c3a-8e5d-9f4b2a1c6d73
+status: experimental
+description: |
+    ActiveScriptEventConsumer registrations carry their payload as a
+    ScriptText string property rather than a file on disk. Any consumer
+    whose script content references network I/O or dynamic execution
+    (ActiveXObject, eval, ExecuteGlobal) alongside a public RPC/blockchain
+    hostname is a high-confidence hit, regardless of the consumer's name.
+    Not validated in a production environment - tune before deploying as an
+    alert.
+references:
+    - https://blueteam.cool/posts/netcon-wmi-etherhiding/
+author: blueteam.cool
+date: 2026-07-10
+tags:
+    - attack.persistence
+    - attack.t1546.003
+    - attack.execution
+    - attack.t1059.007
+logsource:
+    product: windows
+    category: wmi_event
+detection:
+    selection:
+        EventID: 20
+        Destination|contains:
+            - 'ActiveXObject'
+            - 'eval('
+            - 'ExecuteGlobal'
+    condition: selection
+falsepositives:
+    - Legitimate scripted WMI consumers deployed by management tooling that
+      happen to use ActiveXObject for non-malicious purposes (rare).
+level: high

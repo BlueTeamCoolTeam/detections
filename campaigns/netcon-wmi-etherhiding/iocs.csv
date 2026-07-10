@@ -1,0 +1,24 @@
+type,value,notes,confidence,post_slug
+sha256,59e9efb252e12a8c634b126aa5d49e38b5137e03110b4327974852d3f4872541,NetCon ActiveScriptEventConsumer ScriptText hash,high,netcon-wmi-etherhiding
+md5,b3a047db133eb92626d44842c878d876,NetCon ActiveScriptEventConsumer ScriptText hash,high,netcon-wmi-etherhiding
+filename,NetCon,WMI ActiveScriptEventConsumer name in root\subscription,high,netcon-wmi-etherhiding
+guid,15aee2fa-27bc-4322-942c-144f35dc7bda,Bot UUID sent in the clear and reused as the RC4 decryption key,high,netcon-wmi-etherhiding
+export,eth_getStorageAt,JSON-RPC method fingerprint for this EtherHiding dead-drop pattern,high,netcon-wmi-etherhiding
+url,hxxps://ethereum[.]publicnode[.]com,Legitimate public RPC provider abused as the EtherHiding dead-drop channel,high,netcon-wmi-etherhiding
+domain,letsmefindyoudream[.]com,Current live C2 domain resolved via EtherHiding as of 2026-07-10,high,netcon-wmi-etherhiding
+domain,throwfree[.]com,Historical C2 domain - dead (NXDOMAIN),medium,netcon-wmi-etherhiding
+domain,mydreamcomesoon[.]com,Historical C2 domain - dead infra,medium,netcon-wmi-etherhiding
+domain,newmydreamcome[.]com,Historical C2 domain - registrar-imposed clientHold,medium,netcon-wmi-etherhiding
+domain,nvpsuprotyudream[.]com,Historical C2 domain - dead panel - still serving generic nginx,medium,netcon-wmi-etherhiding
+domain,666dream666toyou666[.]com,Historical C2 domain - hosting IP recycled to unrelated tenant,medium,netcon-wmi-etherhiding
+domain,666super666crazy666[.]com,Historical C2 domain - dead infra,medium,netcon-wmi-etherhiding
+domain,sjjthjthiter[.]com,Historical C2 domain - hosting IP recycled to unrelated tenant,medium,netcon-wmi-etherhiding
+ip,45.32.162[.]181,Current C2 origin IP - A record,high,netcon-wmi-etherhiding
+ip,2001:19f0:9002:912:5400:6ff:fe30:32c1,Current C2 origin IP - AAAA record,high,netcon-wmi-etherhiding
+ip,155.138.253[.]99,Historical hosting IP (Vultr),medium,netcon-wmi-etherhiding
+ip,91.228.152[.]92,Historical hosting IP (Fornex - only non-Vultr host in the campaign),medium,netcon-wmi-etherhiding
+ip,216.128.146[.]149,Historical hosting IP - shared by two rotation-period domains two months apart,medium,netcon-wmi-etherhiding
+ip,155.138.224[.]155,Historical hosting IP (Vultr),medium,netcon-wmi-etherhiding
+eth_contract,0xDB856D538374Bc1d9D8e8a2f3db0519B7d4677AD,Current EtherHiding dead-drop contract (V2 access-controlled - onlyCreator),high,netcon-wmi-etherhiding
+eth_contract,0x352012455737d781bEfe06bFC5825C21C290117C,Original EtherHiding dead-drop contract (V1 - no access control - hijacked and abandoned 2025-06-01),medium,netcon-wmi-etherhiding
+eth_wallet,0x2344462789f70b81a3d783e0bfcb7ca996a8ce18,Operator wallet - creator and sole setData caller for both contracts,high,netcon-wmi-etherhiding
