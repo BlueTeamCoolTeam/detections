@@ -1,0 +1,41 @@
+Checking 30 sites (27 OP2 + 3 OP3), 16 workers, single pass...
+  [1/30] OP2 heeleuropa.com -> UNREACHABLE 
+  [2/30] OP2 demarches.quebec -> CONFIRMED xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [3/30] OP2 5bloxhomeremodeling.com -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [4/30] OP2 azlaw.com.vn -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [5/30] OP2 iptv-pro.store -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [6/30] OP2 ticketsport.co.uk -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [7/30] OP2 bea.cnt.br -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [8/30] OP2 bbeocean.com -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [9/30] OP2 www.mjblawchicago.com -> CLEAN 
+  [10/30] OP2 asociacionorewa.org -> CONFIRMED xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [11/30] OP2 janejirabangkok.com -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [12/30] OP2 panelff.net -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [13/30] OP2 encofradosamazon.com -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [14/30] OP2 guinespalacehotel.com.br -> CONFIRMED xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [15/30] OP2 hollybloom.co.uk -> CONFIRMED xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [16/30] OP2 www.tramites-usa.com -> CONFIRMED xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [17/30] OP2 cortijocolomo.com -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [18/30] OP2 profesormatematica.cl -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [19/30] OP2 www.redlodgeoutfitters.com -> CONFIRMED xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [20/30] OP2 euromarine.projet-client.com -> CONFIRMED xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [21/30] OP2 www.indabaafrica.com -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [22/30] OP3 www.realoptionsvaluation.com -> CONFIRMED xor=59 contract=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55 sel=?
+  [23/30] OP2 bvinnova.com -> CONFIRMED xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [24/30] OP2 www.abenegihugu.com -> CONFIRMED xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [25/30] OP3 www.motorbeam.com -> CLEAN 
+  [26/30] OP2 ssfeshipping.com -> CONFIRMED xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [27/30] OP3 greencoalition.pl -> CONFIRMED xor=88 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+  [28/30] OP2 tinkers.co.za -> CLEAN 
+  [29/30] OP2 elnathglobalaccess.com -> CONFIRMED xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+  [30/30] OP2 youmeandtrends.com -> CONFIRMED xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+
+============================================================
+Scanned 30 in 9s
+============================================================
+CONFIRMED: 26  (OP2=24, OP3=2)
+WRAPPER_NO_MATCH: 0  (OP2=0, OP3=0)
+CLEAN: 3  (OP2=2, OP3=1)
+UNREACHABLE: 1  (OP2=1, OP3=0)
+
+Wrote op2op3_B_pass3_results.txt, op2op3_B_pass3_confirmed_op2.txt, op2op3_B_pass3_confirmed_op3.txt

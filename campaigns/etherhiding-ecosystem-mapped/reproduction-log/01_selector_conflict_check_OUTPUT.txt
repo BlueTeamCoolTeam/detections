@@ -1,0 +1,12 @@
+
+=== mamkor/merabs (Family B candidate) :: 0x08207B087F61d7e95E441E15fd6d40BEfd6eD308 ===
+  selector 38bcdc1c (mamkor's documented getter): OK -> 'mamkor.pro'
+  selector b68d1809 (Family A / 'BW panel' shared kit selector): REVERTED -> execution reverted
+
+=== BW-sibling operator (Family A candidate, new) :: 0x926d64543148dB649C4F877fE7ba4c693e01E288 ===
+  selector 38bcdc1c (mamkor's documented getter): REVERTED -> execution reverted
+  selector b68d1809 (Family A / 'BW panel' shared kit selector): OK -> 'https://ns-claude-js.beer'
+
+=== xdav / Operator 1 (Family A, published) :: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 ===
+  selector 38bcdc1c (mamkor's documented getter): REVERTED -> execution reverted
+  selector b68d1809 (Family A / 'BW panel' shared kit selector): OK -> 'https://auth-code-check.info'

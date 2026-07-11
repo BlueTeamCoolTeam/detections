@@ -1,0 +1,57 @@
+=== Per-list counts (fresh, 2026-07-11 revalidation, mamkor Part D included) ===
+  Operator 1/xdav (3-pass reconfirmed, of original 123): 106  [+9 newly found via BW-sibling's pivot -> 113]
+  Operator 2 (3-pass reconfirmed, of original 27):       24  [+2 newly found via BW-sibling's pivot -> 24]
+  Operator 3 (3-pass reconfirmed, of original 3):        2  [+0 newly found via BW-sibling's pivot -> 2]
+  BW-sibling (3-pass reconfirmed, of original 111):      56
+  BW-sibling (NEW, own contract, from freshly rebuilt candidate pool): 167
+  mamkor/merabs Part B (3-pass reconfirmed, of original 638):  629
+  mamkor/merabs Part D (NEW, single-pass confirmed from freshly rebuilt candidate pool): 871
+  mamkor/merabs Part B/D overlap check: 0 (expected 0, disjoint by construction)
+  mamkor/merabs combined: 1500
+
+=== Family A internal overlap check (pairwise) ===
+  op1 vs op2: 0
+  op1 vs op3: 0
+  op1 vs bwsibling_reconfirmed: 0
+  op1 vs bwsibling_new: 14 -> ['branchouttreecareltd.co.uk', 'chadiaashtattoo.com', 'crossmolinaparish.com', 'electriq.se', 'imprentaprintcenter.com', 'junk-removalguys.com', 'kienthucquocphong.com', 'namaste-bungalows.com', 'opais.co.mz', 'rockersmovementradio.com', 'www.forumpolitiquenogentais.asso.fr', 'www.redes-solidarias.org.ar', 'www.reseaucupidontogo.org', 'www.safehandspro.care']
+  op2 vs op3: 0
+  op2 vs bwsibling_reconfirmed: 0
+  op2 vs bwsibling_new: 0
+  op3 vs bwsibling_reconfirmed: 0
+  op3 vs bwsibling_new: 0
+  bwsibling_reconfirmed vs bwsibling_new: 0
+
+Family A union (all 4 operators, freshly reconfirmed + newly discovered): 348
+Family B union (mamkor/merabs, Part B + Part D): 1500
+
+=== Cross-family overlap (Family A vs Family B), re-checked fresh with expanded mamkor list ===
+  Shared victims: 18
+    aglimitless.com
+    agluona.lt
+    belindabuck.com
+    bigbaer.co
+    careyestatesltd.co.uk
+    clearlinewebdesign.com
+    clearskyfarms.com
+    dawgonllc.com
+    engelspakistan.com
+    foodclub.ae
+    nickkyhub.com.ng
+    nickkyonline.store
+    noscalpelvasectomy.com
+    pathtohomeapproval.com
+    rankandtrack.com
+    tractor-shop.ro
+    www.beltboutique.co.uk
+    www.namathejaljawdah.com
+
+=== Grand total (fresh revalidation, 2026-07-11, mamkor Part D included) ===
+  Family A + Family B raw sum: 1848
+  Cross-family duplicates removed: 18
+  GRAND TOTAL UNIQUE CONFIRMED COMPROMISED SITES: 1830
+
+=== Progression across this revalidation session ===
+  Original combined-post claim (pre-revalidation): 901
+  After 08 (mamkor Part B only, Part A quota-blocked): 969
+  After 09 (mamkor Part A/D completed with fresh key): 1830
+  Note: the jump from 969 to 1830 is almost entirely mamkor's Part D - 871 newly-confirmed sites from a candidate pool that could not be built until a second API key was supplied. This is not re-litigating the same claim differently; it's the same claim with a previously-missing piece of evidence now in hand.

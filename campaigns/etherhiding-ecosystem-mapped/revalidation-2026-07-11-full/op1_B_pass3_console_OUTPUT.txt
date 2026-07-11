@@ -1,0 +1,20 @@
+Checking 123 sites, 25 workers, single pass...
+  ...20/123 checked (2s elapsed)
+  ...40/123 checked (4s elapsed)
+  ...60/123 checked (6s elapsed)
+  ...80/123 checked (7s elapsed)
+  ...100/123 checked (9s elapsed)
+  ...120/123 checked (12s elapsed)
+  ...123/123 checked (37s elapsed)
+
+============================================================
+Scanned 123 in 37s
+============================================================
+CONFIRMED: 106
+WRAPPER_NO_MATCH: 0
+CLEAN: 12
+UNREACHABLE: 5
+
+Contracts seen among CONFIRMED: {'0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2': 106}
+
+Wrote op1_B_pass3_results.txt and op1_B_pass3_confirmed.txt

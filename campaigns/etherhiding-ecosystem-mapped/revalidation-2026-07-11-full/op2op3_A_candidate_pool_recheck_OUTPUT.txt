@@ -1,0 +1,208 @@
+PART A - Candidate pool consistency recheck (urlscan.io Search API)
+Run timestamp (UTC): 2026-07-11T03:22:25Z
+Query domains - Operator 2 (3): iwannagetmoremoney.beer, hahletsgoagain.beer, letsgomakemoneyoncaptcha.beer
+Query domains - Operator 3 (4): hilacbatoriaaa.cc, pluhabovra.info, huishuvish.cc, errrkotmlkpoy.xyz
+Pagination method: search_after cursor, page repeated until a page returns
+fewer than 100 results (has_more flag NOT trusted per task instructions).
+
+
+======================================================================
+RESULTS - OPERATOR 2
+======================================================================
+domain:iwannagetmoremoney.beer -> 65 distinct page.domain values
+domain:hahletsgoagain.beer -> 32 distinct page.domain values
+domain:letsgomakemoneyoncaptcha.beer -> 80 distinct page.domain values
+Union of distinct page.domain across all 3 Operator-2 domains: 170
+Candidate pool (union minus operators' own C2 domains): 167
+Previously published candidate pool size (2026-07-08 post): 150
+
+Candidate pool members (Operator 2):
+  5bloxhomeremodeling.com
+  aerialelectronics.in
+  ameriparts.com
+  ancartec.com
+  animal-pedia.org
+  annasabe.com
+  archives.chinmayamission.com
+  asociacionorewa.org
+  azlaw.com.vn
+  batsfoundationrepair.com
+  bea.cnt.br
+  bettingpost.info
+  bimworkshop.com
+  binnova.it
+  bmlh.org
+  bvinnova.com
+  caikkiosks.com
+  cardingifts.com
+  cloverelitefc.com
+  cohenimmigrationgroup.com
+  continentaldiesel.com
+  cortijocolomo.com
+  crysendo.com
+  cswatchesservices.online
+  deentek.com
+  demarches.quebec
+  drivenoir.org
+  elnathglobalaccess.com
+  encofradosamazon.com
+  energy21.com.mx
+  enerworld.com
+  englishclub.academy
+  englishsharpmind.com
+  etizaz.net
+  euromarine.projet-client.com
+  everestx.us
+  exploratlantico.com
+  fbs-fahrzeugbau.de
+  firstpost.com.au
+  flextro.co.uk
+  frigilianatours.com
+  gau-ed.org
+  glosscleaningtampa.com
+  goodyoutubers.com
+  guinespalacehotel.com.br
+  haksoftltd.co.rw
+  heeleuropa.com
+  hfmbd.com
+  hollybloom.co.uk
+  houseinspectpro.com
+  iacg.co.in
+  iadbfamilyassociation.org
+  ilmufree.com
+  imbuecareers.com
+  imperiomodahomem.com.br
+  industriasacervinox.com
+  innovativestonecraft.ca
+  iptv-pro.store
+  janejirabangkok.com
+  koreatravellog.com
+  lasiestaresorts.com
+  lodex.ca
+  luminatherapy.info
+  maf.gov.sl
+  makeafricaborderlessnow.com
+  masstamilan.fun
+  matthewsbuildingadvisors.co.uk
+  mintmonkey.co.za
+  mm-international.com
+  moped.gov.sl
+  mosw.gov.sl
+  mrufo.pl
+  mysaraoutfit.com
+  naasongs.ltd
+  newbankaccount.com
+  nigerianconsulatesa.org
+  nutrishmish.com
+  outrux.com
+  pac.fr
+  pardesshlomo.org
+  perrymed-com.translate.goog
+  petervalli.com
+  pilotandcar.ae
+  potatoseed.co.za
+  precision.creativeheightsmockups.com
+  primeenvironmentalgroup.com
+  primenine.de
+  profesormatematica.cl
+  punstersclub.com
+  radiantrocks.com
+  radiodeputter.nl
+  realfantasynames.com
+  regaljewellery.co.uk
+  rendelmanlaw.com
+  revolutionturf.com
+  riah.dev
+  rosschampiongroup.co.za
+  royalbeach.ae
+  safarwithsasha.com
+  safri.mx
+  sakpiroon.com
+  showerdoorsrepair.com
+  sitepacket.com
+  springglobalmedia.com
+  ssfeshipping.com
+  stannesmatricroyapuram.org
+  stantontreeservice.com
+  stillwaterfallartfair.com
+  strategicadvisersllc.com
+  sulfomax-dz.com
+  synermedkenya.com
+  takeawaytwenty2.com.au
+  teamtacticals.com
+  theawardgroup.com
+  thegioisocorp.com
+  themsigroup.com
+  thepackout.com
+  ticketsport.co.uk
+  tinkers.co.za
+  tmcelitehomes.com
+  transcap.com
+  trentpark.com
+  truckstotal.com
+  tuivaikhongdetaz.vn
+  turattolopes.com.br
+  turtlebeanscoffee.com
+  vedantfashions.com
+  viewpointproducts.com
+  vyponeindia.com
+  waverlyindustries.com
+  webuyexotics.com
+  wellnesspmr.com
+  wnwfm.com
+  www.abenegihugu.com
+  www.acnetreatmentcenteroc.com
+  www.baytree.co.za
+  www.bcpaints.com
+  www.bluemounts.fr
+  www.carbonfreesummit.com
+  www.ccya.org.sl
+  www.centromedicoandrade.com.br
+  www.consiguetuempleo.com
+  www.cosmeticalabs.com
+  www.demarches.quebec
+  www.gordontag.ru
+  www.indabaafrica.com
+  www.iwannagetmoremoney.beer
+  www.mjblawchicago.com
+  www.mykonos-explorer.com
+  www.newhomerebatesdfw.com
+  www.olhoclinico.com.br
+  www.osnfabtech.com
+  www.redlodgeoutfitters.com
+  www.shivshaktidancecostumes.com
+  www.techstarmechanical.com
+  www.thenafemshow.org
+  www.triumphcapitalltd.com
+  www.tweewees.nl
+  www.uniatlantico.edu.co
+  www.universalcargo.com
+  www.usmodularinc.com
+  www.vedantfashions.com
+  www.wallybaleja.com
+  www.wereldfestival.be
+  youmeandtrends.com
+  zaciszewbobrzy.pl
+  zerosyntax.in
+
+======================================================================
+RESULTS - OPERATOR 3
+======================================================================
+domain:hilacbatoriaaa.cc -> 8 distinct page.domain values
+domain:pluhabovra.info -> 2 distinct page.domain values
+domain:huishuvish.cc -> 2 distinct page.domain values
+domain:errrkotmlkpoy.xyz -> 0 distinct page.domain values
+Union of distinct page.domain across all 4 Operator-3 domains: 12
+Candidate pool (union minus operators' own C2 domains): 9
+Previously published candidate pool size (2026-07-08 post): 4
+
+Candidate pool members (Operator 3):
+  apimetrology.com
+  ex-igne.com
+  geekybar.com
+  oostflankpurmerend.nl
+  sendshort.ai
+  www.bimicon.com
+  www.cascinamartesana.com
+  www.motorbeam.com
+  www.realoptionsvaluation.com

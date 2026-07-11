@@ -1,0 +1,1163 @@
+Loaded 1159 hosts from bwsibling_C_new_candidates_hosts.txt. Checking against 87 operator contract prefixes + 3 sibling prefixes. Workers=30.
+[1/1159] accountingkaro.com -> clean  sibling=None
+[2/1159] abc.dnsbd.top -> unreachable  sibling=None
+[3/1159] advancedmolecularlabs.com -> clean  sibling=None
+[4/1159] 360sols.com -> clean  sibling=None
+[5/1159] accountantsclubofamerica.org -> clean  sibling=None
+[6/1159] aaml.co.uk -> clean  sibling=None
+[7/1159] 1doball.com -> clean  sibling=None
+[8/1159] 3a-establishment.com -> clean  sibling=None
+[9/1159] 918boats.com -> clean  sibling=None
+[10/1159] a1yapi.com.tr -> confirmed bare-var-xor(key=121) sibling=None
+[11/1159] acn.miseguro.com.co -> clean  sibling=None
+[12/1159] abookandahug.com -> clean  sibling=None
+[13/1159] aglimitless.com -> confirmed bare-var-xor(key=121) sibling=None
+[14/1159] achievexacademy.com -> clean  sibling=None
+[15/1159] alasmai-pal.com -> clean  sibling=None
+[16/1159] agluona.lt -> confirmed bare-var-xor(key=136) sibling=None
+[17/1159] adcplomberie.com -> confirmed bare-var-xor(key=121) sibling=None
+[18/1159] abralipedema.com.br -> clean  sibling=None
+[19/1159] aicloud.mygptmeta.com -> clean  sibling=None
+[20/1159] ajinomotoph.com -> clean  sibling=None
+[21/1159] allservicesairconditioning.com -> clean  sibling=None
+[22/1159] academiaedu.org -> clean  sibling=None
+[23/1159] advancecabin.com -> clean  sibling=None
+[24/1159] aemats.es -> confirmed bare-var-xor(key=121) sibling=None
+[25/1159] aisse.my -> clean  sibling=None
+[26/1159] absenceplus.com -> clean  sibling=None
+[27/1159] 4frames.cl -> clean  sibling=None
+[28/1159] aepnya.es -> clean  sibling=None
+[29/1159] aldhabiasm.ae -> clean  sibling=None
+[30/1159] angels-caringcare.co.uk -> clean  sibling=None
+[31/1159] annpigneri.com -> clean  sibling=None
+[32/1159] 3dmodeling-tools.one -> clean  sibling=None
+[33/1159] amsnetworks.com -> clean  sibling=None
+[34/1159] alekhyahomes.in -> clean  sibling=None
+[35/1159] antaranews.net -> clean  sibling=None
+[36/1159] amandaveilecoaching.com -> clean  sibling=None
+[37/1159] akbyg.dk -> clean  sibling=None
+[38/1159] agencement-luberon.com -> confirmed bare-var-xor(key=121) sibling=None
+[39/1159] anasbhbh.com -> clean  sibling=None
+[40/1159] apexstructural.com -> clean  sibling=None
+[41/1159] apartners.group -> confirmed bare-var-xor(key=29) sibling=None
+[42/1159] alunnatubes.com -> clean  sibling=None
+[43/1159] alrawabi.edu.bh -> clean  sibling=None
+[44/1159] apexvitalityhealth.com -> clean  sibling=None
+[45/1159] asfornesa.com -> clean  sibling=None
+[46/1159] archifur.com -> clean  sibling=None
+[47/1159] accubusiness.ca -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[48/1159] 24hwp.com -> clean  sibling=None
+[49/1159] aaglobal.in -> confirmed bare-var-xor(key=121) sibling=None
+[50/1159] apaearaxa.org.br -> confirmed bare-var-xor(key=221) sibling=None
+[51/1159] apogeeimmigration.com -> clean  sibling=None
+[52/1159] aquaonewatertreatment.com -> clean  sibling=None
+[53/1159] aucklandtmjcentre.nz -> clean  sibling=None
+[54/1159] authorsophiabrown.com -> unreachable  sibling=None
+[55/1159] asiabigboss777.com -> clean  sibling=None
+[56/1159] ativamoveis.com.br -> clean  sibling=None
+[57/1159] autoket.click -> unreachable  sibling=None
+[58/1159] augustobessa.com.br -> clean  sibling=None
+[59/1159] arlhomecomm.com -> clean  sibling=None
+[60/1159] a2zsecuritysolutions.co.uk -> clean  sibling=None
+[61/1159] at-easefoundation.org -> clean  sibling=None
+[62/1159] atiendoservicios.es -> confirmed bare-var-xor(key=114) sibling=None
+[63/1159] askhenry.pl -> clean  sibling=None
+[64/1159] aukeraenergy.co.uk -> clean  sibling=None
+[65/1159] auditorium.centralbankarts.org.tt -> clean  sibling=None
+[66/1159] auto-it.com -> clean  sibling=None
+[67/1159] associationaudrey.fr -> confirmed bare-var-xor(key=121) sibling=None
+[68/1159] authorjannamiller.com -> clean  sibling=None
+[69/1159] anthonyssteakandseafood.com -> clean  sibling=None
+[70/1159] armilla.se -> clean  sibling=None
+[71/1159] baja88live.com -> clean  sibling=None
+[72/1159] aragosanitaris.com -> clean  sibling=None
+[73/1159] bangladeshtourexperts.com -> clean  sibling=None
+[74/1159] bandhanfarms.in -> clean  sibling=None
+[75/1159] awasqahandbags.com -> clean  sibling=None
+[76/1159] attentiongetters.com -> clean  sibling=None
+[77/1159] archives.chinmayamission.com -> clean  sibling=None
+[78/1159] bdonlineshop360.com -> unreachable  sibling=None
+[79/1159] bamdeluxe.nl -> confirmed bare-var-xor(key=121) sibling=None
+[80/1159] az-oa.com -> clean  sibling=None
+[81/1159] ayrhamart.com -> confirmed bare-var-xor(key=221) sibling=None
+[82/1159] aulac-vegan.com -> clean  sibling=None
+[83/1159] babydreambd.com -> clean  sibling=None
+[84/1159] bankopenhours.com -> clean  sibling=None
+[85/1159] bajondelivery.cl -> confirmed bare-var-xor(key=218) sibling=None
+[86/1159] axplorapk.com -> clean  sibling=None
+[87/1159] bdtimesnews.com -> clean  sibling=None
+[88/1159] azulmonkey.com -> clean  sibling=None
+[89/1159] beautyarmy.com -> clean  sibling=None
+[90/1159] bedfactory.co.nz -> clean  sibling=None
+[91/1159] avivapa.com -> clean  sibling=None
+[92/1159] batsfoundationrepair.com -> clean  sibling=None
+[93/1159] baosoneducation.vn -> confirmed bare-var-xor(key=121) sibling=None
+[94/1159] belindabuck.com -> confirmed bare-var-xor(key=114) sibling=None
+[95/1159] beleuraelectrical.com.au -> clean  sibling=None
+[96/1159] beatrizmartinez.org -> clean  sibling=None
+[97/1159] autobola88wins.com -> clean  sibling=None
+[98/1159] bc-community.cc -> clean  sibling=None
+[99/1159] bettingpost.info -> clean  sibling=None
+[100/1159] bdssports.in -> clean  sibling=None
+[101/1159] bhstradingsarl.com -> clean  sibling=None
+[102/1159] beholdwelfare.com -> confirmed bare-var-xor(key=171) sibling=None
+[103/1159] bdupdate24.com -> confirmed bare-var-xor(key=121) sibling=None
+[104/1159] bge-visa.com -> clean  sibling=None
+[105/1159] alevelhistorytutoring.com -> clean  sibling=None
+[106/1159] bioresearchpartner.com -> clean  sibling=None
+[107/1159] biohazardresponse.com -> clean  sibling=None
+[108/1159] bhayatravels.com -> clean  sibling=None
+[109/1159] bellamayford.com -> clean  sibling=None
+[110/1159] bencoa.es -> clean  sibling=None
+[111/1159] bolto.info -> unreachable  sibling=None
+[112/1159] bianchimages.com -> clean  sibling=None
+[113/1159] americaempleos.com -> clean  sibling=None
+[114/1159] bigbaer.co -> confirmed bare-var-xor(key=121) sibling=None
+[115/1159] blue-line.ae -> clean  sibling=None
+[116/1159] articseafood.com -> clean  sibling=None
+[117/1159] bigbossasiaslot.com -> clean  sibling=None
+[118/1159] binnova.it -> clean  sibling=None
+[119/1159] bioevhealthcare.com -> confirmed bare-var-xor(key=171) sibling=None
+[120/1159] bloksec.com -> clean  sibling=None
+[121/1159] bloomhealthier.com -> clean  sibling=None
+[122/1159] bumblebeejaspercentre.org -> clean  sibling=None
+[123/1159] blabla-producoes.formigadigital.com.br -> clean  sibling=None
+[124/1159] blog.beltingenterprises.com.technofra.co.in -> clean  sibling=None
+[125/1159] buldog-kristal-mberrr.pages.dev -> clean  sibling=None
+[126/1159] boltonplanthire.co.uk -> clean  sibling=None
+[127/1159] bigriverdigital.ai -> clean  sibling=None
+[128/1159] branchouttreecareltd.co.uk -> confirmed bare-var-xor(key=121) sibling=None
+[129/1159] betty-hensel.de -> sibling single-byte-xor(key=90) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[130/1159] bordtopgames.com -> clean  sibling=None
+[131/1159] blumennorden.cl -> clean  sibling=None
+[132/1159] bulgarsolution.info -> clean  sibling=None
+[133/1159] bricsbusinesscouncil.com -> clean  sibling=None
+[134/1159] canva-web.org -> unreachable  sibling=None
+[135/1159] budapesthandmade.hu -> clean  sibling=None
+[136/1159] buon-appetito.co.nz -> clean  sibling=None
+[137/1159] calloncts.com -> clean  sibling=None
+[138/1159] canadianunderwriter.ca -> clean  sibling=None
+[139/1159] cambridgetranslations.com -> clean  sibling=None
+[140/1159] burtonfarm.org -> clean  sibling=None
+[141/1159] amanetslatina.ro -> clean  sibling=None
+[142/1159] calusaconstruction.com -> confirmed bare-var-xor(key=171) sibling=None
+[143/1159] cambrooke.uk -> clean  sibling=None
+[144/1159] capitalaestheticdc.com -> clean  sibling=None
+[145/1159] careerconversationalist.com -> clean  sibling=None
+[146/1159] carbonbilliards.com -> clean  sibling=None
+[147/1159] caddcampus.com -> unreachable  sibling=None
+[148/1159] cafe-92.com -> clean  sibling=None
+[149/1159] carserviceandbaterryreplecmentindubai.com -> confirmed bare-var-xor(key=114) sibling=None
+[150/1159] carosmetic.com -> clean  sibling=None
+[151/1159] care-wellness360.com -> confirmed bare-var-xor(key=121) sibling=None
+[152/1159] cca-law.com -> clean  sibling=None
+[153/1159] carefreeair.com -> clean  sibling=None
+[154/1159] chatgpt-update.vip -> unreachable  sibling=None
+[155/1159] bluedogtaverngr.com -> clean  sibling=None
+[156/1159] chatgpt-web.vip -> unreachable  sibling=None
+[157/1159] charcharbull.au -> clean  sibling=None
+[158/1159] careyestatesltd.co.uk -> confirmed bare-var-xor(key=29) sibling=None
+[159/1159] chiamsnaturals.com -> unreachable  sibling=None
+[160/1159] ahaaporn.com -> clean  sibling=None
+[161/1159] blossomforth13.com -> clean  sibling=None
+[162/1159] cco-tours.de -> clean  sibling=None
+[163/1159] ceis.be -> clean  sibling=None
+[164/1159] castillo.pe -> clean  sibling=None
+[165/1159] celebritysummits.com -> clean  sibling=None
+[166/1159] brookintegrativewellness.com -> confirmed bare-var-xor(key=171) sibling=None
+[167/1159] chefmoniquecorreia.com -> clean  sibling=None
+[168/1159] certpanda.com -> clean  sibling=None
+[169/1159] cercamaisrj.com.br -> clean  sibling=None
+[170/1159] changinggenerations.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[171/1159] bluegrassrooter.com -> clean  sibling=None
+[172/1159] chadiaashtattoo.com -> confirmed bare-var-xor(key=121) sibling=None
+[173/1159] cheapcarinsurancesacremento.com -> clean  sibling=None
+[174/1159] bmc-building.com -> clean  sibling=None
+[175/1159] castlebridgeng.com -> clean  sibling=None
+[176/1159] clinicaaeb.com.br -> clean  sibling=None
+[177/1159] classicgrp.ae -> clean  sibling=None
+[178/1159] chesterfieldvillagetownhomes.com -> clean  sibling=None
+[179/1159] auteng.ru -> clean  sibling=None
+[180/1159] cintanabi.com -> clean  sibling=None
+[181/1159] christinawechsel.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[182/1159] automatenthoennes.de -> clean  sibling=None
+[183/1159] clinicadealiciaalvez.com -> clean  sibling=None
+[184/1159] clearskyfarms.com -> confirmed bare-var-xor(key=121) sibling=None
+[185/1159] co-esi.com -> clean  sibling=None
+[186/1159] cmi-technic.fr -> clean  sibling=None
+[187/1159] claimfixed.com -> confirmed bare-var-xor(key=121) sibling=None
+[188/1159] cnefa-dz.com -> clean  sibling=None
+[189/1159] concretecuringroom.com -> confirmed bare-var-xor(key=121) sibling=None
+[190/1159] coloringonly.com -> clean  sibling=None
+[191/1159] comaccorporation.com -> clean  sibling=None
+[192/1159] coldplayers.be -> clean  sibling=None
+[193/1159] clinicaaldente.es -> clean  sibling=None
+[194/1159] continuumsouthbeach.org -> clean  sibling=None
+[195/1159] corporate.haier-europe.com -> clean  sibling=None
+[196/1159] construtoraselite.com.br -> clean  sibling=None
+[197/1159] coresfilms.com -> clean  sibling=None
+[198/1159] cnfinance.co.za -> clean  sibling=None
+[199/1159] cortex.med.br -> clean  sibling=None
+[200/1159] conmuchacalle.com -> confirmed bare-var-xor(key=121) sibling=None
+[201/1159] csspceu.shop -> clean  sibling=None
+[202/1159] connectifit-support.com -> clean  sibling=None
+[203/1159] creditcapitol.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[204/1159] creazionmedia.com -> clean  sibling=None
+[205/1159] crossmolinaparish.com -> confirmed bare-var-xor(key=121) sibling=None
+[206/1159] corluopel.com.tr -> clean  sibling=None
+[207/1159] culturecartel.com -> clean  sibling=None
+[208/1159] cunninghamoil.com -> clean  sibling=None
+[209/1159] cozy-corner.co.za -> clean  sibling=None
+[210/1159] coach-therapeut.de -> clean  sibling=None
+[211/1159] costplusproperties.co.ke -> clean  sibling=None
+[212/1159] dappledfashion.com -> clean  sibling=None
+[213/1159] cubehcs.com -> clean  sibling=None
+[214/1159] cubeconsulting.co -> clean  sibling=None
+[215/1159] davesrockblasting.co.zw -> clean  sibling=None
+[216/1159] aplushunter.org -> unreachable  sibling=None
+[217/1159] demolitionspecialistinc.com -> unreachable  sibling=None
+[218/1159] cyberdaily.securelayer7.net -> confirmed bare-var-xor(key=114) sibling=None
+[219/1159] deliveryappsdevelopment.com -> clean  sibling=None
+[220/1159] dawgonllc.com -> confirmed bare-var-xor(key=221) sibling=None
+[221/1159] dcakim.com -> clean  sibling=None
+[222/1159] de.olfworld.com -> clean  sibling=None
+[223/1159] database4business.com -> clean  sibling=None
+[224/1159] crysendo.com -> clean  sibling=None
+[225/1159] demo.featurestheyforgot.com -> confirmed bare-var-xor(key=221) sibling=None
+[226/1159] cmcradio.fr -> clean  sibling=None
+[227/1159] digitallybrave.com -> clean  sibling=None
+[228/1159] dinkkiiasolutions.com -> clean  sibling=None
+[229/1159] dashboard.be -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[230/1159] dentalparklinik.com -> clean  sibling=None
+[231/1159] defi-xstocks.vip -> clean  sibling=None
+[232/1159] dentessaofficial.com -> clean  sibling=None
+[233/1159] donnasalado.com -> clean  sibling=None
+[234/1159] dailydosepharma.com -> clean  sibling=None
+[235/1159] alerton.360elevate.co -> unreachable  sibling=None
+[236/1159] desmondtutucentre-rsj.uwc.ac.za -> confirmed bare-var-xor(key=189) sibling=None
+[237/1159] dbotrealty.com -> clean  sibling=None
+[238/1159] djdabion.it -> clean  sibling=None
+[239/1159] dmgvsolar.com.br -> clean  sibling=None
+[240/1159] businessdegree-online.info -> clean  sibling=None
+[241/1159] dintaifung.com.sg -> clean  sibling=None
+[242/1159] drafatimaoliveira.com.br -> clean  sibling=None
+[243/1159] downholeinjection.com -> unreachable  sibling=None
+[244/1159] agrity.com.br -> unreachable  sibling=None
+[245/1159] caremedicalbilling.com -> confirmed bare-var-xor(key=171) sibling=None
+[246/1159] dublinhomecarellc.com -> clean  sibling=None
+[247/1159] dxelectric.com -> clean  sibling=None
+[248/1159] dualon.de -> clean  sibling=None
+[249/1159] easyholidays.dk -> clean  sibling=None
+[250/1159] apex1radio.com -> unreachable  sibling=None
+[251/1159] earfree.info -> clean  sibling=None
+[252/1159] ciruestetica.com -> clean  sibling=None
+[253/1159] echotapes.8merch.com -> clean  sibling=None
+[254/1159] eastwestmining.ca -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[255/1159] edelsteinadvogados.com.br -> clean  sibling=None
+[256/1159] ecosourcing.org -> clean  sibling=None
+[257/1159] contabilidadeparaempresasrcpassos.com -> clean  sibling=None
+[258/1159] eduagentic.ai -> clean  sibling=None
+[259/1159] digitalxnode.com -> clean  sibling=None
+[260/1159] drodbox.com -> unreachable  sibling=None
+[261/1159] elegant-services.ca -> confirmed bare-var-xor(key=114) sibling=None
+[262/1159] egle.com.co -> clean  sibling=None
+[263/1159] electriq.se -> confirmed bare-var-xor(key=114) sibling=None
+[264/1159] eleazarfoundation.com -> confirmed bare-var-xor(key=114) sibling=None
+[265/1159] emg.ai -> clean  sibling=None
+[266/1159] braveryhealth.com -> unreachable  sibling=None
+[267/1159] eliteacademy.school -> clean  sibling=None
+[268/1159] en-cons.com -> clean  sibling=None
+[269/1159] demarches.quebec -> sibling single-byte-xor(key=73) sibling=['Operator 2 (0x83833C5D...)']
+[270/1159] elcaminocantina.com.au -> clean  sibling=None
+[271/1159] efigold.com -> clean  sibling=None
+[272/1159] enerworld.com -> clean  sibling=None
+[273/1159] enhancelivingoptions.com.au -> clean  sibling=None
+[274/1159] emeraldapc.com -> confirmed bare-var-xor(key=221) sibling=None
+[275/1159] crezeus.com -> clean  sibling=None
+[276/1159] engelspakistan.com -> confirmed bare-var-xor(key=112) sibling=None
+[277/1159] epicmusicevent.com -> clean  sibling=None
+[278/1159] estudioiberico.com -> clean  sibling=None
+[279/1159] englishsharpmind.com -> clean  sibling=None
+[280/1159] fantasywings.co.uk -> clean  sibling=None
+[281/1159] extrasegovia.es -> clean  sibling=None
+[282/1159] esselsynerg.com -> confirmed bare-var-xor(key=121) sibling=None
+[283/1159] enjazmo.com -> clean  sibling=None
+[284/1159] faithinactionafrica.org -> clean  sibling=None
+[285/1159] eatica.com -> clean  sibling=None
+[286/1159] eriosyce.info -> clean  sibling=None
+[287/1159] eenennul.nl -> clean  sibling=None
+[288/1159] blogexameoab.com.br -> unreachable  sibling=None
+[289/1159] financassobcontrole.com.br -> clean  sibling=None
+[290/1159] fireflowmedia.dk -> clean  sibling=None
+[291/1159] flavorcreationsnola.com -> clean  sibling=None
+[292/1159] fiobysumi.com -> clean  sibling=None
+[293/1159] femoyhc.co.uk -> confirmed bare-var-xor(key=121) sibling=None
+[294/1159] etisalatassist.com -> unreachable  sibling=None
+[295/1159] floxybee.com -> clean  sibling=None
+[296/1159] firstpost.com.au -> clean  sibling=None
+[297/1159] frangosul.com -> unreachable  sibling=None
+[298/1159] firstbdnews.net -> clean  sibling=None
+[299/1159] dikabarin.com -> clean  sibling=None
+[300/1159] femidaviesandco.com -> clean  sibling=None
+[301/1159] flyhightravels.co -> clean  sibling=None
+[302/1159] fmkhealth.com -> clean  sibling=None
+[303/1159] fishntech.com -> clean  sibling=None
+[304/1159] fleetrs.es -> confirmed bare-var-xor(key=29) sibling=None
+[305/1159] engetrina.com.br -> confirmed bare-var-xor(key=171) sibling=None
+[306/1159] frannet.com -> clean  sibling=None
+[307/1159] doreen.com -> clean  sibling=None
+[308/1159] fasttrack-nj.com -> clean  sibling=None
+[309/1159] fredericlavoie.com -> clean  sibling=None
+[310/1159] empowersomerset.com -> clean  sibling=None
+[311/1159] freitagmarketing.com -> clean  sibling=None
+[312/1159] citydental.com -> unreachable  sibling=None
+[313/1159] flo-nowak.de -> clean  sibling=None
+[314/1159] gakarate.co.uk -> clean  sibling=None
+[315/1159] galaxiafmradio.com -> confirmed bare-var-xor(key=29) sibling=None
+[316/1159] divinesoulcamp.com -> confirmed bare-var-xor(key=29) sibling=None
+[317/1159] gamesupport.in -> clean  sibling=None
+[318/1159] freevintageillustrations.com -> clean  sibling=None
+[319/1159] gcr88suhu.com -> clean  sibling=None
+[320/1159] gargiulobuilders.com -> confirmed bare-var-xor(key=221) sibling=None
+[321/1159] cafegeracoes.com.br -> unreachable  sibling=None
+[322/1159] futureworks.no -> clean  sibling=None
+[323/1159] genzecomsolution.com -> clean  sibling=None
+[324/1159] ebuydepot.com -> clean  sibling=None
+[325/1159] garlicstore.com -> clean  sibling=None
+[326/1159] galaxydragonbd.com -> confirmed bare-var-xor(key=121) sibling=None
+[327/1159] g-boutiquehotel.co.uk -> clean  sibling=None
+[328/1159] gavelgroup.com -> clean  sibling=None
+[329/1159] dynavation.de -> clean  sibling=None
+[330/1159] georginawilsonassociates.com -> clean  sibling=None
+[331/1159] generativeengineoptimization.studio -> confirmed bare-var-xor(key=114) sibling=None
+[332/1159] fundacioportal.org -> clean  sibling=None
+[333/1159] geutdinbok.se -> clean  sibling=None
+[334/1159] ginateacupchihuahua.com -> confirmed bare-var-xor(key=114) sibling=None
+[335/1159] edenshvac.co -> clean  sibling=None
+[336/1159] frenzyfootball.com -> confirmed bare-var-xor(key=121) sibling=None
+[337/1159] gemiamen.com -> clean  sibling=None
+[338/1159] foxtco.com -> clean  sibling=None
+[339/1159] grab-malaysia.com.my -> clean  sibling=None
+[340/1159] gimarystore.com -> confirmed bare-var-xor(key=121) sibling=None
+[341/1159] globexauae.com -> confirmed bare-var-xor(key=121) sibling=None
+[342/1159] gls.az -> clean  sibling=None
+[343/1159] gjergjihtextil.com -> clean  sibling=None
+[344/1159] graceintlgroup.com -> clean  sibling=None
+[345/1159] globalfacility.sk -> clean  sibling=None
+[346/1159] cybernetron.com -> unreachable  sibling=None
+[347/1159] grup2kopassus.com -> clean  sibling=None
+[348/1159] gtreilly.com -> clean  sibling=None
+[349/1159] grubdawgs.com -> clean  sibling=None
+[350/1159] haleyshoneymeadery.com -> clean  sibling=None
+[351/1159] futureclassics.co.za -> clean  sibling=None
+[352/1159] gustavomarval.com -> confirmed bare-var-xor(key=171) sibling=None
+[353/1159] growingthenationstherapyprogrammes.site -> confirmed bare-var-xor(key=121) sibling=None
+[354/1159] gslnc.in -> clean  sibling=None
+[355/1159] growthhive.com -> clean  sibling=None
+[356/1159] guineeventos.com.br -> clean  sibling=None
+[357/1159] anleggsmaskinen.no -> clean  sibling=None
+[358/1159] flextro.co.uk -> clean  sibling=None
+[359/1159] grupotlog.com.br -> clean  sibling=None
+[360/1159] helioled.ca -> clean  sibling=None
+[361/1159] guttascampus.no -> clean  sibling=None
+[362/1159] herongate-homes.com -> confirmed bare-var-xor(key=29) sibling=None
+[363/1159] gracefulliving.ca -> clean  sibling=None
+[364/1159] herculesvipslotpg.com -> clean  sibling=None
+[365/1159] hikmaharabicinstitute.com -> clean  sibling=None
+[366/1159] hhasb.com -> clean  sibling=None
+[367/1159] habibahmultiresources.com.ng -> clean  sibling=None
+[368/1159] hfproindustries.com -> clean  sibling=None
+[369/1159] contabilitate.mcmbluezone.ro -> unreachable  sibling=None
+[370/1159] hktruck.com -> clean  sibling=None
+[371/1159] dortexdesigns.com -> unreachable  sibling=None
+[372/1159] fernandopaula.com -> clean  sibling=None
+[373/1159] hikvisionargentina.com -> clean  sibling=None
+[374/1159] hrblocktaxus.com -> unreachable  sibling=None
+[375/1159] hero12.net -> confirmed bare-var-xor(key=91) sibling=None
+[376/1159] hondapower.com.bd -> clean  sibling=None
+[377/1159] harrogatestays.co.uk -> clean  sibling=None
+[378/1159] hoopsandhabits.com -> sibling single-byte-xor(key=90) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[379/1159] himediterranean.com -> confirmed bare-var-xor(key=121) sibling=None
+[380/1159] holina.org -> clean  sibling=None
+[381/1159] hoatuoihocmon.com.vn -> clean  sibling=None
+[382/1159] health-container.com -> clean  sibling=None
+[383/1159] horizongardenavm.com -> confirmed bare-var-xor(key=221) sibling=None
+[384/1159] ibor-jets.com -> clean  sibling=None
+[385/1159] imprentaprintcenter.com -> confirmed bare-var-xor(key=121) sibling=None
+[386/1159] iiiemjobs.com -> clean  sibling=None
+[387/1159] ictned.eu -> clean  sibling=None
+[388/1159] impress.com.pk -> clean  sibling=None
+[389/1159] ielts.ie -> clean  sibling=None
+[390/1159] gomez-law-dev.flywheelsites.com -> clean  sibling=None
+[391/1159] imifondamental.be -> clean  sibling=None
+[392/1159] inno-change.org -> confirmed bare-var-xor(key=29) sibling=None
+[393/1159] internationalfleetsolutions.com -> clean  sibling=None
+[394/1159] insidethebattersbox.com -> clean  sibling=None
+[395/1159] huisbouwen.sr -> clean  sibling=None
+[396/1159] integrity-consulting.ca -> clean  sibling=None
+[397/1159] inkwellandco.com -> confirmed bare-var-xor(key=221) sibling=None
+[398/1159] it-mz.com -> clean  sibling=None
+[399/1159] ishidaparts.com -> clean  sibling=None
+[400/1159] happymovershomestead.com -> clean  sibling=None
+[401/1159] istanbulotokurtarma.info -> clean  sibling=None
+[402/1159] jackdukedesigns.com -> clean  sibling=None
+[403/1159] jawalagamesaigp.in -> clean  sibling=None
+[404/1159] jancristaudo.com.au -> clean  sibling=None
+[405/1159] jamerehmat.com -> clean  sibling=None
+[406/1159] ithacalead.org -> clean  sibling=None
+[407/1159] ihavebedbugs.com -> clean  sibling=None
+[408/1159] jdwrite.com -> clean  sibling=None
+[409/1159] icsei.org.ng -> clean  sibling=None
+[410/1159] jbe-consulting.fr -> clean  sibling=None
+[411/1159] jelanilebourne.com -> clean  sibling=None
+[412/1159] harbourpilot.es -> clean  sibling=None
+[413/1159] joincollectiveos.info -> unreachable  sibling=None
+[414/1159] jacksonmemorial.net -> clean  sibling=None
+[415/1159] jeff-arnold.com -> clean  sibling=None
+[416/1159] jaybhavaniwoodworks.com -> clean  sibling=None
+[417/1159] jobolympic.com -> clean  sibling=None
+[418/1159] jellumlaw.com -> clean  sibling=None
+[419/1159] juris-afritech.com -> unreachable  sibling=None
+[420/1159] joshheintzeman.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[421/1159] hoachatvietan.com -> confirmed bare-var-xor(key=121) sibling=None
+[422/1159] geonatiq.com -> unreachable  sibling=None
+[423/1159] jenkleinbooks.com -> clean  sibling=None
+[424/1159] joesmovingmiami.com -> clean  sibling=None
+[425/1159] jld.sk -> clean  sibling=None
+[426/1159] junk-removalguys.com -> confirmed bare-var-xor(key=221) sibling=None
+[427/1159] justgoodcompany.org -> clean  sibling=None
+[428/1159] kadist.org -> clean  sibling=None
+[429/1159] kacmazbilisim.com -> sibling single-byte-xor(key=8) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[430/1159] kapilaresorts.com -> clean  sibling=None
+[431/1159] jrfds2021.dahive.fr -> clean  sibling=None
+[432/1159] jkylenewton.com -> clean  sibling=None
+[433/1159] kalrokinnovations.com -> confirmed bare-var-xor(key=121) sibling=None
+[434/1159] kenantimur.online -> unreachable  sibling=None
+[435/1159] kakesbykesline.com -> clean  sibling=None
+[436/1159] karnehesaplama.com -> unreachable  sibling=None
+[437/1159] kemitraanseafood.com -> confirmed bare-var-xor(key=121) sibling=None
+[438/1159] heiheauto.ru -> clean  sibling=None
+[439/1159] icird7.soc.cmu.ac.th -> confirmed bare-var-xor(key=29) sibling=None
+[440/1159] kclivetheater.com -> confirmed bare-var-xor(key=221) sibling=None
+[441/1159] kcmbuild.com -> clean  sibling=None
+[442/1159] excellenceandimpact.org -> unreachable  sibling=None
+[443/1159] kickwall.in -> clean  sibling=None
+[444/1159] kenaes.com -> clean  sibling=None
+[445/1159] josdream.com -> clean  sibling=None
+[446/1159] ketuakelasacc4d.click -> clean  sibling=None
+[447/1159] fundsback.info -> unreachable  sibling=None
+[448/1159] jacmedicalgt.com -> clean  sibling=None
+[449/1159] knowtanzaniatours.co.tz -> clean  sibling=None
+[450/1159] kienthucquocphong.com -> confirmed bare-var-xor(key=171) sibling=None
+[451/1159] immaverick.com -> clean  sibling=None
+[452/1159] keybillingservice.com -> clean  sibling=None
+[453/1159] koreatravellog.com -> confirmed bare-var-xor(key=75) sibling=None
+[454/1159] ktima-logos.gr -> clean  sibling=None
+[455/1159] ksapa.org -> clean  sibling=None
+[456/1159] kidsunitedsmiles.com -> clean  sibling=None
+[457/1159] jsbuilders.com -> clean  sibling=None
+[458/1159] kirche-speldorf.ekir.de -> clean  sibling=None
+[459/1159] lacashometutors.com -> clean  sibling=None
+[460/1159] krisoralgroup.com -> clean  sibling=None
+[461/1159] kirim-mobil.com -> clean  sibling=None
+[462/1159] koreancosmeticbd.com.newtrendybazar.com -> confirmed bare-var-xor(key=171) sibling=None
+[463/1159] foodclub.ae -> confirmed bare-var-xor(key=114) sibling=None
+[464/1159] lancewallnau.com -> clean  sibling=None
+[465/1159] lekeitioikt.eus -> unreachable  sibling=None
+[466/1159] koreancosmeticbd.com -> confirmed bare-var-xor(key=171) sibling=None
+[467/1159] lamas-lawyers.com -> clean  sibling=None
+[468/1159] kyveincare.com -> clean  sibling=None
+[469/1159] laposadadelinfante.com -> clean  sibling=None
+[470/1159] kuglanje.ba -> confirmed bare-var-xor(key=121) sibling=None
+[471/1159] lasiestaresorts.com -> clean  sibling=None
+[472/1159] gostoriesai.com -> unreachable  sibling=None
+[473/1159] hello-borne.com -> clean  sibling=None
+[474/1159] larnacaprocycle.com -> clean  sibling=None
+[475/1159] fmconseils-formations.com -> unreachable  sibling=None
+[476/1159] livewelltoday.site -> unreachable  sibling=None
+[477/1159] leafypage.com -> clean  sibling=None
+[478/1159] laroycehawkins.com -> clean  sibling=None
+[479/1159] leolapublications.com -> confirmed bare-var-xor(key=189) sibling=None
+[480/1159] littleshutterhomes.com -> clean  sibling=None
+[481/1159] igadsupportplatform.org -> clean  sibling=None
+[482/1159] lisboncookingacademy.com -> clean  sibling=None
+[483/1159] linkjdeen.com -> clean  sibling=None
+[484/1159] leveretsgroup.co.uk -> clean  sibling=None
+[485/1159] kokanjeaftreeoord.co.za -> clean  sibling=None
+[486/1159] law-offices-patricia-micek.mysites.io -> confirmed bare-var-xor(key=91) sibling=None
+[487/1159] lindabrasil.store -> clean  sibling=None
+[488/1159] lmrentacar.com -> clean  sibling=None
+[489/1159] lndteam.beer -> clean  sibling=None
+[490/1159] localmd.nyc -> clean  sibling=None
+[491/1159] livesports.watch -> confirmed bare-var-xor(key=29) sibling=None
+[492/1159] m4newauto.com -> clean  sibling=None
+[493/1159] mail.hikmaharabicinstitute.com -> unreachable  sibling=None
+[494/1159] londoncreativehealthcity.org.uk -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[495/1159] lumisystem.com -> clean  sibling=None
+[496/1159] lareic.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[497/1159] lesprivatalfa.com -> clean  sibling=None
+[498/1159] losimaginantes.com -> clean  sibling=None
+[499/1159] gogamers.tech -> clean  sibling=None
+[500/1159] mail.mercadoyepes.co -> clean  sibling=None
+[501/1159] maidog.fr -> clean  sibling=None
+[502/1159] insullantas.net -> clean  sibling=None
+[503/1159] maddog-supply.com -> clean  sibling=None
+[504/1159] maisfitblackwhite.com -> clean  sibling=None
+[505/1159] mainkanbosku.xyz -> clean  sibling=None
+[506/1159] luxurybooth.nl -> confirmed bare-var-xor(key=121) sibling=None
+[507/1159] majestichomecare.nl -> clean  sibling=None
+[508/1159] lokasangraha.com -> confirmed bare-var-xor(key=29) sibling=None
+[509/1159] mandalayearlylearning.com.au -> clean  sibling=None
+[510/1159] maik-freudenberg.de -> clean  sibling=None
+[511/1159] magicjourney.com.tr -> clean  sibling=None
+[512/1159] lisanslandiniz.com -> clean  sibling=None
+[513/1159] mascotfreights.com -> clean  sibling=None
+[514/1159] lumyq.com -> clean  sibling=None
+[515/1159] margatepro.com -> clean  sibling=None
+[516/1159] maravillasdelcarmen.net -> clean  sibling=None
+[517/1159] marathonka.com -> clean  sibling=None
+[518/1159] masstamilan.fun -> clean  sibling=None
+[519/1159] legion911.org -> clean  sibling=None
+[520/1159] merindashop.cyou -> unreachable  sibling=None
+[521/1159] mbal.ae -> clean  sibling=None
+[522/1159] martindaveiga.no -> clean  sibling=None
+[523/1159] medinova.ng -> clean  sibling=None
+[524/1159] medicogadget.com -> confirmed bare-var-xor(key=121) sibling=None
+[525/1159] maisonmichelet.com -> sibling single-byte-xor(key=90) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[526/1159] meccabot.id -> clean  sibling=None
+[527/1159] mentellahealth.com -> clean  sibling=None
+[528/1159] masakaschools.sc.tz -> clean  sibling=None
+[529/1159] mechanicalseals.co.za -> clean  sibling=None
+[530/1159] meninno-events.ch -> clean  sibling=None
+[531/1159] merkadoteknia.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[532/1159] mfarbrisseaux.com -> clean  sibling=None
+[533/1159] magnuslegal.in -> clean  sibling=None
+[534/1159] mistersaturdaynight.com -> clean  sibling=None
+[535/1159] gvf-togo.org -> unreachable  sibling=None
+[536/1159] marajoa.com.br -> clean  sibling=None
+[537/1159] mecconti.com -> clean  sibling=None
+[538/1159] mhworldcup.com -> clean  sibling=None
+[539/1159] hardmoney-411.com -> unreachable  sibling=None
+[540/1159] losanational.xyz -> clean  sibling=None
+[541/1159] miastolaskarzew.pl -> confirmed bare-var-xor(key=121) sibling=None
+[542/1159] msgtelevision.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[543/1159] mgo.vn -> clean  sibling=None
+[544/1159] mss.ltd -> clean  sibling=None
+[545/1159] mm-international.com -> clean  sibling=None
+[546/1159] mocozy.com -> confirmed bare-var-xor(key=121) sibling=None
+[547/1159] mlafrica.com -> confirmed bare-var-xor(key=29) sibling=None
+[548/1159] mintmonkey.co.za -> clean  sibling=None
+[549/1159] metalinmotion.com -> clean  sibling=None
+[550/1159] hamzasarfaraz.com -> unreachable  sibling=None
+[551/1159] myplantoprosper.com -> clean  sibling=None
+[552/1159] mundosuperman.com -> clean  sibling=None
+[553/1159] naasongs.ltd -> clean  sibling=None
+[554/1159] moorient.org -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[555/1159] intminds.in -> clean  sibling=None
+[556/1159] n8ncloudus.com -> clean  sibling=None
+[557/1159] myachtconsulting.com -> confirmed bare-var-xor(key=171) sibling=None
+[558/1159] mwcmetals.com -> clean  sibling=None
+[559/1159] mail.maithebelezaecuidados.com.br -> confirmed bare-var-xor(key=171) sibling=None
+[560/1159] namaste-bungalows.com -> confirmed bare-var-xor(key=121) sibling=None
+[561/1159] mytelco.com.cy -> clean  sibling=None
+[562/1159] multicei.med.br -> clean  sibling=None
+[563/1159] mladizdk.com -> clean  sibling=None
+[564/1159] mysteelfabricators.com -> clean  sibling=None
+[565/1159] nateberger.com -> clean  sibling=None
+[566/1159] natc.news -> clean  sibling=None
+[567/1159] nailartstudioatskokieblvd.com -> clean  sibling=None
+[568/1159] naturalezafengshui.com -> confirmed bare-var-xor(key=221) sibling=None
+[569/1159] naza24th.com -> clean  sibling=None
+[570/1159] newidmemberlogin.com -> clean  sibling=None
+[571/1159] newspaperhelp.com -> clean  sibling=None
+[572/1159] networthadjusters.com -> confirmed bare-var-xor(key=121) sibling=None
+[573/1159] newbankaccount.com -> clean  sibling=None
+[574/1159] neurofeedbackperu.blogspot.com -> clean  sibling=None
+[575/1159] newtan777.com -> clean  sibling=None
+[576/1159] neuronoetics.org -> clean  sibling=None
+[577/1159] nomoretype2.site -> unreachable  sibling=None
+[578/1159] newmaritime.ch -> clean  sibling=None
+[579/1159] newtanbet168.com -> clean  sibling=None
+[580/1159] nhatnamco.com -> clean  sibling=None
+[581/1159] newtanslot.com -> clean  sibling=None
+[582/1159] noblegeneralconstruction.com -> clean  sibling=None
+[583/1159] nimasakron.com -> confirmed bare-var-xor(key=121) sibling=None
+[584/1159] nickkyhub.com.ng -> confirmed bare-var-xor(key=121) sibling=None
+[585/1159] notarytogo.com -> clean  sibling=None
+[586/1159] nerodesign.com.au -> clean  sibling=None
+[587/1159] noalaincineracion.org.ar -> clean  sibling=None
+[588/1159] nationsinstitute.org -> clean  sibling=None
+[589/1159] noventabank.com -> clean  sibling=None
+[590/1159] novacasasv.com -> clean  sibling=None
+[591/1159] nextcell.com.my -> clean  sibling=None
+[592/1159] nxonedcinc.com -> clean  sibling=None
+[593/1159] lisboaip.com.br -> clean  sibling=None
+[594/1159] nutvatika.com -> clean  sibling=None
+[595/1159] nickkyonline.store -> confirmed bare-var-xor(key=121) sibling=None
+[596/1159] nowa.mogielnica.pl -> clean  sibling=None
+[597/1159] norwestortho.com.au -> clean  sibling=None
+[598/1159] niche-beautymanufacture.eu -> clean  sibling=None
+[599/1159] officialguidebarcelona.com -> clean  sibling=None
+[600/1159] offroadoasis.parts -> clean  sibling=None
+[601/1159] olamexican.com.au -> clean  sibling=None
+[602/1159] oliororo.it -> clean  sibling=None
+[603/1159] oig.pl -> clean  sibling=None
+[604/1159] keepyourbalance-coaching.com -> clean  sibling=None
+[605/1159] onoffsound.com -> clean  sibling=None
+[606/1159] jleonengineering.com -> unreachable  sibling=None
+[607/1159] orionbeer-international.com -> clean  sibling=None
+[608/1159] opais.co.mz -> confirmed bare-var-xor(key=29) sibling=None
+[609/1159] marmodelkaiser.com -> clean  sibling=None
+[610/1159] orangecountywebdesignexperts.com -> clean  sibling=None
+[611/1159] omconsultants.in -> clean  sibling=None
+[612/1159] nshield.trulytrack.com -> clean  sibling=None
+[613/1159] northstaroperating.com -> clean  sibling=None
+[614/1159] orbitvalves.com -> clean  sibling=None
+[615/1159] optimadigital.ie -> clean  sibling=None
+[616/1159] onyon.org -> clean  sibling=None
+[617/1159] osso1988.org -> clean  sibling=None
+[618/1159] p33.info -> clean  sibling=None
+[619/1159] p-698d73940393d0f202b14870-onecb-web.dev-doks.onecoopbank.com -> clean  sibling=None
+[620/1159] onedrivedocumentsharing.digital -> unreachable  sibling=None
+[621/1159] paintersinbergencountynj.com -> clean  sibling=None
+[622/1159] oxar.dz -> clean  sibling=None
+[623/1159] paketla.my.id -> clean  sibling=None
+[624/1159] pabijaya.id -> clean  sibling=None
+[625/1159] othila.eu -> clean  sibling=None
+[626/1159] operaitaliana-sa.com -> sibling single-byte-xor(key=90) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[627/1159] osterlingfirm.com -> clean  sibling=None
+[628/1159] pakjaya-kimia.my.id -> clean  sibling=None
+[629/1159] osakadev.flywheelsites.com -> confirmed bare-var-xor(key=121) sibling=None
+[630/1159] panaceafarmakeio.com -> clean  sibling=None
+[631/1159] parqueacuaticomcy.com -> clean  sibling=None
+[632/1159] paketterpercaya.com -> clean  sibling=None
+[633/1159] mlbodesign.com -> clean  sibling=None
+[634/1159] pasbannews.net -> clean  sibling=None
+[635/1159] nelsonmrodriguez.com -> confirmed bare-var-xor(key=121) sibling=None
+[636/1159] pcrkgroup.com -> clean  sibling=None
+[637/1159] kirschwellness.com -> unreachable  sibling=None
+[638/1159] nutrishmish.com -> clean  sibling=None
+[639/1159] payment.shichida.com.au -> clean  sibling=None
+[640/1159] massagebienetre-badia.fr -> clean  sibling=None
+[641/1159] pathtohomeapproval.com -> confirmed bare-var-xor(key=114) sibling=None
+[642/1159] paulhackett.co.uk -> clean  sibling=None
+[643/1159] pantipendowokudus.com -> unreachable  sibling=None
+[644/1159] pedcenter.com -> clean  sibling=None
+[645/1159] pcccthanhhuy.com -> clean  sibling=None
+[646/1159] laborcon.com.br -> unreachable  sibling=None
+[647/1159] pergizi.org -> clean  sibling=None
+[648/1159] myitsupport.com.mx -> clean  sibling=None
+[649/1159] peptidguide.com -> confirmed bare-var-xor(key=171) sibling=None
+[650/1159] perimeterteam.com -> clean  sibling=None
+[651/1159] petctofmiami.com -> clean  sibling=None
+[652/1159] nutresa.miseguro.com.co -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[653/1159] petplanosdesaude.com.br -> clean  sibling=None
+[654/1159] petarungkotabatu.web.id -> clean  sibling=None
+[655/1159] pinnaclepropertymgmt.com -> clean  sibling=None
+[656/1159] lapra08ss.com -> unreachable  sibling=None
+[657/1159] piratesammason.com -> clean  sibling=None
+[658/1159] perrymed-com.translate.goog -> clean  sibling=None
+[659/1159] phenha.vn -> clean  sibling=None
+[660/1159] picsofficial.com -> clean  sibling=None
+[661/1159] plansbid.com -> clean  sibling=None
+[662/1159] pirzadadelivery.com -> clean  sibling=None
+[663/1159] pierozarnia.pl -> clean  sibling=None
+[664/1159] pilateso.com -> clean  sibling=None
+[665/1159] permacyclists.com -> clean  sibling=None
+[666/1159] mytechnology.info -> clean  sibling=None
+[667/1159] pmavalley.com -> confirmed bare-var-xor(key=114) sibling=None
+[668/1159] picorad.com -> clean  sibling=None
+[669/1159] pmgflexo.com.br -> clean  sibling=None
+[670/1159] platinumedical.com -> clean  sibling=None
+[671/1159] omicsynergy.net -> clean  sibling=None
+[672/1159] podanime.com -> clean  sibling=None
+[673/1159] pacific.com.ng -> confirmed bare-var-xor(key=121) sibling=None
+[674/1159] pietepublice.ro -> clean  sibling=None
+[675/1159] pompes-funebres-defruit.fr -> clean  sibling=None
+[676/1159] parfumat.de -> clean  sibling=None
+[677/1159] patrimonio.ceipsantaanacuenca.es -> confirmed bare-var-xor(key=121) sibling=None
+[678/1159] porcherservicesandtransfer.com -> clean  sibling=None
+[679/1159] prueba.mgnacional.cl -> unreachable  sibling=None
+[680/1159] motomorini.mg -> unreachable  sibling=None
+[681/1159] pola88auto.com -> clean  sibling=None
+[682/1159] postdataec.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[683/1159] puntoscardinalestv.com -> unreachable  sibling=None
+[684/1159] premtitle.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[685/1159] quonnie-qcc.org -> clean  sibling=None
+[686/1159] osteoporoza.si -> clean  sibling=None
+[687/1159] purefinancial.com -> clean  sibling=None
+[688/1159] prlaboratories.com -> clean  sibling=None
+[689/1159] prvaklasa.rs -> clean  sibling=None
+[690/1159] potatoseed.co.za -> clean  sibling=None
+[691/1159] ptberdikari.co.id -> clean  sibling=None
+[692/1159] radiusaerospace.com -> clean  sibling=None
+[693/1159] quixtech.co.uk -> confirmed bare-var-xor(key=121) sibling=None
+[694/1159] redsbuilding.com.au -> clean  sibling=None
+[695/1159] rankandtrack.com -> confirmed bare-var-xor(key=114) sibling=None
+[696/1159] proximonivelads.com.br -> clean  sibling=None
+[697/1159] red88fit.com -> confirmed bare-var-xor(key=121) sibling=None
+[698/1159] realxlbd.com -> confirmed bare-var-xor(key=121) sibling=None
+[699/1159] rashedi.studio -> clean  sibling=None
+[700/1159] pmsons.com -> clean  sibling=None
+[701/1159] parenthesegourmande.fr -> clean  sibling=None
+[702/1159] recrutement.sunroad-equipment.com -> clean  sibling=None
+[703/1159] projectlifemastery.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[704/1159] rehemaatugonza.com -> clean  sibling=None
+[705/1159] rayapbesi-boy.xyz -> clean  sibling=None
+[706/1159] references.c3pluriel.fr -> confirmed bare-var-xor(key=121) sibling=None
+[707/1159] renomeinteriors.com -> clean  sibling=None
+[708/1159] rnceducation.com -> sibling single-byte-xor(key=112) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[709/1159] remotestack.org -> clean  sibling=None
+[710/1159] precise.co.za -> clean  sibling=None
+[711/1159] respaldoswp.com.merkaserver.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[712/1159] riverlandfarmsmirpur.com -> clean  sibling=None
+[713/1159] revotekitsolutions.com -> clean  sibling=None
+[714/1159] ristorantelinizio.de -> clean  sibling=None
+[715/1159] rhinopropertymgnt.com -> clean  sibling=None
+[716/1159] medoratechlabs.com -> clean  sibling=None
+[717/1159] register-virtuals.com -> clean  sibling=None
+[718/1159] sadharanikaran.com -> clean  sibling=None
+[719/1159] mnasalonsuites.com -> unreachable  sibling=None
+[720/1159] rockersmovementradio.com -> confirmed bare-var-xor(key=121) sibling=None
+[721/1159] roxburkey.com -> clean  sibling=None
+[722/1159] sainttripp.com -> clean  sibling=None
+[723/1159] robbiedorman.com -> confirmed bare-var-xor(key=29) sibling=None
+[724/1159] royal-renovation.com -> clean  sibling=None
+[725/1159] rzeszowskiejuwenalia.pl -> clean  sibling=None
+[726/1159] safety01protech.com -> clean  sibling=None
+[727/1159] robertsofguildford.co.uk -> confirmed bare-var-xor(key=121) sibling=None
+[728/1159] salemela.pk -> clean  sibling=None
+[729/1159] samara-international.com -> clean  sibling=None
+[730/1159] romeintdanceac.eu -> clean  sibling=None
+[731/1159] sbs-website.com -> clean  sibling=None
+[732/1159] saladobatuque.com -> clean  sibling=None
+[733/1159] scannersinc.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[734/1159] scpdb.com.br -> clean  sibling=None
+[735/1159] scrs.in -> clean  sibling=None
+[736/1159] sarimagrohealth.com -> clean  sibling=None
+[737/1159] seagullsmarine.com.ng -> clean  sibling=None
+[738/1159] rosacu.org -> clean  sibling=None
+[739/1159] sciencenewstoday.online -> clean  sibling=None
+[740/1159] servicenow.homes -> clean  sibling=None
+[741/1159] nasroyalsafaris.com -> unreachable  sibling=None
+[742/1159] savannahpridesafaris.com -> clean  sibling=None
+[743/1159] shekhr.com -> unreachable  sibling=None
+[744/1159] seymourchauffeurs.co.uk -> clean  sibling=None
+[745/1159] sellingpoint.com.ng -> clean  sibling=None
+[746/1159] seanofficials.com -> confirmed bare-var-xor(key=121) sibling=None
+[747/1159] realtechengineeringltd.com -> sibling single-byte-xor(key=90) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[748/1159] secuai.ca -> clean  sibling=None
+[749/1159] sgka.co.uk -> clean  sibling=None
+[750/1159] serviciatech.com -> clean  sibling=None
+[751/1159] sharkltd.com -> clean  sibling=None
+[752/1159] seymourcreative.co.uk -> clean  sibling=None
+[753/1159] shabuya.com.vn -> clean  sibling=None
+[754/1159] shbnet.id -> clean  sibling=None
+[755/1159] pureenergyrx.com -> clean  sibling=None
+[756/1159] secure-online-banking.yontatrustbank.com -> clean  sibling=None
+[757/1159] sina-global.com -> clean  sibling=None
+[758/1159] shirazicafe.com -> clean  sibling=None
+[759/1159] shumou.com -> confirmed bare-var-xor(key=114) sibling=None
+[760/1159] securehotel.us -> clean  sibling=None
+[761/1159] sidneymanzo.com -> unreachable  sibling=None
+[762/1159] signaturelaw.co.uk -> clean  sibling=None
+[763/1159] pods.emkay.id -> clean  sibling=None
+[764/1159] simplifybill.com -> clean  sibling=None
+[765/1159] shibinakareem.com -> confirmed bare-var-xor(key=171) sibling=None
+[766/1159] skpnijmegen.nl -> confirmed bare-var-xor(key=121) sibling=None
+[767/1159] slotg2g778.org -> clean  sibling=None
+[768/1159] smarterfeds.com -> clean  sibling=None
+[769/1159] solarpowercentre.com.ng -> confirmed bare-var-xor(key=121) sibling=None
+[770/1159] smittysmeatsandwines.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[771/1159] scholarsvoice.org -> clean  sibling=None
+[772/1159] sotothailand.com -> clean  sibling=None
+[773/1159] sinoe.gov.lr -> clean  sibling=None
+[774/1159] solar-parks.ch -> clean  sibling=None
+[775/1159] sneakpeek.my -> clean  sibling=None
+[776/1159] realfantasynames.com -> clean  sibling=None
+[777/1159] somara.eu -> clean  sibling=None
+[778/1159] sanavita.org -> clean  sibling=None
+[779/1159] sparc.life -> clean  sibling=None
+[780/1159] spcawestchester.org -> clean  sibling=None
+[781/1159] pachagadgets.com -> unreachable  sibling=None
+[782/1159] soufaempowermentfoundation.com -> clean  sibling=None
+[783/1159] ssi.com.pa -> clean  sibling=None
+[784/1159] radioamistadaucayacu.com -> clean  sibling=None
+[785/1159] spymyheart.com -> clean  sibling=None
+[786/1159] simishka.com -> clean  sibling=None
+[787/1159] safeguardips.com -> clean  sibling=None
+[788/1159] stage13.fusiondev.net -> clean  sibling=None
+[789/1159] stage8.fusiondev.net -> clean  sibling=None
+[790/1159] stage12.fusiondev.net -> clean  sibling=None
+[791/1159] southernstarinvestments.com -> clean  sibling=None
+[792/1159] ssfeshipping.com -> sibling single-byte-xor(key=73) sibling=['Operator 2 (0x83833C5D...)']
+[793/1159] spectrumlearnings.com -> confirmed bare-var-xor(key=121) sibling=None
+[794/1159] stantontreeservice.com -> clean  sibling=None
+[795/1159] stpaulamezmaryville.org -> confirmed bare-var-xor(key=29) sibling=None
+[796/1159] stg.gallion.com.ar -> clean  sibling=None
+[797/1159] strategiesgagnantes.ca -> clean  sibling=None
+[798/1159] supertransfer.ch -> unreachable  sibling=None
+[799/1159] ssnihongocenter.com -> confirmed bare-var-xor(key=171) sibling=None
+[800/1159] stila.no -> clean  sibling=None
+[801/1159] sunderlandelectric.com -> clean  sibling=None
+[802/1159] superslot-gmae.net -> clean  sibling=None
+[803/1159] sublimeoptics.com -> clean  sibling=None
+[804/1159] superfabrications.com -> clean  sibling=None
+[805/1159] sufiyakashif.com -> clean  sibling=None
+[806/1159] stephanesaintecroix.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[807/1159] safeschoolsandhealthylearning.com -> clean  sibling=None
+[808/1159] optimum-transports.com -> clean  sibling=None
+[809/1159] pdfdocumentsharing.com -> unreachable  sibling=None
+[810/1159] soarebc.com -> clean  sibling=None
+[811/1159] tabhair.com.br -> unreachable  sibling=None
+[812/1159] swarnjainphotography.com -> clean  sibling=None
+[813/1159] studiodynamis.nl -> confirmed bare-var-xor(key=136) sibling=None
+[814/1159] superinventario.com -> clean  sibling=None
+[815/1159] svdcpondy.ac.in -> clean  sibling=None
+[816/1159] supremeriverside.xyz -> clean  sibling=None
+[817/1159] tahoedentalarts.com -> clean  sibling=None
+[818/1159] teamnamecraft.com -> unreachable  sibling=None
+[819/1159] surreyacl.org -> clean  sibling=None
+[820/1159] swhrconsulting.com -> clean  sibling=None
+[821/1159] tabecapital.com -> clean  sibling=None
+[822/1159] technicalceramics.com.au -> clean  sibling=None
+[823/1159] skchs.org -> clean  sibling=None
+[824/1159] tbhaxor.com -> clean  sibling=None
+[825/1159] tappetirari.com -> clean  sibling=None
+[826/1159] statenislandwings.com -> clean  sibling=None
+[827/1159] svnstone.com -> clean  sibling=None
+[828/1159] taqadilaw.com -> confirmed bare-var-xor(key=29) sibling=None
+[829/1159] tcoyd.org -> clean  sibling=None
+[830/1159] technotoil.com -> clean  sibling=None
+[831/1159] test.ieds.org.bd -> clean  sibling=None
+[832/1159] stgeo.org -> clean  sibling=None
+[833/1159] taxinairobiairports.com -> confirmed bare-var-xor(key=171) sibling=None
+[834/1159] panouradiant.com -> unreachable  sibling=None
+[835/1159] tgfps.telangana.gov.in -> clean  sibling=None
+[836/1159] thecovie.com -> clean  sibling=None
+[837/1159] shootingcreekbrewery.com -> clean  sibling=None
+[838/1159] the-anfa.com -> clean  sibling=None
+[839/1159] pishealth.com -> unreachable  sibling=None
+[840/1159] thedentalmedia.com -> confirmed bare-var-xor(key=121) sibling=None
+[841/1159] thefreckledkeyphotography.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[842/1159] theblkspectrum.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[843/1159] smkbuildingmaroc.com -> clean  sibling=None
+[844/1159] theioes.org -> clean  sibling=None
+[845/1159] thedogcentral.com -> clean  sibling=None
+[846/1159] thehumanxpress.com -> clean  sibling=None
+[847/1159] snazzyorigins.com -> clean  sibling=None
+[848/1159] tarimhaber.org -> clean  sibling=None
+[849/1159] theglobalhub.net -> clean  sibling=None
+[850/1159] thewaynestater.com -> clean  sibling=None
+[851/1159] soulvarejo.com -> clean  sibling=None
+[852/1159] tiktok.progresso.site -> clean  sibling=None
+[853/1159] torontotabla.com -> clean  sibling=None
+[854/1159] toussaintlouverture.org -> clean  sibling=None
+[855/1159] trezorcoin.com -> unreachable  sibling=None
+[856/1159] thorpedesign.com -> clean  sibling=None
+[857/1159] tigerfoods.net -> clean  sibling=None
+[858/1159] trustassetsretrieval.org -> unreachable  sibling=None
+[859/1159] thelavenderhaven.com -> confirmed bare-var-xor(key=171) sibling=None
+[860/1159] startandros.com -> clean  sibling=None
+[861/1159] strongholdone.com -> clean  sibling=None
+[862/1159] ticketkoi.com -> clean  sibling=None
+[863/1159] tecnologiademateriais.com.br -> clean  sibling=None
+[864/1159] traveltrektourism.com -> clean  sibling=None
+[865/1159] transalmaint.com -> clean  sibling=None
+[866/1159] truckstotal.com -> clean  sibling=None
+[867/1159] themedicalinsuranceexchange.com -> clean  sibling=None
+[868/1159] triplusconnect.com -> confirmed bare-var-xor(key=121) sibling=None
+[869/1159] tscrpos.xyz -> clean  sibling=None
+[870/1159] tracksolutionsp.com.br -> clean  sibling=None
+[871/1159] tractor-shop.ro -> confirmed bare-var-xor(key=136) sibling=None
+[872/1159] tellyplay.com -> clean  sibling=None
+[873/1159] tvigroupe.com -> sibling single-byte-xor(key=90) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[874/1159] poledreamstudio.com -> unreachable  sibling=None
+[875/1159] sparklestepclean.com -> clean  sibling=None
+[876/1159] turnkeyaiagents.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[877/1159] tspacademychicago.org -> clean  sibling=None
+[878/1159] tuttodrink.it -> clean  sibling=None
+[879/1159] ucausa.org -> clean  sibling=None
+[880/1159] twistcode.com -> clean  sibling=None
+[881/1159] upstarthr.com -> clean  sibling=None
+[882/1159] vgpn.ca -> unreachable  sibling=None
+[883/1159] ukcardetailing.co.uk -> clean  sibling=None
+[884/1159] ukgccpca.com -> clean  sibling=None
+[885/1159] vcard.tofupages.com -> clean  sibling=None
+[886/1159] vannmineralwater.com -> clean  sibling=None
+[887/1159] vinhxuanngogia.net -> clean  sibling=None
+[888/1159] turtekstil.com -> clean  sibling=None
+[889/1159] sethsawariyabizmart.com -> unreachable  sibling=None
+[890/1159] villehotel.co.uk -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[891/1159] vagandopormundopolis.com -> sibling single-byte-xor(key=90) sibling=['Operator 1 / xdav (0xB6bC9e1D...)']
+[892/1159] unikasegurancahumanizada.com.br -> clean  sibling=None
+[893/1159] vote.billionsnetwork.app -> unreachable  sibling=None
+[894/1159] vote-onyx.app -> unreachable  sibling=None
+[895/1159] votes-asterdex.one -> unreachable  sibling=None
+[896/1159] voicesacademies.org -> clean  sibling=None
+[897/1159] vittalikraft.agencyfbinternational.com -> clean  sibling=None
+[898/1159] voting-based.com -> unreachable  sibling=None
+[899/1159] vgg.hr -> clean  sibling=None
+[900/1159] tbgcleaningsystems.com -> clean  sibling=None
+[901/1159] uscdka.com -> clean  sibling=None
+[902/1159] tjejardinagem.com.br -> confirmed bare-var-xor(key=29) sibling=None
+[903/1159] vote-lido.app -> clean  sibling=None
+[904/1159] thaithainoodle.com -> confirmed bare-var-xor(key=114) sibling=None
+[905/1159] techmillsolutions.com -> clean  sibling=None
+[906/1159] von-b.be -> clean  sibling=None
+[907/1159] web-cloudsecure.com -> clean  sibling=None
+[908/1159] voyagerelectricvehicles.com -> clean  sibling=None
+[909/1159] warsamalc.com -> confirmed bare-var-xor(key=121) sibling=None
+[910/1159] webmail.efiapi.com -> clean  sibling=None
+[911/1159] webby.co.il -> clean  sibling=None
+[912/1159] wasatchpeaceandjustice.org -> clean  sibling=None
+[913/1159] weddingcarsofmaleny.com.au -> confirmed bare-var-xor(key=121) sibling=None
+[914/1159] webmail.giracoin.io -> clean  sibling=None
+[915/1159] westbuilders.net -> clean  sibling=None
+[916/1159] trustpilot.verifytrustp.com -> clean  sibling=None
+[917/1159] wiec.com.np -> clean  sibling=None
+[918/1159] weplanetafrica.org -> clean  sibling=None
+[919/1159] tranquilhavenresort.com -> clean  sibling=None
+[920/1159] vote-aster.app -> clean  sibling=None
+[921/1159] westlandconsultants.com -> confirmed bare-var-xor(key=171) sibling=None
+[922/1159] wilkersonhegna.com -> clean  sibling=None
+[923/1159] wintersfamilypractice.com -> clean  sibling=None
+[924/1159] wienelle.shop -> clean  sibling=None
+[925/1159] wedoloans.com -> clean  sibling=None
+[926/1159] votes-lido.app -> clean  sibling=None
+[927/1159] wine-more.com -> clean  sibling=None
+[928/1159] wistineservices.co.ke -> clean  sibling=None
+[929/1159] wpteamcdn.beer -> clean  sibling=None
+[930/1159] winworkorders.com -> clean  sibling=None
+[931/1159] thelifevista.net -> clean  sibling=None
+[932/1159] worldaroundus.org.uk -> clean  sibling=None
+[933/1159] wolcar.ro -> clean  sibling=None
+[934/1159] worldopportunitiesfund.com -> confirmed bare-var-xor(key=121) sibling=None
+[935/1159] tinkers.co.za -> clean  sibling=None
+[936/1159] wplugins.webtx.co -> confirmed bare-var-xor(key=121) sibling=None
+[937/1159] walthertrowal.com -> clean  sibling=None
+[938/1159] verifytrustp.com -> clean  sibling=None
+[939/1159] www.1clx.com -> clean  sibling=None
+[940/1159] www.acij.com.br -> clean  sibling=None
+[941/1159] veteranwalls.com -> clean  sibling=None
+[942/1159] wvtransportes.com.br -> confirmed bare-var-xor(key=221) sibling=None
+[943/1159] www.belakindustries.com -> clean  sibling=None
+[944/1159] www.arskincare.com -> clean  sibling=None
+[945/1159] www.anxietyaustralia.com.au -> clean  sibling=None
+[946/1159] www.aguilatours.cl -> clean  sibling=None
+[947/1159] www.asa-andalucia.es -> clean  sibling=None
+[948/1159] www.adsposure.com -> clean  sibling=None
+[949/1159] www.agnesesognasempre.com -> unreachable  sibling=None
+[950/1159] www.aviastore.it -> clean  sibling=None
+[951/1159] www.alfacomunicacao.com.br -> clean  sibling=None
+[952/1159] www.alfonsocerreti.it -> clean  sibling=None
+[953/1159] www.bienterprises.com.pk -> confirmed bare-var-xor(key=121) sibling=None
+[954/1159] www.bienveillanceimmigration.com -> clean  sibling=None
+[955/1159] www.biketourpeljesac.com -> clean  sibling=None
+[956/1159] wpcentral.app -> clean  sibling=None
+[957/1159] www.beloticket.fr -> clean  sibling=None
+[958/1159] www.chatgpt-update.vip -> unreachable  sibling=None
+[959/1159] www.blog.beltingenterprises.com.technofra.co.in -> clean  sibling=None
+[960/1159] www.appliancedoctorx.com -> clean  sibling=None
+[961/1159] www.carib-loop.com -> clean  sibling=None
+[962/1159] www.bjhpropertiesgh.com -> clean  sibling=None
+[963/1159] www.blos.co.uk -> clean  sibling=None
+[964/1159] www.cabell.it -> clean  sibling=None
+[965/1159] viennoithat.vn -> clean  sibling=None
+[966/1159] www.celluniverse.ca -> clean  sibling=None
+[967/1159] www.basquelimoservice.com -> confirmed bare-var-xor(key=121) sibling=None
+[968/1159] wellzonebuildingcleaningservicesco.com -> confirmed bare-var-xor(key=121) sibling=None
+[969/1159] www.comoseescribe.net -> clean  sibling=None
+[970/1159] www.chiropracteur-brignais.fr -> clean  sibling=None
+[971/1159] www.careersineyecare.org.uk -> clean  sibling=None
+[972/1159] www.dazzlenetproperties.com -> clean  sibling=None
+[973/1159] www.campeggioletizialivigno.it -> clean  sibling=None
+[974/1159] www.ciopowerlist.com -> clean  sibling=None
+[975/1159] www.consultoresexpertos.org -> confirmed bare-var-xor(key=29) sibling=None
+[976/1159] www.citysurv.com -> clean  sibling=None
+[977/1159] www.delivercarton.com -> clean  sibling=None
+[978/1159] www.dietampuh.com.paketindibiz.com -> clean  sibling=None
+[979/1159] www.abdgochizmetleri.com -> confirmed bare-var-xor(key=171) sibling=None
+[980/1159] www.cashfast.com.au -> clean  sibling=None
+[981/1159] www.diarioyacr.com -> confirmed bare-var-xor(key=121) sibling=None
+[982/1159] www.chesterton.com.mx -> clean  sibling=None
+[983/1159] www.djwesley.be -> clean  sibling=None
+[984/1159] www.dinariblockchain.network -> clean  sibling=None
+[985/1159] www.domusgiardinivaticani.com -> clean  sibling=None
+[986/1159] www.edictostrome.com.pe -> unreachable  sibling=None
+[987/1159] www.drkonradrack.at -> clean  sibling=None
+[988/1159] texasunpluggedbycr.com -> clean  sibling=None
+[989/1159] www.dpfaustralia.com.au -> clean  sibling=None
+[990/1159] venergymomentum.com -> clean  sibling=None
+[991/1159] urf-careers.com -> clean  sibling=None
+[992/1159] tnsnetwork.co.th -> unreachable  sibling=None
+[993/1159] twolionspainting.com -> clean  sibling=None
+[994/1159] www.e-dce-btp.com -> clean  sibling=None
+[995/1159] www.elephantmarketing.co.uk -> clean  sibling=None
+[996/1159] www.encliptic.co.uk -> clean  sibling=None
+[997/1159] www.energysolutions.co.th -> clean  sibling=None
+[998/1159] techno-sem.com -> clean  sibling=None
+[999/1159] tmtworldwideltd.com -> unreachable  sibling=None
+[1000/1159] www.fkdelivery.com -> confirmed bare-var-xor(key=114) sibling=None
+[1001/1159] www.fingerfoodtogo.com -> clean  sibling=None
+[1002/1159] www.goutshield.com.au -> clean  sibling=None
+[1003/1159] www.fm-interier.cz -> clean  sibling=None
+[1004/1159] www.fightstory.net -> confirmed bare-var-xor(key=121) sibling=None
+[1005/1159] www.harmonysuites.com -> clean  sibling=None
+[1006/1159] www.georges-studios.gr -> clean  sibling=None
+[1007/1159] vprecycling.com -> clean  sibling=None
+[1008/1159] www.forumpolitiquenogentais.asso.fr -> confirmed bare-var-xor(key=121) sibling=None
+[1009/1159] www.ggda.co.za -> clean  sibling=None
+[1010/1159] www.frameworkjsbns.beer -> clean  sibling=None
+[1011/1159] www.geoprofessional.org -> clean  sibling=None
+[1012/1159] www.diet44.fr -> confirmed bare-var-xor(key=121) sibling=None
+[1013/1159] shinevervecosmetics.com -> clean  sibling=None
+[1014/1159] www.geascuoladimontagna.it -> confirmed bare-var-xor(key=29) sibling=None
+[1015/1159] www.globalgain.org -> confirmed bare-var-xor(key=91) sibling=None
+[1016/1159] www.heliflite.com -> clean  sibling=None
+[1017/1159] www.dunebuggydubai.ae -> clean  sibling=None
+[1018/1159] www.ciemaster.com -> confirmed bare-var-xor(key=171) sibling=None
+[1019/1159] www.iacfdefre.be -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[1020/1159] www.lionsclubs-ghana.org -> unreachable  sibling=None
+[1021/1159] www.italiamarcellofilmmaker.com -> clean  sibling=None
+[1022/1159] www.kazminerals.com -> clean  sibling=None
+[1023/1159] www.lsikjsns.beer -> unreachable  sibling=None
+[1024/1159] www.kfzbachlfruehwirt.at -> clean  sibling=None
+[1025/1159] www.hotelthilanka.com -> clean  sibling=None
+[1026/1159] www.glctruck.com -> clean  sibling=None
+[1027/1159] www.kilicelektronik.com.tr -> clean  sibling=None
+[1028/1159] www.betterbettingonline.margoschiscollege.in -> clean  sibling=None
+[1029/1159] www.belfastsouth.org -> clean  sibling=None
+[1030/1159] www.ilkaire.it -> clean  sibling=None
+[1031/1159] www.kcengineering.com -> clean  sibling=None
+[1032/1159] www.itsgrill.com.br -> clean  sibling=None
+[1033/1159] www.chematek.com -> clean  sibling=None
+[1034/1159] www.maidog.fr -> clean  sibling=None
+[1035/1159] www.kdsinternational.org -> clean  sibling=None
+[1036/1159] www.mamamatters.com -> clean  sibling=None
+[1037/1159] www.medraa.com -> confirmed bare-var-xor(key=121) sibling=None
+[1038/1159] www.lionprideproducts.co.za -> clean  sibling=None
+[1039/1159] www.metroball.org -> clean  sibling=None
+[1040/1159] www.manuelaguerra.com -> clean  sibling=None
+[1041/1159] www.namathejaljawdah.com -> confirmed bare-var-xor(key=121) sibling=None
+[1042/1159] www.leriad.eu -> clean  sibling=None
+[1043/1159] www.lowisz.com.pl -> clean  sibling=None
+[1044/1159] wearetheworldasia.org -> unreachable  sibling=None
+[1045/1159] www.markethon-agirabcd.fr -> confirmed bare-var-xor(key=114) sibling=None
+[1046/1159] www.legacyhomedevelopmentgroup.com -> clean  sibling=None
+[1047/1159] www.noia.org -> clean  sibling=None
+[1048/1159] www.obalaryapi.com -> clean  sibling=None
+[1049/1159] www.maxillobraconi.it -> confirmed bare-var-xor(key=29) sibling=None
+[1050/1159] www.psiquiatrafuengirola.com -> clean  sibling=None
+[1051/1159] www.lilaconcept.com.tr -> confirmed bare-var-xor(key=121) sibling=None
+[1052/1159] www.chirurgiaesteticapro.com -> clean  sibling=None
+[1053/1159] www.kimisboutique.com -> clean  sibling=None
+[1054/1159] www.paperboat.fr -> clean  sibling=None
+[1055/1159] www.pearlbayview.ca -> clean  sibling=None
+[1056/1159] www.mudanzasalcorcon.es -> confirmed bare-var-xor(key=29) sibling=None
+[1057/1159] www.nickroshdiehgroup.com -> clean  sibling=None
+[1058/1159] www.printingshell.co.uk -> confirmed bare-var-xor(key=121) sibling=None
+[1059/1159] www.parolaajans.com -> clean  sibling=None
+[1060/1159] www.nsantosmaintenanceltd.co.uk -> confirmed bare-var-xor(key=121) sibling=None
+[1061/1159] www.reseaucupidontogo.org -> confirmed bare-var-xor(key=29) sibling=None
+[1062/1159] www.rutherfordinvestments.com -> clean  sibling=None
+[1063/1159] www.sdhscndnssl.beer -> unreachable  sibling=None
+[1064/1159] www.premasa.com -> clean  sibling=None
+[1065/1159] www.rowic.nl -> confirmed bare-var-xor(key=15) sibling=None
+[1066/1159] www.redes-solidarias.org.ar -> confirmed bare-var-xor(key=91) sibling=None
+[1067/1159] www.icanotes.com -> clean  sibling=None
+[1068/1159] www.lemtech.com -> clean  sibling=None
+[1069/1159] www.siteamnsserv.beer -> unreachable  sibling=None
+[1070/1159] www.ricta.org.rw -> clean  sibling=None
+[1071/1159] www.sociativa.org.rs -> unreachable  sibling=None
+[1072/1159] www.slndcdnclaud.beer -> unreachable  sibling=None
+[1073/1159] www.dispatchtrack.com -> clean  sibling=None
+[1074/1159] www.plastlit.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[1075/1159] www.sas-co.com -> clean  sibling=None
+[1076/1159] www.safehandspro.care -> confirmed bare-var-xor(key=29) sibling=None
+[1077/1159] www.simontait.com.au -> clean  sibling=None
+[1078/1159] www.rrconstructionnj.com -> clean  sibling=None
+[1079/1159] www.rss.org -> clean  sibling=None
+[1080/1159] tandykerry.co.uk -> clean  sibling=None
+[1081/1159] www.saguapac.com.bo -> clean  sibling=None
+[1082/1159] www.rictor.co.uk -> confirmed bare-var-xor(key=221) sibling=None
+[1083/1159] www.sawyerinjurylaw.com -> clean  sibling=None
+[1084/1159] www.latecnicabareggio.it -> clean  sibling=None
+[1085/1159] www.soroptimist.sk -> clean  sibling=None
+[1086/1159] www.prosyst.com.br -> clean  sibling=None
+[1087/1159] www.ssd.com.pa -> clean  sibling=None
+[1088/1159] www.cdnjsdelivr.beer -> unreachable  sibling=None
+[1089/1159] www.sandramaria.pro -> confirmed bare-var-xor(key=29) sibling=None
+[1090/1159] www.rxnursing.com -> clean  sibling=None
+[1091/1159] www.terrigalbh.com.au -> clean  sibling=None
+[1092/1159] www.techstarmechanical.com -> clean  sibling=None
+[1093/1159] www.studiolegaleterrazzano.it -> clean  sibling=None
+[1094/1159] www.seksualvejlederforeningen.dk -> clean  sibling=None
+[1095/1159] www.taxiblau.es -> clean  sibling=None
+[1096/1159] www.struk-tur.com -> clean  sibling=None
+[1097/1159] www.technopole-pathologie.fr -> clean  sibling=None
+[1098/1159] www.shivshaktidancecostumes.com -> clean  sibling=None
+[1099/1159] www.seinfor.pe -> confirmed bare-var-xor(key=121) sibling=None
+[1100/1159] www.shssshdscn.beer -> clean  sibling=None
+[1101/1159] www.drbriffa.com -> clean  sibling=None
+[1102/1159] www.southbankpestcontrol.co.uk -> clean  sibling=None
+[1103/1159] www.max88autobola.com.rtpwebautobola.com -> clean  sibling=None
+[1104/1159] www.studio-panetta.it -> clean  sibling=None
+[1105/1159] www.terabilisim.com -> clean  sibling=None
+[1106/1159] www.tnu.edu.to -> clean  sibling=None
+[1107/1159] www.teamserviceeditore.it -> clean  sibling=None
+[1108/1159] www.thelittlegym.com -> clean  sibling=None
+[1109/1159] www.thellio.com -> confirmed bare-var-xor(key=136) sibling=None
+[1110/1159] www.vexirol.com -> clean  sibling=None
+[1111/1159] www.universalcargo.com -> clean  sibling=None
+[1112/1159] www.unto.es -> clean  sibling=None
+[1113/1159] www.themoonhotel.eu -> clean  sibling=None
+[1114/1159] www.wallybaleja.com -> clean  sibling=None
+[1115/1159] www.variedades-monica.com -> clean  sibling=None
+[1116/1159] www.vetco.cn -> confirmed bare-var-xor(key=29) sibling=None
+[1117/1159] www.uniquelimo.us -> clean  sibling=None
+[1118/1159] www.vsnn.nl -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[1119/1159] www.tarjetadigitalnfc.es -> confirmed bare-var-xor(key=189) sibling=None
+[1120/1159] www.uniatlantico.edu.co -> clean  sibling=None
+[1121/1159] www.web-conseil.fr -> clean  sibling=None
+[1122/1159] www.whichlist2.com -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[1123/1159] www.thayamkeryroyalinn.in -> clean  sibling=None
+[1124/1159] www.vicunaadventuresperu.com -> clean  sibling=None
+[1125/1159] yourhousescope.com -> unreachable  sibling=None
+[1126/1159] www.thermolab.it -> confirmed bare-var-xor(key=29) sibling=None
+[1127/1159] www.willowoodsub.org -> clean  sibling=None
+[1128/1159] www.union-mtc.com -> clean  sibling=None
+[1129/1159] www.xi-services.org -> clean  sibling=None
+[1130/1159] www.tekyazonline.com -> clean  sibling=None
+[1131/1159] www.taylornicholas.com.au -> clean  sibling=None
+[1132/1159] xnxxarab.net -> clean  sibling=None
+[1133/1159] xvideosbucetas.blog.br -> clean  sibling=None
+[1134/1159] www.whitemead.co.uk -> clean  sibling=None
+[1135/1159] zoomaudits.com -> clean  sibling=None
+[1136/1159] www.unikaquevedo.com -> confirmed bare-var-xor(key=121) sibling=None
+[1137/1159] xlmeubels.nl -> clean  sibling=None
+[1138/1159] zeusbc.gr -> clean  sibling=None
+[1139/1159] zeitagency.com -> clean  sibling=None
+[1140/1159] www.teilchenwelt.de -> clean  sibling=None
+[1141/1159] yfmghana.com -> clean  sibling=None
+[1142/1159] www.thermaltake.com -> clean  sibling=None
+[1143/1159] yodonoplasma.es -> confirmed bare-var-xor(key=121) sibling=None
+[1144/1159] xn--sanmartindecaaveras-73b.es -> clean  sibling=None
+[1145/1159] zadaljnna.org -> clean  sibling=None
+[1146/1159] ziaurrahmanbd.com -> clean  sibling=None
+[1147/1159] zoombusinessbrokers.com -> clean  sibling=None
+[1148/1159] www.wari.com.pe -> clean  sibling=None
+[1149/1159] yousufdigitalcenter.com -> confirmed bare-var-xor(key=121) sibling=None
+[1150/1159] zcredit.eu -> unconfirmed-suspicious cleartext-c2-ref-only sibling=None
+[1151/1159] www.rewardslink.world -> clean  sibling=None
+[1152/1159] www.sanfranciscodeasis.org -> clean  sibling=None
+[1153/1159] www.centurionproperties.ae -> unreachable  sibling=None
+[1154/1159] www.detailafrica.com -> unreachable  sibling=None
+[1155/1159] www.sthapottobid.com -> clean  sibling=None
+[1156/1159] yasanhatrang.com -> clean  sibling=None
+[1157/1159] www.wrapanigeria.org -> clean  sibling=None
+[1158/1159] www.netcooilfield.com -> unreachable  sibling=None
+[1159/1159] yaronamotorspares.com -> unreachable  sibling=None
+
+Summary: {'clean': 861, 'confirmed': 167, 'unreachable': 91, 'unconfirmed-suspicious': 29, 'sibling': 11}
+Wrote bwsibling_C_new_candidates_confirm_results.json

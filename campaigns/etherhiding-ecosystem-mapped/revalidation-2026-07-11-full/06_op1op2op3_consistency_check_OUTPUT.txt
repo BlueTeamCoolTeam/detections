@@ -1,0 +1,19 @@
+Revalidation timestamp (UTC): 2026-07-11T03:17:29.844005+00:00
+
+=== Operator 1 / xdav :: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 ===
+  Total transactions (fresh pull): 26
+  Non-creation method calls (candidate updateDomain calls): 25
+  Previously published update-call count: 23  (DIFFERS - see note)
+  Most recent transaction timestamp: 2026-07-11T00:58:25+00:00
+
+=== Operator 2 :: 0x83833C5D676cA06E941A32310AE67D0890F657eE ===
+  Total transactions (fresh pull): 1
+  Non-creation method calls (candidate updateDomain calls): 0
+  Most recent transaction timestamp: 2026-06-23T01:27:19+00:00
+
+=== Operator 3 :: 0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55 ===
+  Total transactions (fresh pull): 5
+  Non-creation method calls (candidate updateDomain calls): 4
+  Previously published update-call count: 3  (DIFFERS - see note)
+  Most recent transaction timestamp: 2026-07-10T15:45:10+00:00
+

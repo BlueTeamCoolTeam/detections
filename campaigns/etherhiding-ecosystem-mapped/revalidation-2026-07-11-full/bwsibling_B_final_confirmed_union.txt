@@ -1,0 +1,68 @@
+3-pass re-confirmation of the existing 111-site BW-sibling confirmed list
+======================================================================
+Total hosts checked: 111
+Pass 1 confirmed: 56
+Pass 2 confirmed: 56
+Pass 3 confirmed: 56
+Intersection (confirmed in ALL 3 passes): 56
+UNION (confirmed in AT LEAST 1 of 3 passes): 56
+Hosts with any verdict disagreement across the 3 passes: 0
+======================================================================
+
+Full union list (hosts CONFIRMED as this operator in at least 1 of 3 passes):
+addigitalhn.com
+affordablelasercare.com
+amlscoring.com
+ancorasaude.com
+arkhasolusindotek.co.id
+bearsheartstudios.com
+booketmir.ru
+cedahr.com
+centraldepropaganda.com.br
+cleaningwithocd.net
+clearservice.es
+compagnie-et-autres.com
+connectbusinesssolutionsllc.com
+decorneon.com
+destinationsomewheretravel.com
+diastudio.pl
+digitaldanishacademy.com
+emersonblakeent.com
+enavantcapital.com
+ezeetrader-jo.com
+freakcomix.com
+genesishomehealthva.com
+goofygami.com
+greenbins.co.za
+indeeyah.org
+jeepmanagement.com
+johnstott.org
+kamlathaibodywork.com
+lembagakursusrinny.com
+miraducksolutions.com
+moveyourskills.com
+mymedicarebasics.com
+personalbudgetplus.co.uk
+puenteeditores.com
+punstersclub.com
+raffinato.com.bd
+seagullsfootuscalais.fr
+sharonneedles.com
+sleetindustries.com
+speedbump.co.za
+stradacapital.com
+tabelafipe.site
+theearlferrers.pub
+tropicalfruitsfusion.com
+trustpositif.online
+tubephanoi.vn
+universo-hotel.co.mz
+usmanelectronics.com
+visaovencedora.com.br
+windinnovationcorp.com
+www.centroopticosur.es
+www.connectbusinesssolutionsllc.com
+www.divisible.solutions
+www.jofcostadelsol.com
+www.raffinato.com.bd
+www.smashtag.it

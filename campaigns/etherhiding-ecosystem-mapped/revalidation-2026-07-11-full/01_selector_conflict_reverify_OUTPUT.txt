@@ -1,0 +1,23 @@
+Revalidation timestamp (UTC): 2026-07-11T03:06:46.721403+00:00
+RPC endpoint: https://polygon-public.nodies.app
+
+=== mamkor/merabs (Family B) :: 0x08207B087F61d7e95E441E15fd6d40BEfd6eD308 ===
+  selector 38bcdc1c (mamkor's documented getter): OK -> 'mamkor.pro'
+  selector b68d1809 (Family A shared kit selector): REVERTED -> execution reverted
+
+=== BW-sibling (Family A, new) :: 0x926d64543148dB649C4F877fE7ba4c693e01E288 ===
+  selector 38bcdc1c (mamkor's documented getter): REVERTED -> execution reverted
+  selector b68d1809 (Family A shared kit selector): OK -> 'https://ns-claude-js.beer'
+
+=== xdav / Operator 1 (Family A, published) :: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 ===
+  selector 38bcdc1c (mamkor's documented getter): REVERTED -> execution reverted
+  selector b68d1809 (Family A shared kit selector): OK -> 'https://auth-code-check.info'
+
+=== Operator 2 (Family A, published) :: 0x83833C5D676cA06E941A32310AE67D0890F657eE ===
+  selector 38bcdc1c (mamkor's documented getter): REVERTED -> execution reverted
+  selector b68d1809 (Family A shared kit selector): OK -> 'https://iwannagetmoremoney.beer'
+
+=== Operator 3 (Family A, published) :: 0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55 ===
+  selector 38bcdc1c (mamkor's documented getter): REVERTED -> execution reverted
+  selector b68d1809 (Family A shared kit selector): OK -> 'https://hihankidaha.cc'
+

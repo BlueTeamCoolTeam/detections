@@ -1,0 +1,19 @@
+Data-hygiene fix: removing 1 bare-IP entry that duplicate an EC2 reverse-DNS hostname already in the list:
+  removing '100.31.95.216' (same host as 'ec2-100-31-95-216.compute-1.amazonaws.com', kept)
+
+=== CONFIRMED COMPROMISED SITES ===
+family_a_confirmed_FINAL.txt: 348 unique hosts
+family_b_confirmed_FINAL.txt: 1499 unique hosts (1500 before the IP/hostname dedup above)
+Cross-family overlap: 18
+Grand total union: 1829
+
+Remaining bare-IP entries left in family_b_confirmed_FINAL.txt (no matching hostname alias found in the same list, so not removed - kept as-is, genuinely IP-identified confirmed hosts):
+  192.253.248.8
+  35.207.233.108
+
+=== CANDIDATE POOLS ===
+  op1 candidates extracted: 925 (expected ~925)
+  op2+op3 candidates extracted: 176 (expected ~167+9=176)
+  bwsibling candidates: 1265 (expected 1265)
+family_a_candidates_FINAL.txt: 2241 unique hosts (union of the three above)
+family_b_candidates_FINAL.txt: 4993 unique hosts (expected 4993)

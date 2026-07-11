@@ -1,0 +1,19 @@
+
+=== op1_xdav: sampling 5 of 123 ===
+  1stmeridiancareservices.com: REACHABLE_NO_MATCH
+  carolinadrywallsupply.com: CONFIRMED (key=28)
+  insurancesupport.org: CONFIRMED (key=112)
+  sandrascleaningservice-oc.com: UNREACHABLE
+  www.canmoreadventures.com: REACHABLE_NO_MATCH
+
+=== op2: sampling 5 of 27 ===
+  5bloxhomeremodeling.com: CONFIRMED (key=20)
+  bvinnova.com: CONFIRMED (key=20)
+  euromarine.projet-client.com: CONFIRMED (key=93)
+  janejirabangkok.com: CONFIRMED (key=20)
+  tinkers.co.za: REACHABLE_NO_MATCH
+
+=== op3: sampling 3 of 3 ===
+  greencoalition.pl: CONFIRMED (key=88)
+  www.motorbeam.com: REACHABLE_NO_MATCH
+  www.realoptionsvaluation.com: CONFIRMED (key=59)

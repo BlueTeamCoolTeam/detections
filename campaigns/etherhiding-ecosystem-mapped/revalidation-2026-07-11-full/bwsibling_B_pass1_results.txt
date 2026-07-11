@@ -1,0 +1,114 @@
+Total hosts: 111
+Verdict counts: {'clean': 45, 'unreachable': 3, 'confirmed': 56, 'unconfirmed-suspicious': 7}
+======================================================================
+abwmcertified.org	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+acces-tab-users.com	verdict=unreachable	scheme=None	sibling=None	status=None	reachable=False	detail=None	error=<urlopen error [Errno 11001] getaddrinfo failed>
+actify.fr	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+addigitalhn.com	verdict=confirmed	scheme=bare-var-xor(key=112)	sibling=None	status=200	reachable=True	detail=blob len=17168
+affordablelasercare.com	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+amlscoring.com	verdict=confirmed	scheme=bare-var-xor(key=229)	sibling=None	status=200	reachable=True	detail=blob len=17076
+ancorasaude.com	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+arkhasolusindotek.co.id	verdict=confirmed	scheme=bare-var-xor(key=112)	sibling=None	status=200	reachable=True	detail=blob len=17168
+bankseizedcars.online	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+bearsheartstudios.com	verdict=confirmed	scheme=bare-var-xor(key=91)	sibling=None	status=200	reachable=True	detail=blob len=17076
+bkng-userhubtabs.com	verdict=unreachable	scheme=None	sibling=None	status=None	reachable=False	detail=None	error=<urlopen error [Errno 11001] getaddrinfo failed>
+blog.hellore.in	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+booketmir.ru	verdict=confirmed	scheme=bare-var-xor(key=40)	sibling=None	status=200	reachable=True	detail=blob len=17012
+caliphlebotomy.com	verdict=unconfirmed-suspicious	scheme=cleartext-c2-ref-only	sibling=None	status=200	reachable=True	detail=cleartext reference to assigned C2 domain(s) verification-cdn-cloud.beer found in page markup, but remote C2 script/content unreachable or did not decode to a contract match -- domain co-occurrence alone is NOT sufficient proof of this operator
+cedahr.com	verdict=confirmed	scheme=bare-var-xor(key=223)	sibling=None	status=200	reachable=True	detail=blob len=17076
+centraldepropaganda.com.br	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+claude-captcha.com	verdict=clean	scheme=None	sibling=None	status=522	reachable=True	detail=None
+cleaningwithocd.net	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+clearservice.es	verdict=confirmed	scheme=bare-var-xor(key=121)	sibling=None	status=200	reachable=True	detail=blob len=17076
+compagnie-et-autres.com	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+connectbusinesssolutionsllc.com	verdict=confirmed	scheme=bare-var-xor(key=14)	sibling=None	status=200	reachable=True	detail=blob len=17168
+decorneon.com	verdict=confirmed	scheme=bare-var-xor(key=125)	sibling=None	status=200	reachable=True	detail=blob len=17012
+destinationsomewheretravel.com	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+diastudio.pl	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+digitaldanishacademy.com	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+eightballbail.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+emersonblakeent.com	verdict=confirmed	scheme=bare-var-xor(key=195)	sibling=None	status=200	reachable=True	detail=blob len=17012
+enavantcapital.com	verdict=confirmed	scheme=bare-var-xor(key=112)	sibling=None	status=200	reachable=True	detail=blob len=17168
+ewtbv.be	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+ezeetrader-jo.com	verdict=confirmed	scheme=bare-var-xor(key=195)	sibling=None	status=200	reachable=True	detail=blob len=17012
+freakcomix.com	verdict=confirmed	scheme=bare-var-xor(key=91)	sibling=None	status=200	reachable=True	detail=blob len=17076
+genesishomehealthva.com	verdict=confirmed	scheme=bare-var-xor(key=91)	sibling=None	status=200	reachable=True	detail=blob len=17076
+goofygami.com	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+gov-dev.picklerick.enosys.global	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+gov-dev.picklerick.flr.finance	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+greenbins.co.za	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+homeawayfromhomepetcare.com	verdict=unconfirmed-suspicious	scheme=cleartext-c2-ref-only	sibling=None	status=200	reachable=True	detail=cleartext reference to assigned C2 domain(s) verification-cdn-cloud.beer found in page markup, but remote C2 script/content unreachable or did not decode to a contract match -- domain co-occurrence alone is NOT sufficient proof of this operator
+hotelseeliebe.de	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+indeeyah.org	verdict=confirmed	scheme=bare-var-xor(key=91)	sibling=None	status=200	reachable=True	detail=blob len=17076
+isfm.co.in	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+j2rconsulting.fr	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+jeepmanagement.com	verdict=confirmed	scheme=bare-var-xor(key=249)	sibling=None	status=200	reachable=True	detail=blob len=17076
+johnstott.org	verdict=confirmed	scheme=bare-var-xor(key=72)	sibling=None	status=200	reachable=True	detail=blob len=17168
+kamlathaibodywork.com	verdict=confirmed	scheme=bare-var-xor(key=91)	sibling=None	status=200	reachable=True	detail=blob len=17076
+lembagakursusrinny.com	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+liberdadefmvz.com.br	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+liceoalfa.it	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+lightmap.net	verdict=unconfirmed-suspicious	scheme=cleartext-c2-ref-only	sibling=None	status=200	reachable=True	detail=cleartext reference to assigned C2 domain(s) verification-cdn-cloud.beer found in page markup, but remote C2 script/content unreachable or did not decode to a contract match -- domain co-occurrence alone is NOT sufficient proof of this operator
+medicare-group.hu	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+mhelpdesk.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+migraineheroes.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+miraducksolutions.com	verdict=confirmed	scheme=bare-var-xor(key=59)	sibling=None	status=200	reachable=True	detail=blob len=17076
+moores-equipment.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+moveyourskills.com	verdict=confirmed	scheme=bare-var-xor(key=192)	sibling=None	status=200	reachable=True	detail=blob len=17076
+msg3d.com.br	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+myhouseinspain.com	verdict=clean	scheme=None	sibling=None	status=500	reachable=True	detail=None
+mymedicarebasics.com	verdict=confirmed	scheme=bare-var-xor(key=112)	sibling=None	status=200	reachable=True	detail=blob len=17168
+nazar.indianic.biz	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+nfu-europe.org	verdict=clean	scheme=None	sibling=None	status=500	reachable=True	detail=None
+octare.com	verdict=clean	scheme=None	sibling=None	status=409	reachable=True	detail=None
+offersnbrands.site	verdict=unreachable	scheme=None	sibling=None	status=None	reachable=False	detail=None	error=<urlopen error [Errno 11001] getaddrinfo failed>
+personalbudgetplus.co.uk	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+pollyplayford.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+puenteeditores.com	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+punstersclub.com	verdict=confirmed	scheme=bare-var-xor(key=208)	sibling=None	status=200	reachable=True	detail=blob len=17168
+raffinato.com.bd	verdict=confirmed	scheme=bare-var-xor(key=223)	sibling=None	status=200	reachable=True	detail=blob len=17076
+rvfllc.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+sae-intl.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+seagullsfootuscalais.fr	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+sharonneedles.com	verdict=confirmed	scheme=bare-var-xor(key=233)	sibling=None	status=200	reachable=True	detail=blob len=17076
+sites.google.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+sleetindustries.com	verdict=confirmed	scheme=bare-var-xor(key=195)	sibling=None	status=200	reachable=True	detail=blob len=17012
+speedbump.co.za	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+stradacapital.com	verdict=confirmed	scheme=bare-var-xor(key=122)	sibling=None	status=200	reachable=True	detail=blob len=17012
+suitsgaming.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+tabelafipe.site	verdict=confirmed	scheme=bare-var-xor(key=40)	sibling=None	status=200	reachable=True	detail=blob len=17012
+telemania.hu	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+thedragonyear.com	verdict=unconfirmed-suspicious	scheme=cleartext-c2-ref-only	sibling=None	status=200	reachable=True	detail=cleartext reference to assigned C2 domain(s) verification-cdn-cloud.beer found in page markup, but remote C2 script/content unreachable or did not decode to a contract match -- domain co-occurrence alone is NOT sufficient proof of this operator
+theearlferrers.pub	verdict=confirmed	scheme=bare-var-xor(key=91)	sibling=None	status=200	reachable=True	detail=blob len=17076
+tomselman.com	verdict=unconfirmed-suspicious	scheme=cleartext-c2-ref-only	sibling=None	status=200	reachable=True	detail=cleartext reference to assigned C2 domain(s) verification-cdn-cloud.beer found in page markup, but remote C2 script/content unreachable or did not decode to a contract match -- domain co-occurrence alone is NOT sufficient proof of this operator
+toothsavers.net	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+transactions-service.fr	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+transportestmm.com.mx	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+trianglelogistics.ca	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+tridestined.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+tropicalfruitsfusion.com	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+trustpositif.online	verdict=confirmed	scheme=bare-var-xor(key=91)	sibling=None	status=200	reachable=True	detail=blob len=17076
+tubephanoi.vn	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+tvmarinternet.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+universo-hotel.co.mz	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+usmanelectronics.com	verdict=confirmed	scheme=bare-var-xor(key=23)	sibling=None	status=200	reachable=True	detail=blob len=17012
+visaovencedora.com.br	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+wilfredofanola.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+windinnovationcorp.com	verdict=confirmed	scheme=bare-var-xor(key=122)	sibling=None	status=200	reachable=True	detail=blob len=17012
+wow-design.it	verdict=clean	scheme=None	sibling=None	status=503	reachable=True	detail=None
+www.10estate.com.au	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+www.centroopticosur.es	verdict=confirmed	scheme=bare-var-xor(key=114)	sibling=None	status=200	reachable=True	detail=blob len=17076
+www.connectbusinesssolutionsllc.com	verdict=confirmed	scheme=bare-var-xor(key=14)	sibling=None	status=200	reachable=True	detail=blob len=17168
+www.divisible.solutions	verdict=confirmed	scheme=bare-var-xor(key=91)	sibling=None	status=200	reachable=True	detail=blob len=17076
+www.gnosischocolate.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+www.greenstoneelectric.com	verdict=unconfirmed-suspicious	scheme=cleartext-c2-ref-only	sibling=None	status=200	reachable=True	detail=cleartext reference to assigned C2 domain(s) verification-cdn-cloud.beer found in page markup, but remote C2 script/content unreachable or did not decode to a contract match -- domain co-occurrence alone is NOT sufficient proof of this operator
+www.hotelseeliebe.de	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+www.jofcostadelsol.com	verdict=confirmed	scheme=bare-var-xor(key=221)	sibling=None	status=200	reachable=True	detail=blob len=17076
+www.lohnabrechnungen.net	verdict=unconfirmed-suspicious	scheme=cleartext-c2-ref-only	sibling=None	status=200	reachable=True	detail=cleartext reference to assigned C2 domain(s) verification-cdn-cloud.beer found in page markup, but remote C2 script/content unreachable or did not decode to a contract match -- domain co-occurrence alone is NOT sufficient proof of this operator
+www.myspirits.it	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+www.raffinato.com.bd	verdict=confirmed	scheme=bare-var-xor(key=223)	sibling=None	status=200	reachable=True	detail=blob len=17076
+www.smashtag.it	verdict=confirmed	scheme=bare-var-xor(key=14)	sibling=None	status=200	reachable=True	detail=blob len=17168
+www.toothsavers.net	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+www.transactions-service.fr	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+www.wilfredofanola.com	verdict=clean	scheme=None	sibling=None	status=200	reachable=True	detail=None
+www.wow-design.it	verdict=clean	scheme=None	sibling=None	status=503	reachable=True	detail=None
