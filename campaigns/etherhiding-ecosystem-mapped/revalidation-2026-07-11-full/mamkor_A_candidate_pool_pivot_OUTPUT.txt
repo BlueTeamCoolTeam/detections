@@ -1,0 +1,904 @@
+Revalidation timestamp (UTC): 2026-07-11T05:02:23.467414+00:00
+Raw lines in C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\detections\campaigns\etherhiding-ecosystem-mapped\family_b_mamkor_all_c2_domains.txt: 111
+Unique normalized C2 domains (search terms): 108
+Resuming from checkpoint: 0/108 domains already fully completed
+Search terms:
+  abrikos.xyz
+  abrmot.pro
+  allplanetssame.cfd
+  amalgama.lat
+  anakondabob.club
+  antongandon.club
+  ap7.supportly.au
+  arigatodomen.sbs
+  babybon.cfd
+  barmaleieba.lol
+  bearman.bond
+  bibliorock.lol
+  bigboysclub.cyou
+  biggestchlen.lol
+  biggestchlen.xyz
+  biletors.cfd
+  birdybird.rest
+  blatnoitovar.xyz
+  bobik.cfd
+  bulletpop.cyou
+  chinabowl.club
+  chinarice.asia
+  chubrik.sbs
+  cloudflare-check.cfd
+  comicstar.lat
+  corppop.shop
+  cosmostars.shop
+  denegnet.click
+  diddyparty.click
+  etomoe.cfd
+  etomoidomen.cfd
+  fesold.com
+  ganiballektor.cfd
+  gasshopper.sale
+  gdedengikarlos.cfd
+  gdelogi.lol
+  goodgoodmoon.bond
+  govnol.lat
+  gppcdnns.beer
+  holopebamiy.bond
+  honeymoonshop.asia
+  ivangay.bond
+  kaloed.pro
+  krempie.xyz
+  krolikrojer.lat
+  lenders.digital
+  lizablud.shop
+  mamamiadomio.cfd
+  mambet.lol
+  mamkor.pro
+  mampodik.asia
+  marinaradom.cfd
+  marmelad.lat
+  mebanebols.trade
+  megamegalodon.click
+  mekasa.pro
+  memshowblob.forum
+  merabs.pro
+  merengagoi.bond
+  merindashop.cyou
+  merkantalolol.asia
+  mexicodreams.bond
+  microblob.bond
+  microblogver.bond
+  microchlen.lat
+  microloh.bond
+  milksos.cfd
+  misterslivker.asia
+  mistertwister.sale
+  mnepohui.sbs
+  mob.lanjut.in
+  moll.lanjut.in
+  myblobtop.site
+  mygoodblog.bond
+  mygoodblog.cfd
+  mylovedomen.asia
+  mymicroblog.lat
+  myverifyblog.sbs
+  nenadopapa.cfd
+  nihaoclub.asia
+  peachbro.bond
+  pilotkadomen.club
+  pinokros.xyz
+  pohuimne.lol
+  pokese.pro
+  ponikas.cyou
+  pringlesbob.cfd
+  productionmaza.bond
+  productionmaza.cfd
+  productionmaza.cyou
+  productionmaza.sbs
+  prokladka.lol
+  pusanik.shop
+  robodomain.sbs
+  sandman.bond
+  sandman.lat
+  sitepromclop.click
+  slivkishow.asia
+  smackit.lat
+  smenapodik.bond
+  spartanec.lat
+  superboomer.world
+  superpooper.click
+  superstarlog.click
+  thisismine.asia
+  whynotebanarot.xyz
+  yoshicity.xyz
+  zaserz.com
+
+[1/108] domain:abrikos.xyz
+    page 1: got 19 results (total=19, has_more(unreliable)=False)
+  -> 19 raw results, 12 unique page.domain values this domain
+[2/108] domain:abrmot.pro
+    page 1: got 100 results (total=742, has_more(unreliable)=False)
+    page 2: got 100 results (total=742, has_more(unreliable)=False)
+    page 3: got 100 results (total=742, has_more(unreliable)=False)
+    page 4: got 100 results (total=742, has_more(unreliable)=False)
+    page 5: got 100 results (total=742, has_more(unreliable)=False)
+    page 6: got 100 results (total=742, has_more(unreliable)=False)
+    page 7: got 100 results (total=742, has_more(unreliable)=False)
+    page 8: got 42 results (total=742, has_more(unreliable)=False)
+  -> 742 raw results, 125 unique page.domain values this domain
+[3/108] domain:allplanetssame.cfd
+    page 1: got 22 results (total=22, has_more(unreliable)=False)
+  -> 22 raw results, 1 unique page.domain values this domain
+[4/108] domain:amalgama.lat
+    page 1: got 100 results (total=122, has_more(unreliable)=False)
+    page 2: got 22 results (total=122, has_more(unreliable)=False)
+  -> 122 raw results, 89 unique page.domain values this domain
+[5/108] domain:anakondabob.club
+    page 1: got 100 results (total=606, has_more(unreliable)=False)
+    page 2: got 100 results (total=606, has_more(unreliable)=False)
+    page 3: got 100 results (total=606, has_more(unreliable)=False)
+    page 4: got 100 results (total=606, has_more(unreliable)=False)
+    page 5: got 100 results (total=606, has_more(unreliable)=False)
+    page 6: got 100 results (total=606, has_more(unreliable)=False)
+    page 7: got 6 results (total=606, has_more(unreliable)=False)
+  -> 606 raw results, 384 unique page.domain values this domain
+[6/108] domain:antongandon.club
+    page 1: got 100 results (total=130, has_more(unreliable)=False)
+    page 2: got 30 results (total=130, has_more(unreliable)=False)
+  -> 130 raw results, 23 unique page.domain values this domain
+[7/108] domain:ap7.supportly.au
+    page 1: got 100 results (total=6377, has_more(unreliable)=False)
+    page 2: got 100 results (total=6377, has_more(unreliable)=False)
+    page 3: got 100 results (total=6377, has_more(unreliable)=False)
+    page 4: got 100 results (total=6377, has_more(unreliable)=False)
+    page 5: got 100 results (total=6377, has_more(unreliable)=False)
+    page 6: got 100 results (total=6377, has_more(unreliable)=False)
+    page 7: got 100 results (total=6377, has_more(unreliable)=False)
+    page 8: got 100 results (total=6377, has_more(unreliable)=False)
+    page 9: got 100 results (total=6377, has_more(unreliable)=False)
+    page 10: got 100 results (total=6377, has_more(unreliable)=False)
+    page 11: got 100 results (total=6377, has_more(unreliable)=False)
+    page 12: got 100 results (total=6377, has_more(unreliable)=False)
+    page 13: got 100 results (total=6377, has_more(unreliable)=False)
+    page 14: got 100 results (total=6377, has_more(unreliable)=False)
+    page 15: got 100 results (total=6377, has_more(unreliable)=False)
+    page 16: got 100 results (total=6377, has_more(unreliable)=False)
+    page 17: got 100 results (total=6377, has_more(unreliable)=False)
+    page 18: got 100 results (total=6377, has_more(unreliable)=False)
+    page 19: got 100 results (total=6377, has_more(unreliable)=False)
+    page 20: got 100 results (total=6377, has_more(unreliable)=False)
+    page 21: got 100 results (total=6377, has_more(unreliable)=False)
+    page 22: got 100 results (total=6377, has_more(unreliable)=False)
+    page 23: got 100 results (total=6377, has_more(unreliable)=False)
+    page 24: got 100 results (total=6377, has_more(unreliable)=False)
+    page 25: got 100 results (total=6377, has_more(unreliable)=False)
+    page 26: got 100 results (total=6377, has_more(unreliable)=False)
+    page 27: got 100 results (total=6377, has_more(unreliable)=False)
+    page 28: got 100 results (total=6377, has_more(unreliable)=False)
+    page 29: got 100 results (total=6377, has_more(unreliable)=False)
+    page 30: got 100 results (total=6377, has_more(unreliable)=False)
+    page 31: got 100 results (total=6377, has_more(unreliable)=False)
+    page 32: got 100 results (total=6377, has_more(unreliable)=False)
+    page 33: got 100 results (total=6377, has_more(unreliable)=False)
+    page 34: got 100 results (total=6377, has_more(unreliable)=False)
+    page 35: got 100 results (total=6377, has_more(unreliable)=False)
+    page 36: got 100 results (total=6377, has_more(unreliable)=False)
+    page 37: got 100 results (total=6377, has_more(unreliable)=False)
+    page 38: got 100 results (total=6377, has_more(unreliable)=False)
+    page 39: got 100 results (total=6377, has_more(unreliable)=False)
+    page 40: got 100 results (total=6377, has_more(unreliable)=False)
+    page 41: got 100 results (total=6377, has_more(unreliable)=False)
+    page 42: got 100 results (total=6377, has_more(unreliable)=False)
+    page 43: got 100 results (total=6377, has_more(unreliable)=False)
+    page 44: got 100 results (total=6377, has_more(unreliable)=False)
+    page 45: got 100 results (total=6377, has_more(unreliable)=False)
+    page 46: got 100 results (total=6377, has_more(unreliable)=False)
+    page 47: got 100 results (total=6377, has_more(unreliable)=False)
+    page 48: got 100 results (total=6377, has_more(unreliable)=False)
+    page 49: got 100 results (total=6377, has_more(unreliable)=False)
+    page 50: got 100 results (total=6377, has_more(unreliable)=False)
+    page 51: got 100 results (total=6377, has_more(unreliable)=False)
+    page 52: got 100 results (total=6377, has_more(unreliable)=False)
+    page 53: got 100 results (total=6377, has_more(unreliable)=False)
+    page 54: got 100 results (total=6377, has_more(unreliable)=False)
+    page 55: got 100 results (total=6377, has_more(unreliable)=False)
+    page 56: got 100 results (total=6377, has_more(unreliable)=False)
+    page 57: got 100 results (total=6377, has_more(unreliable)=False)
+    page 58: got 100 results (total=6377, has_more(unreliable)=False)
+    page 59: got 100 results (total=6377, has_more(unreliable)=False)
+    page 60: got 100 results (total=6377, has_more(unreliable)=False)
+    page 61: got 100 results (total=6377, has_more(unreliable)=False)
+    page 62: got 100 results (total=6377, has_more(unreliable)=False)
+    page 63: got 100 results (total=6377, has_more(unreliable)=False)
+    page 64: got 77 results (total=6377, has_more(unreliable)=False)
+  -> 6377 raw results, 3515 unique page.domain values this domain
+[8/108] domain:arigatodomen.sbs
+    page 1: got 89 results (total=89, has_more(unreliable)=False)
+  -> 89 raw results, 76 unique page.domain values this domain
+[9/108] domain:babybon.cfd
+    page 1: got 100 results (total=293, has_more(unreliable)=False)
+    page 2: got 100 results (total=293, has_more(unreliable)=False)
+    page 3: got 93 results (total=293, has_more(unreliable)=False)
+  -> 293 raw results, 107 unique page.domain values this domain
+[10/108] domain:barmaleieba.lol
+    page 1: got 0 results (total=0, has_more(unreliable)=False)
+  -> 0 raw results, 0 unique page.domain values this domain
+[11/108] domain:bearman.bond
+    page 1: got 85 results (total=85, has_more(unreliable)=False)
+  -> 85 raw results, 45 unique page.domain values this domain
+[12/108] domain:bibliorock.lol
+    page 1: got 37 results (total=37, has_more(unreliable)=False)
+  -> 37 raw results, 11 unique page.domain values this domain
+[13/108] domain:bigboysclub.cyou
+    page 1: got 67 results (total=67, has_more(unreliable)=False)
+  -> 67 raw results, 19 unique page.domain values this domain
+[14/108] domain:biggestchlen.lol
+    page 1: got 60 results (total=60, has_more(unreliable)=False)
+  -> 60 raw results, 7 unique page.domain values this domain
+[15/108] domain:biggestchlen.xyz
+    page 1: got 44 results (total=44, has_more(unreliable)=False)
+  -> 44 raw results, 7 unique page.domain values this domain
+[16/108] domain:biletors.cfd
+    page 1: got 100 results (total=1429, has_more(unreliable)=False)
+    page 2: got 100 results (total=1429, has_more(unreliable)=False)
+    page 3: got 100 results (total=1429, has_more(unreliable)=False)
+    page 4: got 100 results (total=1429, has_more(unreliable)=False)
+    page 5: got 100 results (total=1429, has_more(unreliable)=False)
+    page 6: got 100 results (total=1429, has_more(unreliable)=False)
+    page 7: got 100 results (total=1429, has_more(unreliable)=False)
+    page 8: got 100 results (total=1429, has_more(unreliable)=False)
+    page 9: got 100 results (total=1429, has_more(unreliable)=False)
+    page 10: got 100 results (total=1429, has_more(unreliable)=False)
+    page 11: got 100 results (total=1429, has_more(unreliable)=False)
+    page 12: got 100 results (total=1429, has_more(unreliable)=False)
+    page 13: got 100 results (total=1429, has_more(unreliable)=False)
+    page 14: got 100 results (total=1429, has_more(unreliable)=False)
+    page 15: got 29 results (total=1429, has_more(unreliable)=False)
+  -> 1429 raw results, 1194 unique page.domain values this domain
+[17/108] domain:birdybird.rest
+    page 1: got 84 results (total=84, has_more(unreliable)=False)
+  -> 84 raw results, 34 unique page.domain values this domain
+[18/108] domain:blatnoitovar.xyz
+    page 1: got 67 results (total=67, has_more(unreliable)=False)
+  -> 67 raw results, 15 unique page.domain values this domain
+[19/108] domain:bobik.cfd
+    page 1: got 100 results (total=293, has_more(unreliable)=False)
+    page 2: got 100 results (total=293, has_more(unreliable)=False)
+    page 3: got 93 results (total=293, has_more(unreliable)=False)
+  -> 293 raw results, 50 unique page.domain values this domain
+[20/108] domain:bulletpop.cyou
+    page 1: got 100 results (total=146, has_more(unreliable)=False)
+    page 2: got 46 results (total=146, has_more(unreliable)=False)
+  -> 146 raw results, 104 unique page.domain values this domain
+[21/108] domain:chinabowl.club
+    page 1: got 100 results (total=696, has_more(unreliable)=False)
+    page 2: got 100 results (total=696, has_more(unreliable)=False)
+    page 3: got 100 results (total=696, has_more(unreliable)=False)
+    page 4: got 100 results (total=696, has_more(unreliable)=False)
+    page 5: got 100 results (total=696, has_more(unreliable)=False)
+    page 6: got 100 results (total=696, has_more(unreliable)=False)
+    page 7: got 96 results (total=696, has_more(unreliable)=False)
+  -> 696 raw results, 183 unique page.domain values this domain
+[22/108] domain:chinarice.asia
+    page 1: got 100 results (total=117, has_more(unreliable)=False)
+    page 2: got 17 results (total=117, has_more(unreliable)=False)
+  -> 117 raw results, 44 unique page.domain values this domain
+[23/108] domain:chubrik.sbs
+    page 1: got 100 results (total=254, has_more(unreliable)=False)
+    page 2: got 100 results (total=254, has_more(unreliable)=False)
+    page 3: got 54 results (total=254, has_more(unreliable)=False)
+  -> 254 raw results, 214 unique page.domain values this domain
+[24/108] domain:cloudflare-check.cfd
+    page 1: got 95 results (total=95, has_more(unreliable)=False)
+  -> 95 raw results, 5 unique page.domain values this domain
+[25/108] domain:comicstar.lat
+    page 1: got 88 results (total=88, has_more(unreliable)=False)
+  -> 88 raw results, 34 unique page.domain values this domain
+[26/108] domain:corppop.shop
+    page 1: got 29 results (total=29, has_more(unreliable)=False)
+  -> 29 raw results, 1 unique page.domain values this domain
+[27/108] domain:cosmostars.shop
+    page 1: got 100 results (total=124, has_more(unreliable)=False)
+    page 2: got 24 results (total=124, has_more(unreliable)=False)
+  -> 124 raw results, 35 unique page.domain values this domain
+[28/108] domain:denegnet.click
+    page 1: got 92 results (total=92, has_more(unreliable)=False)
+  -> 92 raw results, 21 unique page.domain values this domain
+[29/108] domain:diddyparty.click
+    page 1: got 84 results (total=84, has_more(unreliable)=False)
+  -> 84 raw results, 15 unique page.domain values this domain
+[30/108] domain:etomoe.cfd
+    page 1: got 100 results (total=321, has_more(unreliable)=False)
+    page 2: got 100 results (total=321, has_more(unreliable)=False)
+    page 3: got 100 results (total=321, has_more(unreliable)=False)
+    page 4: got 21 results (total=321, has_more(unreliable)=False)
+  -> 321 raw results, 120 unique page.domain values this domain
+[31/108] domain:etomoidomen.cfd
+    page 1: got 100 results (total=458, has_more(unreliable)=False)
+    page 2: got 100 results (total=458, has_more(unreliable)=False)
+    page 3: got 100 results (total=458, has_more(unreliable)=False)
+    page 4: got 100 results (total=458, has_more(unreliable)=False)
+    page 5: got 58 results (total=458, has_more(unreliable)=False)
+  -> 458 raw results, 289 unique page.domain values this domain
+[32/108] domain:fesold.com
+    page 1: got 100 results (total=397, has_more(unreliable)=False)
+    page 2: got 100 results (total=397, has_more(unreliable)=False)
+    page 3: got 100 results (total=397, has_more(unreliable)=False)
+    page 4: got 97 results (total=397, has_more(unreliable)=False)
+  -> 397 raw results, 79 unique page.domain values this domain
+[33/108] domain:ganiballektor.cfd
+    page 1: got 61 results (total=61, has_more(unreliable)=False)
+  -> 61 raw results, 37 unique page.domain values this domain
+[34/108] domain:gasshopper.sale
+    page 1: got 100 results (total=187, has_more(unreliable)=False)
+    page 2: got 87 results (total=187, has_more(unreliable)=False)
+  -> 187 raw results, 84 unique page.domain values this domain
+[35/108] domain:gdedengikarlos.cfd
+    page 1: got 73 results (total=73, has_more(unreliable)=False)
+  -> 73 raw results, 41 unique page.domain values this domain
+[36/108] domain:gdelogi.lol
+    page 1: got 6 results (total=6, has_more(unreliable)=False)
+  -> 6 raw results, 1 unique page.domain values this domain
+[37/108] domain:goodgoodmoon.bond
+    page 1: got 100 results (total=100, has_more(unreliable)=False)
+    page 2: got 0 results (total=100, has_more(unreliable)=False)
+  -> 100 raw results, 12 unique page.domain values this domain
+[38/108] domain:govnol.lat
+    page 1: got 1 results (total=1, has_more(unreliable)=False)
+  -> 1 raw results, 1 unique page.domain values this domain
+[39/108] domain:gppcdnns.beer
+    page 1: got 17 results (total=17, has_more(unreliable)=False)
+  -> 17 raw results, 3 unique page.domain values this domain
+[40/108] domain:holopebamiy.bond
+    page 1: got 100 results (total=148, has_more(unreliable)=False)
+    page 2: got 48 results (total=148, has_more(unreliable)=False)
+  -> 148 raw results, 79 unique page.domain values this domain
+[41/108] domain:honeymoonshop.asia
+    page 1: got 0 results (total=0, has_more(unreliable)=False)
+  -> 0 raw results, 0 unique page.domain values this domain
+[42/108] domain:ivangay.bond
+    page 1: got 66 results (total=66, has_more(unreliable)=False)
+  -> 66 raw results, 7 unique page.domain values this domain
+[43/108] domain:kaloed.pro
+    page 1: got 100 results (total=453, has_more(unreliable)=False)
+    page 2: got 100 results (total=453, has_more(unreliable)=False)
+    page 3: got 100 results (total=453, has_more(unreliable)=False)
+    page 4: got 100 results (total=453, has_more(unreliable)=False)
+    page 5: got 53 results (total=453, has_more(unreliable)=False)
+  -> 453 raw results, 127 unique page.domain values this domain
+[44/108] domain:krempie.xyz
+    page 1: got 100 results (total=102, has_more(unreliable)=False)
+    page 2: got 2 results (total=102, has_more(unreliable)=False)
+  -> 102 raw results, 18 unique page.domain values this domain
+[45/108] domain:krolikrojer.lat
+    page 1: got 22 results (total=22, has_more(unreliable)=False)
+  -> 22 raw results, 10 unique page.domain values this domain
+[46/108] domain:lenders.digital
+    page 1: got 100 results (total=172, has_more(unreliable)=False)
+    page 2: got 72 results (total=172, has_more(unreliable)=False)
+  -> 172 raw results, 116 unique page.domain values this domain
+[47/108] domain:lizablud.shop
+    page 1: got 100 results (total=542, has_more(unreliable)=False)
+    page 2: got 100 results (total=542, has_more(unreliable)=False)
+    page 3: got 100 results (total=542, has_more(unreliable)=False)
+    page 4: got 100 results (total=542, has_more(unreliable)=False)
+    page 5: got 100 results (total=542, has_more(unreliable)=False)
+    page 6: got 42 results (total=542, has_more(unreliable)=False)
+  -> 542 raw results, 202 unique page.domain values this domain
+[48/108] domain:mamamiadomio.cfd
+    page 1: got 23 results (total=23, has_more(unreliable)=False)
+  -> 23 raw results, 3 unique page.domain values this domain
+[49/108] domain:mambet.lol
+    page 1: got 100 results (total=584, has_more(unreliable)=False)
+    page 2: got 100 results (total=584, has_more(unreliable)=False)
+    page 3: got 100 results (total=584, has_more(unreliable)=False)
+    page 4: got 100 results (total=584, has_more(unreliable)=False)
+    page 5: got 100 results (total=584, has_more(unreliable)=False)
+    page 6: got 84 results (total=584, has_more(unreliable)=False)
+  -> 584 raw results, 497 unique page.domain values this domain
+[50/108] domain:mamkor.pro
+    page 1: got 61 results (total=61, has_more(unreliable)=False)
+  -> 61 raw results, 31 unique page.domain values this domain
+[51/108] domain:mampodik.asia
+    page 1: got 100 results (total=237, has_more(unreliable)=False)
+    page 2: got 100 results (total=237, has_more(unreliable)=False)
+    page 3: got 37 results (total=237, has_more(unreliable)=False)
+  -> 237 raw results, 131 unique page.domain values this domain
+[52/108] domain:marinaradom.cfd
+    page 1: got 100 results (total=843, has_more(unreliable)=False)
+    page 2: got 100 results (total=843, has_more(unreliable)=False)
+    page 3: got 100 results (total=843, has_more(unreliable)=False)
+    page 4: got 100 results (total=843, has_more(unreliable)=False)
+    page 5: got 100 results (total=843, has_more(unreliable)=False)
+    page 6: got 100 results (total=843, has_more(unreliable)=False)
+    page 7: got 100 results (total=843, has_more(unreliable)=False)
+    page 8: got 100 results (total=843, has_more(unreliable)=False)
+    page 9: got 43 results (total=843, has_more(unreliable)=False)
+  -> 843 raw results, 506 unique page.domain values this domain
+[53/108] domain:marmelad.lat
+    page 1: got 19 results (total=19, has_more(unreliable)=False)
+  -> 19 raw results, 13 unique page.domain values this domain
+[54/108] domain:mebanebols.trade
+    page 1: got 38 results (total=38, has_more(unreliable)=False)
+  -> 38 raw results, 19 unique page.domain values this domain
+[55/108] domain:megamegalodon.click
+    page 1: got 100 results (total=121, has_more(unreliable)=False)
+    page 2: got 21 results (total=121, has_more(unreliable)=False)
+  -> 121 raw results, 86 unique page.domain values this domain
+[56/108] domain:mekasa.pro
+    page 1: got 100 results (total=212, has_more(unreliable)=False)
+    page 2: got 100 results (total=212, has_more(unreliable)=False)
+    page 3: got 12 results (total=212, has_more(unreliable)=False)
+  -> 212 raw results, 51 unique page.domain values this domain
+[57/108] domain:memshowblob.forum
+    page 1: got 71 results (total=71, has_more(unreliable)=False)
+  -> 71 raw results, 20 unique page.domain values this domain
+[58/108] domain:merabs.pro
+    page 1: got 100 results (total=612, has_more(unreliable)=False)
+    page 2: got 100 results (total=612, has_more(unreliable)=False)
+    page 3: got 100 results (total=612, has_more(unreliable)=False)
+    page 4: got 100 results (total=612, has_more(unreliable)=False)
+    page 5: got 100 results (total=612, has_more(unreliable)=False)
+    page 6: got 100 results (total=612, has_more(unreliable)=False)
+    page 7: got 12 results (total=612, has_more(unreliable)=False)
+  -> 612 raw results, 86 unique page.domain values this domain
+[59/108] domain:merengagoi.bond
+    page 1: got 100 results (total=110, has_more(unreliable)=False)
+    page 2: got 10 results (total=110, has_more(unreliable)=False)
+  -> 110 raw results, 12 unique page.domain values this domain
+[60/108] domain:merindashop.cyou
+    page 1: got 100 results (total=206, has_more(unreliable)=False)
+    page 2: got 100 results (total=206, has_more(unreliable)=False)
+    page 3: got 6 results (total=206, has_more(unreliable)=False)
+  -> 206 raw results, 63 unique page.domain values this domain
+[61/108] domain:merkantalolol.asia
+    page 1: got 100 results (total=133, has_more(unreliable)=False)
+    page 2: got 33 results (total=133, has_more(unreliable)=False)
+  -> 133 raw results, 83 unique page.domain values this domain
+[62/108] domain:mexicodreams.bond
+    page 1: got 100 results (total=680, has_more(unreliable)=False)
+    page 2: got 100 results (total=680, has_more(unreliable)=False)
+    page 3: got 100 results (total=680, has_more(unreliable)=False)
+    page 4: got 100 results (total=680, has_more(unreliable)=False)
+    page 5: got 100 results (total=680, has_more(unreliable)=False)
+    page 6: got 100 results (total=680, has_more(unreliable)=False)
+    page 7: got 80 results (total=680, has_more(unreliable)=False)
+  -> 680 raw results, 434 unique page.domain values this domain
+[63/108] domain:microblob.bond
+    page 1: got 69 results (total=69, has_more(unreliable)=False)
+  -> 69 raw results, 6 unique page.domain values this domain
+[64/108] domain:microblogver.bond
+    page 1: got 46 results (total=46, has_more(unreliable)=False)
+  -> 46 raw results, 6 unique page.domain values this domain
+[65/108] domain:microchlen.lat
+    page 1: got 100 results (total=128, has_more(unreliable)=False)
+    page 2: got 28 results (total=128, has_more(unreliable)=False)
+  -> 128 raw results, 117 unique page.domain values this domain
+[66/108] domain:microloh.bond
+    page 1: got 100 results (total=193, has_more(unreliable)=False)
+    page 2: got 93 results (total=193, has_more(unreliable)=False)
+  -> 193 raw results, 28 unique page.domain values this domain
+[67/108] domain:milksos.cfd
+    page 1: got 100 results (total=425, has_more(unreliable)=False)
+    page 2: got 100 results (total=425, has_more(unreliable)=False)
+    page 3: got 100 results (total=425, has_more(unreliable)=False)
+    page 4: got 100 results (total=425, has_more(unreliable)=False)
+    page 5: got 25 results (total=425, has_more(unreliable)=False)
+  -> 425 raw results, 97 unique page.domain values this domain
+[68/108] domain:misterslivker.asia
+    page 1: got 95 results (total=95, has_more(unreliable)=False)
+  -> 95 raw results, 62 unique page.domain values this domain
+[69/108] domain:mistertwister.sale
+    page 1: got 100 results (total=286, has_more(unreliable)=False)
+    page 2: got 100 results (total=286, has_more(unreliable)=False)
+    page 3: got 86 results (total=286, has_more(unreliable)=False)
+  -> 286 raw results, 69 unique page.domain values this domain
+[70/108] domain:mnepohui.sbs
+    page 1: got 52 results (total=52, has_more(unreliable)=False)
+  -> 52 raw results, 23 unique page.domain values this domain
+[71/108] domain:mob.lanjut.in
+    page 1: got 52 results (total=52, has_more(unreliable)=False)
+  -> 52 raw results, 20 unique page.domain values this domain
+[72/108] domain:moll.lanjut.in
+    page 1: got 96 results (total=96, has_more(unreliable)=False)
+  -> 96 raw results, 53 unique page.domain values this domain
+[73/108] domain:myblobtop.site
+    page 1: got 100 results (total=234, has_more(unreliable)=False)
+    page 2: got 100 results (total=234, has_more(unreliable)=False)
+    page 3: got 34 results (total=234, has_more(unreliable)=False)
+  -> 234 raw results, 231 unique page.domain values this domain
+[74/108] domain:mygoodblog.bond
+    page 1: got 57 results (total=57, has_more(unreliable)=False)
+  -> 57 raw results, 4 unique page.domain values this domain
+[75/108] domain:mygoodblog.cfd
+    page 1: got 31 results (total=31, has_more(unreliable)=False)
+  -> 31 raw results, 1 unique page.domain values this domain
+[76/108] domain:mylovedomen.asia
+    page 1: got 100 results (total=183, has_more(unreliable)=False)
+    page 2: got 83 results (total=183, has_more(unreliable)=False)
+  -> 183 raw results, 80 unique page.domain values this domain
+[77/108] domain:mymicroblog.lat
+    page 1: got 76 results (total=76, has_more(unreliable)=False)
+  -> 76 raw results, 14 unique page.domain values this domain
+[78/108] domain:myverifyblog.sbs
+    page 1: got 75 results (total=75, has_more(unreliable)=False)
+  -> 75 raw results, 3 unique page.domain values this domain
+[79/108] domain:nenadopapa.cfd
+    page 1: got 100 results (total=2010, has_more(unreliable)=False)
+    page 2: got 100 results (total=2010, has_more(unreliable)=False)
+    page 3: got 100 results (total=2010, has_more(unreliable)=False)
+    page 4: got 100 results (total=2010, has_more(unreliable)=False)
+    page 5: got 100 results (total=2010, has_more(unreliable)=False)
+    page 6: got 100 results (total=2010, has_more(unreliable)=False)
+    page 7: got 100 results (total=2010, has_more(unreliable)=False)
+    page 8: got 100 results (total=2010, has_more(unreliable)=False)
+    page 9: got 100 results (total=2010, has_more(unreliable)=False)
+    page 10: got 100 results (total=2010, has_more(unreliable)=False)
+    page 11: got 100 results (total=2010, has_more(unreliable)=False)
+    page 12: got 100 results (total=2010, has_more(unreliable)=False)
+    page 13: got 100 results (total=2010, has_more(unreliable)=False)
+    page 14: got 100 results (total=2010, has_more(unreliable)=False)
+    page 15: got 100 results (total=2010, has_more(unreliable)=False)
+    page 16: got 100 results (total=2010, has_more(unreliable)=False)
+    page 17: got 100 results (total=2010, has_more(unreliable)=False)
+    page 18: got 100 results (total=2010, has_more(unreliable)=False)
+    page 19: got 100 results (total=2010, has_more(unreliable)=False)
+    page 20: got 100 results (total=2010, has_more(unreliable)=False)
+    page 21: got 10 results (total=2010, has_more(unreliable)=False)
+  -> 2010 raw results, 1324 unique page.domain values this domain
+[80/108] domain:nihaoclub.asia
+    page 1: got 94 results (total=94, has_more(unreliable)=False)
+  -> 94 raw results, 39 unique page.domain values this domain
+[81/108] domain:peachbro.bond
+    page 1: got 26 results (total=26, has_more(unreliable)=False)
+  -> 26 raw results, 22 unique page.domain values this domain
+[82/108] domain:pilotkadomen.club
+    page 1: got 70 results (total=70, has_more(unreliable)=False)
+  -> 70 raw results, 60 unique page.domain values this domain
+[83/108] domain:pinokros.xyz
+    page 1: got 5 results (total=5, has_more(unreliable)=False)
+  -> 5 raw results, 3 unique page.domain values this domain
+[84/108] domain:pohuimne.lol
+    page 1: got 100 results (total=206, has_more(unreliable)=False)
+    page 2: got 100 results (total=206, has_more(unreliable)=False)
+    page 3: got 6 results (total=206, has_more(unreliable)=False)
+  -> 206 raw results, 139 unique page.domain values this domain
+[85/108] domain:pokese.pro
+    page 1: got 100 results (total=224, has_more(unreliable)=False)
+    page 2: got 100 results (total=224, has_more(unreliable)=False)
+    page 3: got 24 results (total=224, has_more(unreliable)=False)
+  -> 224 raw results, 61 unique page.domain values this domain
+[86/108] domain:ponikas.cyou
+    page 1: got 74 results (total=74, has_more(unreliable)=False)
+  -> 74 raw results, 55 unique page.domain values this domain
+[87/108] domain:pringlesbob.cfd
+    page 1: got 100 results (total=130, has_more(unreliable)=False)
+    page 2: got 30 results (total=130, has_more(unreliable)=False)
+  -> 130 raw results, 96 unique page.domain values this domain
+[88/108] domain:productionmaza.bond
+    page 1: got 48 results (total=48, has_more(unreliable)=False)
+  -> 48 raw results, 1 unique page.domain values this domain
+[89/108] domain:productionmaza.cfd
+    page 1: got 100 results (total=295, has_more(unreliable)=False)
+    page 2: got 100 results (total=295, has_more(unreliable)=False)
+    page 3: got 95 results (total=295, has_more(unreliable)=False)
+  -> 295 raw results, 44 unique page.domain values this domain
+[90/108] domain:productionmaza.cyou
+    page 1: got 100 results (total=114, has_more(unreliable)=False)
+    page 2: got 14 results (total=114, has_more(unreliable)=False)
+  -> 114 raw results, 30 unique page.domain values this domain
+[91/108] domain:productionmaza.sbs
+    page 1: got 100 results (total=214, has_more(unreliable)=False)
+    page 2: got 100 results (total=214, has_more(unreliable)=False)
+    page 3: got 14 results (total=214, has_more(unreliable)=False)
+  -> 214 raw results, 22 unique page.domain values this domain
+[92/108] domain:prokladka.lol
+    page 1: got 27 results (total=27, has_more(unreliable)=False)
+  -> 27 raw results, 13 unique page.domain values this domain
+[93/108] domain:pusanik.shop
+    page 1: got 100 results (total=104, has_more(unreliable)=False)
+    page 2: got 4 results (total=104, has_more(unreliable)=False)
+  -> 104 raw results, 46 unique page.domain values this domain
+[94/108] domain:robodomain.sbs
+    page 1: got 100 results (total=594, has_more(unreliable)=False)
+    page 2: got 100 results (total=594, has_more(unreliable)=False)
+    page 3: got 100 results (total=594, has_more(unreliable)=False)
+    page 4: got 100 results (total=594, has_more(unreliable)=False)
+    page 5: got 100 results (total=594, has_more(unreliable)=False)
+    page 6: got 94 results (total=594, has_more(unreliable)=False)
+  -> 594 raw results, 117 unique page.domain values this domain
+[95/108] domain:sandman.bond
+    page 1: got 100 results (total=198, has_more(unreliable)=False)
+    page 2: got 98 results (total=198, has_more(unreliable)=False)
+  -> 198 raw results, 42 unique page.domain values this domain
+[96/108] domain:sandman.lat
+    page 1: got 100 results (total=1128, has_more(unreliable)=False)
+    page 2: got 100 results (total=1128, has_more(unreliable)=False)
+    page 3: got 100 results (total=1128, has_more(unreliable)=False)
+    page 4: got 100 results (total=1128, has_more(unreliable)=False)
+    page 5: got 100 results (total=1128, has_more(unreliable)=False)
+    page 6: got 100 results (total=1128, has_more(unreliable)=False)
+    page 7: got 100 results (total=1128, has_more(unreliable)=False)
+    page 8: got 100 results (total=1128, has_more(unreliable)=False)
+    page 9: got 100 results (total=1128, has_more(unreliable)=False)
+    page 10: got 100 results (total=1128, has_more(unreliable)=False)
+    page 11: got 100 results (total=1128, has_more(unreliable)=False)
+    page 12: got 28 results (total=1128, has_more(unreliable)=False)
+  -> 1128 raw results, 360 unique page.domain values this domain
+[97/108] domain:sitepromclop.click
+    page 1: got 39 results (total=39, has_more(unreliable)=False)
+  -> 39 raw results, 19 unique page.domain values this domain
+[98/108] domain:slivkishow.asia
+    page 1: got 99 results (total=99, has_more(unreliable)=False)
+  -> 99 raw results, 44 unique page.domain values this domain
+[99/108] domain:smackit.lat
+    page 1: got 100 results (total=1016, has_more(unreliable)=False)
+    page 2: got 100 results (total=1016, has_more(unreliable)=False)
+    page 3: got 100 results (total=1016, has_more(unreliable)=False)
+    page 4: got 100 results (total=1016, has_more(unreliable)=False)
+    page 5: got 100 results (total=1016, has_more(unreliable)=False)
+    page 6: got 100 results (total=1016, has_more(unreliable)=False)
+    page 7: got 100 results (total=1016, has_more(unreliable)=False)
+    page 8: got 100 results (total=1016, has_more(unreliable)=False)
+    page 9: got 100 results (total=1016, has_more(unreliable)=False)
+    page 10: got 100 results (total=1016, has_more(unreliable)=False)
+    page 11: got 16 results (total=1016, has_more(unreliable)=False)
+  -> 1016 raw results, 969 unique page.domain values this domain
+[100/108] domain:smenapodik.bond
+    page 1: got 100 results (total=197, has_more(unreliable)=False)
+    page 2: got 97 results (total=197, has_more(unreliable)=False)
+  -> 197 raw results, 125 unique page.domain values this domain
+[101/108] domain:spartanec.lat
+    page 1: got 48 results (total=48, has_more(unreliable)=False)
+  -> 48 raw results, 35 unique page.domain values this domain
+[102/108] domain:superboomer.world
+    page 1: got 100 results (total=354, has_more(unreliable)=False)
+    page 2: got 100 results (total=354, has_more(unreliable)=False)
+    page 3: got 100 results (total=354, has_more(unreliable)=False)
+    page 4: got 54 results (total=354, has_more(unreliable)=False)
+  -> 354 raw results, 222 unique page.domain values this domain
+[103/108] domain:superpooper.click
+    page 1: got 66 results (total=66, has_more(unreliable)=False)
+  -> 66 raw results, 14 unique page.domain values this domain
+[104/108] domain:superstarlog.click
+    page 1: got 100 results (total=261, has_more(unreliable)=False)
+    page 2: got 100 results (total=261, has_more(unreliable)=False)
+    page 3: got 61 results (total=261, has_more(unreliable)=False)
+  -> 261 raw results, 106 unique page.domain values this domain
+[105/108] domain:thisismine.asia
+    page 1: got 94 results (total=94, has_more(unreliable)=False)
+  -> 94 raw results, 49 unique page.domain values this domain
+[106/108] domain:whynotebanarot.xyz
+    page 1: got 9 results (total=9, has_more(unreliable)=False)
+  -> 9 raw results, 4 unique page.domain values this domain
+[107/108] domain:yoshicity.xyz
+    page 1: got 32 results (total=32, has_more(unreliable)=False)
+  -> 32 raw results, 5 unique page.domain values this domain
+[108/108] domain:zaserz.com
+    page 1: got 100 results (total=212, has_more(unreliable)=False)
+    page 2: got 100 results (total=212, has_more(unreliable)=False)
+    page 3: got 12 results (total=212, has_more(unreliable)=False)
+  -> 212 raw results, 91 unique page.domain values this domain
+
+=== Per-domain result counts ===
+  abrikos.xyz: {'raw_results': 19, 'unique_page_domains': 12, 'partial': False}
+  abrmot.pro: {'raw_results': 742, 'unique_page_domains': 125, 'partial': False}
+  allplanetssame.cfd: {'raw_results': 22, 'unique_page_domains': 1, 'partial': False}
+  amalgama.lat: {'raw_results': 122, 'unique_page_domains': 89, 'partial': False}
+  anakondabob.club: {'raw_results': 606, 'unique_page_domains': 384, 'partial': False}
+  antongandon.club: {'raw_results': 130, 'unique_page_domains': 23, 'partial': False}
+  ap7.supportly.au: {'raw_results': 6377, 'unique_page_domains': 3515, 'partial': False}
+  arigatodomen.sbs: {'raw_results': 89, 'unique_page_domains': 76, 'partial': False}
+  babybon.cfd: {'raw_results': 293, 'unique_page_domains': 107, 'partial': False}
+  barmaleieba.lol: {'raw_results': 0, 'unique_page_domains': 0, 'partial': False}
+  bearman.bond: {'raw_results': 85, 'unique_page_domains': 45, 'partial': False}
+  bibliorock.lol: {'raw_results': 37, 'unique_page_domains': 11, 'partial': False}
+  bigboysclub.cyou: {'raw_results': 67, 'unique_page_domains': 19, 'partial': False}
+  biggestchlen.lol: {'raw_results': 60, 'unique_page_domains': 7, 'partial': False}
+  biggestchlen.xyz: {'raw_results': 44, 'unique_page_domains': 7, 'partial': False}
+  biletors.cfd: {'raw_results': 1429, 'unique_page_domains': 1194, 'partial': False}
+  birdybird.rest: {'raw_results': 84, 'unique_page_domains': 34, 'partial': False}
+  blatnoitovar.xyz: {'raw_results': 67, 'unique_page_domains': 15, 'partial': False}
+  bobik.cfd: {'raw_results': 293, 'unique_page_domains': 50, 'partial': False}
+  bulletpop.cyou: {'raw_results': 146, 'unique_page_domains': 104, 'partial': False}
+  chinabowl.club: {'raw_results': 696, 'unique_page_domains': 183, 'partial': False}
+  chinarice.asia: {'raw_results': 117, 'unique_page_domains': 44, 'partial': False}
+  chubrik.sbs: {'raw_results': 254, 'unique_page_domains': 214, 'partial': False}
+  cloudflare-check.cfd: {'raw_results': 95, 'unique_page_domains': 5, 'partial': False}
+  comicstar.lat: {'raw_results': 88, 'unique_page_domains': 34, 'partial': False}
+  corppop.shop: {'raw_results': 29, 'unique_page_domains': 1, 'partial': False}
+  cosmostars.shop: {'raw_results': 124, 'unique_page_domains': 35, 'partial': False}
+  denegnet.click: {'raw_results': 92, 'unique_page_domains': 21, 'partial': False}
+  diddyparty.click: {'raw_results': 84, 'unique_page_domains': 15, 'partial': False}
+  etomoe.cfd: {'raw_results': 321, 'unique_page_domains': 120, 'partial': False}
+  etomoidomen.cfd: {'raw_results': 458, 'unique_page_domains': 289, 'partial': False}
+  fesold.com: {'raw_results': 397, 'unique_page_domains': 79, 'partial': False}
+  ganiballektor.cfd: {'raw_results': 61, 'unique_page_domains': 37, 'partial': False}
+  gasshopper.sale: {'raw_results': 187, 'unique_page_domains': 84, 'partial': False}
+  gdedengikarlos.cfd: {'raw_results': 73, 'unique_page_domains': 41, 'partial': False}
+  gdelogi.lol: {'raw_results': 6, 'unique_page_domains': 1, 'partial': False}
+  goodgoodmoon.bond: {'raw_results': 100, 'unique_page_domains': 12, 'partial': False}
+  govnol.lat: {'raw_results': 1, 'unique_page_domains': 1, 'partial': False}
+  gppcdnns.beer: {'raw_results': 17, 'unique_page_domains': 3, 'partial': False}
+  holopebamiy.bond: {'raw_results': 148, 'unique_page_domains': 79, 'partial': False}
+  honeymoonshop.asia: {'raw_results': 0, 'unique_page_domains': 0, 'partial': False}
+  ivangay.bond: {'raw_results': 66, 'unique_page_domains': 7, 'partial': False}
+  kaloed.pro: {'raw_results': 453, 'unique_page_domains': 127, 'partial': False}
+  krempie.xyz: {'raw_results': 102, 'unique_page_domains': 18, 'partial': False}
+  krolikrojer.lat: {'raw_results': 22, 'unique_page_domains': 10, 'partial': False}
+  lenders.digital: {'raw_results': 172, 'unique_page_domains': 116, 'partial': False}
+  lizablud.shop: {'raw_results': 542, 'unique_page_domains': 202, 'partial': False}
+  mamamiadomio.cfd: {'raw_results': 23, 'unique_page_domains': 3, 'partial': False}
+  mambet.lol: {'raw_results': 584, 'unique_page_domains': 497, 'partial': False}
+  mamkor.pro: {'raw_results': 61, 'unique_page_domains': 31, 'partial': False}
+  mampodik.asia: {'raw_results': 237, 'unique_page_domains': 131, 'partial': False}
+  marinaradom.cfd: {'raw_results': 843, 'unique_page_domains': 506, 'partial': False}
+  marmelad.lat: {'raw_results': 19, 'unique_page_domains': 13, 'partial': False}
+  mebanebols.trade: {'raw_results': 38, 'unique_page_domains': 19, 'partial': False}
+  megamegalodon.click: {'raw_results': 121, 'unique_page_domains': 86, 'partial': False}
+  mekasa.pro: {'raw_results': 212, 'unique_page_domains': 51, 'partial': False}
+  memshowblob.forum: {'raw_results': 71, 'unique_page_domains': 20, 'partial': False}
+  merabs.pro: {'raw_results': 612, 'unique_page_domains': 86, 'partial': False}
+  merengagoi.bond: {'raw_results': 110, 'unique_page_domains': 12, 'partial': False}
+  merindashop.cyou: {'raw_results': 206, 'unique_page_domains': 63, 'partial': False}
+  merkantalolol.asia: {'raw_results': 133, 'unique_page_domains': 83, 'partial': False}
+  mexicodreams.bond: {'raw_results': 680, 'unique_page_domains': 434, 'partial': False}
+  microblob.bond: {'raw_results': 69, 'unique_page_domains': 6, 'partial': False}
+  microblogver.bond: {'raw_results': 46, 'unique_page_domains': 6, 'partial': False}
+  microchlen.lat: {'raw_results': 128, 'unique_page_domains': 117, 'partial': False}
+  microloh.bond: {'raw_results': 193, 'unique_page_domains': 28, 'partial': False}
+  milksos.cfd: {'raw_results': 425, 'unique_page_domains': 97, 'partial': False}
+  misterslivker.asia: {'raw_results': 95, 'unique_page_domains': 62, 'partial': False}
+  mistertwister.sale: {'raw_results': 286, 'unique_page_domains': 69, 'partial': False}
+  mnepohui.sbs: {'raw_results': 52, 'unique_page_domains': 23, 'partial': False}
+  mob.lanjut.in: {'raw_results': 52, 'unique_page_domains': 20, 'partial': False}
+  moll.lanjut.in: {'raw_results': 96, 'unique_page_domains': 53, 'partial': False}
+  myblobtop.site: {'raw_results': 234, 'unique_page_domains': 231, 'partial': False}
+  mygoodblog.bond: {'raw_results': 57, 'unique_page_domains': 4, 'partial': False}
+  mygoodblog.cfd: {'raw_results': 31, 'unique_page_domains': 1, 'partial': False}
+  mylovedomen.asia: {'raw_results': 183, 'unique_page_domains': 80, 'partial': False}
+  mymicroblog.lat: {'raw_results': 76, 'unique_page_domains': 14, 'partial': False}
+  myverifyblog.sbs: {'raw_results': 75, 'unique_page_domains': 3, 'partial': False}
+  nenadopapa.cfd: {'raw_results': 2010, 'unique_page_domains': 1324, 'partial': False}
+  nihaoclub.asia: {'raw_results': 94, 'unique_page_domains': 39, 'partial': False}
+  peachbro.bond: {'raw_results': 26, 'unique_page_domains': 22, 'partial': False}
+  pilotkadomen.club: {'raw_results': 70, 'unique_page_domains': 60, 'partial': False}
+  pinokros.xyz: {'raw_results': 5, 'unique_page_domains': 3, 'partial': False}
+  pohuimne.lol: {'raw_results': 206, 'unique_page_domains': 139, 'partial': False}
+  pokese.pro: {'raw_results': 224, 'unique_page_domains': 61, 'partial': False}
+  ponikas.cyou: {'raw_results': 74, 'unique_page_domains': 55, 'partial': False}
+  pringlesbob.cfd: {'raw_results': 130, 'unique_page_domains': 96, 'partial': False}
+  productionmaza.bond: {'raw_results': 48, 'unique_page_domains': 1, 'partial': False}
+  productionmaza.cfd: {'raw_results': 295, 'unique_page_domains': 44, 'partial': False}
+  productionmaza.cyou: {'raw_results': 114, 'unique_page_domains': 30, 'partial': False}
+  productionmaza.sbs: {'raw_results': 214, 'unique_page_domains': 22, 'partial': False}
+  prokladka.lol: {'raw_results': 27, 'unique_page_domains': 13, 'partial': False}
+  pusanik.shop: {'raw_results': 104, 'unique_page_domains': 46, 'partial': False}
+  robodomain.sbs: {'raw_results': 594, 'unique_page_domains': 117, 'partial': False}
+  sandman.bond: {'raw_results': 198, 'unique_page_domains': 42, 'partial': False}
+  sandman.lat: {'raw_results': 1128, 'unique_page_domains': 360, 'partial': False}
+  sitepromclop.click: {'raw_results': 39, 'unique_page_domains': 19, 'partial': False}
+  slivkishow.asia: {'raw_results': 99, 'unique_page_domains': 44, 'partial': False}
+  smackit.lat: {'raw_results': 1016, 'unique_page_domains': 969, 'partial': False}
+  smenapodik.bond: {'raw_results': 197, 'unique_page_domains': 125, 'partial': False}
+  spartanec.lat: {'raw_results': 48, 'unique_page_domains': 35, 'partial': False}
+  superboomer.world: {'raw_results': 354, 'unique_page_domains': 222, 'partial': False}
+  superpooper.click: {'raw_results': 66, 'unique_page_domains': 14, 'partial': False}
+  superstarlog.click: {'raw_results': 261, 'unique_page_domains': 106, 'partial': False}
+  thisismine.asia: {'raw_results': 94, 'unique_page_domains': 49, 'partial': False}
+  whynotebanarot.xyz: {'raw_results': 9, 'unique_page_domains': 4, 'partial': False}
+  yoshicity.xyz: {'raw_results': 32, 'unique_page_domains': 5, 'partial': False}
+  zaserz.com: {'raw_results': 212, 'unique_page_domains': 91, 'partial': False}
+
+=== Aggregate ===
+Total raw urlscan results across all 108 C2 domain searches: 29453
+Total distinct page.domain values seen (incl. C2 domains themselves): 5098
+C2 domains that showed up as page.domain of their own scans (excluded from pool): 105
+    abrikos.xyz
+    abrmot.pro
+    allplanetssame.cfd
+    amalgama.lat
+    anakondabob.club
+    antongandon.club
+    ap7.supportly.au
+    arigatodomen.sbs
+    babybon.cfd
+    bearman.bond
+    bibliorock.lol
+    bigboysclub.cyou
+    biggestchlen.lol
+    biggestchlen.xyz
+    biletors.cfd
+    birdybird.rest
+    blatnoitovar.xyz
+    bobik.cfd
+    bulletpop.cyou
+    chinabowl.club
+    chinarice.asia
+    chubrik.sbs
+    cloudflare-check.cfd
+    comicstar.lat
+    corppop.shop
+    cosmostars.shop
+    denegnet.click
+    diddyparty.click
+    etomoe.cfd
+    etomoidomen.cfd
+    fesold.com
+    ganiballektor.cfd
+    gasshopper.sale
+    gdedengikarlos.cfd
+    gdelogi.lol
+    goodgoodmoon.bond
+    govnol.lat
+    gppcdnns.beer
+    holopebamiy.bond
+    ivangay.bond
+    kaloed.pro
+    krempie.xyz
+    krolikrojer.lat
+    lenders.digital
+    lizablud.shop
+    mamamiadomio.cfd
+    mambet.lol
+    mamkor.pro
+    mampodik.asia
+    marinaradom.cfd
+    marmelad.lat
+    mebanebols.trade
+    megamegalodon.click
+    mekasa.pro
+    memshowblob.forum
+    merabs.pro
+    merengagoi.bond
+    merindashop.cyou
+    merkantalolol.asia
+    mexicodreams.bond
+    microblob.bond
+    microblogver.bond
+    microchlen.lat
+    microloh.bond
+    milksos.cfd
+    misterslivker.asia
+    mistertwister.sale
+    mnepohui.sbs
+    mob.lanjut.in
+    moll.lanjut.in
+    mygoodblog.bond
+    mygoodblog.cfd
+    mylovedomen.asia
+    mymicroblog.lat
+    myverifyblog.sbs
+    nenadopapa.cfd
+    nihaoclub.asia
+    peachbro.bond
+    pilotkadomen.club
+    pinokros.xyz
+    pohuimne.lol
+    pokese.pro
+    ponikas.cyou
+    pringlesbob.cfd
+    productionmaza.bond
+    productionmaza.cfd
+    productionmaza.cyou
+    productionmaza.sbs
+    prokladka.lol
+    pusanik.shop
+    robodomain.sbs
+    sandman.bond
+    sandman.lat
+    sitepromclop.click
+    slivkishow.asia
+    smackit.lat
+    smenapodik.bond
+    spartanec.lat
+    superboomer.world
+    superpooper.click
+    superstarlog.click
+    thisismine.asia
+    whynotebanarot.xyz
+    yoshicity.xyz
+    zaserz.com
+
+FINAL CANDIDATE POOL SIZE (unique third-party page.domain values, C2 domains excluded): 4993
+
+Wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\detections\campaigns\etherhiding-ecosystem-mapped\revalidation-2026-07-11-full\mamkor_A_candidate_hosts.txt and .json

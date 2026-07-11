@@ -1,0 +1,14 @@
+OK: wrote stage3_decrypted.exe (1098902 bytes)
+448c2d3556557837da6de2973428063e52e90239a021ebf08a4908a5d7ece622 *stage3_decrypted.exe
+
+--- input sample verification ---
+e86d8bb932221ce673a9d4ab7aa883de6290e2bc88b453fbc2880cf7a9d407b7 *../../../../blogs/drafts/EtherHiding/mamkor-pro-iwr-downloader/artifacts/stage1_x.exe
+expected (previously reported loader hash): e86d8bb932221ce673a9d4ab7aa883de6290e2bc88b453fbc2880cf7a9d407b7
+
+--- output PE validity spot-check ---
+first 2 bytes (should be MZ): b'MZ'
+size: 1098902
+e_lfanew: 0x280
+PE signature at e_lfanew: b'PE\x00\x00'
+
+CONCLUSION: stage-3 cipher independently reproduced byte-for-byte from the original sample. Output SHA256 448c2d3556557837da6de2973428063e52e90239a021ebf08a4908a5d7ece622 matches the previously reported hash exactly.

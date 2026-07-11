@@ -1,0 +1,28 @@
+Key variable _0xd247ab = 223
+Blob variable _0x08e24a length = 17076
+
+Decoded script written to cedahr_decoded_injected_script.js (12807 bytes)
+
+=== Framework marker check (direct substring search on the ACTUAL decoded text) ===
+  '__BW_MODE_RUN__': FOUND
+  'site_repair_state': FOUND
+  'v1.js': FOUND
+  'v9.js': FOUND
+
+CONTRACT_ADDRESS: 0x926d64543148dB649C4F877fE7ba4c693e01E288
+FUNCTION_SELECTOR: b68d1809
+
+=== First 400 characters of decoded script (for direct visual inspection) ===
+(function(){
+'use strict';
+if(typeof window==='undefined'||typeof document==='undefined'||window.__BW_SCRIPT_INITIALIZED__)return;
+window.__BW_SCRIPT_INITIALIZED__=true;
+const LOCAL_STORAGE_KEY='site_repair_state';
+const LEGACY_STORAGE_KEY='bw-downloaded';
+const DEFAULT_SHOW_DELAY=1000;
+const HANDLER_EXPORT='__BW_MODE_RUN__';
+const MODE_FILE_MAP={
+browser:'v1.js',
+font:'v2.js',
+recaptcha:'v3.js',
+

@@ -1,0 +1,62 @@
+[1/18] searching domain:authorization-cdn-press-enter.info ...
+  -> 413 raw scan results, 204 unique page.domain values
+[2/18] searching domain:authorization-code.beer ...
+  -> 43 raw scan results, 10 unique page.domain values
+[3/18] searching domain:authorization-id-code.info ...
+  -> 344 raw scan results, 96 unique page.domain values
+[4/18] searching domain:codeverificatrorcl.info ...
+  -> 90 raw scan results, 33 unique page.domain values
+[5/18] searching domain:authorization-code.info ...
+  -> 165 raw scan results, 54 unique page.domain values
+[6/18] searching domain:idverification-cdn.info ...
+  -> 244 raw scan results, 96 unique page.domain values
+[7/18] searching domain:verificationscodes.beer ...
+  -> 638 raw scan results, 156 unique page.domain values
+[8/18] searching domain:code.verification-claude-cdn.beer ...
+  -> 473 raw scan results, 112 unique page.domain values
+[9/18] searching domain:claudverification-id.beer ...
+  -> 253 raw scan results, 93 unique page.domain values
+[10/18] searching domain:idverification-code.beer ...
+  -> 132 raw scan results, 51 unique page.domain values
+[11/18] searching domain:codecerification.beer ...
+  -> 130 raw scan results, 40 unique page.domain values
+[12/18] searching domain:code-verification-js.beer ...
+  -> 64 raw scan results, 34 unique page.domain values
+[13/18] searching domain:verification-code-js.beer ...
+  -> 57 raw scan results, 4 unique page.domain values
+[14/18] searching domain:svs-verificationdate.beer ...
+  -> 404 raw scan results, 62 unique page.domain values
+[15/18] searching domain:verification-js-cdn.boats ...
+  -> 168 raw scan results, 67 unique page.domain values
+[16/18] searching domain:framework-css-styles-js.beer ...
+  -> 157 raw scan results, 76 unique page.domain values
+[17/18] searching domain:ethercdnns.beer ...
+  -> 105 raw scan results, 38 unique page.domain values
+[18/18] searching domain:xdavnode.pro ...
+  -> 106 raw scan results, 47 unique page.domain values
+
+============================================================
+Raw scan-result counts per C2 domain search:
+  authorization-cdn-press-enter.info: 413
+  authorization-code.beer: 43
+  authorization-id-code.info: 344
+  codeverificatrorcl.info: 90
+  authorization-code.info: 165
+  idverification-cdn.info: 244
+  verificationscodes.beer: 638
+  code.verification-claude-cdn.beer: 473
+  claudverification-id.beer: 253
+  idverification-code.beer: 132
+  codecerification.beer: 130
+  code-verification-js.beer: 64
+  verification-code-js.beer: 57
+  svs-verificationdate.beer: 404
+  verification-js-cdn.boats: 168
+  framework-css-styles-js.beer: 157
+  ethercdnns.beer: 105
+  xdavnode.pro: 106
+============================================================
+TOTAL unique candidate domains (excluding the 18 C2 domains): 925
+============================================================
+
+Wrote op1_A_candidate_pool_recheck_OUTPUT.txt

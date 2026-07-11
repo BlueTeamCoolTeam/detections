@@ -1,0 +1,40 @@
+Pass run timestamp (UTC): 2026-07-11T03:25:11Z
+Total sites checked: 30 (OP2=27 expected, OP3=3 expected)
+
+### CONFIRMED (26)
+OP2	5bloxhomeremodeling.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	asociacionorewa.org	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	azlaw.com.vn	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	bbeocean.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	bea.cnt.br	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	bvinnova.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	cortijocolomo.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	demarches.quebec	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	elnathglobalaccess.com	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	encofradosamazon.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	euromarine.projet-client.com	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	guinespalacehotel.com.br	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	hollybloom.co.uk	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	iptv-pro.store	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	janejirabangkok.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	panelff.net	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	profesormatematica.cl	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	ssfeshipping.com	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	ticketsport.co.uk	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	www.abenegihugu.com	xor=93 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	www.indabaafrica.com	xor=20 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	www.redlodgeoutfitters.com	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	www.tramites-usa.com	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP2	youmeandtrends.com	xor=73 contract=0x83833C5D676cA06E941A32310AE67D0890F657eE sel=?
+OP3	greencoalition.pl	xor=88 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+OP3	www.realoptionsvaluation.com	xor=59 contract=0x0C7Cb01C83203aC0a50Abc3a9AFF3c9Ca727eF55 sel=?
+
+### WRAPPER_NO_MATCH (0)
+
+### CLEAN (3)
+OP2	tinkers.co.za	
+OP2	www.mjblawchicago.com	
+OP3	www.motorbeam.com	
+
+### UNREACHABLE (1)
+OP2	heeleuropa.com	

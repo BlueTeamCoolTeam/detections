@@ -1,0 +1,43 @@
+=== Per-list counts (fresh, 2026-07-11 revalidation) ===
+  Operator 1/xdav (3-pass reconfirmed, of original 123): 106  [+9 newly found via BW-sibling's pivot -> 113]
+  Operator 2 (3-pass reconfirmed, of original 27):       24  [+2 newly found via BW-sibling's pivot -> 24]
+  Operator 3 (3-pass reconfirmed, of original 3):        2  [+0 newly found via BW-sibling's pivot -> 2]
+  BW-sibling (3-pass reconfirmed, of original 111):      56
+  BW-sibling (NEW, own contract, from freshly rebuilt candidate pool): 167
+  mamkor/merabs (3-pass reconfirmed, of original 638):    629
+
+=== Family A internal overlap check (pairwise) ===
+  op1 vs op2: 0
+  op1 vs op3: 0
+  op1 vs bwsibling_reconfirmed: 0
+  op1 vs bwsibling_new: 14 -> ['branchouttreecareltd.co.uk', 'chadiaashtattoo.com', 'crossmolinaparish.com', 'electriq.se', 'imprentaprintcenter.com', 'junk-removalguys.com', 'kienthucquocphong.com', 'namaste-bungalows.com', 'opais.co.mz', 'rockersmovementradio.com', 'www.forumpolitiquenogentais.asso.fr', 'www.redes-solidarias.org.ar', 'www.reseaucupidontogo.org', 'www.safehandspro.care']
+  op2 vs op3: 0
+  op2 vs bwsibling_reconfirmed: 0
+  op2 vs bwsibling_new: 0
+  op3 vs bwsibling_reconfirmed: 0
+  op3 vs bwsibling_new: 0
+  bwsibling_reconfirmed vs bwsibling_new: 0
+
+Family A union (all 4 operators, freshly reconfirmed + newly discovered): 348
+Family B union (mamkor/merabs, freshly reconfirmed): 629
+
+=== Cross-family overlap (Family A vs Family B), re-checked fresh ===
+  Shared victims: 8
+    agluona.lt
+    belindabuck.com
+    bigbaer.co
+    clearskyfarms.com
+    pathtohomeapproval.com
+    tractor-shop.ro
+    www.beltboutique.co.uk
+    www.namathejaljawdah.com
+
+=== Grand total (fresh revalidation, 2026-07-11) ===
+  Family A + Family B raw sum: 977
+  Cross-family duplicates removed: 8
+  GRAND TOTAL UNIQUE CONFIRMED COMPROMISED SITES (fresh, this revalidation): 969
+
+=== Comparison against the combined post's original claim ===
+  Original post claim (pre-revalidation): 901 unique confirmed sites.
+  Fresh revalidation result: 969 unique confirmed sites.
+  Note: these numbers are NOT directly comparable apples-to-apples - the original 901 came from the FULL original lists (123+27+3+111+638) at their original capture times; this fresh number reflects (a) which of those original sites STILL show live injection today (churn/remediation reduces this), offset by (b) newly discovered BW-sibling sites from a freshly rebuilt, much larger candidate pool (which increases this). Both effects are real and expected for an active campaign - see 00_REVALIDATION_LOG.md for the full breakdown.

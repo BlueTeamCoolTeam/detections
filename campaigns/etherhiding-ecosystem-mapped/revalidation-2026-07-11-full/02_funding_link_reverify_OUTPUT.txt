@@ -1,0 +1,28 @@
+Revalidation timestamp (UTC): 2026-07-11T03:10:56.045913+00:00
+Target wallet (BW-sibling operator): 0xb0425bf235a2275735c8c5d668aa0273c65970b9
+DEAD END noted: the Blockscout v2 REST endpoint (/api/v2/addresses/<addr>/transactions?filter=to) returned HTTP 500 and then timed out on retry during this pass. Switched to the etherscan-compatible v1 endpoint below, which succeeded.
+Querying: https://polygon.blockscout.com/api?module=account&action=txlist&address=0xb0425bf235a2275735c8c5d668aa0273c65970b9&sort=asc
+
+API status: 1  message: OK
+Total transactions (in + out) found for this wallet: 109
+
+Incoming transactions (to this wallet): 1
+
+Of those, FROM xdav's wallet (0xcaf2c54e400437da717cf215181b170f65187abf): 1
+
+MATCH:
+  tx hash:    0x3fb177082f44050aea0debe7ecce9df56ac092889af475358572dbc2d98ab97b
+  timestamp:  2026-03-05T11:14:35+00:00 (unix 1772709275)
+  value:      50.0 MATIC
+  block:      83794622
+  from nonce: 797 (xdav's nonce at time of this tx)
+
+=== Full incoming-transaction list (completeness check) ===
+  2026-03-05T11:14:35+00:00  from=0xcaf2c54e400437da717cf215181b170f65187abf  value=50.0 MATIC  hash=0x3fb177082f44050aea0debe7ecce9df56ac092889af475358572dbc2d98ab97b
+
+=== First 3 transactions overall (to confirm this funding tx is the FIRST activity) ===
+  [IN ] 2026-03-05T11:14:35+00:00  from=0xcaf2c54e400437da717cf215181b170f65187abf to=0xb0425bf235a2275735c8c5d668aa0273c65970b9  value=50.0 MATIC  method=0x  hash=0x3fb177082f44050aea0debe7ecce9df56ac092889af475358572dbc2d98ab97b
+  [OUT] 2026-03-05T11:28:35+00:00  from=0xb0425bf235a2275735c8c5d668aa0273c65970b9 to=  value=0.0 MATIC  method=0x  hash=0x76949d834ee49ee54fb22638ad99252c2f449d5a8d598194dae3b3d23d1f1a1b
+  [OUT] 2026-03-05T13:16:27+00:00  from=0xb0425bf235a2275735c8c5d668aa0273c65970b9 to=  value=0.0 MATIC  method=0x  hash=0x9afd5ac7d394325bedc168ca11e44bf83d86ecc681909bc591b904d3e267c2da
+
+CONCLUSION: CONFIRMED - exactly one incoming tx, from xdav, 50 MATIC

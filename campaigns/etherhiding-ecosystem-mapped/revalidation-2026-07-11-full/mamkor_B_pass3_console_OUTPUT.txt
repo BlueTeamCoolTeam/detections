@@ -1,0 +1,38 @@
+=== PASS 3 ===
+Start (UTC): 2026-07-11T03:33:21.217408+00:00
+Validating 638 confirmed sites, 32 workers, 18s timeout, 20000000 byte read cap...
+  ...25/638  (6s elapsed)
+  ...50/638  (9s elapsed)
+  ...75/638  (19s elapsed)
+  ...100/638  (29s elapsed)
+  ...125/638  (35s elapsed)
+  ...150/638  (44s elapsed)
+  ...175/638  (50s elapsed)
+  ...200/638  (55s elapsed)
+  ...225/638  (60s elapsed)
+  ...250/638  (70s elapsed)
+  ...275/638  (81s elapsed)
+  ...300/638  (94s elapsed)
+  ...325/638  (101s elapsed)
+  ...350/638  (109s elapsed)
+  ...375/638  (117s elapsed)
+  ...400/638  (124s elapsed)
+  ...425/638  (134s elapsed)
+  ...450/638  (142s elapsed)
+  ...475/638  (150s elapsed)
+  ...500/638  (157s elapsed)
+  ...525/638  (164s elapsed)
+  ...550/638  (171s elapsed)
+  ...575/638  (176s elapsed)
+  ...600/638  (181s elapsed)
+  ...625/638  (187s elapsed)
+  ...638/638  (215s elapsed)
+
+=== PASS 3 summary (215s total) ===
+  CONFIRMED: 625
+  NOT_CONFIRMED: 8
+  UNREACHABLE: 5
+  TOTAL: 638
+
+Wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\detections\campaigns\etherhiding-ecosystem-mapped\revalidation-2026-07-11-full\mamkor_B_pass3_results.txt
+End (UTC): 2026-07-11T03:36:56.254225+00:00

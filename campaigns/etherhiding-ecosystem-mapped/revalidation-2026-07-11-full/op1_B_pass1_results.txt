@@ -1,0 +1,132 @@
+Total sites checked: 123
+
+### CONFIRMED (106)
+acharlierpa.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+adepopalomeras.com	CONFIRMED	xor=24 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+affordabledebtconsolidation.org	CONFIRMED	xor=126 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+airbet177.org	CONFIRMED	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+aircold.be	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+ak-architects.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+alertsecurityforce.in	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+alimentosochoa.com	CONFIRMED	xor=80 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+amc-montauban.fr	CONFIRMED	xor=62 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+arcos21.es	CONFIRMED	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+astrohubpro.com	CONFIRMED	xor=67 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+azyl-schronisko.pl	CONFIRMED	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+basang88.org	CONFIRMED	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+berrizdesign.com	CONFIRMED	xor=120 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+betty-hensel.de	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+bimworkshop.com	CONFIRMED	xor=120 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+bizsyncgenius.at	CONFIRMED	xor=121 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+blog.eticketing.us	CONFIRMED	xor=101 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+branchouttreecareltd.co.uk	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+c4conklin.com	CONFIRMED	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+carolinadrywallsupply.com	CONFIRMED	xor=28 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+chadiaashtattoo.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+clearlinewebdesign.com	CONFIRMED	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+constructorategom.com	CONFIRMED	xor=48 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+crossmolinaparish.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+cuan-78.net	CONFIRMED	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+curier.ro	CONFIRMED	xor=80 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+dailypost-sl.com	CONFIRMED	xor=112 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+detailmasters.com	CONFIRMED	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+divineafromarket.com	CONFIRMED	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+electriq.se	CONFIRMED	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+emergsol.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+fbatalk.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+genesismining-eg.com	CONFIRMED	xor=24 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+heartofthecustomer.com	CONFIRMED	xor=124 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+hocicosypatitas.com	CONFIRMED	xor=28 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+idcc.group	CONFIRMED	xor=20 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+identitymatch.ai	CONFIRMED	xor=55 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+imprentaprintcenter.com	CONFIRMED	xor=26 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+insurancesupport.org	CONFIRMED	xor=112 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+jackdohertycontracting.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+junk-removalguys.com	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+kienthucquocphong.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+killtonyticket.com	CONFIRMED	xor=87 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+llynkup.com	CONFIRMED	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+maisonmichelet.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+makeupgirl.org	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+mapsengr.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+mayo69.org	CONFIRMED	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+mecfpune.com	CONFIRMED	xor=112 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+mikeyandmelsdeli.com	CONFIRMED	xor=124 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+musicworkscanada.com	CONFIRMED	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+namaste-bungalows.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+noscalpelvasectomy.com	CONFIRMED	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+opais.co.mz	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+piscinaslosalcazares.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+plasmont.com.br	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+ridley-windows.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+rockersmovementradio.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+rotarynewsonline.org	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+rubynailbarcollierville.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sampling-innovations.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sanantoniodwidefense.com	CONFIRMED	xor=101 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sandrascleaningservice-oc.com	CONFIRMED	xor=112 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+shubham-hospitals.com	CONFIRMED	xor=48 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sindhhec.gov.pk	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+smithhousecrafts.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sprayart.com	CONFIRMED	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+stg-poaaewebsite-test.kinsta.cloud	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+subhexports.com	CONFIRMED	xor=67 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sullinstreeservice.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+sweetvalleycitrus.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thebestchristmasgiftideas.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thebowerypies.com	CONFIRMED	xor=101 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thecadetfoundation.org	CONFIRMED	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+thedisarraydoctor.com	CONFIRMED	xor=80 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+theexceptionalhometeam.com	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+tokyo787.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+tsiry-assistante-sav-virtuelle3.com	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.azyl-schronisko.pl	CONFIRMED	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.beltboutique.co.uk	CONFIRMED	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.blackhawkconstructionaz.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.brich.co.th	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.capcha-cloudflare.cfd	CONFIRMED	xor=83 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.charsfootsteps.com	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.cieareski.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.complete4x4.au	CONFIRMED	xor=124 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.eigenengineering.com	CONFIRMED	xor=112 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.fofilm.org	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.forumpolitiquenogentais.asso.fr	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.hawkinstreeservice.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.inpratica.online	CONFIRMED	xor=24 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.intersoftla.com	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.londoni-co-il-yeta.devim.dev	CONFIRMED	xor=113 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.minivancicservice.sk	CONFIRMED	xor=112 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.pasticceriabarberini.it	CONFIRMED	xor=20 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.pushtihospital.com	CONFIRMED	xor=23 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.redes-solidarias.org.ar	CONFIRMED	xor=53 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.reseaucupidontogo.org	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.rotekapsel.de	CONFIRMED	xor=125 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.safehandspro.care	CONFIRMED	xor=90 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.shahpaperplast.com	CONFIRMED	xor=23 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.surepaint.com.au	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.taimei.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.toyotec.com	CONFIRMED	xor=12 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+www.zimensa.com	CONFIRMED	xor=43 contract=0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2 sel=?
+
+### WRAPPER_NO_MATCH (0)
+
+### CLEAN (12)
+1stmeridiancareservices.com	CLEAN	
+ascendagency.com	CLEAN	
+dunquin-capital.com	CLEAN	
+getdomus.ai	CLEAN	
+guvana.com.hk	CLEAN	
+indiananeurologyandpain.com	CLEAN	
+seminariodeintegracao.ucam-campos.br	CLEAN	
+thecariangroup.com	CLEAN	
+www.avisenlegal.com	CLEAN	
+www.canmoreadventures.com	CLEAN	
+www.keenanwinery.com	CLEAN	
+www.lifestyleboardcentre.co.za	CLEAN	
+
+### UNREACHABLE (5)
+atelierspyros.com	UNREACHABLE	
+carkey4u.com	UNREACHABLE	
+data-point.us	UNREACHABLE	
+sisi-303.com	UNREACHABLE	
+www.peakcivil.com.au	UNREACHABLE	

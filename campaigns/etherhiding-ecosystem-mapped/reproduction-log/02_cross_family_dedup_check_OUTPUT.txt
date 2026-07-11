@@ -1,0 +1,26 @@
+=== Per-list counts (logical entries, not raw wc -l) ===
+  op1_xdav: 123
+  op2: 27
+  op3: 3
+  bwsibling: 111
+  mamkor: 638
+
+=== Family A internal overlap check (should be zero - each is a distinct operator wallet) ===
+  op1_xdav vs op2: 0
+  op1_xdav vs op3: 0
+  op1_xdav vs bwsibling: 0
+  op2 vs op3: 0
+  op2 vs bwsibling: 0
+  op3 vs bwsibling: 0
+
+Family A union (b68d1809 'BW panel' kit, 4 operators): 264
+Family B union (38bcdc1c mamkor/merabs kit, 1 operator): 638
+
+=== Cross-family overlap (Family A vs Family B) ===
+  Shared victims: 1
+    www.beltboutique.co.uk  ->  confirmed in: ['op1_xdav', 'mamkor']
+
+=== Grand total ===
+  Family A + Family B raw sum: 902
+  Cross-family duplicates removed: 1
+  GRAND TOTAL UNIQUE CONFIRMED COMPROMISED SITES: 901

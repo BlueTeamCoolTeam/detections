@@ -1,0 +1,22 @@
+Creation-tx decoded entries: 83
+Setter-call decoded entries: 24
+
+Unique domain-shaped values across creation+setter: 91
+NOT domain-shaped (test/placeholder/garbage) entries: 5
+
+=== NOT domain-shaped entries (manual review) ===
+  [creation] 0x8b7bcc472be11f795ebe35ecb37ab648998d0471  ->  6145496533596d336a6366363131304c3a52745253716a6664304f516b3250724b76706932372f35...
+  [creation] 0xffde7e80f6b21c6c6fa220b6f58682dfd736cf1f  ->  test
+  [setter] 0x8b7bcc472be11f795ebe35ecb37ab648998d0471  ->  6a7a683541787557754256704e2f55553a524958653363594f4c685067793347453143476f306243...
+  [setter] 0x8b7bcc472be11f795ebe35ecb37ab648998d0471  ->  6c78515376366a774a413650734d37463a322f7256334e677077357738692f39433178436c784561...
+  [setter] 0xffde7e80f6b21c6c6fa220b6f58682dfd736cf1f  ->  RVdARQ==
+
+Contracts touched by at least one non-domain-shaped value: 2
+  0x8b7bcc472be11f795ebe35ecb37ab648998d0471
+  0xffde7e80f6b21c6c6fa220b6f58682dfd736cf1f
+
+=== Corrected comparison ===
+Previously claimed: 90 domains.
+Independently re-derived, ALL decoded strings: 96.
+Independently re-derived, domain-SHAPED only: 91.
+Non-domain-shaped (test/placeholder) entries excluded: 5, across 2 contract address(es).

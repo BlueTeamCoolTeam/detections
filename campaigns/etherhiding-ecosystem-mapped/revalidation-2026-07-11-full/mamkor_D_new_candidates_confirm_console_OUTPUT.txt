@@ -1,0 +1,57 @@
+=== PART D - additive new-candidate confirm check (single pass) ===
+Start (UTC): 2026-07-11T05:30:30.444030+00:00
+Checking 4355 NEW candidate hosts (Part A pool minus existing 638 minus Part B union), 32 workers, 18s timeout, 20000000 byte read cap...
+  ...100/4355  (14s elapsed)
+  ...200/4355  (31s elapsed)
+  ...300/4355  (47s elapsed)
+  ...400/4355  (61s elapsed)
+  ...500/4355  (77s elapsed)
+  ...600/4355  (89s elapsed)
+  ...700/4355  (108s elapsed)
+  ...800/4355  (120s elapsed)
+  ...900/4355  (135s elapsed)
+  ...1000/4355  (147s elapsed)
+  ...1100/4355  (161s elapsed)
+  ...1200/4355  (174s elapsed)
+  ...1300/4355  (189s elapsed)
+  ...1400/4355  (207s elapsed)
+  ...1500/4355  (218s elapsed)
+  ...1600/4355  (230s elapsed)
+  ...1700/4355  (247s elapsed)
+  ...1800/4355  (264s elapsed)
+  ...1900/4355  (276s elapsed)
+  ...2000/4355  (290s elapsed)
+  ...2100/4355  (302s elapsed)
+  ...2200/4355  (314s elapsed)
+  ...2300/4355  (329s elapsed)
+  ...2400/4355  (348s elapsed)
+  ...2500/4355  (368s elapsed)
+  ...2600/4355  (387s elapsed)
+  ...2700/4355  (401s elapsed)
+  ...2800/4355  (415s elapsed)
+  ...2900/4355  (431s elapsed)
+  ...3000/4355  (443s elapsed)
+  ...3100/4355  (458s elapsed)
+  ...3200/4355  (477s elapsed)
+  ...3300/4355  (497s elapsed)
+  ...3400/4355  (516s elapsed)
+  ...3500/4355  (533s elapsed)
+  ...3600/4355  (547s elapsed)
+  ...3700/4355  (562s elapsed)
+  ...3800/4355  (578s elapsed)
+  ...3900/4355  (596s elapsed)
+  ...4000/4355  (611s elapsed)
+  ...4100/4355  (624s elapsed)
+  ...4200/4355  (636s elapsed)
+  ...4300/4355  (649s elapsed)
+  ...4355/4355  (726s elapsed)
+
+=== PART D summary (726s total) ===
+  CONFIRMED: 871
+  NOT_CONFIRMED: 2552
+  UNREACHABLE: 932
+  TOTAL: 4355
+
+Wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\detections\campaigns\etherhiding-ecosystem-mapped\revalidation-2026-07-11-full\mamkor_D_new_candidates_confirm_results.txt
+Wrote C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\detections\campaigns\etherhiding-ecosystem-mapped\revalidation-2026-07-11-full\mamkor_D_new_confirmed_hosts.txt (871 newly confirmed hosts)
+End (UTC): 2026-07-11T05:42:36.936064+00:00
