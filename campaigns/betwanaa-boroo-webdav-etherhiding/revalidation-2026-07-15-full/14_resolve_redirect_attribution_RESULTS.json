@@ -1,0 +1,1105 @@
+{
+  "acsbarcode.com": {
+    "task_hosts_seen": [
+      "www.advcompsystems.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f61e9-9851-7647-bfab-fa83ede33f00",
+        "eth_call_document_hosts": [
+          "acsbarcode.com"
+        ]
+      }
+    ]
+  },
+  "thekelleygroup.net": {
+    "task_hosts_seen": [
+      "xv487.keap-link009.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f6169-6146-762a-a9b9-ec96944a7f12",
+        "eth_call_document_hosts": [
+          "thekelleygroup.net"
+        ]
+      }
+    ]
+  },
+  "altheqa.com": {
+    "task_hosts_seen": [
+      "www.trustsa.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f5f5b-0a87-748e-8d2b-98b2636103f1",
+        "eth_call_document_hosts": [
+          "altheqa.com"
+        ]
+      },
+      {
+        "uuid": "019e600a-c5cb-7639-92c7-b5f10efbe8d0",
+        "eth_call_document_hosts": [
+          "altheqa.com"
+        ]
+      }
+    ]
+  },
+  "jexbarista.ae": {
+    "task_hosts_seen": [
+      "jexbarista.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f5b58-2f11-723a-b26a-a001b20f2d0f",
+        "eth_call_document_hosts": [
+          "jexbarista.ae"
+        ]
+      }
+    ]
+  },
+  "institutodrrafaelfreitas.com.br": {
+    "task_hosts_seen": [
+      "clinicarafaelfreitas.com.br"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f5b04-fe35-75ca-be3d-0ddb3a3b72e2",
+        "eth_call_document_hosts": [
+          "institutodrrafaelfreitas.com.br"
+        ]
+      }
+    ]
+  },
+  "kingirving.com": {
+    "task_hosts_seen": [
+      "aima.email"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f5a13-7658-72e6-8e71-439168ee42f4",
+        "eth_call_document_hosts": [
+          "kingirving.com"
+        ]
+      },
+      {
+        "uuid": "019f599f-2db1-75a9-b34b-9bf418ae71b2",
+        "eth_call_document_hosts": [
+          "kingirving.com"
+        ]
+      }
+    ]
+  },
+  "thecollegecompanion.com": {
+    "task_hosts_seen": [
+      "www.collegecompanion.2.cavendoclient.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f5773-37cf-724e-960e-ce00785ae03b",
+        "eth_call_document_hosts": [
+          "thecollegecompanion.com"
+        ]
+      }
+    ]
+  },
+  "66lotteryappdownload.com": {
+    "task_hosts_seen": [
+      "www.diuwinlogin.com.co"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f55a9-5767-7718-8997-754e98576467",
+        "eth_call_document_hosts": [
+          "66lotteryappdownload.com"
+        ]
+      }
+    ]
+  },
+  "kevsplumbing.com.au": {
+    "task_hosts_seen": [
+      "www.kevinsplumbing.com.au"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f52c0-411c-741b-9db7-13bbe5a46b08",
+        "eth_call_document_hosts": [
+          "kevsplumbing.com.au"
+        ]
+      }
+    ]
+  },
+  "google.com": {
+    "task_hosts_seen": [
+      "www.schneider-peklar.at",
+      "www.sicherheit-24.eu"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f518c-c6b3-7428-ba43-10647de6683b",
+        "eth_call_document_hosts": [
+          "www.sicherheit-24.eu"
+        ]
+      },
+      {
+        "uuid": "019ea660-65b3-70e4-8b2d-b7e7acf08aff",
+        "eth_call_document_hosts": [
+          "schneider-peklar.at"
+        ]
+      },
+      {
+        "uuid": "019ea63a-c54e-7214-9cf1-e97be490dace",
+        "eth_call_document_hosts": [
+          "schneider-peklar.at"
+        ]
+      }
+    ]
+  },
+  "bestsolutions.es": {
+    "task_hosts_seen": [
+      "contactobest.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f4fa6-eb67-7229-807a-6c79aa529146",
+        "eth_call_document_hosts": [
+          "bestsolutions.es"
+        ]
+      }
+    ]
+  },
+  "denmercgroup.com": {
+    "task_hosts_seen": [
+      "alp.afh.mybluehost.me"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f4ee7-2b32-763f-bae0-d022be8727aa",
+        "eth_call_document_hosts": [
+          "www.denmercgroup.com"
+        ]
+      }
+    ]
+  },
+  "dmwexports.com": {
+    "task_hosts_seen": [
+      "dmwexport.com",
+      "www.dmwexport.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f49ac-33a8-7439-9600-698eb2cbcf44",
+        "eth_call_document_hosts": [
+          "dmwexports.com"
+        ]
+      },
+      {
+        "uuid": "019f33d4-47ae-75a4-87e2-9d4e5e1f1449",
+        "eth_call_document_hosts": [
+          "dmwexports.com"
+        ]
+      },
+      {
+        "uuid": "019f33d2-0118-7633-8efc-fd41ea6d2820",
+        "eth_call_document_hosts": [
+          "dmwexports.com"
+        ]
+      }
+    ]
+  },
+  "7club.in.net": {
+    "task_hosts_seen": [
+      "creditpersonalloans.us.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f48d1-a7de-760a-8b04-b5bb0ac721cb",
+        "eth_call_document_hosts": [
+          "7club.in.net"
+        ]
+      }
+    ]
+  },
+  "aqmmedia.com": {
+    "task_hosts_seen": [
+      "aqmflow.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f4856-50e0-761f-9217-9d08062cd339",
+        "eth_call_document_hosts": [
+          "aqmmedia.com"
+        ]
+      }
+    ]
+  },
+  "andreapalframan.com": {
+    "task_hosts_seen": [
+      "posterfolk.ca"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f40b9-81cc-775c-985e-1615946fd875",
+        "eth_call_document_hosts": [
+          "andreapalframan.com"
+        ]
+      }
+    ]
+  },
+  "romerofournier.net": {
+    "task_hosts_seen": [
+      "romerofournier.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f3ea5-2336-732c-a00e-3211c87e4a14",
+        "eth_call_document_hosts": [
+          "www.romerofournier.net"
+        ]
+      }
+    ]
+  },
+  "mybluehost.me": {
+    "task_hosts_seen": [
+      "kannansuae.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f3640-06a2-74cd-91b3-91f89f58c5a4",
+        "eth_call_document_hosts": [
+          "vct.wys.mybluehost.me"
+        ]
+      }
+    ]
+  },
+  "solarservice-tx.com": {
+    "task_hosts_seen": [
+      "solarservice-ca.com",
+      "www.solarservice-ca.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f3018-9e38-7434-8820-5bc16c32af10",
+        "eth_call_document_hosts": [
+          "solarservice-tx.com"
+        ]
+      },
+      {
+        "uuid": "019f2d9f-3b01-71af-8f79-334279c8034a",
+        "eth_call_document_hosts": [
+          "solarservice-tx.com"
+        ]
+      }
+    ]
+  },
+  "jojobacompany.com": {
+    "task_hosts_seen": [
+      "www.hobacare.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f2e4c-8d39-711a-ae60-bf85068b3ecd",
+        "eth_call_document_hosts": [
+          "jojobacompany.com"
+        ]
+      }
+    ]
+  },
+  "unstives.com": {
+    "task_hosts_seen": [
+      "mardelupe.lachimenea.cl"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f28e5-8b91-76dc-8f80-3cf77dede0a5",
+        "eth_call_document_hosts": [
+          "mardelupe.lachimenea.cl"
+        ]
+      }
+    ]
+  },
+  "monky.fr": {
+    "task_hosts_seen": [
+      "r.mail.allinbox.fr"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f27fd-7d92-7228-9e93-d0b7e10a433e",
+        "eth_call_document_hosts": [
+          "monky.fr"
+        ]
+      }
+    ]
+  },
+  "mfscapital.com.co": {
+    "task_hosts_seen": [
+      "hitcluba.cn.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f1e70-9528-731a-96f7-da8f11b2543b",
+        "eth_call_document_hosts": [
+          "mfscapital.com.co"
+        ]
+      }
+    ]
+  },
+  "nzmarketingmag.co.nz": {
+    "task_hosts_seen": [
+      "email.marketing.org.nz"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f1b69-4233-733d-b5e6-f521103817e7",
+        "eth_call_document_hosts": [
+          "nzmarketingmag.co.nz"
+        ]
+      }
+    ]
+  },
+  "commercial-solar.org": {
+    "task_hosts_seen": [
+      "dynamiccommercial-solar.site",
+      "mycommercial-solar.site",
+      "premiumcommercial-solar.site",
+      "securecommercial-solar.site",
+      "startcommercial-solar.site"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f1027-ae22-766f-ac48-75a83e79eeea",
+        "eth_call_document_hosts": [
+          "commercial-solar.org"
+        ]
+      },
+      {
+        "uuid": "019f0d83-a387-710f-a2cf-472774ac6213",
+        "eth_call_document_hosts": [
+          "commercial-solar.org"
+        ]
+      },
+      {
+        "uuid": "019f0d1c-296e-7606-a479-8caf4fa01c4b",
+        "eth_call_document_hosts": [
+          "commercial-solar.org"
+        ]
+      },
+      {
+        "uuid": "019f0d16-b1ab-75af-aaa1-2d412394121a",
+        "eth_call_document_hosts": [
+          "commercial-solar.org"
+        ]
+      },
+      {
+        "uuid": "019eb916-a963-739a-83a9-bb6d6a8eabf1",
+        "eth_call_document_hosts": [
+          "www.commercial-solar.org"
+        ]
+      }
+    ]
+  },
+  "houseofheralds.com": {
+    "task_hosts_seen": [
+      "asp.cap.mybluehost.me",
+      "mail.asp.cap.mybluehost.me"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f0f2c-245b-7257-803d-944da3a6c90e",
+        "eth_call_document_hosts": [
+          "www.houseofheralds.com"
+        ]
+      },
+      {
+        "uuid": "019f0f2c-2399-71b8-8525-b51398400e2f",
+        "eth_call_document_hosts": [
+          "www.houseofheralds.com"
+        ]
+      }
+    ]
+  },
+  "sign2me.com": {
+    "task_hosts_seen": [
+      "earlyedu.org"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f0d44-0888-76d8-a416-dd09f8b280a9",
+        "eth_call_document_hosts": [
+          "sign2me.com"
+        ]
+      }
+    ]
+  },
+  "newsroompk.com": {
+    "task_hosts_seen": [
+      "commonwealthtechsol.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f0ad8-238c-73f7-bd3d-087e6fc439ec",
+        "eth_call_document_hosts": [
+          "newsroompk.com"
+        ]
+      }
+    ]
+  },
+  "kennedyventuresok.com": {
+    "task_hosts_seen": [
+      "nationalshowpigregistry.com",
+      "soldonshowpig.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f0a95-07c6-76d8-9e8c-2c7a5c57d885",
+        "eth_call_document_hosts": [
+          "kennedyventuresok.com"
+        ]
+      },
+      {
+        "uuid": "019ea93a-d5f2-727b-b077-f2140b3df7fd",
+        "eth_call_document_hosts": [
+          "kennedyventuresok.com"
+        ]
+      }
+    ]
+  },
+  "thecarpetstop.co.uk": {
+    "task_hosts_seen": [
+      "www.carpetandfloors.co.uk"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019f09b1-b6b9-7248-881f-7243850b18b5",
+        "eth_call_document_hosts": [
+          "thecarpetstop.co.uk"
+        ]
+      }
+    ]
+  },
+  "bombusbee.shop": {
+    "task_hosts_seen": [
+      "bombusbee.net"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019eff1e-7fa0-70aa-aa6c-86f03a9bb33f",
+        "eth_call_document_hosts": [
+          "www.bombusbee.shop"
+        ]
+      }
+    ]
+  },
+  "asapaba.com": {
+    "task_hosts_seen": [
+      "spectrumpathways.co"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019efd88-794c-7457-8749-ee2f3351614a",
+        "eth_call_document_hosts": [
+          "asapaba.com"
+        ]
+      },
+      {
+        "uuid": "019ef71f-2dc1-753b-a949-49823841ffb6",
+        "eth_call_document_hosts": [
+          "asapaba.com"
+        ]
+      }
+    ]
+  },
+  "delcoapartments.com": {
+    "task_hosts_seen": [
+      "www.iloveleasing.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019ef55e-b787-71dc-b19a-0a5f06520270",
+        "eth_call_document_hosts": [
+          "delcoapartments.com"
+        ]
+      }
+    ]
+  },
+  "amazon.com": {
+    "task_hosts_seen": [
+      "hajighani-sons.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019ef154-48d0-757f-99a5-c950dc466e64",
+        "eth_call_document_hosts": [
+          "hajighani-sons.com"
+        ]
+      }
+    ]
+  },
+  "copperrecovery.com": {
+    "task_hosts_seen": [
+      "asr-recovery.com",
+      "asrwire-recovery.com",
+      "reto-service.de"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019eeb7f-d9eb-71db-b0fc-a59acc331fb8",
+        "eth_call_document_hosts": [
+          "www.copperrecovery.com"
+        ]
+      },
+      {
+        "uuid": "019edf54-3534-7516-838c-5a15dc422f20",
+        "eth_call_document_hosts": [
+          "www.copperrecovery.com"
+        ]
+      },
+      {
+        "uuid": "019e6c03-e379-720c-91af-cdf0c68ba89e",
+        "eth_call_document_hosts": [
+          "www.copperrecovery.com"
+        ]
+      }
+    ]
+  },
+  "sagesupport.au": {
+    "task_hosts_seen": [
+      "sagesupport.com.au"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019ee27f-7b52-702d-bb01-7bda51de2bcf",
+        "eth_call_document_hosts": [
+          "www.sagesupport.au"
+        ]
+      },
+      {
+        "uuid": "019ee27f-6e55-7138-b9a6-c64553ff237f",
+        "eth_call_document_hosts": [
+          "www.sagesupport.au"
+        ]
+      }
+    ]
+  },
+  "aliexpress.com": {
+    "task_hosts_seen": [
+      "ssint.org"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019edcf7-fe62-735e-bc65-932e222488cb",
+        "eth_call_document_hosts": [
+          "ssint.org"
+        ]
+      }
+    ]
+  },
+  "technosids.co.uk": {
+    "task_hosts_seen": [
+      "technosids.com",
+      "www.technosids.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019eda33-2c29-748c-8e62-c3b27084dc12",
+        "eth_call_document_hosts": [
+          "technosids.co.uk"
+        ]
+      },
+      {
+        "uuid": "019e73dc-e9f0-7084-8f61-d441f6f7a478",
+        "eth_call_document_hosts": [
+          "technosids.co.uk"
+        ]
+      },
+      {
+        "uuid": "019e7333-4218-748c-98b5-03bc1b49cfda",
+        "eth_call_document_hosts": [
+          "technosids.co.uk"
+        ]
+      }
+    ]
+  },
+  "hairdefinitions.co.uk": {
+    "task_hosts_seen": [
+      "hairdefinitions-co-uk.habeshacontacts.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019ec97b-59d9-76db-b3b6-3728f1fc8b00",
+        "eth_call_document_hosts": [
+          "hairdefinitions.co.uk"
+        ]
+      }
+    ]
+  },
+  "rrfw.cn.com": {
+    "task_hosts_seen": [
+      "account.uk.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019eb870-5b5e-725c-a8e6-c3535dc75ad5",
+        "eth_call_document_hosts": [
+          "rrfw.cn.com"
+        ]
+      }
+    ]
+  },
+  "rafaelapolonivascular.com.br": {
+    "task_hosts_seen": [
+      "drrafaelapoloni.com.br"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019eb6df-2ea9-706b-b0bd-fd60a7f58456",
+        "eth_call_document_hosts": [
+          "rafaelapolonivascular.com.br"
+        ]
+      }
+    ]
+  },
+  "stayfreshcs.com": {
+    "task_hosts_seen": [
+      "stayfreshcsjanitorial-services.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019eb553-37d2-717a-b554-d31ca747cc72",
+        "eth_call_document_hosts": [
+          "stayfreshcs.com"
+        ]
+      }
+    ]
+  },
+  "teamrvpaso.com": {
+    "task_hosts_seen": [
+      "teamautocollision.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019eb425-5f52-7290-ba1d-d54fbe721797",
+        "eth_call_document_hosts": [
+          "teamrvpaso.com"
+        ]
+      }
+    ]
+  },
+  "gobusi.com": {
+    "task_hosts_seen": [
+      "www.awin1.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019eae9f-81c5-728b-b41e-eb4a6fb1952b",
+        "eth_call_document_hosts": [
+          "gobusi.com"
+        ]
+      }
+    ]
+  },
+  "bwi.in.net": {
+    "task_hosts_seen": [
+      "bancasieuno.net"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e9e1e-e614-739d-9f12-b2942cebe34c",
+        "eth_call_document_hosts": [
+          "bwi.in.net"
+        ]
+      }
+    ]
+  },
+  "intempuspropertymanagement.com": {
+    "task_hosts_seen": [
+      "www.intempuspm.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e9b0f-aaa4-7275-bddf-0ac5929478be",
+        "eth_call_document_hosts": [
+          "intempuspropertymanagement.com"
+        ]
+      }
+    ]
+  },
+  "slon.org": {
+    "task_hosts_seen": [
+      "slonexteriorcare-services.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e9ad1-da40-7608-9911-9ead158769a3",
+        "eth_call_document_hosts": [
+          "slon.org"
+        ]
+      }
+    ]
+  },
+  "delta-mobrey.online": {
+    "task_hosts_seen": [
+      "delta-mobrey-ox69.temp-dns.com",
+      "mail.delta-mobrey-ox69.temp-dns.com",
+      "www.delta-mobrey-ox69.temp-dns.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e8e6b-2831-736c-802b-81fb115707ce",
+        "eth_call_document_hosts": [
+          "delta-mobrey.online"
+        ]
+      },
+      {
+        "uuid": "019e8e6b-2933-72df-b7fa-3a7982aa6f32",
+        "eth_call_document_hosts": [
+          "delta-mobrey.online"
+        ]
+      },
+      {
+        "uuid": "019e8e6b-2987-70a0-bb90-2bef6c72e7fb",
+        "eth_call_document_hosts": [
+          "delta-mobrey.online"
+        ]
+      }
+    ]
+  },
+  "choke.cc": {
+    "task_hosts_seen": [
+      "8kbet.party"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e8c18-f77d-76b3-a09c-c09ddd95ab84",
+        "eth_call_document_hosts": [
+          "choke.cc"
+        ]
+      }
+    ]
+  },
+  "moneywolf.net": {
+    "task_hosts_seen": [
+      "www.moneywolf.blog",
+      "www.moneywolf.org"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e8011-41e7-776e-8c42-2cf782a35bea",
+        "eth_call_document_hosts": [
+          "moneywolf.net"
+        ]
+      },
+      {
+        "uuid": "019e8010-8639-744a-ac40-226c4b51ce05",
+        "eth_call_document_hosts": [
+          "moneywolf.net"
+        ]
+      }
+    ]
+  },
+  "epicairgroup.com.au": {
+    "task_hosts_seen": [
+      "epicairgroup.online"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e7e6d-6601-74f8-8551-5384bf4ec403",
+        "eth_call_document_hosts": [
+          "epicairgroup.com.au"
+        ]
+      }
+    ]
+  },
+  "dyesstreeservice.com": {
+    "task_hosts_seen": [
+      "nalltreeservice.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e796e-1bfd-7792-bf47-3ff6a095669b",
+        "eth_call_document_hosts": [
+          "dyesstreeservice.com"
+        ]
+      }
+    ]
+  },
+  "montanarolaw.com": {
+    "task_hosts_seen": [
+      "www.trucktrafficticket.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e761c-15c1-7527-b817-eff1e149d2be",
+        "eth_call_document_hosts": [
+          "montanarolaw.com"
+        ]
+      }
+    ]
+  },
+  "hzlegal.ae": {
+    "task_hosts_seen": [
+      "hz-legalservices.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e72f0-f7e1-7043-85b0-ef3645aa4a20",
+        "eth_call_document_hosts": [
+          "hzlegal.ae"
+        ]
+      }
+    ]
+  },
+  "human-impact.net": {
+    "task_hosts_seen": [
+      "impacteor.site"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e693b-3c45-7109-9964-d3d4e4ed68f9",
+        "eth_call_document_hosts": [
+          "www.human-impact.net"
+        ]
+      }
+    ]
+  },
+  "utinam.fr": {
+    "task_hosts_seen": [
+      "utinam.ch"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e6444-e1ba-768e-809d-4d1aab7d051a",
+        "eth_call_document_hosts": [
+          "utinam.fr"
+        ]
+      }
+    ]
+  },
+  "kallastetalu.ee": {
+    "task_hosts_seen": [
+      "kallastetalu.eu"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e5979-7c70-71f0-8992-c77ad601bfcf",
+        "eth_call_document_hosts": [
+          "kallastetalu.ee"
+        ]
+      }
+    ]
+  },
+  "youtube.com": {
+    "task_hosts_seen": [
+      "connectingtomorrowit.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e49f4-fed9-7199-bf06-8c5ccef6faf7",
+        "eth_call_document_hosts": [
+          "www.connectingtomorrowit.com"
+        ]
+      }
+    ]
+  },
+  "goodnewsplanet.com": {
+    "task_hosts_seen": [
+      "click-1757622.icptrack.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e34a4-939e-7629-ae66-4dcf5783ef69",
+        "eth_call_document_hosts": [
+          "goodnewsplanet.com"
+        ]
+      }
+    ]
+  },
+  "encontromulheresviajantes.com.br": {
+    "task_hosts_seen": [
+      "congressomulheresviajantes.com.br"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e3061-3257-7228-913f-bf4b6932fa11",
+        "eth_call_document_hosts": [
+          "encontromulheresviajantes.com.br"
+        ]
+      }
+    ]
+  },
+  "theguthealthmd.com": {
+    "task_hosts_seen": [
+      "f8a0b8f4.click.convertkit-mail4.com",
+      "www.theplantfedgut.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e1274-a599-734e-85d6-373407409351",
+        "eth_call_document_hosts": [
+          "theguthealthmd.com"
+        ]
+      },
+      {
+        "uuid": "019e0d0a-a878-701e-9372-dabe26193cce",
+        "eth_call_document_hosts": [
+          "theguthealthmd.com"
+        ]
+      },
+      {
+        "uuid": "019e0d09-b8c3-75bb-9286-f821db4d4e62",
+        "eth_call_document_hosts": [
+          "theguthealthmd.com"
+        ]
+      },
+      {
+        "uuid": "019e0d04-49d9-703a-bb0e-f7fe8d49b889",
+        "eth_call_document_hosts": [
+          "theguthealthmd.com"
+        ]
+      },
+      {
+        "uuid": "019e0d03-5d58-7568-9c98-2b9638a365d9",
+        "eth_call_document_hosts": [
+          "theguthealthmd.com"
+        ]
+      }
+    ]
+  },
+  "tvigroupe.com": {
+    "task_hosts_seen": [
+      "mecanique-de-precision.net"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e0ca6-12d6-710d-9810-46e653193d8e",
+        "eth_call_document_hosts": [
+          "tvigroupe.com"
+        ]
+      }
+    ]
+  },
+  "gdmigration.com": {
+    "task_hosts_seen": [
+      "goodday.education.gooddaymigration.com.au",
+      "www.goodday.education.gooddaymigration.com.au"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019e02bd-be82-740e-aa83-532f1a76824d",
+        "eth_call_document_hosts": [
+          "gdmigration.com"
+        ]
+      },
+      {
+        "uuid": "019e02bd-b13c-74f8-abbc-b8fb871995dc",
+        "eth_call_document_hosts": [
+          "gdmigration.com"
+        ]
+      }
+    ]
+  },
+  "teachermodsquad.com": {
+    "task_hosts_seen": [
+      "teachermodsquad.org"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019deacb-e470-71c7-9c6c-52d784d990c5",
+        "eth_call_document_hosts": [
+          "teachermodsquad.com"
+        ]
+      }
+    ]
+  },
+  "nydisabilityadvocates.com": {
+    "task_hosts_seen": [
+      "nydisabilityadvocates.org"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019dda23-2511-70ef-845a-a2ee68ac5281",
+        "eth_call_document_hosts": [
+          "nydisabilityadvocates.com"
+        ]
+      }
+    ]
+  },
+  "gfc-provap.com": {
+    "task_hosts_seen": [
+      "gfc-provap.eu",
+      "www.gfc-provap.eu"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019dd8eb-d296-72ff-bd93-bff53d6d7c00",
+        "eth_call_document_hosts": [
+          "www.gfc-provap.com"
+        ]
+      },
+      {
+        "uuid": "019dd8d7-61cf-710d-bc04-f0a2927e6eef",
+        "eth_call_document_hosts": [
+          "www.gfc-provap.com"
+        ]
+      }
+    ]
+  },
+  "eloclimatizacao.com.br": {
+    "task_hosts_seen": [
+      "www.eloclimatizacao.elotecnico.com.br"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019dc28a-3e5f-703c-b04a-29c27875c40c",
+        "eth_call_document_hosts": [
+          "eloclimatizacao.com.br"
+        ]
+      }
+    ]
+  },
+  "consiliumsoftware.com": {
+    "task_hosts_seen": [
+      "click.mlsend2.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019dbd23-9408-718d-af0c-ec54936886cd",
+        "eth_call_document_hosts": [
+          "www.consiliumsoftware.com"
+        ]
+      }
+    ]
+  },
+  "safetygearstore.co.uk": {
+    "task_hosts_seen": [
+      "safetygearstore.co"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019d4d13-6cfd-75df-a4ac-b121badf76d3",
+        "eth_call_document_hosts": [
+          "www.safetygearstore.co.uk"
+        ]
+      }
+    ]
+  },
+  "dpwaterer.com": {
+    "task_hosts_seen": [
+      "drinkingpost.com",
+      "www.drinkingpost.com"
+    ],
+    "resolutions": [
+      {
+        "uuid": "019d2f06-4dd3-76ea-a1fe-6fdd2fd73f37",
+        "eth_call_document_hosts": [
+          "dpwaterer.com"
+        ]
+      },
+      {
+        "uuid": "019d2d9e-98f1-76f9-b023-0ef22864c874",
+        "eth_call_document_hosts": [
+          "dpwaterer.com"
+        ]
+      }
+    ]
+  }
+}

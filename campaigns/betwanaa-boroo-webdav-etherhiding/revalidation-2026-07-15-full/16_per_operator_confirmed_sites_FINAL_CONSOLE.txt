@@ -1,0 +1,33 @@
+=== Per-operator (wallet) confirmed site counts - FINAL, corrected ===
+
+0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290
+  contract: 0xa1decfb75c8c0ca28c10517ce56b710baf727d2e (Operator (primary wallet) - stage-1, symmetryclosets chain, 851 sites)
+  contract: 0xdf132e2893824e26ec8ae8014b4f4facd54ed67f (Operator (primary wallet) - stage-1, eu.mk chain, 62 sites)
+  contract: 0x46790e2ac7f3ca5a7d1bfce312d11e91d23383ff (Operator (primary wallet) - Windows branch, symmetryclosets chain, 18 sites)
+  contract: 0x68dce15c1002a2689e19d33a3ae509dd1feb11a5 (Operator (primary wallet) - macOS branch, symmetryclosets chain, 0 sites)
+  contract: 0x0cd58060328e308a43d3c53cfd03a45233ea308a (Operator (primary wallet) - Windows-equivalent branch, eu.mk chain, 0 sites)
+  contract: 0xaef2ed8b69efb5c1b9e75990a5f90d02eb5f84f8 (Operator (primary wallet) - utility/gate contract, 16 sites)
+  TOTAL unique sites for this wallet: 947
+  saved to 16_operator_0xd71f4cdc84_confirmed_sites_FINAL.txt
+
+0x25a7625b3c74bb0452333c8d7f463a2f640fa5af
+  contract: 0x7fd85c090f2b35071c57a3b9feaf462aaeb0e437 (Operator (secondary deployer) - rotated stage-1, 419 sites)
+  TOTAL unique sites for this wallet: 419
+  saved to 16_operator_0x25a7625b3c_confirmed_sites_FINAL.txt
+
+0x09813ef4ab9a7361a8d0455d57e9a81295dae5f8
+  contract: 0xfb448d465841c63f3bc433be61eb692b813d469d (Operator (secondary deployer) - rotated stage-1, 244 sites)
+  TOTAL unique sites for this wallet: 244
+  saved to 16_operator_0x09813ef4ab_confirmed_sites_FINAL.txt
+
+unattributed
+  contract: 0x3d4aa83fe2aceb83a40ae09f03addd560abb5a85 (Operator (unattributed - no owner() function on this utility contract), 22 sites)
+  TOTAL unique sites for this wallet: 22
+  saved to 16_operator_unattributed_confirmed_sites_FINAL.txt
+
+Total sites attributed to a specific operator/contract: 1632
+Sites matching the RPC-beacon signature but NOT contract-verified this session: 106
+
+Final corrected total (15_final_corrected_confirmed_sites.txt): 1738
+Reconciled (attributed + unconfirmed-no-contract): 1738
+Match: True

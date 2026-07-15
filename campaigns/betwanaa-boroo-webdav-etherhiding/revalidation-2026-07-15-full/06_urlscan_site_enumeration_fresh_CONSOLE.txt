@@ -1,0 +1,48 @@
+page 1: 100 results, total so far: 100
+page 2: 100 results, total so far: 200
+page 3: 100 results, total so far: 300
+page 4: 100 results, total so far: 400
+page 5: 100 results, total so far: 500
+page 6: 100 results, total so far: 600
+page 7: 100 results, total so far: 700
+page 8: 94 results, total so far: 794
+page 9: 100 results, total so far: 894
+page 10: 100 results, total so far: 994
+page 11: 95 results, total so far: 1089
+page 12: 100 results, total so far: 1189
+page 13: 100 results, total so far: 1289
+page 14: 100 results, total so far: 1389
+page 15: 100 results, total so far: 1489
+page 16: 100 results, total so far: 1589
+page 17: 100 results, total so far: 1689
+page 18: 100 results, total so far: 1789
+page 19: 100 results, total so far: 1889
+page 20: 100 results, total so far: 1989
+page 21: 100 results, total so far: 2089
+page 22: 100 results, total so far: 2189
+page 23: 100 results, total so far: 2289
+page 24: 100 results, total so far: 2389
+page 25: 100 results, total so far: 2489
+page 26: 100 results, total so far: 2589
+page 27: 100 results, total so far: 2689
+page 28: 100 results, total so far: 2789
+page 29: 100 results, total so far: 2889
+page 30: 100 results, total so far: 2989
+page 31: 100 results, total so far: 3089
+page 32: 100 results, total so far: 3189
+page 33: 100 results, total so far: 3289
+page 34: 100 results, total so far: 3389
+page 35: 100 results, total so far: 3489
+page 36: 100 results, total so far: 3589
+page 37: 100 results, total so far: 3689
+page 38: 100 results, total so far: 3789
+page 39: 100 results, total so far: 3889
+page 40: 100 results, total so far: 3989
+page 41: 24 results, total so far: 4013
+page 42: 0 results, total so far: 4013
+
+Total scan events: 4013
+Total unique apex domains: 1816
+
+Apex domain list saved to 06_urlscan_site_enumeration_fresh_apex_domains.txt
+Raw results saved to 06_urlscan_site_enumeration_fresh_RAW.json

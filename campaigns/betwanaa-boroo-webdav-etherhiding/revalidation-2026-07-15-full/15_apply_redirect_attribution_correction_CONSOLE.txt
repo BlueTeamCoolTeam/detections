@@ -1,0 +1,8 @@
+Before correction: 1739 sites
+  note: hajighani-sons.com (true site for amazon.com) was already present in the clean list separately
+  note: ssint.org (true site for aliexpress.com) was already present in the clean list separately
+Removed (redirect-artifact misattributions): ['amazon.com', 'google.com', 'youtube.com', 'aliexpress.com', 'unstives.com']
+Added (true compromised sites): ['schneider-peklar.at', 'sicherheit-24.eu', 'connectingtomorrowit.com', 'mardelupe.lachimenea.cl']
+After correction: 1738 sites
+
+Final corrected list saved to 15_final_corrected_confirmed_sites.txt
