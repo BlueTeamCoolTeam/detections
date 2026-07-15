@@ -1,3 +1,5 @@
+import "hash"
+
 rule Betwanaa_Boroo_WebDAV_RunDLL32_Loader_CmdLine
 {
     meta:
