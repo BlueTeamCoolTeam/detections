@@ -1,0 +1,73 @@
+{
+  "fresh_raw_total": 1816,
+  "false_positives_removed": 77,
+  "clean_total": 1739,
+  "recency": {
+    "last_seen_july_2026": 654,
+    "last_seen_since_june_2026": 1245,
+    "last_seen_in_2026": 1732,
+    "last_seen_2024_2025_only": 7
+  },
+  "tld_spread_top15": [
+    [
+      ".com",
+      862
+    ],
+    [
+      ".org",
+      114
+    ],
+    [
+      ".au",
+      74
+    ],
+    [
+      ".br",
+      59
+    ],
+    [
+      ".net",
+      50
+    ],
+    [
+      ".uk",
+      48
+    ],
+    [
+      ".de",
+      39
+    ],
+    [
+      ".ch",
+      31
+    ],
+    [
+      ".in",
+      30
+    ],
+    [
+      ".ca",
+      25
+    ],
+    [
+      ".fr",
+      25
+    ],
+    [
+      ".it",
+      24
+    ],
+    [
+      ".es",
+      21
+    ],
+    [
+      ".il",
+      19
+    ],
+    [
+      ".pk",
+      13
+    ]
+  ]
+}

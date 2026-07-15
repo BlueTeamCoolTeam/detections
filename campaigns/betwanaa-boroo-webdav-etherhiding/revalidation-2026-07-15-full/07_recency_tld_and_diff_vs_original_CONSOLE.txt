@@ -1,0 +1,37 @@
+=== Recency segmentation (fresh, 2026-07-15) ===
+  2026-07 (active wave): 655
+  2026-06: 598
+  2026 (other months): 513
+  2024-2025 only: 50
+
+=== Cumulative windows (matching report.md's table framing) ===
+  Last seen July 2026 (active wave): 655
+  Last seen since June 2026: 1253
+  Last seen in 2026: 1766
+  Last seen 2024-2025 only: 50
+
+=== TLD spread (top 15, fresh) ===
+  .com: 896
+  .org: 115
+  .au: 77
+  .br: 60
+  .net: 51
+  .uk: 48
+  .de: 39
+  .ch: 31
+  .in: 31
+  .ca: 26
+  .it: 25
+  .fr: 25
+  .es: 23
+  .il: 19
+  .pk: 15
+
+=== Diff vs original report.md list (artifacts/18) ===
+  Original list size: 1815
+  Fresh list size: 1816
+  In both: 1813
+  Only in original (possibly remediated since): 2
+  Only in fresh (newly compromised / newly surfaced since): 3
+
+Full results saved to 07_recency_tld_and_diff_vs_original_RESULTS.json

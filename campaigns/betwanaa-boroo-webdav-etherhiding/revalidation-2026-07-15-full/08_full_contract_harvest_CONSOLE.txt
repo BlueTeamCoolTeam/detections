@@ -1,0 +1,61 @@
+Total unique apex domains to process: 1816
+Already checkpointed: 93
+Remaining to fetch: 1723
+[50/1723] done=50 error=0 elapsed=13s rate=233.6/min
+[100/1723] done=100 error=0 elapsed=24s rate=251.8/min
+[150/1723] done=142 error=8 elapsed=63s rate=142.6/min
+[200/1723] done=192 error=8 elapsed=75s rate=160.1/min
+[250/1723] done=240 error=10 elapsed=111s rate=135.0/min
+[300/1723] done=284 error=16 elapsed=130s rate=138.6/min
+[350/1723] done=334 error=16 elapsed=142s rate=148.0/min
+[400/1723] done=376 error=24 elapsed=183s rate=131.1/min
+[450/1723] done=426 error=24 elapsed=198s rate=136.5/min
+[500/1723] done=476 error=24 elapsed=216s rate=138.7/min
+[550/1723] done=526 error=24 elapsed=251s rate=131.7/min
+[600/1723] done=576 error=24 elapsed=262s rate=137.3/min
+[650/1723] done=618 error=32 elapsed=303s rate=128.7/min
+[700/1723] done=668 error=32 elapsed=317s rate=132.4/min
+[750/1723] done=718 error=32 elapsed=330s rate=136.3/min
+[800/1723] done=761 error=39 elapsed=368s rate=130.6/min
+[850/1723] done=811 error=39 elapsed=379s rate=134.5/min
+[900/1723] done=853 error=47 elapsed=424s rate=127.4/min
+[950/1723] done=903 error=47 elapsed=436s rate=130.6/min
+[1000/1723] done=953 error=47 elapsed=449s rate=133.6/min
+[1050/1723] done=995 error=55 elapsed=485s rate=129.8/min
+[1100/1723] done=1045 error=55 elapsed=497s rate=132.7/min
+[1150/1723] done=1087 error=63 elapsed=539s rate=128.0/min
+[1200/1723] done=1137 error=63 elapsed=552s rate=130.5/min
+[1250/1723] done=1187 error=63 elapsed=564s rate=133.1/min
+[1300/1723] done=1229 error=71 elapsed=608s rate=128.4/min
+[1350/1723] done=1279 error=71 elapsed=622s rate=130.2/min
+[1400/1723] done=1321 error=79 elapsed=660s rate=127.4/min
+[1450/1723] done=1371 error=79 elapsed=673s rate=129.2/min
+Traceback (most recent call last):
+  File "C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\detections\campaigns\betwanaa-boroo-webdav-etherhiding\revalidation-2026-07-15-full\08_full_contract_harvest.py", line 131, in <module>
+    rec = fut.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\detections\campaigns\betwanaa-boroo-webdav-etherhiding\revalidation-2026-07-15-full\08_full_contract_harvest.py", line 112, in fetch_one
+    contract, rpc_id = extract_contract(result_json)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\bob\Documents\Tools\BlueTeamCoolTeam\detections\campaigns\betwanaa-boroo-webdav-etherhiding\revalidation-2026-07-15-full\08_full_contract_harvest.py", line 92, in extract_contract
+    if body.get("method") == "eth_call":
+       ^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+Total unique apex domains to process: 1816
+Already checkpointed: 1590
+Remaining to fetch: 226
+[50/226] done=50 error=0 elapsed=7s rate=420.9/min
+[100/226] done=100 error=0 elapsed=11s rate=566.0/min
+[150/226] done=150 error=0 elapsed=15s rate=589.1/min
+[200/226] done=184 error=16 elapsed=70s rate=172.4/min
+[226/226] done=210 error=16 elapsed=72s rate=188.1/min
+Finished. done=210 error=16
+Checkpoint file: 08_full_contract_harvest_CHECKPOINT.jsonl

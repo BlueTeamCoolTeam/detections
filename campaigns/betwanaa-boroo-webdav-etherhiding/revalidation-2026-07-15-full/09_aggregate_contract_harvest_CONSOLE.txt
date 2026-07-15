@@ -1,0 +1,43 @@
+Total sites processed: 1816
+Sites with a contract identified: 1710
+Sites with no eth_call/contract found: 11
+Sites that errored (fetch/parse failure): 95
+
+Total distinct contracts found: 44
+Contracts matching the already-known 12: 7
+GENUINELY NEW contracts discovered by this harvest: 37
+
+=== New contracts (top 30 by site count) ===
+  0x0967296defa0fd586c9ede5730380e2b059fab95  -> 11 sites  (e.g. ['inetcomputers.ca', 'kchawaii.com', 'cabinetbedstore.com'])
+  0xb9a76d21df3c71209c42e601402709da650def7f  -> 11 sites  (e.g. ['mascotasalgama.com', 'bridesmaidsonly.com.au', 'hhtruckaccessories.com'])
+  0xfdf6eb935834cb2554341e394194f06395986e02  -> 9 sites  (e.g. ['shebywedding.pl', 'marchisiobici.it', 'satecma.es'])
+  0xca11bde05977b3631167028862be2a173976ca11  -> 5 sites  (e.g. ['btcbull-ssr-test.pages.dev', 'build.meme', 'pancakeswap.finance'])
+  0x3596a5d8fdd13763482de91a4ca74b7dbcbd98f9  -> 3 sites  (e.g. ['americanvinylco.com', 'divaweddingring.com', 'powertdi.pl'])
+  0x419f19712b03eee79db555a3591d55847b4efc4a  -> 3 sites  (e.g. ['dutton-lainson.com', 'topsknives.com', 'starwearstatus.com'])
+  0x11e7de4bf2faefb6268d602fe64f2698a145a2c7  -> 2 sites  (e.g. ['wuppdevops.com', 'qubetics.com'])
+  0x3e2991b9d63fa34bc49465ff97c364c5b2cfaaf7  -> 2 sites  (e.g. ['crystalclearpools.co.nz', 'colaistenaomheoin.com'])
+  0x9770041738a490962f4776ae9ca9e4a9a4e3946d  -> 2 sites  (e.g. ['banffteaco.com', 'selph.com.au'])
+  0xcc6efa62f2f44db6c4dbd134c0beec65c33d0a6a  -> 2 sites  (e.g. ['yezbitcoin.io', 'yezbitcoin.com'])
+  0x07c6de522cbd0380f31c620efa87b7ac92a66c9f  -> 1 sites  (e.g. ['manaprojectstudio.com'])
+  0x0a4cb067af5f3f1d8eabc91f6b63b54fe7abc6a2  -> 1 sites  (e.g. ['craswap.com'])
+  0x1395d9401e1ce5da6e4f9e93261a0432c87377c5  -> 1 sites  (e.g. ['stake-bnb-xyz.vercel.app'])
+  0x2123531954e8e3ae9cf9d7dee55286c4785820b2  -> 1 sites  (e.g. ['evolute-frontend.pages.dev'])
+  0x231202dd417d3a3c2df468308b725e3159d46900  -> 1 sites  (e.g. ['chaingpt.dev'])
+  0x232e410b1fa58fa37921ad03e5dec6a507cd5cde  -> 1 sites  (e.g. ['maticz.in'])
+  0x2444922857e3ce8d4acdddf274826ad0d714f36a  -> 1 sites  (e.g. ['mobiloitte.io'])
+  0x3e0407cc2a2b362399df8fa7515f3ce9d6dafbae  -> 1 sites  (e.g. ['robodexswap.io'])
+  0x41cab44cacded0af59e08d187efd8a3cbf2bd18a  -> 1 sites  (e.g. ['pifparts.com'])
+  0x48625313460ab142a8f69d6071e37503c3eeb96e  -> 1 sites  (e.g. ['elon-cat-presale.vercel.app'])
+  0x5283b5ce076a530376a4e576e8e7944744c4143d  -> 1 sites  (e.g. ['tontacos.app'])
+  0x5e4d4c636c78dd037acbc88f9674dc53b2014045  -> 1 sites  (e.g. ['landingpage-cfq.pages.dev'])
+  0x5fbdb2315678afecb367f032d93f642f64180aa3  -> 1 sites  (e.g. ['stakebnb-webui.vercel.app'])
+  0x685509facc981bcf83dad64c45acdcccbda72d6f  -> 1 sites  (e.g. ['anome.xyz'])
+  0x6874572836dad9512c308e4831ec35e60a21794b  -> 1 sites  (e.g. ['oxexpeditions.com'])
+  0x6ec094438c3c313e76df5fae5a3b30cb58152458  -> 1 sites  (e.g. ['x-co-operate-frontend-2024.pages.dev'])
+  0x7855882e8cf9d481595a066c56e618e6be1142f0  -> 1 sites  (e.g. ['aurora-dragon.com'])
+  0x7eeec88687add26fa0a46f436443129fcd6fed19  -> 1 sites  (e.g. ['progovt.com'])
+  0x8672bb760d631e91f071f4d48a9b9b7a761dbbfc  -> 1 sites  (e.g. ['evolute-testing-frontend.pages.dev'])
+  0x8a363f549147fa1ea66a6fbc276d1c283400c59b  -> 1 sites  (e.g. ['alphakun.com'])
+
+Files written: 09_contract_to_sites_map.json, 09_new_contracts_found.txt,
+09_sites_no_contract.txt, 09_sites_errored.json

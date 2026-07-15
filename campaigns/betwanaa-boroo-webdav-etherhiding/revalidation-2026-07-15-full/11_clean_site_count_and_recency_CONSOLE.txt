@@ -1,0 +1,29 @@
+Fresh total (raw urlscan match): 1816
+Confirmed false positives removed: 77
+CLEAN total confirmed compromised sites: 1739
+
+=== Cumulative recency windows (clean, false positives removed) ===
+  Last seen July 2026 (active wave): 654
+  Last seen since June 2026: 1245
+  Last seen in 2026: 1732
+  Last seen 2024-2025 only: 7
+
+=== TLD spread (top 15, clean) ===
+  .com: 862
+  .org: 114
+  .au: 74
+  .br: 59
+  .net: 50
+  .uk: 48
+  .de: 39
+  .ch: 31
+  .in: 30
+  .ca: 25
+  .fr: 25
+  .it: 24
+  .es: 21
+  .il: 19
+  .pk: 13
+
+Clean site list saved to 11_clean_confirmed_sites.txt
+Full results saved to 11_clean_site_count_and_recency_RESULTS.json

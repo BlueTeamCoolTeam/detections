@@ -1,0 +1,82 @@
+{
+  "fresh_total_unique_apex_domains": 1816,
+  "original_total_unique_apex_domains": 1815,
+  "in_both": 1813,
+  "only_in_original": [
+    "connorbroadley.co.uk",
+    "letmebe.co.il"
+  ],
+  "only_in_fresh": [
+    "kidsatheart-metrowest.com",
+    "learnrohingya.com",
+    "rag-track.com"
+  ],
+  "recency_cumulative": {
+    "last_seen_july_2026": 655,
+    "last_seen_since_june_2026": 1253,
+    "last_seen_in_2026": 1766,
+    "last_seen_2024_2025_only": 50
+  },
+  "tld_spread_top15": [
+    [
+      ".com",
+      896
+    ],
+    [
+      ".org",
+      115
+    ],
+    [
+      ".au",
+      77
+    ],
+    [
+      ".br",
+      60
+    ],
+    [
+      ".net",
+      51
+    ],
+    [
+      ".uk",
+      48
+    ],
+    [
+      ".de",
+      39
+    ],
+    [
+      ".ch",
+      31
+    ],
+    [
+      ".in",
+      31
+    ],
+    [
+      ".ca",
+      26
+    ],
+    [
+      ".it",
+      25
+    ],
+    [
+      ".fr",
+      25
+    ],
+    [
+      ".es",
+      23
+    ],
+    [
+      ".il",
+      19
+    ],
+    [
+      ".pk",
+      15
+    ]
+  ]
+}

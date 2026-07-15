@@ -1,0 +1,539 @@
+{
+  "0x07c6de522cbd0380f31c620efa87b7ac92a66c9f": {
+    "sites": [
+      "manaprojectstudio.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "manaprojectstudio.com"
+    ]
+  },
+  "0x0967296defa0fd586c9ede5730380e2b059fab95": {
+    "sites": [
+      "inetcomputers.ca",
+      "kchawaii.com",
+      "cabinetbedstore.com",
+      "lonestarholsters.com",
+      "prevailjr.com",
+      "qudratullah.com.pk",
+      "hamdardislamicus.com.pk",
+      "sewmanyparts.com",
+      "newveste.com.br",
+      "kitapfoni.net",
+      "ponyclassic.com"
+    ],
+    "n_sites": 11,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "inetcomputers.ca",
+      "kchawaii.com",
+      "cabinetbedstore.com"
+    ]
+  },
+  "0x0a4cb067af5f3f1d8eabc91f6b63b54fe7abc6a2": {
+    "sites": [
+      "craswap.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "craswap.com"
+    ]
+  },
+  "0x11e7de4bf2faefb6268d602fe64f2698a145a2c7": {
+    "sites": [
+      "wuppdevops.com",
+      "qubetics.com"
+    ],
+    "n_sites": 2,
+    "owner_addr": "0x4325aa36a5a1a47d9eccfebc9d799cffb6651402",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "wuppdevops.com",
+      "qubetics.com"
+    ]
+  },
+  "0x1395d9401e1ce5da6e4f9e93261a0432c87377c5": {
+    "sites": [
+      "stake-bnb-xyz.vercel.app"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "stake-bnb-xyz.vercel.app"
+    ]
+  },
+  "0x2123531954e8e3ae9cf9d7dee55286c4785820b2": {
+    "sites": [
+      "evolute-frontend.pages.dev"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x80aa595c83430288e3a75f4d03be15b72385420f",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "evolute-frontend.pages.dev"
+    ]
+  },
+  "0x231202dd417d3a3c2df468308b725e3159d46900": {
+    "sites": [
+      "chaingpt.dev"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0xba80cb24185ef36deb1607ab4ca17ac1389a6957",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "chaingpt.dev"
+    ]
+  },
+  "0x232e410b1fa58fa37921ad03e5dec6a507cd5cde": {
+    "sites": [
+      "maticz.in"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "maticz.in"
+    ]
+  },
+  "0x2444922857e3ce8d4acdddf274826ad0d714f36a": {
+    "sites": [
+      "mobiloitte.io"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "mobiloitte.io"
+    ]
+  },
+  "0x3596a5d8fdd13763482de91a4ca74b7dbcbd98f9": {
+    "sites": [
+      "americanvinylco.com",
+      "divaweddingring.com",
+      "powertdi.pl"
+    ],
+    "n_sites": 3,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "americanvinylco.com",
+      "divaweddingring.com",
+      "powertdi.pl"
+    ]
+  },
+  "0x3e0407cc2a2b362399df8fa7515f3ce9d6dafbae": {
+    "sites": [
+      "robodexswap.io"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "robodexswap.io"
+    ]
+  },
+  "0x3e2991b9d63fa34bc49465ff97c364c5b2cfaaf7": {
+    "sites": [
+      "crystalclearpools.co.nz",
+      "colaistenaomheoin.com"
+    ],
+    "n_sites": 2,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "crystalclearpools.co.nz",
+      "colaistenaomheoin.com"
+    ]
+  },
+  "0x419f19712b03eee79db555a3591d55847b4efc4a": {
+    "sites": [
+      "dutton-lainson.com",
+      "topsknives.com",
+      "starwearstatus.com"
+    ],
+    "n_sites": 3,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "dutton-lainson.com",
+      "topsknives.com",
+      "starwearstatus.com"
+    ]
+  },
+  "0x41cab44cacded0af59e08d187efd8a3cbf2bd18a": {
+    "sites": [
+      "pifparts.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "pifparts.com"
+    ]
+  },
+  "0x48625313460ab142a8f69d6071e37503c3eeb96e": {
+    "sites": [
+      "elon-cat-presale.vercel.app"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x4113ccd05d440f9580d55b2b34c92d6cc82eab3c",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "elon-cat-presale.vercel.app"
+    ]
+  },
+  "0x5283b5ce076a530376a4e576e8e7944744c4143d": {
+    "sites": [
+      "tontacos.app"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0xeb7096be7b1ac4039ba14884eee93accf0129f7b",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "tontacos.app"
+    ]
+  },
+  "0x5e4d4c636c78dd037acbc88f9674dc53b2014045": {
+    "sites": [
+      "landingpage-cfq.pages.dev"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x80aa595c83430288e3a75f4d03be15b72385420f",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "landingpage-cfq.pages.dev"
+    ]
+  },
+  "0x5fbdb2315678afecb367f032d93f642f64180aa3": {
+    "sites": [
+      "stakebnb-webui.vercel.app"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "stakebnb-webui.vercel.app"
+    ]
+  },
+  "0x685509facc981bcf83dad64c45acdcccbda72d6f": {
+    "sites": [
+      "anome.xyz"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x510bdf3872a513a7e2f950099bf0009b10b9a239",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "anome.xyz"
+    ]
+  },
+  "0x6874572836dad9512c308e4831ec35e60a21794b": {
+    "sites": [
+      "oxexpeditions.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "oxexpeditions.com"
+    ]
+  },
+  "0x6ec094438c3c313e76df5fae5a3b30cb58152458": {
+    "sites": [
+      "x-co-operate-frontend-2024.pages.dev"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x80aa595c83430288e3a75f4d03be15b72385420f",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "x-co-operate-frontend-2024.pages.dev"
+    ]
+  },
+  "0x7855882e8cf9d481595a066c56e618e6be1142f0": {
+    "sites": [
+      "aurora-dragon.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x06934f2e75c7ae3422e722616d0a27f33b075812",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "aurora-dragon.com"
+    ]
+  },
+  "0x7eeec88687add26fa0a46f436443129fcd6fed19": {
+    "sites": [
+      "progovt.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x6073e2bac0e4599b25147e1e5dee4897eaa5d2e5",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "progovt.com"
+    ]
+  },
+  "0x8672bb760d631e91f071f4d48a9b9b7a761dbbfc": {
+    "sites": [
+      "evolute-testing-frontend.pages.dev"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x80aa595c83430288e3a75f4d03be15b72385420f",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "evolute-testing-frontend.pages.dev"
+    ]
+  },
+  "0x8a363f549147fa1ea66a6fbc276d1c283400c59b": {
+    "sites": [
+      "alphakun.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x50360738f329b6c07bd729ef2f369c6ac60d57a2",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "alphakun.com"
+    ]
+  },
+  "0x8da6dcd486f4291ce81d238092de76adf669ea8c": {
+    "sites": [
+      "hfrwa.xyz"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x20b7b3ba69739edda4c82b8e119dc866f4c6d83b",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "hfrwa.xyz"
+    ]
+  },
+  "0x9770041738a490962f4776ae9ca9e4a9a4e3946d": {
+    "sites": [
+      "banffteaco.com",
+      "selph.com.au"
+    ],
+    "n_sites": 2,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "banffteaco.com",
+      "selph.com.au"
+    ]
+  },
+  "0x9c729ea24ff5a50fa8651988c273a5495b100a5b": {
+    "sites": [
+      "blockchainaustralia.link"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0xa2b0c31d025a2e2bb232f0c2c0b216ad3bc4d789",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "blockchainaustralia.link"
+    ]
+  },
+  "0x9cb67f30548485abc6c2bad05df50af71af3f199": {
+    "sites": [
+      "sakaivault.io"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x8555509aef77f06bc0641f35fb608b23477bb667",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "sakaivault.io"
+    ]
+  },
+  "0xb06ee04ee3fbad0394259497b15f590dacbcca83": {
+    "sites": [
+      "satoshiprotocol.org"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0xd3e87b4b76e6f8bff454aafc2ad3271c5b317d47",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "satoshiprotocol.org"
+    ]
+  },
+  "0xb9a76d21df3c71209c42e601402709da650def7f": {
+    "sites": [
+      "mascotasalgama.com",
+      "bridesmaidsonly.com.au",
+      "hhtruckaccessories.com",
+      "industryqld.com.au",
+      "office2000.cz",
+      "themodernsportsman.com",
+      "saltypeaks.com",
+      "setia.com.my",
+      "privatelabel.es",
+      "kurvusa.com",
+      "stationerymine.com"
+    ],
+    "n_sites": 11,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "mascotasalgama.com",
+      "bridesmaidsonly.com.au",
+      "hhtruckaccessories.com"
+    ]
+  },
+  "0xc51495b2dcacda2480a4222734f1f0ebec6ea850": {
+    "sites": [
+      "lbmdemo.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0xc51495b2dcacda2480a4222734f1f0ebec6ea850",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "lbmdemo.com"
+    ]
+  },
+  "0xca11bde05977b3631167028862be2a173976ca11": {
+    "sites": [
+      "btcbull-ssr-test.pages.dev",
+      "build.meme",
+      "pancakeswap.finance",
+      "age.lat",
+      "btcbull.pages.dev"
+    ],
+    "n_sites": 5,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "btcbull-ssr-test.pages.dev",
+      "build.meme",
+      "pancakeswap.finance"
+    ]
+  },
+  "0xcc6efa62f2f44db6c4dbd134c0beec65c33d0a6a": {
+    "sites": [
+      "yezbitcoin.io",
+      "yezbitcoin.com"
+    ],
+    "n_sites": 2,
+    "owner_addr": "0x80aa595c83430288e3a75f4d03be15b72385420f",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "yezbitcoin.io",
+      "yezbitcoin.com"
+    ]
+  },
+  "0xcd3898a698c47c536f26c11c0992b6aaff8bf36f": {
+    "sites": [
+      "monbase.com"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x6a4592b47a9a89a65afa757b6a4acfb758b2ba61",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "monbase.com"
+    ]
+  },
+  "0xe419ccab63605a8ee6b25ee84b2eeb7e22d78635": {
+    "sites": [
+      "untouchable2k.github.io"
+    ],
+    "n_sites": 1,
+    "owner_addr": "0x46e29cde9c1f3a762ecfd5d608616992547d6187",
+    "owner_match": false,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "untouchable2k.github.io"
+    ]
+  },
+  "0xfdf6eb935834cb2554341e394194f06395986e02": {
+    "sites": [
+      "shebywedding.pl",
+      "marchisiobici.it",
+      "satecma.es",
+      "sotho.pl",
+      "vulturbike.com",
+      "vaperstore.eu",
+      "intrepidindustries.com",
+      "chocolats.alsace",
+      "lacasadelfisio.com"
+    ],
+    "n_sites": 9,
+    "owner_addr": null,
+    "owner_match": null,
+    "marker_hit": null,
+    "is_campaign": false,
+    "sample_sites": [
+      "shebywedding.pl",
+      "marchisiobici.it",
+      "satecma.es"
+    ]
+  }
+}

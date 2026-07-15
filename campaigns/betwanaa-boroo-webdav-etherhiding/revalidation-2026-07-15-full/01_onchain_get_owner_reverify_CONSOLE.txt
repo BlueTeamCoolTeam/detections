@@ -1,0 +1,14 @@
+0xA1decFB75C8C0CA28C10517ce56B710baf727d2e  get=OK  owner=OK -> 0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290
+0x46790e2Ac7F3CA5a7D1bfCe312d11E91d23383Ff  get=OK  owner=OK -> 0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290
+0x68DcE15C1002a2689E19D33A3aE509DD1fEb11A5  get=OK  owner=OK -> 0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290
+0xf4a32588b50a59a82fbA148d436081A48d80832A  get=ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"}  owner=NO_OWNER_FN_OR_ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"} -> None
+0x7Fd85c090f2b35071C57a3b9FeAF462aaEb0E437  get=OK  owner=OK -> 0x25a7625b3c74bb0452333c8d7f463a2f640fa5af
+0xfb448d465841c63f3bc433be61eb692b813d469d  get=OK  owner=OK -> 0x09813ef4ab9a7361a8d0455d57e9a81295dae5f8
+0xdf132e2893824e26ec8ae8014b4f4facd54ed67f  get=OK  owner=OK -> 0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290
+0x0cd58060328e308a43d3c53cfd03a45233ea308a  get=OK  owner=OK -> 0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290
+0xaef2ed8b69efb5c1b9e75990a5f90d02eb5f84f8  get=ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"}  owner=NO_OWNER_FN_OR_ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"} -> None
+0xeed9e134ce64bf74be001a942ee3e3cb5c12c999  get=ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"}  owner=NO_OWNER_FN_OR_ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"} -> None
+0x3d4aa83fe2aceb83a40ae09f03addd560abb5a85  get=ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"}  owner=NO_OWNER_FN_OR_ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"} -> None
+0xb72158bb6642c92ef042aaa681e1ffb8b738ef65  get=ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"}  owner=NO_OWNER_FN_OR_ERROR: {"code": 3, "message": "execution reverted: 0x", "data": "0x"} -> None
+
+Full results saved to 01_onchain_get_owner_reverify_RESULTS.json

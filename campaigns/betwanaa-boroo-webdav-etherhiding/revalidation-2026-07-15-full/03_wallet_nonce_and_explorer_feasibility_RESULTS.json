@@ -1,0 +1,62 @@
+{
+  "nonces": {
+    "0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290": {
+      "note": "primary (report cites nonce 516,826, ~435 tBNB)",
+      "nonce": 516859,
+      "balance_tBNB": 435.24266054358674,
+      "raw_nonce_resp": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x7e2fb"
+      },
+      "raw_balance_resp": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x1798348dbffc6a6a70"
+      }
+    },
+    "0x25a7625b3c74bb0452333c8d7f463a2f640fa5af": {
+      "note": "secondary deployer (report cites nonce 5)",
+      "nonce": 5,
+      "balance_tBNB": 0.0996880607,
+      "raw_nonce_resp": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x5"
+      },
+      "raw_balance_resp": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x16229c3565eff00"
+      }
+    },
+    "0x09813ef4ab9a7361a8d0455d57e9a81295dae5f8": {
+      "note": "secondary deployer (report cites nonce 1)",
+      "nonce": 1,
+      "balance_tBNB": 0.2998164552,
+      "raw_nonce_resp": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x1"
+      },
+      "raw_balance_resp": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x429297a3e034800"
+      }
+    }
+  },
+  "balances": {},
+  "explorer_feasibility": {
+    "bscscan testnet v1 API, no key": {
+      "url": "https://api-testnet.bscscan.com/api?module=account&action=txlist&address=0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290&sort=asc",
+      "http_status": 200,
+      "body_preview": "{\"status\":\"0\",\"message\":\"NOTOK\",\"result\":\"You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.etherscan.io/v2-migration\"}"
+    },
+    "etherscan v2 unified API, chainid 97, no key": {
+      "url": "https://api.etherscan.io/v2/api?chainid=97&module=account&action=txlist&address=0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290&sort=asc",
+      "http_status": 200,
+      "body_preview": "{\"status\":\"0\",\"message\":\"NOTOK\",\"result\":\"Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis\"}"
+    }
+  }
+}

@@ -1,0 +1,240 @@
+Checked 3885 clean (non-already-false-positive) records
+Records where task.url's domain != page.apexDomain: 99
+Distinct page.apexDomain values affected: 70
+
+page.apexDomain = 66lotteryappdownload.com
+  task.url=https://www.diuwinlogin.com.co/  task_host=www.diuwinlogin.com.co  redirected=off-domain
+
+page.apexDomain = 7club.in.net
+  task.url=https://creditpersonalloans.us.com/  task_host=creditpersonalloans.us.com  redirected=off-domain
+
+page.apexDomain = acsbarcode.com
+  task.url=http://www.advcompsystems.com/  task_host=www.advcompsystems.com  redirected=off-domain
+
+page.apexDomain = aliexpress.com
+  task.url=https://ssint.org/  task_host=ssint.org  redirected=off-domain
+
+page.apexDomain = altheqa.com
+  task.url=http://www.trustsa.com/  task_host=www.trustsa.com  redirected=off-domain
+  task.url=http://www.trustsa.com/  task_host=www.trustsa.com  redirected=off-domain
+
+page.apexDomain = amazon.com
+  task.url=https://hajighani-sons.com  task_host=hajighani-sons.com  redirected=off-domain
+
+page.apexDomain = andreapalframan.com
+  task.url=https://posterfolk.ca/  task_host=posterfolk.ca  redirected=off-domain
+
+page.apexDomain = aqmmedia.com
+  task.url=https://aqmflow.com/  task_host=aqmflow.com  redirected=off-domain
+
+page.apexDomain = asapaba.com
+  task.url=https://spectrumpathways.co/  task_host=spectrumpathways.co  redirected=off-domain
+  task.url=https://spectrumpathways.co/  task_host=spectrumpathways.co  redirected=off-domain
+
+page.apexDomain = bestsolutions.es
+  task.url=https://contactobest.com/  task_host=contactobest.com  redirected=off-domain
+
+page.apexDomain = bombusbee.shop
+  task.url=https://bombusbee.net/  task_host=bombusbee.net  redirected=off-domain
+
+page.apexDomain = bwi.in.net
+  task.url=https://bancasieuno.net/  task_host=bancasieuno.net  redirected=off-domain
+
+page.apexDomain = choke.cc
+  task.url=https://8kbet.party/  task_host=8kbet.party  redirected=off-domain
+
+page.apexDomain = commercial-solar.org
+  task.url=http://startcommercial-solar.site/  task_host=startcommercial-solar.site  redirected=off-domain
+  task.url=http://dynamiccommercial-solar.site/  task_host=dynamiccommercial-solar.site  redirected=off-domain
+  task.url=http://premiumcommercial-solar.site/  task_host=premiumcommercial-solar.site  redirected=off-domain
+
+page.apexDomain = consiliumsoftware.com
+  task.url=https://click.mlsend2.com/link/c/YT0yOTQ3MzExODI5MjIwNTk2MTI5JmM9ZTZnMSZiPTE1MTk3Mjk3MjMmZD11NHQ3dDdl.ceM8eKsxYE8VlKbV9tJFmRN8utL_eVMMkKZXbQw8BS4  task_host=click.mlsend2.com  redirected=off-domain
+
+page.apexDomain = copperrecovery.com
+  task.url=https://reto-service.de/  task_host=reto-service.de  redirected=off-domain
+  task.url=https://asr-recovery.com/  task_host=asr-recovery.com  redirected=off-domain
+  task.url=https://asrwire-recovery.com/  task_host=asrwire-recovery.com  redirected=off-domain
+
+page.apexDomain = delcoapartments.com
+  task.url=https://www.iloveleasing.com/pub/websitelink/brjkgdnjiprd  task_host=www.iloveleasing.com  redirected=off-domain
+
+page.apexDomain = delta-mobrey.online
+  task.url=http://www.delta-mobrey-ox69.temp-dns.com/  task_host=www.delta-mobrey-ox69.temp-dns.com  redirected=off-domain
+  task.url=http://delta-mobrey-ox69.temp-dns.com/  task_host=delta-mobrey-ox69.temp-dns.com  redirected=off-domain
+  task.url=http://mail.delta-mobrey-ox69.temp-dns.com/  task_host=mail.delta-mobrey-ox69.temp-dns.com  redirected=off-domain
+
+page.apexDomain = denmercgroup.com
+  task.url=http://alp.afh.mybluehost.me/  task_host=alp.afh.mybluehost.me  redirected=off-domain
+
+page.apexDomain = dmwexports.com
+  task.url=https://dmwexport.com/  task_host=dmwexport.com  redirected=off-domain
+  task.url=https://www.dmwexport.com/  task_host=www.dmwexport.com  redirected=off-domain
+  task.url=https://www.dmwexport.com/  task_host=www.dmwexport.com  redirected=off-domain
+
+page.apexDomain = dpwaterer.com
+  task.url=https://www.drinkingpost.com/  task_host=www.drinkingpost.com  redirected=off-domain
+  task.url=https://drinkingpost.com/  task_host=drinkingpost.com  redirected=off-domain
+
+page.apexDomain = dyesstreeservice.com
+  task.url=https://nalltreeservice.com/  task_host=nalltreeservice.com  redirected=off-domain
+
+page.apexDomain = eloclimatizacao.com.br
+  task.url=http://www.eloclimatizacao.elotecnico.com.br/  task_host=www.eloclimatizacao.elotecnico.com.br  redirected=off-domain
+
+page.apexDomain = encontromulheresviajantes.com.br
+  task.url=http://congressomulheresviajantes.com.br/  task_host=congressomulheresviajantes.com.br  redirected=off-domain
+
+page.apexDomain = epicairgroup.com.au
+  task.url=http://epicairgroup.online/  task_host=epicairgroup.online  redirected=off-domain
+
+page.apexDomain = gdmigration.com
+  task.url=http://goodday.education.gooddaymigration.com.au/  task_host=goodday.education.gooddaymigration.com.au  redirected=off-domain
+  task.url=http://www.goodday.education.gooddaymigration.com.au/  task_host=www.goodday.education.gooddaymigration.com.au  redirected=off-domain
+
+page.apexDomain = gfc-provap.com
+  task.url=http://gfc-provap.eu/  task_host=gfc-provap.eu  redirected=off-domain
+  task.url=http://www.gfc-provap.eu/  task_host=www.gfc-provap.eu  redirected=off-domain
+
+page.apexDomain = gobusi.com
+  task.url=https://www.awin1.com/cread.php?awinmid=113964&awinaffid=1803550  task_host=www.awin1.com  redirected=off-domain
+
+page.apexDomain = goodnewsplanet.com
+  task.url=https://click-1757622.icptrack.com/icp/relay.php?r=31594688&msgid=423762&act=F71D&c=1757622&pid=937468&destination=http%3A%2F%2Fwww.goodnewsplanet.tv%2F&cf=14335&v=9643e752c0fb2faccb6e03e930638dab557855189c03ead0a831c4aec7d30582  task_host=click-1757622.icptrack.com  redirected=off-domain
+
+page.apexDomain = google.com
+  task.url=https://www.sicherheit-24.eu/  task_host=www.sicherheit-24.eu  redirected=off-domain
+  task.url=http://www.schneider-peklar.at/  task_host=www.schneider-peklar.at  redirected=off-domain
+  task.url=http://www.schneider-peklar.at/  task_host=www.schneider-peklar.at  redirected=off-domain
+
+page.apexDomain = hairdefinitions.co.uk
+  task.url=http://hairdefinitions-co-uk.habeshacontacts.com/  task_host=hairdefinitions-co-uk.habeshacontacts.com  redirected=off-domain
+
+page.apexDomain = houseofheralds.com
+  task.url=http://mail.asp.cap.mybluehost.me/  task_host=mail.asp.cap.mybluehost.me  redirected=off-domain
+  task.url=http://asp.cap.mybluehost.me/  task_host=asp.cap.mybluehost.me  redirected=off-domain
+
+page.apexDomain = human-impact.net
+  task.url=http://impacteor.site/  task_host=impacteor.site  redirected=off-domain
+
+page.apexDomain = hzlegal.ae
+  task.url=http://hz-legalservices.com/  task_host=hz-legalservices.com  redirected=off-domain
+
+page.apexDomain = institutodrrafaelfreitas.com.br
+  task.url=http://clinicarafaelfreitas.com.br/  task_host=clinicarafaelfreitas.com.br  redirected=off-domain
+
+page.apexDomain = intempuspropertymanagement.com
+  task.url=http://www.intempuspm.com/  task_host=www.intempuspm.com  redirected=off-domain
+
+page.apexDomain = jexbarista.ae
+  task.url=https://jexbarista.com/  task_host=jexbarista.com  redirected=off-domain
+
+page.apexDomain = jojobacompany.com
+  task.url=https://www.hobacare.com/  task_host=www.hobacare.com  redirected=off-domain
+
+page.apexDomain = kallastetalu.ee
+  task.url=http://kallastetalu.eu/  task_host=kallastetalu.eu  redirected=off-domain
+
+page.apexDomain = kennedyventuresok.com
+  task.url=https://nationalshowpigregistry.com/  task_host=nationalshowpigregistry.com  redirected=off-domain
+  task.url=http://soldonshowpig.com/  task_host=soldonshowpig.com  redirected=off-domain
+
+page.apexDomain = kevsplumbing.com.au
+  task.url=http://www.kevinsplumbing.com.au/  task_host=www.kevinsplumbing.com.au  redirected=off-domain
+
+page.apexDomain = kingirving.com
+  task.url=https://aima.email/c/AQi_twcQ8fDXARi3ydTCAiC_jawqKN2WlREOYJOPMF_xla-gJ1GKeX_tpwKhq5D_08-kpWNNyeDxrw  task_host=aima.email  redirected=off-domain
+  task.url=https://aima.email/c/AQi_twcQ8fDXARiS_pq6AiC_jawqKN2WlRF0HcFrhB4hudzJw0dp_C1Fk5zZRKBxZQFFKolWemiB6w  task_host=aima.email  redirected=off-domain
+
+page.apexDomain = mfscapital.com.co
+  task.url=http://hitcluba.cn.com/  task_host=hitcluba.cn.com  redirected=off-domain
+
+page.apexDomain = moneywolf.net
+  task.url=https://www.moneywolf.org/  task_host=www.moneywolf.org  redirected=off-domain
+  task.url=https://www.moneywolf.blog/  task_host=www.moneywolf.blog  redirected=off-domain
+
+page.apexDomain = monky.fr
+  task.url=http://r.mail.allinbox.fr/mk/cl/f/sh/7nVU1aA2nfsTSsGyJUZVXCT7NK77fEr/vvb74avGTLtS  task_host=r.mail.allinbox.fr  redirected=off-domain
+
+page.apexDomain = montanarolaw.com
+  task.url=https://www.trucktrafficticket.com/  task_host=www.trucktrafficticket.com  redirected=off-domain
+
+page.apexDomain = mybluehost.me
+  task.url=http://kannansuae.com/  task_host=kannansuae.com  redirected=off-domain
+
+page.apexDomain = newsroompk.com
+  task.url=https://commonwealthtechsol.com/  task_host=commonwealthtechsol.com  redirected=off-domain
+
+page.apexDomain = nydisabilityadvocates.com
+  task.url=https://nydisabilityadvocates.org/  task_host=nydisabilityadvocates.org  redirected=off-domain
+
+page.apexDomain = nzmarketingmag.co.nz
+  task.url=https://email.marketing.org.nz/e3t/Ctc/2L+113/cQ1Vx04/VX5CTC2h58-4VnLwwn47KmmjW1m0cDV5QD4MNN1k24X85nR3bW50kH_H6lZ3n4W7hFR676GCtWgW1Xltjb8PWgm3W85tMcD6j7dVBW7SgzB840GkG4W1-J7_13SMrwVV-8gBs6bhFwcW1YGsBN2CCQcXVCylCv4Rp2pXW57jvrn4C989kW8n72mZ90X2B8N2Gws1qyvB8fW2jRSwj456kKyW6zFW3T7VFdhtV2B2-M28mXNgW3_tYFk8cqdltW52r1Vn9dj_CnW1g4FV93ZzsYSW6Tx07r2dvFn2W5gzWLs3v0ncCVcd73c91XS5xW2v-k5263P-DxW87GFFd1b3kCVW3L68JK3R6vR6W881nrB5qV09sVHW_CM4_0Z_WW7CpHNM6xn0qVW7fgT_p2SS3ptW2VLw1h53s9w_W3-KvvS2KfVGRW2FhwT36v80CdW246VVm856FlVN53cvKb34hr_f32f9K004  task_host=email.marketing.org.nz  redirected=off-domain
+
+page.apexDomain = rafaelapolonivascular.com.br
+  task.url=http://drrafaelapoloni.com.br/  task_host=drrafaelapoloni.com.br  redirected=off-domain
+
+page.apexDomain = romerofournier.net
+  task.url=http://romerofournier.com/  task_host=romerofournier.com  redirected=off-domain
+
+page.apexDomain = rrfw.cn.com
+  task.url=https://account.uk.com/  task_host=account.uk.com  redirected=off-domain
+
+page.apexDomain = safetygearstore.co.uk
+  task.url=https://safetygearstore.co/cart  task_host=safetygearstore.co  redirected=sub-domain
+
+page.apexDomain = sagesupport.au
+  task.url=https://sagesupport.com.au/  task_host=sagesupport.com.au  redirected=off-domain
+  task.url=https://sagesupport.com.au/  task_host=sagesupport.com.au  redirected=off-domain
+
+page.apexDomain = sign2me.com
+  task.url=http://earlyedu.org/  task_host=earlyedu.org  redirected=off-domain
+
+page.apexDomain = slon.org
+  task.url=https://slonexteriorcare-services.com/  task_host=slonexteriorcare-services.com  redirected=off-domain
+
+page.apexDomain = solarservice-tx.com
+  task.url=https://www.solarservice-ca.com/  task_host=www.solarservice-ca.com  redirected=off-domain
+  task.url=https://solarservice-ca.com/  task_host=solarservice-ca.com  redirected=off-domain
+
+page.apexDomain = stayfreshcs.com
+  task.url=https://stayfreshcsjanitorial-services.com/  task_host=stayfreshcsjanitorial-services.com  redirected=off-domain
+
+page.apexDomain = teachermodsquad.com
+  task.url=https://teachermodsquad.org/  task_host=teachermodsquad.org  redirected=off-domain
+
+page.apexDomain = teamrvpaso.com
+  task.url=http://teamautocollision.com/  task_host=teamautocollision.com  redirected=off-domain
+
+page.apexDomain = technosids.co.uk
+  task.url=http://technosids.com/  task_host=technosids.com  redirected=off-domain
+  task.url=http://www.technosids.com/  task_host=www.technosids.com  redirected=off-domain
+  task.url=http://technosids.com/  task_host=technosids.com  redirected=off-domain
+
+page.apexDomain = thecarpetstop.co.uk
+  task.url=http://www.carpetandfloors.co.uk/  task_host=www.carpetandfloors.co.uk  redirected=off-domain
+
+page.apexDomain = thecollegecompanion.com
+  task.url=https://www.collegecompanion.2.cavendoclient.com/  task_host=www.collegecompanion.2.cavendoclient.com  redirected=off-domain
+
+page.apexDomain = theguthealthmd.com
+  task.url=http://f8a0b8f4.click.convertkit-mail4.com/xmu6g9lg26h6hp69rlgc5h2e0e2oesnh2omzr/reh8hohmz6mr0vc2/ahr0chm6ly90agvndxrozwfsdghtzc5jb20vy291cnnlcy8=  task_host=f8a0b8f4.click.convertkit-mail4.com  redirected=off-domain
+  task.url=https://f8a0b8f4.click.convertkit-mail4.com/zlu5235wmwunhkveegmfphwl20dnzh6h7vl64/n2hohvhv0zz0voh6/aHR0cHM6Ly90aGVndXRoZWFsdGhtZC5jb20vY291cnNlcy8=  task_host=f8a0b8f4.click.convertkit-mail4.com  redirected=off-domain
+  task.url=https://f8a0b8f4.click.convertkit-mail4.com/zlu5235wmwunhkveegmfphwl20dnzh6h7vl64/n2hohvhv0zz0voh6/aHR0cHM6Ly90aGVndXRoZWFsdGhtZC5jb20vY291cnNlcy8=  task_host=f8a0b8f4.click.convertkit-mail4.com  redirected=off-domain
+
+page.apexDomain = thekelleygroup.net
+  task.url=https://xv487.keap-link009.com/v2/click/3fa9ca1bfdfcdb4ddba41de5123942d9/eJyNkEELgkAQhf_LnN10xVrzFhEhVoeocyw56ZKuyzpFEv731opOBV3nvfke792BUEtNaQ4J3K5RLMADi0dlFGqaN5rk8SmKiPNIeFApfV7a5mIguX_7_ejDdTwNROgBdQadZbedzbN0szys0k3mrEZal_EPJ-ZhzKMPaLGepSvo-59krBUtrg7eQkL2gkOlXLlatLeV85dEpk18n0o8Y1VhVwxJI43kh0E4YYFgfMxKVZTMoD01tla6YISybn2Hl8agzt_jZNi9QvoHgFBrrg  task_host=xv487.keap-link009.com  redirected=off-domain
+
+page.apexDomain = tvigroupe.com
+  task.url=http://mecanique-de-precision.net/  task_host=mecanique-de-precision.net  redirected=off-domain
+
+page.apexDomain = unstives.com
+  task.url=https://mardelupe.lachimenea.cl/  task_host=mardelupe.lachimenea.cl  redirected=off-domain
+
+page.apexDomain = utinam.fr
+  task.url=https://utinam.ch/  task_host=utinam.ch  redirected=off-domain
+
+page.apexDomain = youtube.com
+  task.url=http://connectingtomorrowit.com/  task_host=connectingtomorrowit.com  redirected=off-domain
+
+Full results saved to 13_redirect_attribution_mismatches.json
