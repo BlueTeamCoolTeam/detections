@@ -1,0 +1,21 @@
+type,value,notes,confidence,post_slug
+domain,kovraxis[.]com,Staging/download host for the Go implant - built via string concatenation in the PowerShell launcher,high,kovraxis
+url,hxxps://kovraxis[.]com/8845e127.exe,Payload download URL - returned a live 3.4MB PE at time of check,high,kovraxis
+domain,bkv.ambiltogel[.]net,Live C2 subdomain - confirmed via TLS SNI and Sysmon DNS Query telemetry; supersedes the bare ambiltogel[.]net reading,high,kovraxis
+domain,ambiltogel[.]net,Parent domain of the confirmed C2 subdomain - NameCheap registered 2025-10-16 - Cloudflare-fronted,high,kovraxis
+domain,kijangturbo88[.]top,Reserve/failover C2 domain - NameSilo registered 2025-11-24 - delegated to Cloudflare but no active DNS records at time of check,medium,kovraxis
+ip,104.21.88.153,Cloudflare-fronted C2 IP - confirmed live TCP/TLS connection from the implant,high,kovraxis
+ip,172.67.223.178,Second Cloudflare A-record for the same C2 - resolved by the implant's own Sysmon-logged DNS query,high,kovraxis
+url,hxxps://telegram[.]me/r7t3at,Dead-drop resolver - public Telegram channel - 1 subscriber - bio hosts the C2 pointer marker,high,kovraxis
+url,hxxps://steamcommunity[.]com/profiles/76561198674661449,Dead-drop resolver - Level 0 empty Steam account - display name hosts the C2 pointer marker,high,kovraxis
+ip,149.154.167.99,Genuine Telegram datacenter IP - concurrent contact during file-staging activity; purpose beyond dead-drop lookup unresolved,medium,kovraxis
+sha256,a3714081253eee3bf9d64e58e6967a66362d02a443c2fa06a337949c69bbc2a1,Dropped Go implant (8845e127.exe) - PE32+ x86-64 GUI - Go 1.25.4,high,kovraxis
+md5,eee4452ba0331cc6c3e960b6ff426aee,Same file as above,high,kovraxis
+build_id,I6DRylj2H9MnFCTS6Ttg/7fKy-qHPhBTyYaVQ8_aA/z86uF5I3lkY4LzclL0QM/2FqBXb2IT_GGG-QL8_Bn,Go Build ID - unique per compilation - pivot if the actor reuses this build pipeline,high,kovraxis
+export,EfNHLACDlOuyogU/main.go,Randomized-looking Go main module path - build-obfuscation artifact,medium,kovraxis
+build_id,3429037a9d0fee48cfcb7029464941bd,Beacon build_id field value - constant across all observed beacons for this build - direct compromise indicator,high,kovraxis
+filename,x.exe,Hardcoded dropped-file name in %TEMP% per the PowerShell launcher,high,kovraxis
+unc_path,%LOCALAPPDATA%\Temp\<8-hex>\,Randomly-named staging folder for 5 Edge-profile SQLite files (write -> read-back -> delete-on-close within ~1 second),high,kovraxis
+export,gw3n9 ,Fixed marker prefix the implant's parser searches for on the Telegram/Steam dead-drop pages (terminated by a pipe character),high,kovraxis
+export,SEE_MASK_NOZONECHECKS,Process environment variable set to 1 before executing the dropped EXE - suppresses MOTW/SmartScreen,high,kovraxis
+export,anthropic.com,Fake Authenticode signer CN on the implant's self-signed certificate (full DN: CN=anthropic.com;O=mkbmL63p;L=a9SYM;ST=O87TPHy;C=US) - zero trust value - notable identity-spoof artifact,medium,kovraxis
