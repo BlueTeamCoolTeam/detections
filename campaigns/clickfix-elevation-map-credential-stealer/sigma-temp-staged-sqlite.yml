@@ -1,0 +1,33 @@
+title: Randomly-Named File Created in TEMP Random Subfolder (Browser-DB Staging)
+id: 6a5c9d3e-2f17-4b88-8c4a-3e9f7d1b5c62
+status: experimental
+description: >
+  Detects file creation under a randomised %TEMP%\<8hex>\<8hex> path with no
+  file extension - the staging pattern used to copy a locked Chromium SQLite
+  credential database (Login Data, Cookies, History, Web Data) out from under
+  the browser before exfiltration. In the source case five such files were
+  created and deleted by the same process within about one second; this rule
+  covers the create side (Sysmon EID 11). Pair with FileDelete (EID 23) on the
+  same ProcessGuid within a short window, and enable Sysmon ArchiveDirectory
+  to recover the content even after the malware wipes it.
+references:
+  - https://blueteam.cool/posts/clickfix-elevation-map-credential-stealer/
+author: Luke Wilkinson
+date: 2026-07-31
+logsource:
+  category: file_event
+  product: windows
+  service: sysmon
+detection:
+  selection:
+    TargetFilename|contains: '\AppData\Local\Temp\'
+    TargetFilename|re: '\\Temp\\[0-9a-f]{8}\\[0-9a-f]{8}$'
+  condition: selection
+falsepositives:
+  - Low-volume legitimate temp-file usage can coincidentally match an 8-hex/8-hex shape; correlate with a matching FileDelete event on the same ProcessGuid within a few seconds and file content starting "SQLite format 3" to raise confidence
+level: medium
+tags:
+  - attack.credential_access
+  - attack.t1555.003
+  - attack.defense_evasion
+  - attack.t1070.004
