@@ -1,0 +1,42 @@
+title: ClickFix PowerShell Paste-and-Run Stager (enter-code-cdn Loader)
+id: 3d7a1f2e-8b4c-4a6d-9e21-7c5f9a2b6e4d
+status: experimental
+description: >
+  Detects a hidden-window PowerShell process invoking iex(irm ...) against a
+  download-cradle pattern typical of ClickFix delivery, where a victim pastes
+  a pre-staged command into the Windows Run dialog. Tuned against the
+  enter-code-cdn[.]info loader chain but the core pattern (hidden window +
+  iex + irm, parented by explorer.exe) generalises to ClickFix delivery more
+  broadly.
+references:
+  - https://blueteam.cool/posts/clickfix-elevation-map-credential-stealer/
+author: Luke Wilkinson
+date: 2026-07-31
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_stager:
+    Image|endswith: '\powershell.exe'
+    ParentImage|endswith: '\explorer.exe'
+    CommandLine|contains|all:
+      - 'iex'
+      - 'irm'
+  selection_hidden:
+    CommandLine|contains:
+      - '-w h'
+      - '-windowstyle hidden'
+      - '-WindowStyle Hidden'
+  filter_legitimate:
+    CommandLine|contains:
+      - 'microsoft.com'
+      - 'winget'
+  condition: selection_stager and selection_hidden and not filter_legitimate
+falsepositives:
+  - Legitimate winget/Microsoft-hosted install one-liners that also use iex+irm; the filter excludes the common microsoft.com case, extend for internal tooling
+level: high
+tags:
+  - attack.initial_access
+  - attack.t1204.004
+  - attack.execution
+  - attack.t1059.001

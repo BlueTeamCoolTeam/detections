@@ -1,0 +1,30 @@
+type,value,notes,confidence,post_slug
+domain,enter-code-cdn[.]info,ClickFix loader C2/staging host - nginx,high,clickfix-elevation-map-credential-stealer
+ip,178.16.52[.]101,Hosts enter-code-cdn[.]info - same IP as PuppetKing / authorization-* operator cluster (see puppetking-stealc pack),high,clickfix-elevation-map-credential-stealer
+domain,coronadoferrylanding[.]com,ClickFix fake-CAPTCHA lure page - IONOS hosting - likely compromised legitimate site,high,clickfix-elevation-map-credential-stealer
+ip,74.208.53[.]82,Hosts coronadoferrylanding[.]com,medium,clickfix-elevation-map-credential-stealer
+url,hxxp://enter-code-cdn[.]info/967b5773df7f334c,Stage 1 loader response; ?_=1 query param gates the real chain,high,clickfix-elevation-map-credential-stealer
+url,hxxp://enter-code-cdn[.]info/7z,Clean 7z.exe CLI binary dropped by the loader,high,clickfix-elevation-map-credential-stealer
+url,hxxp://enter-code-cdn[.]info/aa15904c7ff3d868f0783bc5c9fcabd51c08b68ee62d20f001ddbf9f3dbbec4a,Password-protected payload archive,high,clickfix-elevation-map-credential-stealer
+url,hxxp://enter-code-cdn[.]info/p/aa15904c7ff3d868f0783bc5c9fcabd51c08b68ee62d20f001ddbf9f3dbbec4a,Completion/task beacon - server replies 'no',medium,clickfix-elevation-map-credential-stealer
+campaign_tag,967b5773df7f334c,Present in the clipboard command and every PowerShell stage,high,clickfix-elevation-map-credential-stealer
+sha256,bfc0d72fea816d5974892ce483344fa38e04d7116d00d09a16cca520d9d1621f,Stage 1 (ungated response),high,clickfix-elevation-map-credential-stealer
+sha256,8947e46cd2aa11464c2f76d30c62385b6df72ba96bbdaa51c4b0b466f142ce1c,Stage 3 (gated ?_=1 response),high,clickfix-elevation-map-credential-stealer
+sha256,26817725650583d99ca3e617a618dd75c0f71bd316b5761780b7361f5f824cad,7z.exe - legitimate 7-Zip CLI dropped by the loader,medium,clickfix-elevation-map-credential-stealer
+sha256,75b685b41bc15de2e75c82e117e6228f09647d6f5cf9ae4db81b5c903425a519,payload.7z archive,high,clickfix-elevation-map-credential-stealer
+sha256,678d92dac07362312135fa5a81d528322d2f4671d0632d26d572f5d86cf9692a,cloudflare.exe as delivered - 842MB NULL-padded Go implant,high,clickfix-elevation-map-credential-stealer
+sha256,5e1b57d0a56d2befa3f786a6cf3b38072454c2a7751e291f38d68448f89607fa,cloudflare.exe real PE with padding stripped (3.78MB),high,clickfix-elevation-map-credential-stealer
+password,lehpffsr,7-Zip password protecting payload.7z,high,clickfix-elevation-map-credential-stealer
+domain,m36.akasia988[.]net,Confirmed live C2 - resolved via Telegram dead-drop - Namecheap registration 2026-04-06,high,clickfix-elevation-map-credential-stealer
+domain,peluangsm188[.]top,Second C2 front - identical backend/subdomain pattern to akasia988.net - NameSilo registration 2025-12-02,high,clickfix-elevation-map-credential-stealer
+ip,172.67.187[.]150,Cloudflare-fronted IP for m36.akasia988.net - block domain/SNI not the bare IP,medium,clickfix-elevation-map-credential-stealer
+ip,104.21.7[.]141,Cloudflare-fronted IP for m36.akasia988.net,medium,clickfix-elevation-map-credential-stealer
+ip,104.21.58[.]99,Cloudflare-fronted IP for peluangsm188.top,medium,clickfix-elevation-map-credential-stealer
+ip,172.67.203[.]42,Cloudflare-fronted IP for peluangsm188.top,medium,clickfix-elevation-map-credential-stealer
+url,hxxps://t.me/gk6p2s,Telegram dead-drop resolver - bio text holds the live C2 domain string,high,clickfix-elevation-map-credential-stealer
+url,hxxps://steamcommunity[.]com/profiles/76561198667588759,Steam fallback dead-drop resolver - identical GET-then-POST pattern,high,clickfix-elevation-map-credential-stealer
+build_id,0eb2d770231b5ce92eb8be6247f2ccfa,Implant build ID - stable across all 3 detonation rounds - campaign pivot,high,clickfix-elevation-map-credential-stealer
+go_build_id,lJR0dC7X1EoIIEUyHcUB/RP7i_K4Fg64Ks8q_73mr/2Aq3-mTPQ0jEAnEP8RJ5/mw9PlI-KznP3YnG0swcQ,Go compiler build ID - high-fidelity build pivot,high,clickfix-elevation-map-credential-stealer
+garble_module,vyimLwwQcaHWg,Randomized garble module path (per-build; will differ on rebuild),medium,clickfix-elevation-map-credential-stealer
+staging_path_pattern,%TEMP%\<8hex>\<8hex>,Copy-then-exfil staging path for stolen browser DBs - no file extension,high,clickfix-elevation-map-credential-stealer
+user_agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Safari/537.36 Edg/144.0.0.0,Spoofed implant C2 User-Agent - hunt in proxy logs,medium,clickfix-elevation-map-credential-stealer

@@ -1,0 +1,40 @@
+title: Non-Browser Process Spawns Edge/Chrome for App-Bound Encryption Abuse
+id: 8f2b6c4e-1a3d-4e7f-9c2b-6d4a8f1e3b5c
+status: experimental
+description: >
+  Detects a non-browser process spawning msedge.exe/chrome.exe with
+  --no-first-run and about:blank - the launch signature observed when a
+  credential stealer spawns a trusted, throwaway browser instance so that
+  browser (not the malware) satisfies Chromium's App-Bound Encryption
+  IElevator path check and decrypts its own vault key. In the source
+  detonation this spawn was followed within ~1.5s by two elevation_service.exe
+  activations (parented by services.exe) per spawn - pivot to that process
+  for confirmation, but the browser-spawn event alone is already
+  family-independent and survives a rebuild, a new C2 domain, or a new
+  loader skin. Fires before any credential database is touched.
+references:
+  - https://blueteam.cool/posts/clickfix-elevation-map-credential-stealer/
+author: Luke Wilkinson
+date: 2026-07-31
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    Image|endswith:
+      - '\msedge.exe'
+      - '\chrome.exe'
+    CommandLine|contains|all:
+      - '--no-first-run'
+      - 'about:blank'
+  filter_legitimate_parent:
+    ParentImage|endswith:
+      - '\msedge.exe'
+      - '\chrome.exe'
+  condition: selection and not filter_legitimate_parent
+falsepositives:
+  - None known from the source case. Some enterprise browser-management, EDR-sensor, or RMM health-check tooling launches a headless/throwaway browser with similar flags - baseline your fleet's management agents before enabling at "high"
+level: high
+tags:
+  - attack.credential_access
+  - attack.t1555.003
