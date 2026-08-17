@@ -1,0 +1,41 @@
+title: WebDAV-over-SSL Pushd Mount Followed by Rundll32 Ordinal Execution
+id: 9f2b6e14-3a7d-4c8e-9b1f-6a5d0e3c7f42
+status: experimental
+description: >
+    Detects the pushd \\host@SSL\GUID + rundll32 <file>,#1 pattern used
+    across a family of ClickFix-delivered loaders (pf.ch / gc.key / goog.ct
+    campaigns, June-July 2026). The WebClient service mounts a remote WebDAV
+    server over HTTPS instead of SMB, then rundll32 executes export ordinal
+    #1 of the fetched DLL with nothing written to disk.
+references:
+    - https://blueteam.cool/posts/webdav-over-ssl-loader-family/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/webdav-over-ssl-loader-family/
+author: Luke Wilkinson
+date: 2026-08-15
+tags:
+    - attack.execution
+    - attack.t1204.004
+    - attack.t1218.011
+    - attack.defense_evasion
+    - attack.command_and_control
+    - attack.t1105
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    rundll32_ordinal:
+        Image|endswith: '\rundll32.exe'
+        CommandLine|contains: ',#1'
+    webdav_ssl:
+        CommandLine|contains:
+            - '@SSL\'
+            - '@SSL@443\'
+    pushd_ssl:
+        CommandLine|contains|all:
+            - 'pushd'
+            - '@SSL'
+    condition: (rundll32_ordinal and webdav_ssl) or pushd_ssl
+falsepositives:
+    - Legitimate WebDAV automation is rare on user workstations. Security
+      researchers testing coverage for this campaign family may trigger this.
+level: high
