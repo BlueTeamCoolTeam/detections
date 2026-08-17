@@ -1,0 +1,41 @@
+title: LOLBin Proxy Spawning cmd/rundll32 with WebDAV @SSL Delayed-Expansion Reassembly
+id: 4c1a8d6b-e720-4f5a-9d3c-1b8e6a2f0c95
+status: experimental
+description: >
+    Detects the family's hidden-window launcher pattern: WmiPrvSE.exe,
+    forfiles.exe, conhost.exe --headless, or pcalua.exe spawning cmd.exe
+    with delayed variable expansion (/v:on) that reassembles pushd/rundll32
+    from split variables (e.g. set a=pu&set b=shd) alongside an @SSL UNC
+    path. This proxy-launcher rotation is the family's main defense-evasion
+    trick -- one behavioural chain, not four separate signatures.
+references:
+    - https://blueteam.cool/posts/webdav-over-ssl-loader-family/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/webdav-over-ssl-loader-family/
+author: Luke Wilkinson
+date: 2026-08-15
+tags:
+    - attack.execution
+    - attack.t1059.003
+    - attack.defense_evasion
+    - attack.t1218
+    - attack.t1216
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    parent_selection:
+        ParentImage|endswith:
+            - '\WmiPrvSE.exe'
+            - '\forfiles.exe'
+            - '\conhost.exe'
+            - '\pcalua.exe'
+    cmd_selection:
+        Image|endswith: '\cmd.exe'
+        CommandLine|contains: '/v'
+    ssl_selection:
+        CommandLine|contains: '@SSL'
+    condition: parent_selection and cmd_selection and ssl_selection
+falsepositives:
+    - None known. This parent/child/argument combination has no legitimate
+      enterprise use case observed to date.
+level: high

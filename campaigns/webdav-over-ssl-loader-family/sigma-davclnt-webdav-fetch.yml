@@ -1,0 +1,35 @@
+title: Davclnt.dll DavSetCookie WebDAV Fetch (SERPENTINE#CLOUD Sibling)
+id: 7e5f9c31-2b4a-4d6e-8f7c-3a9d1e5b6c48
+status: stable
+description: >
+    Detects rundll32.exe invoking davclnt.dll's DavSetCookie export to fetch
+    a remote script over an @SSL WebDAV path. This is the sibling delivery
+    mechanism to the pushd/rundll32-ordinal family (same @SSL WebDAV-over-
+    HTTPS transport, different Microsoft binary) observed dropping a
+    Cloudflare Quick Tunnel-hosted .wsf that unrolls into five RATs at once
+    (VenomRAT, AsyncRAT, XWorm/Violet, PureHVNC, Brute Ratel C4). Near-zero
+    false positives -- alert outright.
+references:
+    - https://blueteam.cool/posts/webdav-over-ssl-loader-family/
+    - https://github.com/BlueTeamCoolTeam/detections/tree/main/campaigns/webdav-over-ssl-loader-family/
+author: Luke Wilkinson
+date: 2026-08-15
+tags:
+    - attack.execution
+    - attack.t1218.011
+    - attack.command_and_control
+    - attack.t1105
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\rundll32.exe'
+        CommandLine|contains|all:
+            - 'davclnt.dll'
+            - 'DavSetCookie'
+    condition: selection
+falsepositives:
+    - None known. davclnt.dll,DavSetCookie invoked via rundll32.exe has no
+      legitimate enterprise use case observed to date.
+level: critical

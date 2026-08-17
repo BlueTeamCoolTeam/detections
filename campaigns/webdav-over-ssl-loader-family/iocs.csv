@@ -1,0 +1,101 @@
+type,value,notes,confidence,post_slug
+sha256,1497f9320728557f034ba168ce6393b39ac6b276b9330027b31b62705e25ca5f,pf.ch (payload.dll) -- 14.4 MB -- incident 1,high,webdav-over-ssl-loader-family
+md5,794ff80d63bcbcdbcd31954962a46eed,pf.ch alternate hash for pivoting -- incident 1,high,webdav-over-ssl-loader-family
+sha256,dede16185618cb29f0c03ab086bcfeed64eeb356bb846a4140d73fe020127e50,pf.ch (payload.dll) -- 14 MB -- MinGW GCC 10.3.0 -- incident 2,high,webdav-over-ssl-loader-family
+md5,bbbe46552834f8011e2aea062566bafd,pf.ch alternate hash for pivoting -- incident 2,high,webdav-over-ssl-loader-family
+sha256,00a19cc54a534e570e2282aa192d9aed7922441c37e8ed98facb719e3b9e9d8b,jsDelivr stage-1 PowerShell script -- incident 2,high,webdav-over-ssl-loader-family
+sha256,f11057ab58bef936d98ba189829c64260a6a540cdaa046f93613138e820c98c6,gc.key PE32+ DLL -- 1.27 MB -- incident 4,high,webdav-over-ssl-loader-family
+sha256,1c135ee1c61b00156ad234569d9f65f5e50d524b8dba862abe45af8f67d1a216,gc.key (payload.dll) -- 5.84 MB -- MinGW -- export hawer -- incident 5,high,webdav-over-ssl-loader-family
+md5,556c72794c0a97dafc7ff64c852758b8,gc.key alternate hash for pivoting -- incident 5,high,webdav-over-ssl-loader-family
+sha256,e3d8f4c51a61733ba12006f9b82ad0ecc22205f83d67becad1b04ad5294df742,Inner DWORD-decoded blob recovered from gc.key native unpack -- incident 5,medium,webdav-over-ssl-loader-family
+sha256,4b5d9021722da53b2c509d3ab9c65aa5202d14c9f03b598c018fbcc4b8c01a3d,WindowsSecurityUpdate.exe -- NOT malware -- saved GitHub 404 page found in incident 6 evidence folder -- do not use as a malware IOC,low,webdav-over-ssl-loader-family
+filename,pf.ch,DLL served with spoofed Content-Type application/vnd.apple.keynote -- incidents 1-3,high,webdav-over-ssl-loader-family
+filename,gc.key,DLL served with spoofed Content-Type application/vnd.apple.keynote -- incidents 4-5,high,webdav-over-ssl-loader-family
+filename,goog.ct,DLL -- payload never recovered -- incident 6,medium,webdav-over-ssl-loader-family
+export,EventDebuggerLaunchCallback,Ordinal #1 export name on pf.ch builds,high,webdav-over-ssl-loader-family
+export,hawer,Ordinal #1 export name on incident-5 gc.key build,high,webdav-over-ssl-loader-family
+guid,2ffc4ddb-7b9c-44cb-b774-bf347ec8c2d2,WebDAV delivery GUID -- euphemism.1xfa[.]xyz -- incident 1,high,webdav-over-ssl-loader-family
+guid,36580b02-9d9c-4a93-81a8-46f87779e789,WebDAV delivery GUID -- sjc3.sabad724[.]bio -- incident 2,high,webdav-over-ssl-loader-family
+guid,b4592421-fcfc-44b1-8d11-72aec0e14844,WebDAV delivery GUID -- mbumias.1xgame[.]bet -- incident 3,high,webdav-over-ssl-loader-family
+guid,62f4ef88-a697-4c29-8316-650185e22d7e,WebDAV delivery GUID -- pmaumei.1xgame[.]bet -- incident 3 sibling,high,webdav-over-ssl-loader-family
+guid,072d9420-f4da-402d-ab74-9195bee8d427,WebDAV delivery GUID -- fdg.jetbet1[.]xyz -- incident 3 cluster,medium,webdav-over-ssl-loader-family
+guid,d3dbf8c3-6e72-4c90-ab16-ee266cf1d38f,WebDAV delivery GUID -- nbv.prozhedownload[.]com -- incident 3 cluster,medium,webdav-over-ssl-loader-family
+guid,5ef443ad-1d5b-4172-8c90-2e7439c9bda5,WebDAV delivery GUID -- epgggtee.leaguejazire[.]com -- incident 3 cluster,medium,webdav-over-ssl-loader-family
+guid,60e52e8b-2281-41bd-996e-7e4dc9612e13,WebDAV delivery GUID -- cduh.betwanaa[.]com -- incident 4,high,webdav-over-ssl-loader-family
+guid,5826e814-dd4b-421d-ace4-c05caca5072d,WebDAV delivery GUID -- bhvj.betwanaa[.]com -- incident 4 sibling,high,webdav-over-ssl-loader-family
+guid,7c6e2f79-6915-4a1b-b3fc-276ccaf33c37,WebDAV delivery GUID -- yjduhfcs.boroo[.]bet -- incident 4,high,webdav-over-ssl-loader-family
+guid,bdab89f8-d427-4146-b2a4-c659b2ec3e7f,WebDAV delivery GUID -- gory.highkickstkd[.]com -- incident 5 -- live-caught,high,webdav-over-ssl-loader-family
+guid,ff679d78-ec48-498c-89f3-d5b024edd1a3,WebDAV delivery GUID -- hcwjcope.poundbahis[.]com -- incident 6,high,webdav-over-ssl-loader-family
+guid,1d220e67-d526-4a9b-a276-e49ce1835d64,WebDAV delivery GUID -- nodtrbhz.poundbahis[.]com -- incident 6,high,webdav-over-ssl-loader-family
+guid,80533ec0-75d2-4ca7-8fdd-153d0ba9d2f2,WebDAV delivery GUID -- zzya.bigsertonnet[.]com -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+guid,b0095332-c29a-441b-a6a2-997df8e339e7,WebDAV delivery GUID -- jnyut.zsatom[.]hu -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+guid,547c583f-542c-4374-a052-318589ca426d,WebDAV delivery GUID -- pub-f3382215b.1x1[.]cash -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+guid,a450f474-c6a8-4d82-98be-9a8ade22381a,WebDAV delivery GUID -- rtosqe.n1betiran[.]com -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+guid,37f1e247-9830-4830-aa98-8eae485f44fe,WebDAV delivery GUID -- gnynk.vrtigo[.]hu -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+guid,54e9e48d-605e-420f-ba7a-c5c8410c2727,WebDAV delivery GUID -- rlodhy.itsmarthungary[.]hu -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+subdomain,euphemism.1xfa[.]xyz,WebDAV delivery host -- pf.ch -- incident 1 -- ephemeral pivot only,high,webdav-over-ssl-loader-family
+subdomain,sjc3.sabad724[.]bio,WebDAV delivery host -- pf.ch -- incident 2 -- ephemeral pivot only,high,webdav-over-ssl-loader-family
+subdomain,mbumias.1xgame[.]bet,WebDAV delivery host -- pf.ch -- incident 3 -- ephemeral pivot only,high,webdav-over-ssl-loader-family
+subdomain,cduh.betwanaa[.]com,WebDAV delivery host -- gc.key -- incident 4 -- see linked betwanaa-boroo-webdav-etherhiding campaign folder for the full EtherHiding revalidation,high,webdav-over-ssl-loader-family
+subdomain,yjduhfcs.boroo[.]bet,WebDAV delivery host -- gc.key -- incident 4 -- ephemeral pivot only,high,webdav-over-ssl-loader-family
+subdomain,otkxhon.1bet1yek[.]bet,WebDAV delivery host -- gc.key -- incident 4 hash source -- ephemeral pivot only,medium,webdav-over-ssl-loader-family
+subdomain,gory.highkickstkd[.]com,WebDAV delivery host -- gc.key -- incident 5 -- live-caught,high,webdav-over-ssl-loader-family
+subdomain,hcwjcope.poundbahis[.]com,WebDAV delivery host -- goog.ct -- incident 6 -- ephemeral pivot only,high,webdav-over-ssl-loader-family
+domain,1xfa[.]xyz,WebDAV C2 apex -- incident 1,high,webdav-over-ssl-loader-family
+domain,sabad724[.]bio,WebDAV C2 apex -- incident 2,high,webdav-over-ssl-loader-family
+domain,1xgame[.]bet,WebDAV C2 apex -- incident 3,high,webdav-over-ssl-loader-family
+domain,jetbet1[.]xyz,WebDAV C2 apex -- incident 3 cluster,medium,webdav-over-ssl-loader-family
+domain,prozhedownload[.]com,WebDAV C2 apex -- incident 3 cluster,medium,webdav-over-ssl-loader-family
+domain,leaguejazire[.]com,WebDAV C2 apex -- incident 3 cluster,medium,webdav-over-ssl-loader-family
+domain,betwanaa[.]com,WebDAV C2 apex -- incident 4 -- see linked betwanaa-boroo-webdav-etherhiding campaign folder,high,webdav-over-ssl-loader-family
+domain,boroo[.]bet,WebDAV C2 apex -- incident 4,high,webdav-over-ssl-loader-family
+domain,1bet1yek[.]bet,WebDAV C2 apex -- incident 4,medium,webdav-over-ssl-loader-family
+domain,behtarin-site-shartbandi[.]com,EtherHiding decoy-redirect apex -- incident 4/5 family,medium,webdav-over-ssl-loader-family
+domain,hieliao-app[.]com,WebDAV C2 apex -- incident 5,high,webdav-over-ssl-loader-family
+domain,highkickstkd[.]com,WebDAV C2 apex -- incident 5,high,webdav-over-ssl-loader-family
+domain,economywindowsparts[.]com,macOS-branch curl-bash delivery apex -- incident 5,medium,webdav-over-ssl-loader-family
+domain,poundbahis[.]com,WebDAV C2 apex -- incident 6,high,webdav-over-ssl-loader-family
+domain,bigsertonnet[.]com,WebDAV C2 apex -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+domain,zsatom[.]hu,WebDAV C2 apex -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+domain,1x1[.]cash,WebDAV C2 apex -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+domain,n1betiran[.]com,WebDAV C2 apex -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+domain,vrtigo[.]hu,WebDAV C2 apex -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+domain,itsmarthungary[.]hu,WebDAV C2 apex -- incident 6 fleet,medium,webdav-over-ssl-loader-family
+domain,jumpingjsjumpers[.]com,Decoy-redirect apex (benign-looking 301) -- incident 6 family,low,webdav-over-ssl-loader-family
+url,karaoke-certification-aye-porter.trycloudflare[.]com/oka/PhMar26.wsf,Stage-0 Cloudflare Quick Tunnel -- .wsf loader -- incident 7 -- dead tunnel,high,webdav-over-ssl-loader-family
+other,edward-fwd-vacuum-changelog / handed-mines-abc-intensity / rover-earlier-baseline-karen / represents-causes-conflicts-silver .trycloudflare[.]com,Reference Cloudflare Quick Tunnel subdomains -- same SERPENTINE#CLOUD campaign -- incident 7,medium,webdav-over-ssl-loader-family
+domain,bsmaopm.duckdns[.]org,PureHVNC C2 -- port 6757 -- incident 7,high,webdav-over-ssl-loader-family
+domain,uejrhnfq.duckdns[.]org,AsyncRAT 0.5.7B C2 -- port 6745 -- incident 7,high,webdav-over-ssl-loader-family
+domain,y57kdsa.duckdns[.]org,VenomRAT v3.6 C2 -- port 7878 -- incident 7,high,webdav-over-ssl-loader-family
+domain,vivogrouplink.duckdns[.]org,XWorm/Violet v5 C2 -- port 2128 -- incident 7,high,webdav-over-ssl-loader-family
+ip,12.202.180.133,SERPENTINE#CLOUD C2 IP (PureHVNC + AsyncRAT) -- AS7018 AT&T Chicago -- incident 7,high,webdav-over-ssl-loader-family
+ip,12.202.180.105,SERPENTINE#CLOUD C2 IP (XWorm/Violet) -- AS7018 AT&T Chicago -- incident 7,high,webdav-over-ssl-loader-family
+other,12.202.176.0/21 (AS7018 AT&T Chicago),Operator IP block observed for SERPENTINE#CLOUD C2 -- not independently re-validated across RIPE/ipinfo/Shodan this pass -- treat as pivot,medium,webdav-over-ssl-loader-family
+url,cdn.jsdelivr[.]net/gh/swiftvpnaccess/wanting-public-driver-barricade/256446-uuid,jsDelivr cache-after-delete stage-1 cradle -- incident 1,high,webdav-over-ssl-loader-family
+url,cdn.jsdelivr[.]net/gh/Tedy324/vlan44-nginx/sample,jsDelivr cache-after-delete stage-1 cradle -- incident 2,high,webdav-over-ssl-loader-family
+other,swiftvpnaccess (GitHub uid 296656814),Operator staging account -- repo removed -- incident 1,medium,webdav-over-ssl-loader-family
+other,Tedy324 (GitHub uid 296988404),Operator staging account -- repo removed -- incident 2,medium,webdav-over-ssl-loader-family
+other,CeoXBlackhat/mh,Operator staging repo (removed) -- EXE variant -- incident 6,medium,webdav-over-ssl-loader-family
+email,amik.grot[@]proton[.]me,Operator email recovered from incident-1 GitHub account,medium,webdav-over-ssl-loader-family
+contract,0xA1decFB75C8C0CA28C10517ce56B710baf727d2e,BSC-testnet stage-1 EtherHiding payload contract -- incident 4 family,high,webdav-over-ssl-loader-family
+contract,0x46790e2Ac7F3CA5a7D1bfCe312d11E91d23383Ff,BSC-testnet Windows-branch contract -- incident 4,high,webdav-over-ssl-loader-family
+contract,0x68DcE15C1002a2689E19D33A3aE509DD1fEb11A5,BSC-testnet macOS-branch contract -- incident 4,high,webdav-over-ssl-loader-family
+contract,0xf4a32588b50a59a82fbA148d436081A48d80832A,BSC-testnet victim-tracking (session-completion) contract -- shared incidents 4-5,high,webdav-over-ssl-loader-family
+contract,0x7Fd85c090f2b35071C57a3b9FeAF462aaEb0E437,Rotated BSC-testnet stage-1 contract -- incident 4,medium,webdav-over-ssl-loader-family
+contract,0xfb448d465841c63f3bc433be61eb692b813d469d,Rotated BSC-testnet stage-1 contract -- incident 4,medium,webdav-over-ssl-loader-family
+contract,0xDF132E2893824e26Ec8ae8014b4f4FACD54eD67F,BSC-testnet stage-2 contract -- incident 5,high,webdav-over-ssl-loader-family
+contract,0x0cD58060328e308a43d3c53cfd03A45233EA308a,BSC-testnet Windows-branch contract -- incident 5,high,webdav-over-ssl-loader-family
+contract,0xfb6484dC6cbE8af83E940e08748B7DE88b17cB64,BSC-testnet macOS-branch contract -- incident 5,high,webdav-over-ssl-loader-family
+wallet,0xd71f4cdc84420d2bd07f50787b4f998b4c2d5290,Primary EtherHiding operator wallet -- nonce approx 516826 -- incidents 4-5,high,webdav-over-ssl-loader-family
+wallet,0x25a7625b3c74bb0452333c8d7f463a2f640fa5af,Secondary EtherHiding operator wallet -- incidents 4-5,medium,webdav-over-ssl-loader-family
+wallet,0x09813ef4ab9a7361a8d0455d57e9a81295dae5f8,Secondary EtherHiding operator wallet -- incidents 4-5,medium,webdav-over-ssl-loader-family
+selector,0x6d4ce63c,EtherHiding get() selector -- returns base64 stage payload -- incidents 4-5,high,webdav-over-ssl-loader-family
+selector,0x8da5cb5b,EtherHiding owner() selector -- pivots to operator wallet -- incidents 4-5,high,webdav-over-ssl-loader-family
+selector,0x24513bb6,EtherHiding session-tracking selector -- incidents 4-5,medium,webdav-over-ssl-loader-family
+url,bsc-testnet-rpc.publicnode[.]com,Public BSC-testnet RPC used to read EtherHiding contract storage -- shared infrastructure -- do not block without scoping impact,medium,webdav-over-ssl-loader-family
+other,Yandex Metrika 99162160,Web-injection tracking ID -- incident 4,low,webdav-over-ssl-loader-family
+other,Yandex Metrika 110784881,Web-injection tracking ID -- incident 5,low,webdav-over-ssl-loader-family
+url,ip-info.ff.avast[.]com/v2/info,Fingerprinting call embedded in the EtherHiding JS injection -- incidents 4-5,low,webdav-over-ssl-loader-family
+mutex,AsyncMutex_6SI8OkPnk,AsyncRAT mutex -- incident 7,high,webdav-over-ssl-loader-family
+mutex,HOHE6S8FaZZlGf0f,XWorm/Violet mutex -- incident 7,high,webdav-over-ssl-loader-family
+other,Violet install GUID 3d847c5c-4f5a-4918-9e07-a96cea49048d,XWorm/Violet install identifier -- incident 7,medium,webdav-over-ssl-loader-family
