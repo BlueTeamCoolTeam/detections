@@ -1,0 +1,27 @@
+title: IIS Request Containing rcc68 Web Shell Kit Auth Token
+id: 3d9c7f14-6b52-4b8a-8e0e-2b7a5f4c1d93
+status: experimental
+description: Detects HTTP requests carrying the 'rcc68' auth token used by a six-file ASP.NET web shell kit, either as a query string value or as the X-RCC-Key header.
+references:
+    - https://blueteam.cool/posts/rcc68-webshell-kit/
+author: Luke Wilkinson
+date: 2026/08/29
+tags:
+    - attack.persistence
+    - attack.t1505.003
+    - attack.defense_evasion
+    - attack.t1036
+logsource:
+    product: iis
+detection:
+    selection_query:
+        cs-uri-query|contains:
+            - 'k=rcc68'
+            - 'sid=rcc68'
+            - 'token=rcc68'
+    selection_header:
+        cs(X-RCC-Key)|contains: 'rcc68'
+    condition: selection_query or selection_header
+falsepositives:
+    - None known -- 'rcc68' has no legitimate use as a query parameter value or custom header in stock CMS/IIS software
+level: critical

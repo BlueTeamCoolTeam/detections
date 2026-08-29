@@ -1,0 +1,11 @@
+type,value,notes,confidence,post_slug
+ip,126[.]66[.]36[.]68,Actor source IP (CF-Connecting-IP; site sits behind Cloudflare). SoftBank BBTEC residential broadband block (JP) - likely proxy/compromised residential host,high,rcc68-webshell-kit
+filename,hp-light-overlay.aspx,Primary cmd-exec shell disguised as a CSS/lightbox overlay; k=rcc68 query auth; v param Base64 command,high,rcc68-webshell-kit
+filename,bundle-theme.aspx,Cmd-exec shell disguised as a JS theme bundler; X-RCC-Key header auth (not captured by default IIS logging); x param Base64 command,high,rcc68-webshell-kit
+filename,gtag-proxy.aspx,Cmd-exec shell disguised as a Google Analytics proxy; XHR header + token=rcc68 query auth; q param plaintext command,high,rcc68-webshell-kit
+filename,pixel-fallback.aspx,Cmd-exec shell disguised as a tracking pixel; sid=rcc68 query auth; id param Base64 command; returns valid GIF89a bytes on auth failure,high,rcc68-webshell-kit
+filename,preload-cache.aspx,Cmd-exec shell disguised as a resource preloader; k=rcc68 query auth; v param Base64 command; try/catch wrapper,high,rcc68-webshell-kit
+filename,sitemap-ping.aspx,File manager (not a cmd shell) disguised as a sitemap ping endpoint; k=rcc68 query auth; a/p/d params plaintext; list/read/write/delete via Directory/File .NET APIs,high,rcc68-webshell-kit
+string,rcc68,Shared hardcoded auth token across all six shells - highest-confidence fingerprint for this kit,high,rcc68-webshell-kit
+header,X-RCC-Key,Custom auth header used by bundle-theme.aspx - not captured by default IIS W3C logging,high,rcc68-webshell-kit
+code_pattern,ProcessStartInfo(ComSpec; '/c '+cmd){RedirectStandardOutput=true; RedirectStandardError=true; UseShellExecute=false; CreateNoWindow=true},Shared code skeleton reused byte-for-byte across five of six shells - pivot for hunting other victims of the same kit,high,rcc68-webshell-kit
