@@ -1,0 +1,27 @@
+title: IIS Worker Process Spawning Command Shell or PowerShell
+id: 8f6a2e0c-2f8f-4a5f-9f7d-6f1b3c9e2a41
+status: experimental
+description: Detects w3wp.exe (IIS worker process) spawning cmd.exe or powershell.exe. Legitimate IIS application code essentially never does this; this is a high-fidelity indicator of webshell command execution.
+references:
+    - https://blueteam.cool/posts/rcc68-webshell-kit/
+author: Luke Wilkinson
+date: 2026/08/29
+tags:
+    - attack.execution
+    - attack.t1059.001
+    - attack.t1059.003
+    - attack.persistence
+    - attack.t1505.003
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        ParentImage|endswith: '\w3wp.exe'
+        Image|endswith:
+            - '\cmd.exe'
+            - '\powershell.exe'
+    condition: selection
+falsepositives:
+    - Legitimate diagnostic scripts executed by an administrator via an IIS management extension -- review ParentCommandLine and CommandLine for context
+level: high
