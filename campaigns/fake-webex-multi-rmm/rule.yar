@@ -32,7 +32,8 @@ rule RMM_RockyRMM_Go_Client
             2 of ($mod*) or
             $c2 or
             2 of ($vbs*) or
-            ($lnkname and $msg1)
+            ($lnkname and $msg1) or
+            $devpath
         )
 }
 
@@ -70,7 +71,7 @@ rule webex_firewallapi_sideload_screenconnect_loader
         $tmp  = "C:\\temp" ascii
         $xor  = { 0F B6 14 01 83 F2 B8 88 14 03 }
     condition:
-        uint16(0) == 0x5A4D and 2 of ($exp*) and ($drop or $xor)
+        uint16(0) == 0x5A4D and 2 of ($exp*) and ($drop or $xor or $tmp)
 }
 
 rule screenconnect_relay_167_94_158_48
