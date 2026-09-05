@@ -1,0 +1,40 @@
+title: Agta Backup Agent - Hidden Service Install or Operator Victim-Lockout Scripts
+id: 2d4f6a8b-9c1e-4d3f-b0a1-2b3c4d5e6f7a
+status: experimental
+description: Detects Agta Backup Agent's hidden-service self-install custom action, its scheduled-task guardian/quick-command tasks (AgtaHideSC, AgtaWifiKeeper), or the registry/security-policy edits used by the operator console's "Disable power options" and "Lock Wi-Fi" quick-commands to prevent a victim from shutting down or disconnecting the machine.
+references:
+  - https://blueteam.cool/posts/fake-webex-multi-rmm/
+author: Luke Wilkinson
+date: 2026-09-05
+tags:
+  - attack.persistence
+  - attack.t1543.003
+  - attack.t1053.005
+  - attack.defense_evasion
+  - attack.t1112
+logsource:
+  product: windows
+  category: process_creation
+  definition: Requires process creation logging with full command line (Windows Security Event 4688 with CommandLine, or Sysmon Event ID 1)
+detection:
+  selection_install_service:
+    CommandLine|contains|all:
+      - '--install-service'
+      - '--checkin-url'
+  selection_watchdog_flag:
+    CommandLine|contains: '--keep-watchdog'
+  selection_scheduled_task:
+    Image|endswith: '\schtasks.exe'
+    CommandLine|contains|any:
+      - 'AgtaHideSC'
+      - 'AgtaWifiKeeper'
+  selection_secedit_shutdown_priv:
+    Image|endswith: '\secedit.exe'
+    CommandLine|contains|all:
+      - '/configure'
+      - 'USER_RIGHTS'
+  condition: 1 of selection_*
+falsepositives:
+  - Legitimate MDM/GPO deployment of custom backup or endpoint-management agents that also self-install a hidden service -- verify against a known-good vendor and change record
+  - secedit/USER_RIGHTS edits from a legitimate security-baseline deployment (GPO refresh) -- correlate with a documented change window
+level: high

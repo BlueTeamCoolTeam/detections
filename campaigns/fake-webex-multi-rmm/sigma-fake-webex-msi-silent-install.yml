@@ -1,0 +1,43 @@
+title: Fake Webex/RMM Chain - PowerShell-Downloaded MSI Silently Installed via msiexec /qn
+id: 7a1e2c3d-4f5b-4a6c-8d9e-0f1a2b3c4d5e
+status: experimental
+description: Detects the shared delivery pattern across Legs 2a and 3 of the fake-Webex multi-RMM campaign -- a PowerShell process downloads an MSI to %TEMP% and immediately silently installs it via msiexec /qn. Matches the ScreenConnect batch/R2 leg and the Level.io Inno Setup leg.
+references:
+  - https://blueteam.cool/posts/fake-webex-multi-rmm/
+author: Luke Wilkinson
+date: 2026-09-05
+tags:
+  - attack.execution
+  - attack.t1059.001
+  - attack.t1218.007
+  - attack.command_and_control
+  - attack.t1219
+logsource:
+  product: windows
+  category: process_creation
+  definition: Requires process creation logging with full command line (Windows Security Event 4688 with CommandLine, or Sysmon Event ID 1)
+detection:
+  selection_download:
+    ParentImage|endswith:
+      - '\powershell.exe'
+      - '\cmd.exe'
+    Image|endswith: '\powershell.exe'
+    CommandLine|contains|all:
+      - '.msi'
+    CommandLine|contains|any:
+      - 'DownloadFile'
+      - 'Invoke-WebRequest'
+      - 'WebClient'
+  selection_silent_install:
+    Image|endswith: '\msiexec.exe'
+    CommandLine|contains|all:
+      - '/i'
+      - '/qn'
+    CommandLine|contains|any:
+      - '\AppData\Local\Temp\'
+      - '%TEMP%'
+  condition: 1 of selection_*
+falsepositives:
+  - Legitimate silent MSI deployment via SCCM/Intune/GPO (tune by ParentImage -- those run from management agents, not user-launched PowerShell)
+  - IT-initiated RMM agent installs (correlate against a change ticket / helpdesk record)
+level: high
