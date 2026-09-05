@@ -67,8 +67,10 @@ stay connected, not a quiet long-term implant.
 | `iocs.csv` | Domains, IPs, URLs, hashes, service/task/pipe names, cert serial, enrollment keys/secrets across all 4 legs |
 | `rule.yar` | 5 YARA rules: Rocky RMM Go RAT, generic VBScript-shortcut persistence template, FirewallAPI.dll sideload crypter, ScreenConnect shared-relay config strings, Agta .NET RAT components |
 | `sigma-fake-webex-msi-silent-install.yml` | Process creation: PowerShell-downloaded MSI silently installed via `msiexec /qn` (shared Leg 2a/Leg 3 pattern) |
-| `sigma-rocky-rmm-startup-persistence.yml` | Two rules: `cscript //nologo *.vbs` persistence write, and the literal `RockyRMMClient.lnk` file-creation event |
-| `sigma-agta-hidden-service-and-victim-lockout.yml` | Two rules: Agta hidden-service install / scheduled-task guardian / secedit privilege-removal, and the IFEO `SlideToShutDown.exe` registry hijack |
+| `sigma-rocky-rmm-cscript-persistence.yml` | Process creation: `cscript //nologo *.vbs` persistence write |
+| `sigma-rocky-rmm-startup-lnk.yml` | File creation: the literal `RockyRMMClient.lnk` Startup-folder shortcut |
+| `sigma-agta-hidden-service.yml` | Process creation: Agta hidden-service install / scheduled-task guardian / secedit privilege-removal |
+| `sigma-agta-ifeo-slidetoshutdown.yml` | Registry: the IFEO `SlideToShutDown.exe` debugger-redirect hijack |
 | `kql.md` | 9 KQL query groups for Microsoft Sentinel / Defender XDR covering all 4 legs plus the operator victim-lockout scripts |
 | `README.md` | This file |
 
@@ -76,14 +78,14 @@ stay connected, not a quiet long-term implant.
 
 ### What these detections cover
 
-- **Rocky RMM Go RAT** (Leg 1): YARA `RMM_RockyRMM_Go_Client` (module path, C2 URL, persistence VBScript, console strings all recovered verbatim from the binary), Sigma `sigma-rocky-rmm-startup-persistence.yml`, KQL queries 1 and 6. High confidence -- the C2 URL and Startup-folder filename are unique to this tool.
+- **Rocky RMM Go RAT** (Leg 1): YARA `RMM_RockyRMM_Go_Client` (module path, C2 URL, persistence VBScript, console strings all recovered verbatim from the binary), Sigma `sigma-rocky-rmm-cscript-persistence.yml` and `sigma-rocky-rmm-startup-lnk.yml`, KQL queries 1 and 6. High confidence -- the C2 URL and Startup-folder filename are unique to this tool.
 - **Generic VBScript shortcut-persistence template** (`RMM_Generic_VBScript_Shortcut_Persistence_Template`): broader hunt in case the same builder is reused under a different module name in a future sample. Will also match any other tool using an identical `CreateShortcut` template -- expect some noise if used standalone.
 - **ScreenConnect sideload chain** (Leg 2b): YARA `webex_firewallapi_sideload_screenconnect_loader` -- the exported function names plus either the dropped filename or the XOR-decrypt instruction sequence. High confidence.
 - **Shared ScreenConnect relay/instance** (Legs 2a/2b/2c): YARA `screenconnect_relay_167_94_158_48` matches the exact relay+port and instance-ID config strings embedded in any ScreenConnect client pointed at this operator's infrastructure. KQL query 2.
 - **PowerShell-to-MSI silent install** (Legs 2a and 3): Sigma `sigma-fake-webex-msi-silent-install.yml`, KQL query 5. This is a technique-level detection -- it will also catch other, unrelated fake-installer campaigns using the same shape, which is a feature, not noise.
 - **Level.io enrollment abuse** (Leg 3): KQL query 4, hunting on the enrollment key and the (legitimate) Level.io download domain together. The key is campaign-specific and rotates per operator, so this exact key will age out -- the query pattern (any `LEVEL_API_KEY=` in a process command line outside a documented IT enrollment) is the durable hunt.
-- **Agta Backup Agent components** (Leg 4): YARA `AgtaBackupAgent_DotNet_RAT_Components` (authored from confirmed-present strings in the CLR metadata -- C2 secret, checkin path, service-install/watchdog flags, named pipes, masquerade names; not a rule recovered verbatim from the sample, built from the analysis), Sigma `sigma-agta-hidden-service-and-victim-lockout.yml`, KQL queries 3 and 7.
-- **Victim-lockout operator scripts**: Sigma's `secedit`/USER_RIGHTS selection and the dedicated IFEO rule, plus KQL query 8. These are genuinely novel artifacts -- an IFEO debugger redirect on `SlideToShutDown.exe` and mass `Policies\Explorer` registry writes have no legitimate reason to occur together outside this tooling.
+- **Agta Backup Agent components** (Leg 4): YARA `AgtaBackupAgent_DotNet_RAT_Components` (authored from confirmed-present strings in the CLR metadata -- C2 secret, checkin path, service-install/watchdog flags, named pipes, masquerade names; not a rule recovered verbatim from the sample, built from the analysis), Sigma `sigma-agta-hidden-service.yml`, KQL queries 3 and 7.
+- **Victim-lockout operator scripts**: `sigma-agta-hidden-service.yml`'s `secedit`/USER_RIGHTS selection and `sigma-agta-ifeo-slidetoshutdown.yml`, plus KQL query 8. These are genuinely novel artifacts -- an IFEO debugger redirect on `SlideToShutDown.exe` and mass `Policies\Explorer` registry writes have no legitimate reason to occur together outside this tooling.
 
 ### What these detections do NOT cover
 
@@ -103,10 +105,10 @@ stay connected, not a quiet long-term implant.
 | `screenconnect_relay_167_94_158_48` | Low -- exact relay+instance-ID string match | Will not catch a redeployed instance on a new IP/instance ID |
 | `AgtaBackupAgent_DotNet_RAT_Components` | Low-Medium -- masquerade names alone (`$masq*`) could theoretically collide with unrelated tools; rule requires them paired with a service/watchdog/desktop indicator | Do not lower the 2-of-masq + behavioral-indicator requirement |
 | Sigma MSI silent-install | Medium -- legitimate SCCM/Intune/GPO silent MSI deploys use the same `msiexec /qn` shape | Tune by ParentImage (management-agent parents vs. user-launched PowerShell) |
-| Sigma Rocky RMM cscript persistence | Medium -- some legitimate logon scripts use `cscript //nologo` | Filter by ParentImage; Rocky RMM's cscript is spawned directly by the payload EXE, not explorer/wscript |
-| Sigma RockyRMMClient.lnk file-creation | Low -- filename is unique | None required |
-| Sigma Agta hidden-service/task | Medium -- some legitimate backup/endpoint agents self-install hidden services | Correlate against known-good vendor and a change record |
-| Sigma IFEO SlideToShutDown.exe | Low -- no legitimate use case identified | None required |
+| `sigma-rocky-rmm-cscript-persistence.yml` | Medium -- some legitimate logon scripts use `cscript //nologo` | Filter by ParentImage; Rocky RMM's cscript is spawned directly by the payload EXE, not explorer/wscript |
+| `sigma-rocky-rmm-startup-lnk.yml` | Low -- filename is unique | None required |
+| `sigma-agta-hidden-service.yml` | Medium -- some legitimate backup/endpoint agents self-install hidden services | Correlate against known-good vendor and a change record |
+| `sigma-agta-ifeo-slidetoshutdown.yml` | Low -- no legitimate use case identified | None required |
 
 ## Confidence
 
@@ -123,6 +125,8 @@ stay connected, not a quiet long-term implant.
 - [iocs.csv](iocs.csv)
 - [rule.yar](rule.yar)
 - [sigma-fake-webex-msi-silent-install.yml](sigma-fake-webex-msi-silent-install.yml)
-- [sigma-rocky-rmm-startup-persistence.yml](sigma-rocky-rmm-startup-persistence.yml)
-- [sigma-agta-hidden-service-and-victim-lockout.yml](sigma-agta-hidden-service-and-victim-lockout.yml)
+- [sigma-rocky-rmm-cscript-persistence.yml](sigma-rocky-rmm-cscript-persistence.yml)
+- [sigma-rocky-rmm-startup-lnk.yml](sigma-rocky-rmm-startup-lnk.yml)
+- [sigma-agta-hidden-service.yml](sigma-agta-hidden-service.yml)
+- [sigma-agta-ifeo-slidetoshutdown.yml](sigma-agta-ifeo-slidetoshutdown.yml)
 - [kql.md](kql.md)

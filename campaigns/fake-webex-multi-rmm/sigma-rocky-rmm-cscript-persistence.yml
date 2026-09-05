@@ -29,27 +29,3 @@ detection:
 falsepositives:
   - Legitimate logon/logoff or software-deployment VBScripts invoked the same way -- tune by ParentImage; Rocky RMM's cscript child is spawned directly by the payload EXE, not by explorer.exe or a scheduled task
 level: medium
----
-title: RockyRMMClient Startup Shortcut Present
-id: 1c3e5f7a-8b9d-4c1e-af2b-3c4d5e6f7a8b
-status: experimental
-description: Detects the literal Startup-folder shortcut created by the Rocky RMM Go RAT. The shortcut's own Description field reads "Rocky RMM Client" verbatim.
-references:
-  - https://blueteam.cool/posts/fake-webex-multi-rmm/
-author: Luke Wilkinson
-date: 2026-09-05
-tags:
-  - attack.persistence
-  - attack.t1547.001
-logsource:
-  product: windows
-  category: file_event
-  definition: Requires file-creation logging (Sysmon Event ID 11) scoped to the Startup folder
-detection:
-  selection:
-    TargetFilename|contains: '\Microsoft\Windows\Start Menu\Programs\Startup\'
-    TargetFilename|endswith: 'RockyRMMClient.lnk'
-  condition: selection
-falsepositives:
-  - None known -- this exact filename has no legitimate use
-level: high
