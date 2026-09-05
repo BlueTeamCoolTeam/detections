@@ -33,7 +33,10 @@ rule RMM_RockyRMM_Go_Client
             $c2 or
             2 of ($vbs*) or
             ($lnkname and $msg1) or
-            $devpath
+            $devpath or
+            $msg2 or
+            $msg3 or
+            $cleanup
         )
 }
 
