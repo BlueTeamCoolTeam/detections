@@ -1,0 +1,66 @@
+title: Agta Backup Agent - Hidden Service Install or Operator Victim-Lockout Scripts
+id: 2d4f6a8b-9c1e-4d3f-b0a1-2b3c4d5e6f7a
+status: experimental
+description: Detects Agta Backup Agent's hidden-service self-install custom action, its scheduled-task guardian/quick-command tasks (AgtaHideSC, AgtaWifiKeeper), or the registry/security-policy edits used by the operator console's "Disable power options" and "Lock Wi-Fi" quick-commands to prevent a victim from shutting down or disconnecting the machine.
+references:
+  - https://blueteam.cool/posts/fake-webex-multi-rmm/
+author: Luke Wilkinson
+date: 2026-09-05
+tags:
+  - attack.persistence
+  - attack.t1543.003
+  - attack.t1053.005
+  - attack.defense_evasion
+  - attack.t1112
+logsource:
+  product: windows
+  category: process_creation
+  definition: Requires process creation logging with full command line (Windows Security Event 4688 with CommandLine, or Sysmon Event ID 1)
+detection:
+  selection_install_service:
+    CommandLine|contains|all:
+      - '--install-service'
+      - '--checkin-url'
+  selection_watchdog_flag:
+    CommandLine|contains: '--keep-watchdog'
+  selection_scheduled_task:
+    Image|endswith: '\schtasks.exe'
+    CommandLine|contains|any:
+      - 'AgtaHideSC'
+      - 'AgtaWifiKeeper'
+  selection_secedit_shutdown_priv:
+    Image|endswith: '\secedit.exe'
+    CommandLine|contains|all:
+      - '/configure'
+      - 'USER_RIGHTS'
+  condition: 1 of selection_*
+falsepositives:
+  - Legitimate MDM/GPO deployment of custom backup or endpoint-management agents that also self-install a hidden service -- verify against a known-good vendor and change record
+  - secedit/USER_RIGHTS edits from a legitimate security-baseline deployment (GPO refresh) -- correlate with a documented change window
+level: high
+---
+title: Agta Backup Agent - IFEO Debugger Redirect on SlideToShutDown.exe
+id: 3e5a7c9b-0d2f-4e4a-b1c2-3d4e5f6a7b8c
+status: experimental
+description: Detects the "Disable power options" operator quick-command's Image File Execution Options abuse -- it sets a Debugger value on SlideToShutDown.exe so Windows' own slide-to-shut-down gesture launches systray.exe instead of shutting the machine down. This is a registry-based sub-technique of the same victim-lockout tooling in the process-creation rule above.
+references:
+  - https://blueteam.cool/posts/fake-webex-multi-rmm/
+author: Luke Wilkinson
+date: 2026-09-05
+tags:
+  - attack.defense_evasion
+  - attack.t1112
+  - attack.privilege_escalation
+  - attack.t1546.012
+logsource:
+  product: windows
+  category: registry_event
+  definition: Requires registry-modification logging (Sysmon Event ID 13)
+detection:
+  selection:
+    TargetObject|contains: 'Image File Execution Options\SlideToShutDown.exe'
+    TargetObject|endswith: '\Debugger'
+  condition: selection
+falsepositives:
+  - None known -- SlideToShutDown.exe has no legitimate reason to carry an IFEO debugger redirect
+level: high

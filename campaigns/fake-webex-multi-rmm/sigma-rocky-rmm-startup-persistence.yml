@@ -1,0 +1,55 @@
+title: Rocky RMM - cscript Creates Startup-Folder Shortcut via Generated VBScript
+id: 9b2f3d4e-5a6c-4b7d-9e0f-1a2b3c4d5e6f
+status: experimental
+description: Detects the Rocky RMM Go RAT's persistence mechanism -- on every launch it writes a temporary VBScript that calls WScript.Shell.CreateShortcut to drop a .lnk in the current user's Startup folder, then runs it via 'cscript //nologo'. The child .vbs is transient (deleted after use), so the process-creation event on cscript.exe is the durable signal.
+references:
+  - https://blueteam.cool/posts/fake-webex-multi-rmm/
+author: Luke Wilkinson
+date: 2026-09-05
+tags:
+  - attack.persistence
+  - attack.t1547.001
+  - attack.execution
+  - attack.t1059.005
+logsource:
+  product: windows
+  category: process_creation
+  definition: Requires process creation logging with full command line (Windows Security Event 4688 with CommandLine, or Sysmon Event ID 1)
+detection:
+  selection:
+    Image|endswith: '\cscript.exe'
+    CommandLine|contains|all:
+      - '//nologo'
+    CommandLine|endswith: '.vbs'
+  filter_known_admin_scripts:
+    ParentImage|endswith:
+      - '\explorer.exe'
+      - '\WScript.exe'
+  condition: selection and not filter_known_admin_scripts
+falsepositives:
+  - Legitimate logon/logoff or software-deployment VBScripts invoked the same way -- tune by ParentImage; Rocky RMM's cscript child is spawned directly by the payload EXE, not by explorer.exe or a scheduled task
+level: medium
+---
+title: RockyRMMClient Startup Shortcut Present
+id: 1c3e5f7a-8b9d-4c1e-af2b-3c4d5e6f7a8b
+status: experimental
+description: Detects the literal Startup-folder shortcut created by the Rocky RMM Go RAT. The shortcut's own Description field reads "Rocky RMM Client" verbatim.
+references:
+  - https://blueteam.cool/posts/fake-webex-multi-rmm/
+author: Luke Wilkinson
+date: 2026-09-05
+tags:
+  - attack.persistence
+  - attack.t1547.001
+logsource:
+  product: windows
+  category: file_event
+  definition: Requires file-creation logging (Sysmon Event ID 11) scoped to the Startup folder
+detection:
+  selection:
+    TargetFilename|contains: '\Microsoft\Windows\Start Menu\Programs\Startup\'
+    TargetFilename|endswith: 'RockyRMMClient.lnk'
+  condition: selection
+falsepositives:
+  - None known -- this exact filename has no legitimate use
+level: high

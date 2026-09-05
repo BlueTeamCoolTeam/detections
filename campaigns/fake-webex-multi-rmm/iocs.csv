@@ -1,0 +1,36 @@
+type,value,notes,confidence,post_slug
+domain,gees11111/v1 (GitHub repo),Attacker-controlled staging repo -- 8 release tags across 4 delivery legs,high,fake-webex-multi-rmm
+url,hxxps[://]github[.]com/gees11111/v1/releases/download/gamer/WebexSetup_en.zip,Leg 1 delivery archive (Rocky RMM Go RAT),high,fake-webex-multi-rmm
+domain,pub-ad3ebf54119e4cd3885d253c9afe3ba9[.]r2[.]dev,Cloudflare R2 bucket hosting Leg 2a ScreenConnect MSI (path /sccp.msi only),high,fake-webex-multi-rmm
+domain,rockytomholland[.]casacam[.]net,Rocky RMM (Leg 1) C2 subdomain -- do NOT block parent casacam[.]net (shared free Dynu DDNS zone),high,fake-webex-multi-rmm
+ip,45[.]156[.]87[.]171,Rocky RMM C2 IP -- AS197170 TechTies-Inc; TCP 5222 open at analysis time,high,fake-webex-multi-rmm
+ip,167[.]94[.]158[.]48,ScreenConnect relay shared by Legs 2a/2b/2c -- Hyonix VPS; TCP 8041+443 open,high,fake-webex-multi-rmm
+port,8041,ScreenConnect relay port used by all three ScreenConnect delivery legs,high,fake-webex-multi-rmm
+sc_instance,d08195f142b8bd3b,ScreenConnect instance ID shared across Legs 2a/2b/2c,high,fake-webex-multi-rmm
+sc_label,Popepagascreen,ScreenConnect operator org label -- soft naming fingerprint across ScreenConnect legs and Agta panel,medium,fake-webex-multi-rmm
+domain,downloads[.]level[.]io,Legitimate Level.io CDN abused for Leg 3 delivery -- domain itself is not malicious,high,fake-webex-multi-rmm
+api_key,LEVEL_API_KEY=F528uEYAgf7LxEx9sVtRcmpc,Level.io enrollment key identifying the attacker's tenant (Leg 3),high,fake-webex-multi-rmm
+url,hxxp[://]155[.]254[.]99[.]248:4080/api/agents/checkin?secret=agta-enroll-7f3a1c2d9e,Agta Backup Agent C2 checkin endpoint (Leg 4),high,fake-webex-multi-rmm
+ip,155[.]254[.]99[.]248,Agta C2 panel -- Kestrel/ASP.NET Core / unauthenticated version endpoint,high,fake-webex-multi-rmm
+port,4080,Agta Backup Agent C2 port,high,fake-webex-multi-rmm
+secret,agta-enroll-7f3a1c2d9e,Agta Backup Agent enrollment secret,high,fake-webex-multi-rmm
+sha256,7f1c2fa1c91d557aaa8baecd082998d709a89e87487dff3b3d3348211eed8a9b,WebexSetup_en.zip -- Leg 1 delivery archive,high,fake-webex-multi-rmm
+sha256,b2d4a28d676567dfbc292c89e1528393c9d6e3823ef31ae68cbc1d51373734a0,ClientSetup_en_x64.exe -- Rocky RMM Go RAT,high,fake-webex-multi-rmm
+sha256,f8ed4cb272e52b7ef2b1c2672dbc6ace9f3ef752a38ce535265cfab891c9cbff,WebeXInstaller.exe -- genuine renamed Progress EnableLoopback.exe (unwitting sideload host),high,fake-webex-multi-rmm
+sha256,e34d536310e864bf62e8119a9465027b3a654662b8ade3d301f588fb01b1f578,FirewallAPI.dll -- MinGW XOR-0xB8 sideload crypter (Leg 2b),high,fake-webex-multi-rmm
+sha256,60632f450863dc6882c85ef353504490122a9b0aca1fef8c6e7db2620a413d0c,popesc.msi (decrypted) -- ScreenConnect Client 25.2.4.9229,high,fake-webex-multi-rmm
+sha256,ecd666fc2758f88b8e6c6d4eeddf40b3e0fa47effbb95d48192530f4fc510320,WebexMeetingSetup.exe -- Inno Setup 7 installer / Level.io dropper (Leg 3),high,fake-webex-multi-rmm
+sha256,08fd986e5b54bbd56419df4a4a23a39ec2b176f224b76a6743d3a364049e6ab0,AgtaBackupAgent.msi -- WiX installer dropping 5 .NET 8 RAT components (Leg 4),high,fake-webex-multi-rmm
+guid,e9fc4211-44aa-4f70-a0d4-a8ab8df49964,AgtaCore.dll MVID -- shared/byte-identical build pivot across all 5 Agta components,high,fake-webex-multi-rmm
+cert_serial,414d426bd6f09fc60814af48f5bb4942,SSL.com OV code-signing cert serial for shell company 'Space Solar Technologies LLC' -- signs Rocky RMM (Leg 1); not revoked at analysis time,high,fake-webex-multi-rmm
+filename,RockyRMMClient.lnk,Startup-folder persistence artifact -- description field literally reads 'Rocky RMM Client',high,fake-webex-multi-rmm
+filename,popesc.msi,Dropped ScreenConnect MSI name (Leg 2b) -- naming ties to 'Popepagascreen' label,high,fake-webex-multi-rmm
+service,AgtaBackupAgentSvc,Hidden Windows service (ARPSYSTEMCOMPONENT=1) installed by Agta Backup Agent,high,fake-webex-multi-rmm
+directory,C:\ProgramData\Agta Backup\,Agta Backup Agent data directory,high,fake-webex-multi-rmm
+directory,%ProgramFiles%\Agta Backup\,Agta Backup Agent install directory,high,fake-webex-multi-rmm
+desktop_object,WinSta0\AgtaBackstage,Agta hidden-desktop object used for hVNC browser hijack,high,fake-webex-multi-rmm
+scheduled_task,AgtaHideSC,Operator quick-command task -- hidden/SYSTEM/no-UAC launch wrapper for Sc-Cleaner.vbs then self-deletes,high,fake-webex-multi-rmm
+scheduled_task,AgtaWifiKeeper,Operator quick-command task -- persistent Wi-Fi reconnect watchdog + toggle-hiding (victim-lockout tooling),high,fake-webex-multi-rmm
+named_pipe,agta-keylog-drain,Agta keylogger IPC pipe,medium,fake-webex-multi-rmm
+named_pipe,agta-ws-stream,Agta hVNC/remote-desktop stream IPC pipe,medium,fake-webex-multi-rmm
+named_pipe,agta-bs-shell,Agta Backstage (hVNC) shell IPC pipe,medium,fake-webex-multi-rmm
