@@ -1,0 +1,175 @@
+type,value,notes,confidence,post_slug
+domain,file.briefnote[.]pw,Lure host (Cloudflare-fronted) - gate page then fake Adobe update,high,agta-strikes-again
+url,hxxps://file.briefnote[.]pw/pdf-2026/download.php,Fake Adobe download page (auto-downloads the MSI),high,agta-strikes-again
+url,hxxps://file.briefnote[.]pw/504ce9a49bf6,Ready-when-you-are gate page; path token likely per-victim,medium,agta-strikes-again
+filename,Ądobe-Acrobat-Reader-V16.8.msi,Fake Adobe installer; leading char is U+0104; installs ScreenConnect,high,agta-strikes-again
+sha256,fb0413a667048b5824b5eb9f28d2f6f4463638cc17d8025f59756a6a08856fb4,Fake Adobe MSI - wraps ScreenConnect.ClientSetup.exe (lab-verified: installs instance 09232f3c6735cf46),high,agta-strikes-again
+md5,99ada59dd028c42713961f1f3f9ca6f0,Fake Adobe MSI,high,agta-strikes-again
+domain,aprilenoxpresolve[.]org,Attacker ScreenConnect relay (TCP 8041),high,agta-strikes-again
+screenconnect_instance,09232f3c6735cf46,Attacker ScreenConnect instance ID (install folder name),high,agta-strikes-again
+guid,16467b8d-72a0-41f7-994e-c08a69da6acb,ScreenConnect session GUID (s= parameter),high,agta-strikes-again
+screenconnect_label,YO,ScreenConnect c= label,medium,agta-strikes-again
+file_path,C:\Windows\SystemTemp\ScreenConnect\25.2.4.9229\Passwordprompt.bat,Operator-run batch that decoded and ran the VBS,high,agta-strikes-again
+file_path,C:\Windows\TEMP\cztFr.b64,Base64-encoded VBS stager,high,agta-strikes-again
+file_path,C:\Windows\TEMP\kRPdm.vbs,Decoded VBS stager,high,agta-strikes-again
+sha256,91c5665f5adcbc05e7e78314870a3f1f82512dca049697dddf4f03083794434c,kRPdm.vbs - VBS stager,high,agta-strikes-again
+md5,cec6142e9ab79180b799ff2fd3fbc81d,kRPdm.vbs - VBS stager,high,agta-strikes-again
+url,hxxps://planetspaceretireforthree[.]top/AgtaBackupAgent.msi,Agta MSI pulled by msiexec,high,agta-strikes-again
+domain,planetspaceretireforthree[.]top,Agta C2 panel for this incident (1.7.77),high,agta-strikes-again
+sha256,c9394752d42fe7b70aa65d91802d4d2a0365c885f27db07460f724395f53ab70,Credential Guard.exe - Agta service/orchestrator (identical in both incidents),high,agta-strikes-again
+sha256,5aacb48df0900c61790e87600574bc6d8e06d32a4ce350ef5b5f2d78881e2cf3,Dell.sub.Agent.exe - screen stream engine (identical in both incidents),high,agta-strikes-again
+sha256,be3c4bef1a1cf09121cd8da80c664f47ddaf53afb705d10d739e4702f9749f70,Window Security Health Services.exe - keylogger (identical in both incidents),high,agta-strikes-again
+sha256,ecb8854514377ce644cbb1c8d983c4fa37b14c247df8d1794f5f72b238c77bd0,Dell Window Guard.exe - remote shell (Webex build; not observed running in 2nd incident),high,agta-strikes-again
+sha256,71c43328ba8ab81a3e80ce989f6512e99458732aa37907dc2694e66802125b2c,Dell.Virus.Guard.exe - hidden-desktop browser (Webex build; not observed running in 2nd incident),high,agta-strikes-again
+service,AgtaBackupAgentSvc,Agta service; hidden via service security descriptor (sc sdset),high,agta-strikes-again
+scheduled_task,AgtaBackupAgentHealth,Agta self-heal task; ended/deleted every ~60s by the agent,high,agta-strikes-again
+scheduled_task,AgtaHideSC,Operator quick-command task (Webex case),high,agta-strikes-again
+scheduled_task,AgtaWifiKeeper,Operator quick-command task (Webex case),high,agta-strikes-again
+directory,C:\Program Files\Agta Backup\,Agta install path,high,agta-strikes-again
+directory,C:\ProgramData\Agta Backup\,Agta data path incl. keylog folder,high,agta-strikes-again
+file_path,C:\Windows\SystemTemp\agta_av_*.ps1,AV-product discovery script run by the service (transient),high,agta-strikes-again
+filename,Credential Guard.exe,Agta service binary masquerading as Windows tooling,high,agta-strikes-again
+filename,Window Security Health Services.exe,Agta keylogger,high,agta-strikes-again
+filename,Dell.sub.Agent.exe,Agta screen stream engine,high,agta-strikes-again
+http_title,Agta Backup - Remote Sessions,Panel title - em-dash in live HTML; match ASCII halves,high,agta-strikes-again
+http_path,/AgtaBackupAgent.version,Answers on every panel (2026-09-09); value 1.7.77/1.7.72/1.7.64 identifies build,high,agta-strikes-again
+http_path,/api/auth/login,401 Invalid username or password. on live panels,high,agta-strikes-again
+http_path,/api/auth/setup,First-run administrator creation endpoint,high,agta-strikes-again
+bundle,index-Bzqpb2VG.js,55 live panels; 1.7.77,high,agta-strikes-again
+bundle,index-Bi4rgMi_.js,1 live panel; 1.7.77,high,agta-strikes-again
+bundle,index-SxLNmN5n.js,7 live panels; 1.7.72,high,agta-strikes-again
+bundle,index-BL66RI8n.js,3 live panels; 1.7.64,high,agta-strikes-again
+bundle,index-COWMyWXE.css,Panel stylesheet alongside primary bundle,high,agta-strikes-again
+http_header,X-Powered-By: ARR/3.0,All 67 panel hosts incl. the Cloudflare-fronted one,medium,agta-strikes-again
+sha256,e18c0a181abb2b48a48d080767a91da627f90ae108fa61ffd9e050a2d975f956,Panel frontend bundle index-Bzqpb2VG.js as served 2026-09-09,high,agta-strikes-again
+domain,abrooferguys[.]com,Agta panel live 2026-09-09 -- AS 931 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,38[.]240[.]37[.]64,Agta panel host for abrooferguys[.]com -- AS 931 SG,high,agta-strikes-again
+domain,americansoftwareinc[.]co,Agta panel live 2026-09-09 -- AS 931 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,155[.]254[.]99[.]248,Agta panel host for americansoftwareinc[.]co -- AS 931 SG,high,agta-strikes-again
+domain,anuoagentworkingbacking[.]top,Agta panel live 2026-09-09 -- AS 393398 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,38[.]247[.]130[.]218,Agta panel host for anuoagentworkingbacking[.]top -- AS 393398 US,high,agta-strikes-again
+domain,backupplanetwealthagta[.]top,Agta panel live 2026-09-09 -- AS 14956 US; build index-BL66RI8n.js; version endpoint absent,high,agta-strikes-again
+ip,144[.]172[.]106[.]146,Agta panel host for backupplanetwealthagta[.]top -- AS 14956 US,high,agta-strikes-again
+domain,biowinntech[.]com,Agta panel live 2026-09-09 -- AS 399114 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,153[.]52[.]175[.]85,Agta panel host for biowinntech[.]com -- AS 399114 SG,high,agta-strikes-again
+domain,blessingsbe[.]top,Agta panel live 2026-09-09 -- AS 33387 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,192[.]187[.]126[.]252,Agta panel host for blessingsbe[.]top -- AS 33387 US,high,agta-strikes-again
+domain,bookthinkers[.]us,Agta panel live 2026-09-09 -- AS 397423 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,104[.]255[.]228[.]25,Agta panel host for bookthinkers[.]us -- AS 397423 US,high,agta-strikes-again
+domain,bootbackup[.]com,Agta panel live 2026-09-09 -- AS 14956 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,45[.]61[.]170[.]180,Agta panel host for bootbackup[.]com -- AS 14956 US,high,agta-strikes-again
+domain,bringgitonnorzone[.]sbs,Agta panel live 2026-09-09 -- AS 14956 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,144[.]172[.]102[.]191,Agta panel host for bringgitonnorzone[.]sbs -- AS 14956 US,high,agta-strikes-again
+domain,bubblesteam[.]top,Agta panel live 2026-09-09 -- AS 14956 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,45[.]61[.]145[.]226,Agta panel host for bubblesteam[.]top -- AS 14956 US,high,agta-strikes-again
+domain,cacgreatchallange[.]org,Agta panel live 2026-09-09 -- AS 13335 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+domain,cashyejrudga[.]live,Agta panel live 2026-09-09 -- AS 14315 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,136[.]0[.]82[.]187,Agta panel host for cashyejrudga[.]live -- AS 14315 US,high,agta-strikes-again
+domain,cheapmovellc[.]com,Agta panel live 2026-09-09 -- AS 931 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,189[.]12[.]226[.]77,Agta panel host for cheapmovellc[.]com -- AS 931 SG,high,agta-strikes-again
+domain,childofwhho[.]top,Agta panel live 2026-09-09 -- AS 14956 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,144[.]172[.]93[.]181,Agta panel host for childofwhho[.]top -- AS 14956 US,high,agta-strikes-again
+domain,connectnowfast[.]top,Agta panel live 2026-09-09 -- AS 40021 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,217[.]216[.]91[.]58,Agta panel host for connectnowfast[.]top -- AS 40021 US,high,agta-strikes-again
+domain,connectprivae[.]top,Agta panel live 2026-09-09 -- AS 14956 US; build index-SxLNmN5n.js; version endpoint absent,high,agta-strikes-again
+ip,216[.]126[.]224[.]247,Agta panel host for connectprivae[.]top -- AS 14956 US,high,agta-strikes-again
+domain,countrygeek[.]top,Agta panel live 2026-09-09 -- AS 14956 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,144[.]172[.]101[.]170,Agta panel host for countrygeek[.]top -- AS 14956 US,high,agta-strikes-again
+domain,criopifileeworking[.]top,Agta panel live 2026-09-09 -- AS 210546 GB; build index-SxLNmN5n.js; version endpoint absent,high,agta-strikes-again
+ip,31[.]76[.]42[.]170,Agta panel host for criopifileeworking[.]top -- AS 210546 GB,high,agta-strikes-again
+domain,datavaseffhjurd[.]top,Agta panel live 2026-09-09 -- AS 14315 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,199[.]101[.]198[.]90,Agta panel host for datavaseffhjurd[.]top -- AS 14315 US,high,agta-strikes-again
+domain,dronscorep[.]top,Agta panel live 2026-09-09 -- AS 399114 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,135[.]136[.]144[.]116,Agta panel host for dronscorep[.]top -- AS 399114 SG,high,agta-strikes-again
+domain,electomm[.]sbs,Agta panel live 2026-09-09 -- AS 214961 FR; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,217[.]217[.]97[.]184,Agta panel host for electomm[.]sbs -- AS 214961 FR,high,agta-strikes-again
+domain,emef[.]info,Agta panel live 2026-09-09 -- AS 398493 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,104[.]250[.]238[.]248,Agta panel host for emef[.]info -- AS 398493 US,high,agta-strikes-again
+domain,emmshopllc[.]wiki,Agta panel live 2026-09-09 -- AS 931 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,135[.]136[.]158[.]125,Agta panel host for emmshopllc[.]wiki -- AS 931 SG,high,agta-strikes-again
+domain,emsafetoproceedtaward[.]top,Agta panel live 2026-09-09 -- AS 213122 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,207[.]189[.]19[.]40,Agta panel host for emsafetoproceedtaward[.]top -- AS 213122 SG,high,agta-strikes-again
+domain,evobasin[.]info,Agta panel live 2026-09-09 -- AS 931 SG; build index-BL66RI8n.js; version endpoint absent,high,agta-strikes-again
+ip,104[.]249[.]131[.]195,Agta panel host for evobasin[.]info -- AS 931 SG,high,agta-strikes-again
+domain,fresestarsgsd[.]top,Agta panel live 2026-09-09 -- AS 211381 LV; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,212[.]43[.]147[.]93,Agta panel host for fresestarsgsd[.]top -- AS 211381 LV,high,agta-strikes-again
+domain,gsop[.]top,Agta panel live 2026-09-09 -- AS 399486 CA; build index-BL66RI8n.js; version endpoint absent,high,agta-strikes-again
+ip,31[.]57[.]147[.]133,Agta panel host for gsop[.]top -- AS 399486 CA,high,agta-strikes-again
+domain,installapp[.]cc,Agta panel live 2026-09-09 -- AS 399114 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,135[.]136[.]143[.]12,Agta panel host for installapp[.]cc -- AS 399114 SG,high,agta-strikes-again
+domain,interrview[.]com,Agta panel live 2026-09-09 -- AS 64236 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,142[.]147[.]97[.]151,Agta panel host for interrview[.]com -- AS 64236 US,high,agta-strikes-again
+domain,jimmycafeetoptea[.]top,Agta panel live 2026-09-09 -- AS 397423 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,66[.]235[.]172[.]4,Agta panel host for jimmycafeetoptea[.]top -- AS 397423 US,high,agta-strikes-again
+domain,llgoldassociates[.]com,Agta panel live 2026-09-09 -- AS 213035 NL; build index-SxLNmN5n.js; version endpoint absent,high,agta-strikes-again
+ip,194[.]156[.]79[.]65,Agta panel host for llgoldassociates[.]com -- AS 213035 NL,high,agta-strikes-again
+domain,magicislanding[.]lol,Agta panel live 2026-09-09 -- AS 31863 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,173[.]195[.]100[.]71,Agta panel host for magicislanding[.]lol -- AS 31863 US,high,agta-strikes-again
+domain,oakssmiiledesign[.]com,Agta panel live 2026-09-09 -- AS 14956 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,45[.]61[.]145[.]136,Agta panel host for oakssmiiledesign[.]com -- AS 14956 US,high,agta-strikes-again
+domain,palnetworkingleup[.]top,Agta panel live 2026-09-09 -- AS 9009 RO; build index-SxLNmN5n.js; version endpoint absent,high,agta-strikes-again
+ip,146[.]70[.]41[.]134,Agta panel host for palnetworkingleup[.]top -- AS 9009 RO,high,agta-strikes-again
+domain,piejaholoop[.]org,Agta panel live 2026-09-09 -- AS 14315 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,184[.]174[.]20[.]16,Agta panel host for piejaholoop[.]org -- AS 14315 US,high,agta-strikes-again
+domain,planetdoubleearthonly[.]top,Agta panel live 2026-09-09 -- AS 396073 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,192[.]177[.]111[.]202,Agta panel host for planetdoubleearthonly[.]top -- AS 396073 US,high,agta-strikes-again
+domain,planetearthcleantop[.]top,Agta panel live 2026-09-09 -- AS 397423 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,45[.]43[.]27[.]27,Agta panel host for planetearthcleantop[.]top -- AS 397423 US,high,agta-strikes-again
+domain,planetvocalfortesttheteas[.]cyou,Agta panel live 2026-09-09 -- AS 27176 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,172[.]81[.]130[.]133,Agta panel host for planetvocalfortesttheteas[.]cyou -- AS 27176 US,high,agta-strikes-again
+domain,planetvocalfortheteas[.]cyou,Agta panel live 2026-09-09 -- AS 399114 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,153[.]52[.]175[.]88,Agta panel host for planetvocalfortheteas[.]cyou -- AS 399114 SG,high,agta-strikes-again
+domain,planetwealthonlycleancoffe[.]top,Agta panel live 2026-09-09 -- AS 53850 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,5[.]56[.]25[.]124,Agta panel host for planetwealthonlycleancoffe[.]top -- AS 53850 US,high,agta-strikes-again
+domain,planetwealthonlycleantea[.]top,Agta panel live 2026-09-09 -- AS 398019 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,172[.]81[.]61[.]190,Agta panel host for planetwealthonlycleantea[.]top -- AS 398019 US,high,agta-strikes-again
+domain,planetworkingade[.]top,Agta panel live 2026-09-09 -- AS 14956 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,144[.]172[.]93[.]65,Agta panel host for planetworkingade[.]top -- AS 14956 US,high,agta-strikes-again
+domain,planetworkingclassrewor[.]top,Agta panel live 2026-09-09 -- AS 213122 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,45[.]143[.]146[.]205,Agta panel host for planetworkingclassrewor[.]top -- AS 213122 SG,high,agta-strikes-again
+domain,planetworkingcleaningall[.]top,Agta panel live 2026-09-09 -- AS 397423 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,38[.]92[.]47[.]244,Agta panel host for planetworkingcleaningall[.]top -- AS 397423 US,high,agta-strikes-again
+domain,planetworkingforone[.]top,Agta panel live 2026-09-09 -- AS 399486 CA; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,107[.]149[.]8[.]237,Agta panel host for planetworkingforone[.]top -- AS 399486 CA,high,agta-strikes-again
+domain,planetworkingforthreo[.]top,Agta panel live 2026-09-09 -- AS 211443 HK; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,91[.]92[.]41[.]12,Agta panel host for planetworkingforthreo[.]top -- AS 211443 HK,high,agta-strikes-again
+domain,planetworkingfortwo[.]top,Agta panel live 2026-09-09 -- AS 36352 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,172[.]245[.]80[.]3,Agta panel host for planetworkingfortwo[.]top -- AS 36352 US,high,agta-strikes-again
+domain,planetworkingfouro[.]top,Agta panel live 2026-09-09 -- AS 398019 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,72[.]51[.]59[.]172,Agta panel host for planetworkingfouro[.]top -- AS 398019 US,high,agta-strikes-again
+domain,planetwrokingclassforagemt[.]top,Agta panel live 2026-09-09 -- AS 14315 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,77[.]67[.]88[.]40,Agta panel host for planetwrokingclassforagemt[.]top -- AS 14315 US,high,agta-strikes-again
+domain,planetwrokinghighclassforagemt[.]top,Agta panel live 2026-09-09 -- AS 396073 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,192[.]177[.]111[.]82,Agta panel host for planetwrokinghighclassforagemt[.]top -- AS 396073 US,high,agta-strikes-again
+domain,planunionforharmont[.]top,Agta panel live 2026-09-09 -- AS 399114 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,135[.]136[.]145[.]136,Agta panel host for planunionforharmont[.]top -- AS 399114 SG,high,agta-strikes-again
+domain,plnetcorresnifagenttea[.]top,Agta panel live 2026-09-09 -- AS 36352 US; build index-SxLNmN5n.js; version endpoint absent,high,agta-strikes-again
+ip,198[.]23[.]201[.]147,Agta panel host for plnetcorresnifagenttea[.]top -- AS 36352 US,high,agta-strikes-again
+domain,qualityfilesghost[.]live,Agta panel live 2026-09-09 -- AS 397423 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,209[.]87[.]166[.]236,Agta panel host for qualityfilesghost[.]live -- AS 397423 US,high,agta-strikes-again
+domain,readyforwin[.]info,Agta panel live 2026-09-09 -- AS 398019 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,172[.]81[.]63[.]140,Agta panel host for readyforwin[.]info -- AS 398019 US,high,agta-strikes-again
+domain,realindeedworkingagent[.]top,Agta panel live 2026-09-09 -- AS 396073 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,154[.]127[.]53[.]175,Agta panel host for realindeedworkingagent[.]top -- AS 396073 US,high,agta-strikes-again
+domain,redjohntiger[.]top,Agta panel live 2026-09-09 -- AS 931 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,38[.]240[.]36[.]164,Agta panel host for redjohntiger[.]top -- AS 931 SG,high,agta-strikes-again
+domain,rizkidworikingjuice[.]top,Agta panel live 2026-09-09 -- AS 14956 US; build index-SxLNmN5n.js; version endpoint absent,high,agta-strikes-again
+ip,172[.]86[.]119[.]25,Agta panel host for rizkidworikingjuice[.]top -- AS 14956 US,high,agta-strikes-again
+domain,runtownagtabackup[.]top,Agta panel live 2026-09-09 -- AS 14956 US; build not captured; version endpoint present,high,agta-strikes-again
+ip,144[.]172[.]107[.]178,Agta panel host for runtownagtabackup[.]top -- AS 14956 US,high,agta-strikes-again
+domain,servingbacking[.]top,Agta panel live 2026-09-09 -- AS 931 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,38[.]240[.]37[.]26,Agta panel host for servingbacking[.]top -- AS 931 SG,high,agta-strikes-again
+domain,sunbeitnetwork[.]com,Agta panel live 2026-09-09 -- AS 931 SG; build index-SxLNmN5n.js; version endpoint absent,high,agta-strikes-again
+ip,135[.]136[.]149[.]81,Agta panel host for sunbeitnetwork[.]com -- AS 931 SG,high,agta-strikes-again
+domain,thetromalwinner[.]top,Agta panel live 2026-09-09 -- AS 931 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,153[.]52[.]168[.]167,Agta panel host for thetromalwinner[.]top -- AS 931 SG,high,agta-strikes-again
+domain,unrealjustcoffe[.]top,Agta panel live 2026-09-09 -- AS 396073 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,191[.]101[.]130[.]42,Agta panel host for unrealjustcoffe[.]top -- AS 396073 US,high,agta-strikes-again
+domain,unrelatedworkingagentcoofe[.]top,Agta panel live 2026-09-09 -- AS 19318 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,96[.]126[.]176[.]22,Agta panel host for unrelatedworkingagentcoofe[.]top -- AS 19318 US,high,agta-strikes-again
+domain,villanworkingforteaschop[.]top,Agta panel live 2026-09-09 -- AS 62240 GB; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,45[.]86[.]230[.]42,Agta panel host for villanworkingforteaschop[.]top -- AS 62240 GB,high,agta-strikes-again
+domain,whiteshash[.]sbs,Agta panel live 2026-09-09 -- AS 14315 US; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,199[.]101[.]198[.]132,Agta panel host for whiteshash[.]sbs -- AS 14315 US,high,agta-strikes-again
+domain,worksymansonlne[.]us,Agta panel live 2026-09-09 -- AS 931 SG; build index-Bzqpb2VG.js; version endpoint present,high,agta-strikes-again
+ip,207[.]189[.]30[.]118,Agta panel host for worksymansonlne[.]us -- AS 931 SG,high,agta-strikes-again
