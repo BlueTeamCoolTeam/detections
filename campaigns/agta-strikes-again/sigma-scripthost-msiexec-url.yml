@@ -1,0 +1,33 @@
+title: Script Host Launching Msiexec Against A Remote URL
+id: 0b7e5d1c-3a44-4f0e-8c62-7d9e1a2b5f10
+status: experimental
+description: cscript/wscript launching msiexec to install a package straight from a URL with no UI, as used by the Agta VBS stager
+references:
+    - https://blueteam.cool/posts/agta-strikes-again/
+author: blueteam.cool
+date: 2026-09-26
+tags:
+    - attack.defense-evasion
+    - attack.t1218.007
+    - attack.command-and-control
+    - attack.t1105
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\msiexec.exe'
+        ParentImage|endswith:
+            - '\cscript.exe'
+            - '\wscript.exe'
+        CommandLine|contains:
+            - 'http://'
+            - 'https://'
+    quiet:
+        CommandLine|contains:
+            - '/qn'
+            - '/quiet'
+    condition: selection and quiet
+falsepositives:
+    - Legacy software deployment scripts that install MSIs from an internal web server; allowlist those hosts
+level: high
