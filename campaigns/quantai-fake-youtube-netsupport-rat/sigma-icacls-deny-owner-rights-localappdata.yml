@@ -1,0 +1,34 @@
+title: icacls Deny Plus Owner Rights Grant On A LocalAppData Folder
+id: 6f0e7c1a-3b52-4f0e-9a41-5d2c8e7b9a10
+status: experimental
+description: >
+  Detects icacls.exe denying the current user write and delete rights on a folder under
+  LocalAppData, or granting the Owner Rights SID (S-1-3-4) read and execute on one. The
+  Quant AI NetSupport dropper runs both commands back to back so the user who ran it cannot
+  delete the RAT folder.
+references:
+  - https://blueteam.cool/posts/quantai-fake-youtube-netsupport-rat/
+author: blueteam.cool
+date: 2026-11-11
+tags:
+  - attack.defense-evasion
+  - attack.t1222.001
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_img:
+    - Image|endswith: '\icacls.exe'
+    - OriginalFileName: 'iCACLS.EXE'
+  selection_path:
+    CommandLine|contains: '\AppData\Local\'
+  selection_deny:
+    CommandLine|contains|all:
+      - '/deny'
+      - 'DE,DC'
+  selection_owner:
+    CommandLine|contains: '*S-1-3-4'
+  condition: selection_img and selection_path and (selection_deny or selection_owner)
+falsepositives:
+  - Rare. Some installers and backup tools adjust ACLs under LocalAppData, but the Owner Rights SID is unusual there.
+level: high

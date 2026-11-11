@@ -1,0 +1,30 @@
+title: NetSupport Manager Client Running From A User Profile
+id: b1c9d4e2-7a36-4d8f-8c15-2e9f0a6b3d47
+status: experimental
+description: >
+  Detects the NetSupport Manager client (OriginalFileName client32.exe) executing from a user
+  profile path under any file name. A licensed install lives in Program Files. The Quant AI
+  campaign runs it as service.exe or stservice.exe from LocalAppData.
+references:
+  - https://blueteam.cool/posts/quantai-fake-youtube-netsupport-rat/
+author: blueteam.cool
+date: 2026-11-11
+tags:
+  - attack.command-and-control
+  - attack.t1219
+  - attack.defense-evasion
+  - attack.t1036.005
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    OriginalFileName: 'client32.exe'
+    Image|contains:
+      - '\AppData\'
+      - '\Users\Public\'
+      - '\ProgramData\'
+  condition: selection
+falsepositives:
+  - Portable or unmanaged NetSupport deployments. Confirm against the gateway named in the client32.ini beside the binary.
+level: high

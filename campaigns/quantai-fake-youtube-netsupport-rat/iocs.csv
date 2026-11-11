@@ -1,0 +1,52 @@
+type,value,notes,confidence,post_slug
+domain,quantai[.]io,Lure site - first-hop script and decoy dashboard content,high,quantai-fake-youtube-netsupport-rat
+domain,chartsgpt[.]com,Dropper and payload host,high,quantai-fake-youtube-netsupport-rat
+domain,sonosarcsounds[.]com,NetSupport gateway TCP 2084 - primary,high,quantai-fake-youtube-netsupport-rat
+domain,sonosarcsounds[.]net,NetSupport gateway TCP 2084 - secondary,high,quantai-fake-youtube-netsupport-rat
+ip,45.91.202[.]58,Both gateway domains resolved here on 2026-11-11,high,quantai-fake-youtube-netsupport-rat
+port,2084,NetSupport gateway port used by this config,medium,quantai-fake-youtube-netsupport-rat
+url,hxxps://quantai[.]io/install,First-hop one-liner - returned to the Windows PowerShell User-Agent - block page for the browser and curl User-Agents tried,high,quantai-fake-youtube-netsupport-rat
+url,hxxps://quantai[.]io/app.php,Dashboard page loaded by the decoy app,high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/quant.php?Dio=<hostname>,Dropper (Supports),high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/ps.php,Second dropper (Stoservice),high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/ps2.php,Second dropper - identical to ps.php,high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/supportn.7z,NetSupport kit - Supports dropper - archive password kim,high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/icos.7z,Startup shortcut archive - Supports dropper - archive password ico,high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/boka.7z,NetSupport kit - Stoservice dropper - archive password fafa,high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/smow.7z,Startup shortcut archive - Stoservice dropper - archive password bro,high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/vh.exe,Renamed binary that reports as the 7-Zip standalone console,high,quantai-fake-youtube-netsupport-rat
+url,hxxps://chartsgpt[.]com/Quant.exe,Signed decoy app,high,quantai-fake-youtube-netsupport-rat
+youtube_channel,UCXB43fOyaJWD1o092fOF5Iw,Channel hosting the lure videos - handle @Thomas_J_Adams,high,quantai-fake-youtube-netsupport-rat
+youtube_video,RKeu00DiDzw,Quant AI lure video,high,quantai-fake-youtube-netsupport-rat
+youtube_video,D_b9HgmrS4Y,Quant AI lure video,high,quantai-fake-youtube-netsupport-rat
+sha256,97c7c44e0bc3a2f76022fd3dea0b74485ee957b5c34b31e75ba72bd02b809d03,First-hop one-liner,high,quantai-fake-youtube-netsupport-rat
+sha256,a7e68c023130cb8090dbcfb5552c3b63db3689f571e94a75e130fa72813657b1,Dropper (quant.php),high,quantai-fake-youtube-netsupport-rat
+sha256,1146ed6985fccf34997a7bb7610a2dae6aa4b87492da2110ab49c8b2a6896fc6,Second dropper (ps.php and ps2.php),high,quantai-fake-youtube-netsupport-rat
+sha256,18c534e0e97e5a570019ba371f5a5209a342dd04a9feab1431855766470be4c3,supportn.7z,high,quantai-fake-youtube-netsupport-rat
+sha256,1dd14d248c2624bece4d9dc5f0aa61150511d1f9375bede3a338215a4f1309fb,boka.7z,high,quantai-fake-youtube-netsupport-rat
+sha256,4a3f20a3fe44c2a06a9b75d7b184918023e41bb9dbe7486cb2e3439e0383894f,icos.7z,high,quantai-fake-youtube-netsupport-rat
+sha256,f4a11ef36c995e1854ca312b23451f454056fee78627b2d5036aff4eb1a806c1,smow.7z,high,quantai-fake-youtube-netsupport-rat
+sha256,0561bed36686c0324e93ac7a1f015e3d8055bffca83533918d224b467c8c884d,client32.ini - NetSupport config naming the gateway - best single file indicator,high,quantai-fake-youtube-netsupport-rat
+sha256,5b3c03d15e910a4439cd8e3868f5110accdf0ff3130bceadcd2d795206161fc7,NSM.LIC - licensee NSM1234 - this licence string is widely reused and not unique to this campaign,medium,quantai-fake-youtube-netsupport-rat
+sha256,15faa0be9d41c8436e7af00ee943bd8264b8d1653a3d45fa12d4de5e00016090,service.lnk - Startup shortcut - Supports dropper,high,quantai-fake-youtube-netsupport-rat
+sha256,27d8445654d7ff74cf536075efe3664d4b76313a18d0944dcbaaae3e681af3d8,stservice.lnk - Startup shortcut - Stoservice dropper,high,quantai-fake-youtube-netsupport-rat
+sha256,c3910877eca0b9b2975588cb25d654155d58168114e00aa072899eccf62b35fb,Quant.exe - signed decoy app,high,quantai-fake-youtube-netsupport-rat
+sha256,8000ffd1f8b32b4b85be9c3e730874865d949f9359c9a91c4386f4ff32deb180,service.exe and stservice.exe - genuine signed NetSupport client32.exe 14.12 - scope only - do not block by hash,low,quantai-fake-youtube-netsupport-rat
+sha256,adc7aeb96dd4c244afc5b354b0100d29d224e3b8a71e88afa281df4be56c36dd,PCICL32.DLL - genuine signed NetSupport library - scope only,low,quantai-fake-youtube-netsupport-rat
+sha256,621224c0f9b886f1c9c335db6228e6aa89fb9d35cd735a27e69587d3dd653085,vh.exe - reports as 7-Zip 16.04 standalone console - third-party signed - not compared with an official build - scope only,low,quantai-fake-youtube-netsupport-rat
+path,%LOCALAPPDATA%\Supports\,RAT folder - Supports dropper - ACL changed with icacls,high,quantai-fake-youtube-netsupport-rat
+path,%LOCALAPPDATA%\Stoservice\,RAT folder - Stoservice dropper,high,quantai-fake-youtube-netsupport-rat
+path,%LOCALAPPDATA%\Quant\Quant.exe,Decoy app,high,quantai-fake-youtube-netsupport-rat
+path,%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\service.lnk,Persistence - Supports dropper,high,quantai-fake-youtube-netsupport-rat
+path,%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\stservice.lnk,Persistence - Stoservice dropper,high,quantai-fake-youtube-netsupport-rat
+path,%USERPROFILE%\Desktop\Quant.lnk,Decoy shortcut,medium,quantai-fake-youtube-netsupport-rat
+string,GC<GAJEL;A?MDI9L>DBMHA=AABFE;H,GSK gateway key in client32.ini,high,quantai-fake-youtube-netsupport-rat
+string,Filename=C:\kk\client32.ini,Build path left in client32.ini,high,quantai-fake-youtube-netsupport-rat
+string,Dio=,Hostname parameter on the dropper URLs,medium,quantai-fake-youtube-netsupport-rat
+string,$gagarik,Variable name in both droppers,high,quantai-fake-youtube-netsupport-rat
+string,$xaxaxar,Variable name in both droppers,high,quantai-fake-youtube-netsupport-rat
+sid,S-1-5-21-1699784848-2525197325-4266905267-500,Account SID embedded in both Startup shortcuts,medium,quantai-fake-youtube-netsupport-rat
+hostname,supreme-intel-n,Machine ID in service.lnk tracker data,medium,quantai-fake-youtube-netsupport-rat
+hostname,win-1fv51mtie7s,Machine ID in stservice.lnk tracker data,medium,quantai-fake-youtube-netsupport-rat
+cert_serial,95E63DB9D4569ABB2F87489EE97E2242,EV code-signing certificate on Quant.exe - subject Sylabiz Software OU (EE) - timestamped 2026-10-27,high,quantai-fake-youtube-netsupport-rat
+guid,bce06385-6be6-4093-afe2-80c3dfe1bd3d,GUID string present in Quant.exe,medium,quantai-fake-youtube-netsupport-rat
