@@ -74,6 +74,20 @@ YouTube video -> quantai[.]io (signup) -> "Install Quant" page
 - The NetSupport binaries in this chain are genuine vendor-signed files, and `vh.exe` reports as the 7-Zip console.
   Their hashes are listed with low confidence for scoping only.
 
+## Related indicators from the 2025 waves (added 2026-11-16)
+
+The last eight rows of `iocs.csv` are marked "Related 2025 wave". They come from two public third-party
+write-ups of earlier TradingView-themed waves that used the same playbook (linked from the update section of
+the blog post), not from samples held for this campaign. Registration and DNS state were checked on 2026-11-16.
+
+- Treat them as hunting leads. The link to this campaign is technical overlap (served script name, NetSupport,
+  gateway naming, one shared VPS provider), not a confirmed common operator.
+- `heavyrainclub[.]com` was re-registered in June 2026 on different nameservers and may have changed hands. Use it
+  for historical hunting only, not for blocking.
+- The two IP addresses are where the names pointed on 2026-11-16, which may not be where they pointed in 2025.
+- The YARA, Sigma and KQL content is unchanged and does not key on these values, except that the NetSupport
+  config rule's flag-only branch would match a config pointing at any gateway.
+
 ## Confidence
 
 High for the delivery chain and configuration: every stage was retrieved and read statically.
