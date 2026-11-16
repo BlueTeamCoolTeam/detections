@@ -50,3 +50,11 @@ hostname,supreme-intel-n,Machine ID in service.lnk tracker data,medium,quantai-f
 hostname,win-1fv51mtie7s,Machine ID in stservice.lnk tracker data,medium,quantai-fake-youtube-netsupport-rat
 cert_serial,95E63DB9D4569ABB2F87489EE97E2242,EV code-signing certificate on Quant.exe - subject Sylabiz Software OU (EE) - timestamped 2026-10-27,high,quantai-fake-youtube-netsupport-rat
 guid,bce06385-6be6-4093-afe2-80c3dfe1bd3d,GUID string present in Quant.exe,medium,quantai-fake-youtube-netsupport-rat
+domain,sonosarcs[.]com,Related 2025 wave - third-party reporting - NetSupport gateway TCP 2080 (June 2025) - still resolved on 2026-11-16,medium,quantai-fake-youtube-netsupport-rat
+domain,sonosarcs[.]net,Related 2025 wave - third-party reporting - NetSupport secondary gateway TCP 2080 (June 2025) - still resolved on 2026-11-16,medium,quantai-fake-youtube-netsupport-rat
+domain,pinkmalldogewalk[.]com,Related 2025 wave - third-party reporting - NetSupport gateway TCP 2080 (June 2025) - still resolved on 2026-11-16,medium,quantai-fake-youtube-netsupport-rat
+ip,185.7.214[.]44,sonosarcs[.]com and sonosarcs[.]net resolved here on 2026-11-16 - AS55286,low,quantai-fake-youtube-netsupport-rat
+ip,185.209.21[.]241,pinkmalldogewalk[.]com resolved here on 2026-11-16 - AS211381 - same RIPE organisation as 45.91.202[.]58,low,quantai-fake-youtube-netsupport-rat
+domain,heavyrainclub[.]net,Related 2025 wave - third-party reporting (January 2025) - registered 2024-12-26,medium,quantai-fake-youtube-netsupport-rat
+domain,heavyrainclub[.]com,Related 2025 wave - third-party reporting (January 2025) - re-registered 2026-06-23 on different nameservers so may have changed hands - historical hunting only,low,quantai-fake-youtube-netsupport-rat
+domain,charts-beta[.]dev,Related 2025 wave - third-party reporting - payload host in January 2025 - no longer resolved on 2026-11-16,low,quantai-fake-youtube-netsupport-rat
