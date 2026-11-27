@@ -851,7 +851,7 @@ page_title,Admin Login - BlackApex,Operator login title on TCP 5000 - sometimes 
 url_path,/api/landing-paths/active,Unauthenticated kit API,high,blackapex-device-code-phishing-kit
 url_path,/verify-turnstile,Gate callback (POST),high,blackapex-device-code-phishing-kit
 url_path,/static/js/anti-bot.js,Referenced by the gate page - returned 403 when requested,high,blackapex-device-code-phishing-kit
-url_params,auth=1&shareable=true&access=restricted&check_type=password,Query string appended after the gate,high,blackapex-device-code-phishing-kit
+url_params,auth=1&shareable=true&access=restricted&check_type=password,Query string built by the gate page code for its redirect - not seen in recorded traffic,high,blackapex-device-code-phishing-kit
 server_header,waitress,Kit application server on TCP 5000,high,blackapex-device-code-phishing-kit
 url_path,/start,Lure page asks for a device code (POST - empty body). Generic on its own,low,blackapex-device-code-phishing-kit
 url_path,/state?device_code=,Lure page polling every five seconds with the device code in the query string,high,blackapex-device-code-phishing-kit
