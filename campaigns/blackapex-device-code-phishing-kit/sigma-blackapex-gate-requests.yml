@@ -1,0 +1,28 @@
+title: BlackApex Phishing Kit Gate and Lure Requests
+id: 6f0d1c1e-2b7a-4d3e-9a51-0c7b6f4e8a21
+status: experimental
+description: Detects web requests to URL paths used by the BlackApex phishing kit gate and lure pages
+references:
+    - https://blueteam.cool/posts/blackapex-device-code-phishing-kit/
+author: Luke Wilkinson
+date: 2026-11-27
+tags:
+    - attack.initial_access
+    - attack.t1566.002
+logsource:
+    category: proxy
+detection:
+    selection_path:
+        c-uri|contains:
+            - '/api/landing-paths/active'
+            - '/verify-turnstile'
+            - '/state?device_code='
+    selection_params:
+        c-uri|contains|all:
+            - 'check_type=password'
+            - 'shareable=true'
+            - 'access=restricted'
+    condition: selection_path or selection_params
+falsepositives:
+    - Unknown. /verify-turnstile on its own is a generic name
+level: high

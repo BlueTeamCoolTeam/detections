@@ -1,0 +1,858 @@
+type,value,notes,confidence,post_slug
+ip,108[.]186[.]112[.]17,Sign-in IP from the originating incident; BlackApex backend on TCP 5000,high,blackapex-device-code-phishing-kit
+ip,104[.]194[.]132[.]85,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,104[.]194[.]139[.]118,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,104[.]194[.]139[.]126,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,104[.]223[.]79[.]210,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,107[.]173[.]53[.]102,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,107[.]173[.]53[.]95,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,107[.]174[.]244[.]120,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,108[.]165[.]15[.]80,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,108[.]165[.]15[.]89,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,108[.]165[.]15[.]92,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,124[.]198[.]132[.]222,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,138[.]197[.]149[.]104,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,138[.]68[.]153[.]131,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,138[.]68[.]239[.]128,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,140[.]150[.]232[.]108,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,140[.]150[.]232[.]53,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,143[.]110[.]206[.]227,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,144[.]172[.]111[.]205,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,146[.]19[.]49[.]245,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,149[.]28[.]209[.]64,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,149[.]28[.]221[.]141,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,153[.]75[.]84[.]28,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,153[.]75[.]88[.]126,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,157[.]230[.]152[.]177,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,157[.]245[.]168[.]168,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,162[.]35[.]122[.]186,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,162[.]35[.]42[.]232,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,162[.]35[.]44[.]59,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,162[.]35[.]44[.]62,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,165[.]227[.]31[.]144,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,172[.]245[.]21[.]220,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,172[.]86[.]114[.]179,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,172[.]86[.]74[.]58,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,172[.]86[.]84[.]35,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,172[.]86[.]91[.]180,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,174[.]138[.]181[.]219,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,185[.]158[.]250[.]205,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,185[.]219[.]221[.]70,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,188[.]190[.]16[.]6,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,192[.]210[.]198[.]196,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,192[.]210[.]220[.]28,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,192[.]255[.]134[.]234,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,192[.]3[.]113[.]213,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,192[.]3[.]140[.]236,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,193[.]38[.]248[.]159,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,194[.]180[.]157[.]79,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,198[.]23[.]221[.]24,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,198[.]44[.]103[.]148,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,199[.]231[.]189[.]131,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,206[.]189[.]210[.]242,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,212[.]81[.]47[.]55,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,216[.]126[.]231[.]192,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,23[.]94[.]232[.]116,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,38[.]146[.]25[.]161,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]11[.]180[.]103,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]11[.]180[.]182,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]158[.]56[.]66,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]61[.]162[.]15,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]61[.]162[.]6,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]61[.]170[.]71,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]61[.]178[.]231,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]61[.]182[.]130,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,45[.]66[.]248[.]252,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,5[.]181[.]156[.]166,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,64[.]224[.]17[.]40,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,64[.]94[.]84[.]211,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,80[.]77[.]23[.]217,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,91[.]235[.]234[.]221,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,91[.]240[.]202[.]228,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,92[.]118[.]235[.]115,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,92[.]118[.]235[.]83,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]110,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]142,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]15,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]175,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]211,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]23,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]248,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]55,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]228[.]79,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]229[.]163,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]229[.]201,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]229[.]227,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]229[.]229,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]229[.]47,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]229[.]56,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]230[.]131,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]230[.]229,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]230[.]28,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]230[.]76,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]231[.]102,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+ip,95[.]133[.]231[.]69,Backend address reported by the kit in /api/settings (vps_ip) - 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,0-7[.]tech,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,0xoff[.]co,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,11fruit[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,1pdfbook[.]online,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,3brosclub[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,95017pc[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,a-consulting[.]one,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,a-tec[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,abacoadviser[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,access0365[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ach-vespoli[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,acll-au[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,acoufeltsmash[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,acrobatt180[.]online,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,acrobatt36[.]live,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,acuvuemoissf[.]my,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,acuvuemoist[.]my,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,adams-heats[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,admin-panel[.]lol,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,adveraptor[.]guru,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,afscmelocal189[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,ahogarespinillos[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,aidingtruepola-securedtrupo[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,aimconsstructionkc[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,akistoi[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,akn-build[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,alashastreet[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,alasimahholdings[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,alive[.]icu,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,allezvousbien[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,alnuami-group[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,alshasya[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,alternativeenergy[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,alwoodleybuildinganddevelopments[.]co[.]uk,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,amazefileshare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,amjdnd-aloiopdhnddkl[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ancientfileshare[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,antcornputer[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,antelopeaudlo[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,api-securedocuviewer[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,api[.]quad-ops[.]ru,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,apiaccoumtsvcdocushare[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,app-zh-qyh[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,app[.]ddxeliteconference[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,app[.]dealweave[.]ai,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,archermanufacturing[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,arrcosa[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,asoehase[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,aspenttech[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,attorneybynature[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,aureacrn[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,auth-off-src[.]cfd,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,authcloudapi[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,autk888wt12[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,autlhkjoi[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,autsecoffdoc[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bagfileshare[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,baswepolgasry[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bdlavvfirm[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,belv-asso[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,benchmarkmanufacturing[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bhavyafabrics[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,blackstonestripeout[.]co[.]uk,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-one-shar-ed[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-pubcrxore[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-pubdrivo-nedoleo[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-pubdrivo-nedonicmbm[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-publajon-edri-v[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-publalazero[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-publalione[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-publczon-edri-v[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-pubvcore[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloob-seattacfiile[.]info,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,bloob-tile-d0c[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloobpubfrotopverif[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloobverityacestile[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bloomijjjjjwywuuwonline[.]xyz,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bluewaveholdingx[.]online,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,bonanstones[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,branchespace[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,brbinvestment[.]me,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,brily[.]com[.]au,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,browser-direct[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bsltimoreravens[.]cyou,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,bunfilesharing[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,cacgrooup[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,campusfaithclubsmotel[.]de,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,canadamesq[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,cardholders-jokercard[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,carloschai[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,castleair-uk[.]co,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,cccr[.]one,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,cdn-one[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,centralstructure[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,chambertrain[.]help,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,changermax[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,chasfileshare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,chatanoogatent[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,checkingfileshare[.]help,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,chick8boom[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,chou[.]artkovsoft[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,citrrusaircraft[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,clearpinkys[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,cloud-storage-firewall[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,cloudmydocs[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,cloudshared[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,clowsvalve[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,collectve-space[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,cometvpn[.]space,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,comidasybebidas[.]cyou,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,company-technicalrfqbooking[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,completeworkdata[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,confmic[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,conmic[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,conmis[.]cfd,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,connexiontechnologies[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,consulitant[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,consultantpafc[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,convmleyview[.]us,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,corporatefoundationsecure[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,cpnanel[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,cprapid[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,cranxamp[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,critical-secupdate[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,crowring[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,cursosgratisdesempleadossansebastiandelosreyes[.]space,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,cwwcdocuisoixoosicial[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,d1b[.]buzz,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,d2eworld[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dantechsecurty[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dashboardonline[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dashboardshared[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dcnotfpagenrichbingenieros[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,debittordis[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,decolaspd[.]top,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,decshare365ftfhgdr0e[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,decshare365ftfhgdr0e[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,delight[.]unimport[.]net,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,deliveryhubteam-fedx[.]top,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,delivshopere[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,derrysberry[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,dglsolutions[.]co,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dhicamd[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,diamantek[.]co[.]uk,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,directshareadobemix[.]live,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,discoversumm[.]site,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,dispatch-fr807[.]pro,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,dispatch-fr808[.]pro,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,djwul[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dnebseenkemitelkkil-iakakitepmurtcitsatnaf-rmalofoloimroj[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,doccomnentnbo[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,doccpdfdrivee[.]top,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,docsecurpubfiile[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,docshared365fhrggdr0e[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,docspecssharedfilcbcdfc0e[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,docspecssharedfilcbcdfc0e[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,docugenfilexprog[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,doesosw365hvsbz[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dokermainkel[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dornfilesharing[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,dpdns[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dragfileshare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,dunefilesharing[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,dvernoy-gigant[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dweislirectshareadobemix[.]live,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dwwcuivvbvhofficial[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dwwcuivvvbmsbvhofficial[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dynamic-dns[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,dynamicworksmatrxsystem[.]site,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,dynamicworksmatrxsystems[.]site,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,easypanel[.]host,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ecbrn[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,ecnesbahsawehtdnas-dapkaerbretnethgir-esrevernepoehtkcol[.]xyz,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,elainesmash[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,elodoc[.]live,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,empiraworks[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,enduretech[.]sbs,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,energydoocro[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,engett[.]cfd,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,equitygata-global[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,essentialprocurernent[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ewapifileshare[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,executedeal[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,expertsservicesolutions[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,facesharedeu1[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,faithbiotach[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,farmersteams[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,fashisma[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,feedback-b0fjhewe365fildocuments[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,feedback-b0fjhrwq365fildocs[.]cfd,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,fenramivo[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,fifhj[.]it[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,file-shared[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,fileofficestoragesite[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,filereview[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,fisintegratedfilesharing[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,flexiflm[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,folder-onlinemashiurhcloud[.]autos,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,folderforfiles[.]help,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,foldertopdfgroths[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,forkliftdsm[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,frafile[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,freedomfilesharing[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,freehlodgrp[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,freshfarmfindsltd[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,g2w1pg[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,g3mhs[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,gabllaevahdetratsnehw-iewsuuoygnidaol-laminimnoitarf[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,garlandbostons[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,gazeinvestment[.]site,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,germancats[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,giftcardmallminegift[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,global-automobile[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,glouiside[.]pro,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,gmariineco[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,gocatfish[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,gragpoole[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,greathings[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,greenlnadcapital[.]net,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,growingeconomyfiles[.]sbs,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,growthingjustreiupi[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hamfarmshare[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,harfilesharing[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,harpersrand[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hawaiirunninglabdocx[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hemburgdoor[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hg96001[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hilllspet[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hiresview[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hoelscher[.]legal,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,homecraftygen[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,honeyimhomestaging[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hongxinshengwu[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hrecyding[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hrnhco[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hsc-gc[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hsccpa[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,hunchhuber[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,hyperscaleinboxes[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,icontechbe[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,illegify[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomation[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomation360[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationanalytics[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationblue[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationboost[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationbox[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationbuilder[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationbuilderhub[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationcampaign[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationchain[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationchannel[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationclick[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationcloud[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationco[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationcollective[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationconnect[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationconnectors[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationconsult[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationconsulting[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationcorp[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationcreate[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationcrew[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdata[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdeck[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdesign[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdev[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdevs[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdigital[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdirect[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdrip[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationdrive[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationemail[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationengine[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationengineers[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationenginepro[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationexperts[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationfirm[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationflow[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationforce[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationfunnels[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationfunnelspro[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationgenius[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationglobal[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationgroup[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationgrowth[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationgrowthhub[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationhq[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationhub[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationinbox[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationinsight[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationinsights[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationlab[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationlabs[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationlaunch[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationlaunchpad[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationleads[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationlink[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationmail[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationmailer[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationmatrix[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationmotion[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationnet[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationnetwork[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationnext[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationnextgen[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationone[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationpartners[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxautomationplus[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxmasterypoint[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,inboxmasterysuite[.]agency,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,infinituecalculativesolutions[.]space,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,invlteme[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,invoiceonline[.]cfd,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,invoiceonlineoffice[.]cfd,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,iogmxoisharequantincery[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,iotal-makngrovesmakiliyuhc[.]icu,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,iouewrlkjweqrqwerjklhiuyy[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,irasphimila[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,items-rfp[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jaden-oftolastishu[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jadenrempoofficial[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jadens-yoftolastishutr[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jasondruthcing[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,javphe[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jaybrassfleld[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jaygdmacloudpro[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jbhopkin[.]co[.]uk,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jbl-flip6-promo[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,jbnfilesharing[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jkwsandypool[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jqcobs[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,jrncproduct[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,k3devs[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,kaisermanufacturing[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,keepaoobhsawsiht-gninromhsurbdesserd-doogyawaog[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,kolbhc[.]sbs,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,koltrim9ji-mdh76tdhxz[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,kospilab[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,krafttservepost[.]online,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,kuran-kaname[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ldelmec-ie[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,leadforge[.]lifestyle,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,learnguitarmalta[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,lentfilesharing[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,levrai[.]store,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,lfwhjx[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,liferoot[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,lightweightply[.]shop,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,linyi[.]store,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,lisinopril[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,littel[.]enargid[.]net,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,lnelecusa[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,loanfactroy[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,lumenlanka[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,lundi-1[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ma13[.]ashvboots[.]info,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,magicfilesharing[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mail1[.]pingroute[.]org,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,mailerapp[.]live,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mailerignitex[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mailgoaccount[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mailoffaccounts[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mailsoffacc[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mani4[.]qbo-billing[.]co,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,marode-bv[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,massanfilesharing[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mattyoung[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,maximconstruction[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mbllndustrial[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mbnz[.]me,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,medbudionssd[.]shop,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,meetingoncalendly[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,merkaditodecolima[.]store,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mgmt-solution[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,microcloudssl[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,microservices1[.]online,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,microsoftonlinecommon[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,milaniconstruction[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mindfulpath[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,miss-tvv[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mlcrosoft0nllne[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mmacccountingnh[.]one,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,mmaccountingnh[.]top,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,mnconnection[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mobile-actualisation[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,morgagecalculator[.]cfd,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,movincom[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,msharingshantaycloud[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,msharingwakacloud[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mshdispq[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mssmartdata[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,mta7[.]cbboots[.]info,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,muhiadib[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,myaccess[.]us[.]cc,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,n-docs[.]sbs,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,nagasfileshare[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,nahdatransports[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,narncranes[.]co,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,nbgssc[.]site,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,nbonefileshare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,neoud[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,nepalwireless[.]cfd,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,nesdpro[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,neulinxmail[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,nevewhuispediatecb[.]nl,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,nevinsfruit[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,new-requisition[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,nichevaultfilesharing[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,nortachsys[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,nricrostryfi[.]my,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,nudeynet[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,obraspubicas[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,officedatasandprocurement[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,officelinecentrwtedhfguvewbudh[.]top,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,official-dev-reloadedteam[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ofgfinancials[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,okmapx[.]xyz,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,omnicide[.]exposed,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,onebrutiz[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,onitfilesharing[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,openminds[.]cyou,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,optumconstruction[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,outletventuriniis[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ownedgaze[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,pacificag0365[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,packghost[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,paidrightport[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,paragon-technical[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,payentry[.]it[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,payroll-raise-bonus[.]work,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,paystxacks[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,peaksplus[.]energy,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,pharmarica[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,philiplambrinos[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,phrsolsco[.]uk,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,plesk[.]page,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,pm[.]trupropio[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,pojhires[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,portalonsigncloud365[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,portalreceivabel[.]cfd,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,preliminarysmash[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,presentation-bofjhtmdbofilenclose[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,prestigesustainablecompdforg[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,projects100-docs1[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,projetoutlinetender[.]co[.]uk,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,promeditaly-it[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,protezionesicurezzah24[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,pub-filezskcsyn1ls1sc[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,pub478328939398983343bbsdnjg8749[.]xyz,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,pubascessbloob[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,publoob-one-doskdsatsda[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,pubsecbloob[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,pubsecurattacfiile[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,pure-associate[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,purefitos[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,purevitality[.]cyou,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,qmframont[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,qnawcoy-vivant[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,qoutefilesharings[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,quad-ops[.]ru,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,queinincxioexmload[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rai-agent[.]xyz,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rainbowsushibrookline[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,ramisdev[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rawlawmedias[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,readersdirectpdf[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rebumemannaciteg-tegratsvcyawbustramlaw-serotsllakcehctuo[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,receivable-hq[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,receivablesolutions[.]lat,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,receivablesolutions[.]top,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,rehndgbdmju-miiundgdgtvshg[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,reico[.]cc,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,reliableconstruction[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,renderdash[.]cfd,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,renderdash[.]lat,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,renderdash[.]sbs,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,request-questionnaire[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,request-questionnaires[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rerunfileshare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,ressurefilesharing[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,review-doc[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rfidocs[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rnicrosoftonline[.]onl,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rock-ket-star-cloud21[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rs-muk[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rtgju[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,runbles[.]autos,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,runers[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,rvmlaws[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,sammiesbythesand[.]store,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sanitationssolutionsplus[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,savantfile[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,sbymccoy[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,schvltesupply[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,screentabconnect[.]live,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,seaec[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,seattacfiile[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,secshare365fcbcdfc0e[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,secupub-seattacfiilelig[.]info,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,securedocumentaccess[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,securedsharedfile[.]space,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,securexyz[.]online,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,securpub-seattacfiile[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sefile[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,senitnelavhturtenoyna-ecinstolgniviglaiceps-faeltsumuoy[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sepiocep[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,serjointdisptroutedevs[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,settlefilles[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,share-bcdfc0e[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shared-b0fjhewe[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shared-b0fjhewe[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shared-b0fjhewe365filow[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shared-b0fjhewe365itemsrf[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shared-b0sdfjkwe365filos[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shared-doc[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shared-document[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shared-file[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedbusink[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shareddashboard[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shareddashboards[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedhomedrlvepdfdocx[.]homes,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedhomesdrlvepdfdocx[.]homes,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedhomesdrlvespdfdocx[.]homes,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedocuments[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedomedrivespdf[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedomedrivespdf[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedomesdrivespdf[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedomesdrlvespdf[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedomesdrlvespdfdocx[.]help,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedomesdrlvespdfdocx[.]homes,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedomesdrlvespdfdocx[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedpdfdashboard[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedpointonline[.]info,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedspdfdashiboard[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharedspdfdashiboardi[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharehomedrlvepdf[.]homes,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharepoint-doc[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharepoint-file[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sharerd-file[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shareweell[.]site,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shhule[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shineview[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shopgeniusapp[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shshubo[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,shvangliang[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sitedxc[.]ink,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,skillmindsoftware[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,slimbreak[.]lol,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,slotpokerallure[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,smartfuture[.]cyou,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,smartportalrece[.]sbs,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,smashcalenders[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,smtp-company[.]pro,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,smtpshops[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,softgelhealthcare[.]cam,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,sornika-businessaccelerationhub[.]shop,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,spawatar[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,specb0fjgrwe365fildocu[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,specshared365filcbcdfc0e[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,steadygrowth[.]cfd,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,stencehealthcare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,sukemannahaakeme-roodesolcmajputlob-inigoootemsuehs[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,summitbridgegroup[.]cfd,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,summitbridgegroup[.]lat,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,sundfilesharing[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,sunkelead[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,sunnyfileshare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,sunsoutth[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,superreceivable[.]sbs,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,supply-reflection[.]shop,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,surnm[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,swervedruvepdf-payfolder[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,tangsengservice[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,tarmarindustnies[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,techniaconstructon[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,tenderdocumentcentral[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,tenderdocuments[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,tenderdocuments[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ter-proposal[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,terumomedicel[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,testviewadbobe1[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,textcontentcloud[.]site,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,thecomputinghub[.]space,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,thinkanddoll[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,tiaterutnevdaeucser-snoissimogodseibeec-mumdadognib[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,tir-proposal[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,tirzemarivo[.]org,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,tmoonfileshare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,tnusteal[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,toddfilesharing[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,tomstoreimage[.]website,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,trackeasyfileshare[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,treasuryfdicc[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,truecore[.]cyou,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,truesprodigy[.]tech,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,trupropio[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,trustxcard[.]app,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,trustxcard[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,trustxcard[.]io,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,trustxpay[.]app,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,trustxpay[.]io,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,tsr-proposal[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,tup-proposal[.]info,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,tus-proposal[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ubuntubuntu[.]us,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ucdoc[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,uixoxzxmisu[.]icu,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,undoc[.]sbs,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,updateinstaller[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,us[.]cc,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,usappss[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,ushpopedon[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,valuecoporaatesign[.]info,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,vaolhdacpo-trefxc[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,vatechno[.]cfd,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,vc-docs[.]sbs,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,vepubremiitempaces[.]top,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,verifdocstoproceed[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,veshora[.]live,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,vesta-io[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,vetdecentitalizeon[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,viewadobefiles[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,viewfileviasharepoint[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,viewspecssharedfilcbcdfc0e[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,vilo-endpoint[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,vondranlagal[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,vps2day[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,vulca[.]cam,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,vulcan-deluxe[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,walthamlumbers[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,wannreooshow[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,wasconsultants[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,wavq[.]click,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,web-hosting[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,webdirectautoconmaimalcinamil[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,weplacet0408[.]store,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,whanlongs[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,wikileaks[.]space,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,wisenmov[.]sbs,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,wizzlehub[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,woodoobox[.]bond,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,wordy[.]plus,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,workbey[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,workerspayportal[.]net,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,www[.]ownedgaze[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,www[.]quad-ops[.]ru,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,www[.]trupropio[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,www45671[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,www5683[.]online,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,xddelt[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,xecho[.]club,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,xlksdde[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,xlms[.]it[.]com,Hostname from Shodan results matching the kit page content - not probed,low,blackapex-device-code-phishing-kit
+domain,yourshipmentagent[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,yp-logisticsharing[.]com,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,yrrowpeektelemyttik-emplhhopmujnam-ydobyreveeerehnur[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,yuiooipopsuurelovorut[.]top,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+domain,zkslavv[.]com,Served the kit API or named in a kit config on 2026-11-26,high,blackapex-device-code-phishing-kit
+domain,zoomfaceless[.]live,Served the gate page title per Validin (2026-04-27 to 2026-11-25); not confirmed live. May include parked or compromised domains,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAAdOkvkR6rKvLQAi,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAABlSaT2_E0H9QCo0,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAADE-DF6ZzEo-ZOP5,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAADi4-nPhMmSoKfP1,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAADuiQsTFnWk4FE_V,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAEJHqkbKoyKPRxza,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAEjfglyXuQirQ9pA,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAEk4ruLdzVmYu8Uw,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAErhGicPhBpqnqLy,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAEu5TLaso0m8TIr9,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAEw1myI_4EJAhBqK,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF-O3PKHMO6Stzl-,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF-eAXZ9_tjLGcFU,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF08FAGm5L1DUatj,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF0xvujrc1cEZ6tc,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF17T19Tf_ASVaHf,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF1HfBH3C4TEVVgX,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF2ROjberj15YdPW,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF41VlPtGCnTZ75S,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF56Y1iNPpUH1s6G,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF626wMBsm-FHOWc,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF6BAKmuPa6fIcZV,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF6EefyxHCv9zK2D,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF6NUOCBem7BrU--,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF7cSExrVa6ol7MB,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF7fi8RRSvhKTcFq,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF8YB759OdafLs42,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF9-p9A86xqzBdCN,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFE6_t7WpIQmxwoq,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFEmV5d_K9Z9aKk9,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFEvH2FhzwEQPWgD,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFIiQUswLPRFpr_t,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFKm-E0Rf6Y6MF-i,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFObuyXHUsI5uFRG,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFSuJWb5TDGAlszi,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF_KXOjo1tU8R2uI,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF_dD5kFeArQ9oll,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAF_yuLk6WJN3uj3y,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFbLDUo9fA7v6JqO,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFgEaKHI8_I-gtbl,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFn23JI9MIAEfMWh,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFoKsti2FaOCxSfT,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFoidxxwWvtWsMzD,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFpJPop7oyXRG9cT,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFpTBSwCqdqKrLdL,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFp_VsKLD3j9UN4f,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFpwQdcCkp7d5q-S,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFq4rqDi7tryloHu,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFqKDG6JOWJkvhds,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFqOWVQ4to01Wh0J,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFrDAVD8GIuBxTl0,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFrQNy4v9HFyKX-V,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFvRZHc6wZJp4_oz,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFw3ECd-uxhjdpEw,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFwsCY8JVwobpedA,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFy4E8hHXhtHVpq_,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFy53yXGWJeh5xd7,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFz1c6zMSDMVhRFH,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAFzz90hddosAbxKj,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGC-Pe6W02LY0Zxw,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGC4oWzM_PudxJZN,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGCWT8-m1dMIkUp7,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGCWk42ZDQX27APp,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGCzs1XmuCFXYLbr,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGD4IaTn741eweq4,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGDHRGfC9-LaOqz0,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGE2FVMVdwK2iE5B,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGEZySaet0iHwFic,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGEmBf-QyhRUHXFU,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGFJx_NMqx1OkWRc,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGFMQr5OV7iYwz2h,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGFlae8N__MYGL9k,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGFomDTYx9mKO8vM,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGG0URe-3eLMFuAl,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGG5M-HU9v04MVh-,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGGbjH6RE_B-JbYa,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGGuvk0UwoOmn8uy,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGHlf0Ea32Wx7h7u,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGI4WxjeKgy76c37,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGI5NcKmslO38raD,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGI_aVaDngfCgoR6,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGJcdOlBG_IiRySO,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGLh5C5y4YlifQ1G,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGLjpOyI5_YFpKKX,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGMDH_ZxkxrhwlLn,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGN9S_BoLQKWyEdk,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGO_6piDi_qNn3yP,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGObyV4v9K9ME6qu,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGOg0WPp8mYQAwxT,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGOjCHbXNsx6pf4J,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGOl6NFWC9K91-nk,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGOqBx0KX-xDMEEK,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGQ9nsLvtOpXTzZo,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+turnstile_site_key,0x4AAAAAAGSM8nyL-9RPtRHp,Cloudflare Turnstile site key embedded in a kit gate page,medium,blackapex-device-code-phishing-kit
+page_title,Just a moment... | OneDrive,Gate page title,high,blackapex-device-code-phishing-kit
+page_title,Admin Login - BlackApex,Operator login title on TCP 5000 - sometimes 443 - other titles seen: XXX101-TOKEN - FASA - ALIBOBO-TOKEN,high,blackapex-device-code-phishing-kit
+url_path,/api/landing-paths/active,Unauthenticated kit API,high,blackapex-device-code-phishing-kit
+url_path,/verify-turnstile,Gate callback (POST),high,blackapex-device-code-phishing-kit
+url_path,/static/js/anti-bot.js,Referenced by the gate page - returned 403 when requested,high,blackapex-device-code-phishing-kit
+url_params,auth=1&shareable=true&access=restricted&check_type=password,Query string built by the gate page code for its redirect - not seen in recorded traffic,high,blackapex-device-code-phishing-kit
+server_header,waitress,Kit application server on TCP 5000,high,blackapex-device-code-phishing-kit
+url_path,/start,Lure page asks for a device code (POST - empty body). Generic on its own,low,blackapex-device-code-phishing-kit
+url_path,/state?device_code=,Lure page polling every five seconds with the device code in the query string,high,blackapex-device-code-phishing-kit
+page_title,Excel - Shared Spreadsheet,Lure page title recorded on two kit domains on 2026-11-27,medium,blackapex-device-code-phishing-kit
